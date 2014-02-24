@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: qf_environment.aux
+The style file: apj.bst
+Database file #1: qf_environmentNotes.bib
+Database file #2: PRIMUS.bib
+Warning--I didn't find a database entry for "blanton09a"
+Warning--I didn't find a database entry for "geha12a"
+Warning--I didn't find a database entry for "dressler84a"
+Warning--I didn't find a database entry for "moustakas13a"
+Warning--I didn't find a database entry for "noeske07a"
+Warning--I didn't find a database entry for "blanton06a"
+Warning--I didn't find a database entry for "coil11a"
+Warning--I didn't find a database entry for "cool13a"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 26 entries,
+            3085 wiz_defined-function locations,
+            841 strings with 15202 characters,
+and the built_in function-call counts, 15388 in all, are:
+= -- 996
+> -- 1622
+< -- 5
++ -- 540
+- -- 574
+* -- 1558
+:= -- 3083
+add.period$ -- 26
+call.type$ -- 26
+change.case$ -- 154
+chr.to.int$ -- 26
+cite$ -- 26
+duplicate$ -- 486
+empty$ -- 732
+format.name$ -- 596
+if$ -- 2904
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 26
+newline$ -- 82
+num.names$ -- 104
+pop$ -- 169
+preamble$ -- 1
+purify$ -- 154
+quote$ -- 0
+skip$ -- 395
+stack$ -- 0
+substring$ -- 521
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 231
+warning$ -- 0
+while$ -- 87
+width$ -- 0
+write$ -- 263
+(There were 8 warnings)

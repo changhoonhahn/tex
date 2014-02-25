@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 FEB 2014 18:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  25 FEB 2014 01:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,9 +215,21 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen115
 \epsfysize=\dimen116
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count109
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box45
+\rot@mess@toks=\toks22
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip58
+\@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -225,7 +237,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks22
+\@emptytoks=\toks23
 \ex@=\dimen117
 )
 LaTeX Info: Redefining \text on input line 39.
@@ -237,59 +249,59 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count109
+\inf@bad=\count110
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count110
-\leftroot@=\count111
+\uproot@=\count111
+\leftroot@=\count112
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count112
-\DOTSCASE@=\count113
+\classnum@=\count113
+\DOTSCASE@=\count114
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box45
-\strutbox@=\box46
+\Mathstrutbox@=\box46
+\strutbox@=\box47
 \big@size=\dimen119
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count114
-\c@MaxMatrixCols=\count115
+\macc@depth=\count115
+\c@MaxMatrixCols=\count116
 \dotsspace@=\muskip11
-\c@parentequation=\count116
-\dspbrk@lvl=\count117
-\tag@help=\toks23
-\row@=\count118
-\column@=\count119
-\maxfields@=\count120
-\andhelp@=\toks24
+\c@parentequation=\count117
+\dspbrk@lvl=\count118
+\tag@help=\toks24
+\row@=\count119
+\column@=\count120
+\maxfields@=\count121
+\andhelp@=\toks25
 \eqnshift@=\dimen120
 \alignsep@=\dimen121
 \tagshift@=\dimen122
 \tagwidth@=\dimen123
 \totwidth@=\dimen124
 \lineht@=\dimen125
-\@envbody=\toks25
-\multlinegap=\skip59
-\multlinetaggap=\skip60
-\mathdisplay@stack=\toks26
+\@envbody=\toks26
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box47
+\fn@notes=\box48
 \fn@width=\dimen126
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 16.
-Class revtex4-1 Info: Patching longtable package on input line 16.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 16.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 17.
+Class revtex4-1 Info: Patching longtable package on input line 17.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 17.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 16.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 16.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 16.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 17.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 17.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 17.
 
 (./qf_environment.aux
 
@@ -310,31 +322,31 @@ LaTeX Warning: Label `fig:qf' multiply defined.
 )
 \openout1 = `qf_environment.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
+\scratchcounter=\count122
 \scratchdimen=\dimen127
-\scratchbox=\box48
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count124
+\scratchbox=\box49
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count125
 \MPscratchDim=\dimen128
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks28
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -385,17 +397,17 @@ e
 ))
 \openout3 = `qf_environmentNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 23.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 24.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -403,103 +415,79 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
-
-Package natbib Warning: Citation `blanton09a' on page 1 undefined on input line
- 51.
-
-
-Package natbib Warning: Citation `geha12a' on page 1 undefined on input line 54
-.
-
-
-Package natbib Warning: Citation `dressler84a' on page 1 undefined on input lin
-e 58.
-
-
-Package natbib Warning: Citation `moustakas13a' on page 1 undefined on input li
-ne 70.
-
-
-Package natbib Warning: Citation `noeske07a' on page 1 undefined on input line 
-79.
-
-
-Package natbib Warning: Citation `blanton06a' on page 1 undefined on input line
- 85.
-
-
-Package natbib Warning: Citation `moustakas13a' on page 1 undefined on input li
-ne 85.
-
-
-Package natbib Warning: Citation `coil11a' on page 1 undefined on input line 10
-5.
-
-
-Package natbib Warning: Citation `cool13a' on page 1 undefined on input line 10
-5.
-
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 172.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 173.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1147) in paragraph at lines 172--182
+Underfull \hbox (badness 1147) in paragraph at lines 173--183
 \OT1/cmr/m/n/10 lar masses, star for-ma-tion rates (SFRs) and other
  []
 
-[2] <fig_EDP_absmag_redshift.png, id=26, 772.5663pt x 338.9463pt>
+[2] <fig_EDP_absmag_redshift.png, id=25, 772.5663pt x 338.9463pt>
 File: fig_EDP_absmag_redshift.png Graphic file (type png)
 
 <use fig_EDP_absmag_redshift.png>
-Package pdftex.def Info: fig_EDP_absmag_redshift.png used on input line 188.
+Package pdftex.def Info: fig_EDP_absmag_redshift.png used on input line 189.
 (pdftex.def)             Requested size: 436.15294pt x 191.34985pt.
  [3]
+Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_25.eps>
+(epstopdf)                    date: 2014-02-23 18:00:22
+(epstopdf)                    size: 42838 bytes
+(epstopdf)             Output file: <fig_smf_cylr2h25_thresh75_bin0_25-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2014-02-23 18:01:18
+(epstopdf)                    size: 19550 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig_smf_cylr2h25_thresh75_
+bin0_25-eps-converted-to.pdf fig_smf_cylr2h25_thresh75_bin0_25.eps>
+(epstopdf)             \includegraphics on input line 295.
+Package epstopdf Info: Output file is already uptodate.
 
-Package natbib Warning: Citation `Behroozi:2013aa' on page 4 undefined on input
- line 283.
+<fig_smf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf, id=30, 614.295pt x 758
+.835pt>
+File: fig_smf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use fig_smf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf>
+Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf
+ used on input line 295.
+(pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
+ [4 <./fig_EDP_absmag_redshift.png>] [5 <./fig_smf_cylr2h25_thresh75_bin0_25-ep
+s-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_25.eps>
+(epstopdf)                    date: 2014-02-23 18:09:51
+(epstopdf)                    size: 29011 bytes
+(epstopdf)             Output file: <fig_qf_cylr2h25_thresh75_bin0_25-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2014-02-25 00:59:39
+(epstopdf)                    size: 14635 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig_qf_cylr2h25_thresh75_b
+in0_25-eps-converted-to.pdf fig_qf_cylr2h25_thresh75_bin0_25.eps>
+(epstopdf)             \includegraphics on input line 361.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig_qf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf, id=42, 433.62pt x 758.8
+35pt>
+File: fig_qf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use fig_qf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf>
+Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf 
+used on input line 361.
+(pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
 
 
-Package natbib Warning: Citation `Leja:2013aa' on page 4 undefined on input lin
-e 283.
+LaTeX Warning: Reference `target' on page 6 undefined on input line 397.
 
-
-Package natbib Warning: Citation `Behroozi:2013aa' on page 4 undefined on input
- line 289.
-
-<fig_smf_cylr2h25_thresh75_bin0_25.png, id=31, 758.835pt x 614.295pt>
-File: fig_smf_cylr2h25_thresh75_bin0_25.png Graphic file (type png)
-
-<use fig_smf_cylr2h25_thresh75_bin0_25.png>
-Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_25.png used on input li
-ne 296.
-(pdftex.def)             Requested size: 436.15294pt x 353.08565pt.
- [4 <./fig_EDP_absmag_redshift.png>]
-
-Package natbib Warning: Citation `Moustakas:20133aa' on page 5 undefined on inp
-ut line 328.
-
-[5 <./fig_smf_cylr2h25_thresh75_bin0_25.png>]
-<fig_qf_cylr2h25_thresh75_bin0_25.png, id=42, 758.835pt x 433.62pt>
-File: fig_qf_cylr2h25_thresh75_bin0_25.png Graphic file (type png)
-
-<use fig_qf_cylr2h25_thresh75_bin0_25.png>
-Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_25.png used on input lin
-e 362.
-(pdftex.def)             Requested size: 436.15294pt x 249.23692pt.
-
-
-LaTeX Warning: Reference `target' on page 6 undefined on input line 401.
-
-[6] <fig_qffit_cylr2h25_thresh75_bin0_25.png, id=47, 614.295pt x 614.295pt>
+[6] <fig_qffit_cylr2h25_thresh75_bin0_25.png, id=48, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_25.png Graphic file (type png)
 
 <use fig_qffit_cylr2h25_thresh75_bin0_25.png>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_25.png used on input 
-line 471.
+line 467.
 (pdftex.def)             Requested size: 208.47804pt x 208.47322pt.
+ [7 <./fig_qf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf> <./fig_qffit_cylr
+2h25_thresh75_bin0_25.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 484.
 
 
@@ -508,18 +496,9 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 484.
- [7 <./fig_qf_cylr2h25_thresh75_bin0_25.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 486.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 486.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 (./qf_environment.bbl)
-<fig_smf_cylr1h25_thresh80_bin0_25.png, id=53, 758.835pt x 614.295pt>
+<fig_smf_cylr1h25_thresh80_bin0_25.png, id=56, 758.835pt x 614.295pt>
 File: fig_smf_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
 
 <use fig_smf_cylr1h25_thresh80_bin0_25.png>
@@ -527,7 +506,7 @@ Package pdftex.def Info: fig_smf_cylr1h25_thresh80_bin0_25.png used on input li
 ne 516.
 (pdftex.def)             Requested size: 436.15294pt x 353.08565pt.
 
-<fig_qf_cylr1h25_thresh80_bin0_25.png, id=54, 758.835pt x 433.62pt>
+<fig_qf_cylr1h25_thresh80_bin0_25.png, id=57, 758.835pt x 433.62pt>
 File: fig_qf_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
 
 <use fig_qf_cylr1h25_thresh80_bin0_25.png>
@@ -535,20 +514,16 @@ Package pdftex.def Info: fig_qf_cylr1h25_thresh80_bin0_25.png used on input lin
 e 526.
 (pdftex.def)             Requested size: 436.15294pt x 249.23692pt.
 
-<fig_qffit_cylr1h25_thresh80_bin0_25.png, id=55, 614.295pt x 614.295pt>
+<fig_qffit_cylr1h25_thresh80_bin0_25.png, id=58, 614.295pt x 614.295pt>
 File: fig_qffit_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
 
 <use fig_qffit_cylr1h25_thresh80_bin0_25.png>
 Package pdftex.def Info: fig_qffit_cylr1h25_thresh80_bin0_25.png used on input 
 line 535.
 (pdftex.def)             Requested size: 436.15294pt x 436.1525pt.
-
-
-Package natbib Warning: There were undefined citations.
-
-[8 <./fig_qffit_cylr2h25_thresh75_bin0_25.png>] [9 <./fig_smf_cylr1h25_thresh80
-_bin0_25.png>] [10 <./fig_qf_cylr1h25_thresh80_bin0_25.png>] [11 <./fig_qffit_c
-ylr1h25_thresh80_bin0_25.png>] (./qf_environment.aux)
+ [8] [9 <./fig_smf_cylr1h25_thresh80_bin0_25.png> <./fig_qf_cylr1h25_thresh80_b
+in0_25.png>] [10 <./fig_qffit_cylr1h25_thresh80_bin0_25.png>] (./qf_environment
+.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -557,13 +532,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5206 strings out of 493315
- 70417 string characters out of 6137904
- 169103 words of memory out of 5000000
- 8558 multiletter control sequences out of 15000+600000
+ 5333 strings out of 493315
+ 72410 string characters out of 6137904
+ 175698 words of memory out of 5000000
+ 8677 multiletter control sequences out of 15000+600000
  11736 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,9n,28p,1115b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,28p,1083b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
@@ -585,10 +560,10 @@ pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (11 pages, 922456 bytes).
+Output written on qf_environment.pdf (10 pages, 696026 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

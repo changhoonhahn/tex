@@ -3,6 +3,7 @@
 
 %define general packages
 \usepackage{epsfig}
+\usepackage{rotating}
 \usepackage{amsmath}
 \usepackage{natbib}
 \usepackage{footnote}
@@ -76,13 +77,13 @@ The most dramatic change in galaxy properties during the past eight
 billion years has been a remarkable decline in the star-formation rate
 of galaxies in the Universe (\citealt{hopkins06a}).  This decline
 appears dominated by decreases in the rates of star-formation of
-individual galaxies (\citealt{noeske07a}). There is evidence that a
+individual galaxies (\cite{Noeske:2007aa}). There is evidence that a
 large fraction of the decline associated with strongly
 infrared-emitting starbursts (\citealt{bell05a, magnelli09a}).  The
 decline does not appear to be due to the quenching of a large
 fractions of the star-forming population, as reflected in observations
 of the stellar mass function of quiescent and star-forming galaxies
-(\citealt{blanton06a, bundy06a, borch06a, moustakas13a}).  These
+(\cite{Blanton:2006aa},\citealt{bundy06a, borch06a, moustakas13a}).  These
 findings leave little room for the participation of
 environmentally-driven quenching in the global census of
 star-formation.  As \citet{cooper08a} and others have pointed out,
@@ -101,8 +102,8 @@ contribution of environmental effects to the overall trends, and
 reveal whether those trends happen equally in all environments.
 However, such an analysis has not been done previously due to the lack
 of sufficiently large samples. In this paper, we apply this approach
-using the Prism Multi-object Survey (PRIMUS; \citealt{coil11a,
-cool13a}), the largest available redshift survey covering the epochs
+using the Prism Multi-object Survey (PRIMUS; \cite{Coil:2011aa}, 
+\cite{Cool:2013aa}), the largest available redshift survey covering the epochs
 between $0<z<1$.
 
 \begin{table*} %Subject to significant change based on the classification of environment
@@ -287,19 +288,18 @@ galaxy-galaxy mergers, provides a promising tool to compare galaxy populations o
 In addition we use the highest redshift bin cumulative number density as the fixed number density 
 %%%FINISH THIS SENTENCE
 Furthermore \cite{Behroozi:2013aa}
-
 \begin{figure*}
-    \begin{center}
-        \leavevmode
-        \label{fig:smf}
-        \epsscale{1.0}
-        \plotone{fig_smf_cylr2h25_thresh75_bin0_25.png}
-        \caption{Stellar mass functions and quiescent fraction for galaxies in the $30$ subsamples divided into redshift bins, $0.06-0.145$ (green), $0.2-0.4$ (red), $0.4-0.6$ 
-(magenta), $0.6-0.8$ (blue), and $0.8-1.0$ (black) with low, mid, and high environments. The environments were classified using cylindrical aperture of $R=1\rm{Mpc}$ and $H=50\rm{Mpc}$ 
-with environment classification thresholds specified in Table \ref{tab:aperture}. The mass bins for the SMFs and QFs have widths $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.3$. 
-SMFs for subsamples with the same environment density classification are plotted on panels along the same column: low (left), mid (middle), and high (right) environments. The top
-panels plot SMFs for subsamples with star forming galaxies. The middle panels plot the SMFs for subsamples with quiescent galaxies. The bottom panels plot the QFs for the 
-corresponding star-forming SMFs and quiescent SMFs in the same environment classification and redshift bin.}
+  \begin{center}
+    \leavevmode
+     \label{fig:smf}
+     \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_25.eps,height=0.75\textwidth,angle=90}
+     \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
+low (left) and high (right) environments from redshift range $z=0-0.8$. The environment of each galaxy  
+was calculated using a cylindrical aperture size of $R=2\rm{Mpc}$ and $H=25\rm{Mpc}$ and  
+classification based on the cut-offs specified in Table \ref{tab:aperture}. The SMFs use mass bins of 
+width $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.25$. In each panel we use shades of blue 
+(star-forming) and orange (quiescent) to represent the SMF at different redshift, higher redshifts being
+progressively lighter.}
     \end{center}
 \end{figure*}
 
@@ -325,7 +325,7 @@ the geometry of the combined angular selection function of the SDSS VAGC and {\e
 Instead, since we are not interested in the $FUV, NUV$ values for the EDP, we just use the
 SDSS VAGC where the SDSS-{\em GALEX} catalog is derived from. 
 Furthermore, we impose a redshift limit $0.0375-0.145$ on the SDSS EDP sample as opposed 
-to the redshift range of $0.01-0.2$ in \cite{Moustakas:20133aa}.
+to the redshift range of $0.01-0.2$ in \cite{Moustakas:2013aa}.
 This is due to the lack of faint galaxies at $z \sim 0.2$ and the lack of bright 
 galaxies at $z \sim 0.01$. 
 In other words, the lower bound for the redshif range was empirically determined by the bright limit of 
@@ -358,14 +358,10 @@ for a mock galaxy catalogue generated from embedding galaxies onto the Millenium
     \begin{center}
         \leavevmode
         \label{fig:smf}
-        \epsscale{1.0}
-        \plotone{fig_qf_cylr2h25_thresh75_bin0_25.png}
-        \caption{Quiescent fraction for galaxies in the $30$ subsamples divided into redshift bins, $0.06-0.145$ (green), $0.2-0.4$ (red), $0.4-0.6$ 
-(magenta), $0.6-0.8$ (blue), and $0.8-1.0$ (black) with low, mid, and high environments. The environments were classified using cylindrical aperture of $R=1\rm{Mpc}$ and $H=50\rm{Mpc}$ 
-with environment classification thresholds specified in Table \ref{tab:aperture}. The mass bins for the SMFs and QFs have widths $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.3$. 
-SMFs for subsamples with the same environment density classification are plotted on panels along the same column: low (left), mid (middle), and high (right) environments. The top
-panels plot SMFs for subsamples with star forming galaxies. The middle panels plot the SMFs for subsamples with quiescent galaxies. The bottom panels plot the QFs for the 
-corresponding star-forming SMFs and quiescent SMFs in the same environment classification and redshift bin.}
+        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_25.eps,height=0.75\textwidth,angle=90}
+        \caption{Evolution of the quiescent fraction for target galaxies in low (left) and (high) environments
+from redshift range $z=0-0.8$. The QFs were calculated using the SMFs specificed in Figure \ref{fig:smf}. We use
+lighter shades of orange for the QFs at higher redshifts.}
     \end{center}
 \end{figure*}
 
@@ -470,7 +466,11 @@ The results obtained from using these different are consistent with the results 
         \epsscale{1.0}
         \plotone{fig_qffit_cylr2h25_thresh75_bin0_25.png}
         \label{fig:qf}
-        \caption{Quiescent fraction at fiducial mass $\rm{log} (\mathcal{M}/\mathcal{M}_{\odot}) = 10.5$ for low (triangle), mid (square) and high (circle) environments in redshift bins: $0.06-0.145$, $0.2-0.4$, $0.4-0.6$, $0.6-0.8$, and $0.8-1.0$. Comparing these linear fit values in the redshift range for the different environment densities suggest that the change in QFs is indepdent of environment density.}
+        \caption{Quiescent fraction at fiducial mass $\rm{log} (\mathcal{M}/\mathcal{M}_{\odot}) = 10.5$ for 
+low (square) and high (circle) environments in the redshift range $z = 0 - 0.8$. The evolution of 
+$f_{Q}(\mathcal{M}_{\rm{fid}})$ for galaxies in different environments shows an evolution over the redshift
+range that is independent of environment density. Futhermore throughout the redshift range the difference in 
+$f_{Q}(\mathcal{M}_{\rm{fid}})$ remains relatively constant and $ < 0.15$.}
     \end{center}
 \end{figure}
 

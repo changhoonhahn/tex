@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: qf_environment.aux
+The style file: apj.bst
+Database file #1: qf_environmentNotes.bib
+Database file #2: PRIMUS.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 43 entries,
+            3085 wiz_defined-function locations,
+            962 strings with 20634 characters,
+and the built_in function-call counts, 24846 in all, are:
+= -- 1696
+> -- 2488
+< -- 10
++ -- 830
+- -- 885
+* -- 2461
+:= -- 4911
+add.period$ -- 43
+call.type$ -- 43
+change.case$ -- 269
+chr.to.int$ -- 41
+cite$ -- 43
+duplicate$ -- 818
+empty$ -- 1220
+format.name$ -- 925
+if$ -- 4730
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 41
+newline$ -- 133
+num.names$ -- 173
+pop$ -- 294
+preamble$ -- 1
+purify$ -- 268
+quote$ -- 0
+skip$ -- 658
+stack$ -- 0
+substring$ -- 879
+swap$ -- 14
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 384
+warning$ -- 0
+while$ -- 150
+width$ -- 0
+write$ -- 434

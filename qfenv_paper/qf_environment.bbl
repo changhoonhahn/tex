@@ -1,6 +1,21 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
+  {Ag{\"u}eros}, {Allam}, {Allende Prieto}, {An}, {Anderson}, {Anderson},
+  {Annis}, {Bahcall}, \& et~al.}]{Abazajian:2009aa}
+{Abazajian}, K.~N., {Adelman-McCarthy}, J.~K., {Ag{\"u}eros}, M.~A., {et~al.}
+  2009, \apjs, 182, 543
+
+\bibitem[{{Baldry} {et~al.}(2008){Baldry}, {Glazebrook}, \&
+  {Driver}}]{Baldry:2008aa}
+{Baldry}, I.~K., {Glazebrook}, K., \& {Driver}, S.~P. 2008, \mnras, 388, 945
+
+\bibitem[{{Behroozi} {et~al.}(2013){Behroozi}, {Marchesini}, {Wechsler},
+  {Muzzin}, {Papovich}, \& {Stefanon}}]{Behroozi:2013aa}
+{Behroozi}, P.~S., {Marchesini}, D., {Wechsler}, R.~H., {et~al.} 2013, \apjl,
+  777, L10
+
 \bibitem[{{Bell} {et~al.}(2005){Bell}, {Papovich}, {Wolf}, {Le Floc'h},
   {Caldwell}, {Barden}, {Egami}, {McIntosh}, {Meisenheimer},
   {P{\'e}rez-Gonz{\'a}lez}, {Rieke}, {Rieke}, {Rigby}, \& {Rix}}]{bell05a}
@@ -11,6 +26,22 @@
 {Blanton}, M.~R., {Eisenstein}, D., {Hogg}, D.~W., \& {Zehavi}, I. 2006, \apj,
   645, 977
 
+\bibitem[{{Blanton} {et~al.}(2005{\natexlab{a}}){Blanton}, {Lupton},
+  {Schlegel}, {Strauss}, {Brinkmann}, {Fukugita}, \&
+  {Loveday}}]{Blanton:2005ab}
+{Blanton}, M.~R., {Lupton}, R.~H., {Schlegel}, D.~J., {et~al.}
+  2005{\natexlab{a}}, \apj, 631, 208
+
+\bibitem[{{Blanton} \& {Moustakas}(2009)}]{blanton09a}
+{Blanton}, M.~R., \& {Moustakas}, J. 2009, \araa, 47, 159
+
+\bibitem[{{Blanton} {et~al.}(2005{\natexlab{b}}){Blanton}, {Schlegel},
+  {Strauss}, {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg},
+  {Ivezi{\'c}}, {Knapp}, {Lupton}, {Munn}, {Schneider}, {Tegmark}, \&
+  {Zehavi}}]{Blanton:2005aa}
+{Blanton}, M.~R., {Schlegel}, D.~J., {Strauss}, M.~A., {et~al.}
+  2005{\natexlab{b}}, \aj, 129, 2562
+
 \bibitem[{{Borch} {et~al.}(2006){Borch}, {Meisenheimer}, {Bell}, {Rix}, {Wolf},
   {Dye}, {Kleinheinrich}, {Kovacs}, \& {Wisotzki}}]{borch06a}
 {Borch}, A., {Meisenheimer}, K., {Bell}, E.~F., {et~al.} 2006, \aap, 453, 869
@@ -18,6 +49,9 @@
 \bibitem[{{Bundy} {et~al.}(2006){Bundy}, {Ellis}, {Conselice}, {Taylor},
   {Cooper}, {Willmer}, {Weiner}, {Coil}, {Noeske}, \& {Eisenhardt}}]{bundy06a}
 {Bundy}, K., {Ellis}, R.~S., {Conselice}, C.~J., {et~al.} 2006, \apj, 651, 120
+
+\bibitem[{{Chabrier}(2003)}]{Chabrier:2003aa}
+{Chabrier}, G. 2003, \pasp, 115, 763
 
 \bibitem[{{Coil} {et~al.}(2011){Coil}, {Blanton}, {Burles}, {Cool},
   {Eisenstein}, {Moustakas}, {Wong}, {Zhu}, {Aird}, {Bernstein}, {Bolton}, \&
@@ -31,6 +65,10 @@
   {Peterson}, {Price}, {Seaborne}, \& {Taylor}}]{Colless:2003aa}
 {Colless}, M., {Dalton}, G., {Maddox}, S., {et~al.} 2003, VizieR Online Data
   Catalog, 7226, 0
+
+\bibitem[{{Conroy} \& {Gunn}(2010)}]{Conroy:2010aa}
+{Conroy}, C., \& {Gunn}, J.~E. 2010, {FSPS: Flexible Stellar Population
+  Synthesis}, astrophysics Source Code Library, ascl:1010.043
 
 \bibitem[{{Cool} {et~al.}(2013){Cool}, {Moustakas}, {Blanton}, {Burles},
   {Coil}, {Eisenstein}, {Wong}, {Zhu}, {Aird}, {Bernstein}, {Bolton}, {Hogg},
@@ -61,6 +99,20 @@
 \bibitem[{Dressler(1980)}]{dressler80a}
 Dressler, A. 1980, \apj, 236, 351
 
+\bibitem[{{Dressler}(1984)}]{dressler84a}
+{Dressler}, A. 1984, \araa, 22, 185
+
+\bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12a}
+{Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
+
+\bibitem[{{Guillaume} {et~al.}(2006){Guillaume}, {Llebaria}, {Aymeric},
+  {Arnouts}, \& {Milliard}}]{Guillaume:2006aa}
+{Guillaume}, M., {Llebaria}, A., {Aymeric}, D., {Arnouts}, S., \& {Milliard},
+  B. 2006, in Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series, Vol. 6064, Image Processing: Algorithms and Systems,
+  Neural Networks, and Machine Learning, ed. E.~R. {Dougherty}, J.~T. {Astola},
+  K.~O. {Egiazarian}, N.~M. {Nasrabadi}, \& S.~A. {Rizvi}, 332--341
+
 \bibitem[{Guzzo {et~al.}(1997)Guzzo, Strauss, Fisher, Giovanelli, \&
   Haynes}]{guzzo97a}
 Guzzo, L., Strauss, M.~A., Fisher, K.~B., Giovanelli, R., \& Haynes, M.~P.
@@ -75,6 +127,10 @@ Hermit, S., Santiago, B.~X., Lahav, O., {et~al.} 1996, \mnras, 283, 709
 
 \bibitem[{Hubble(1936)}]{hubble36a}
 Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
+
+\bibitem[{{Jarrett} {et~al.}(2000){Jarrett}, {Chester}, {Cutri}, {Schneider},
+  {Skrutskie}, \& {Huchra}}]{Jarrett:2000aa}
+{Jarrett}, T.~H., {Chester}, T., {Cutri}, R., {et~al.} 2000, \aj, 119, 2498
 
 \bibitem[{{Johnston}(2011)}]{Johnston:2011aa}
 {Johnston}, R. 2011, \aapr, 19, 41
@@ -92,14 +148,40 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
   {Scoville}}]{kovac10a}
 {Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2010, \apj, 718, 86
 
+\bibitem[{{Leja} {et~al.}(2013){Leja}, {van Dokkum}, \& {Franx}}]{Leja:2013aa}
+{Leja}, J., {van Dokkum}, P., \& {Franx}, M. 2013, \apj, 766, 33
+
 \bibitem[{{Magnelli} {et~al.}(2009){Magnelli}, {Elbaz}, {Chary}, {Dickinson},
   {Le Borgne}, {Frayer}, \& {Willmer}}]{magnelli09a}
 {Magnelli}, B., {Elbaz}, D., {Chary}, R.~R., {et~al.} 2009, \aap, 496, 57
 
-\bibitem[{{Moustakas} {et~al.}(2013){Moustakas}, {Coil}, {Aird}, {Blanton},
-  {Cool}, {Eisenstein}, {Mendez}, {Wong}, {Zhu}, \&
+\bibitem[{{Martin} {et~al.}(2005){Martin}, {Fanson}, {Schiminovich},
+  {Morrissey}, {Friedman}, {Barlow}, {Conrow}, {Grange}, {Jelinsky},
+  {Milliard}, {Siegmund}, {Bianchi}, {Byun}, {Donas}, {Forster}, {Heckman},
+  {Lee}, {Madore}, {Malina}, {Neff}, {Rich}, {Small}, {Surber}, {Szalay},
+  {Welsh}, \& {Wyder}}]{Martin:2005aa}
+{Martin}, D.~C., {Fanson}, J., {Schiminovich}, D., {et~al.} 2005, \apjl, 619,
+  L1
+
+\bibitem[{{Morrissey} {et~al.}(2005){Morrissey}, {Schiminovich}, {Barlow},
+  {Martin}, {Blakkolb}, {Conrow}, {Cooke}, {Erickson}, {Fanson}, {Friedman},
+  {Grange}, {Jelinsky}, {Lee}, {Liu}, {Mazer}, {McLean}, {Milliard}, {Randall},
+  {Schmitigal}, {Sen}, {Siegmund}, {Surber}, {Vaughan}, {Viton}, {Welsh},
+  {Bianchi}, {Byun}, {Donas}, {Forster}, {Heckman}, {Lee}, {Madore}, {Malina},
+  {Neff}, {Rich}, {Small}, {Szalay}, \& {Wyder}}]{Morrissey:2005aa}
+{Morrissey}, P., {Schiminovich}, D., {Barlow}, T.~A., {et~al.} 2005, \apjl,
+  619, L7
+
+\bibitem[{{Moustakas} {et~al.}(2013{\natexlab{a}}){Moustakas}, {Coil}, {Aird},
+  {Blanton}, {Cool}, {Eisenstein}, {Mendez}, {Wong}, {Zhu}, \&
+  {Arnouts}}]{moustakas13a}
+{Moustakas}, J., {Coil}, A.~L., {Aird}, J., {et~al.} 2013{\natexlab{a}}, \apj,
+  767, 50
+
+\bibitem[{{Moustakas} {et~al.}(2013{\natexlab{b}}){Moustakas}, {Coil}, {Aird},
+  {Blanton}, {Cool}, {Eisenstein}, {Mendez}, {Wong}, {Zhu}, \&
   {Arnouts}}]{Moustakas:2013aa}
-{Moustakas}, J., {Coil}, A.~L., {Aird}, J., {et~al.} 2013, \apj, 767, 50
+---. 2013{\natexlab{b}}, \apj, 767, 50
 
 \bibitem[{{Muldrew} {et~al.}(2012){Muldrew}, {Croton}, {Skibba}, {Pearce},
   {Ann}, {Baldry}, {Brough}, {Choi}, {Conselice}, {Cowan}, {Gallazzi}, {Gray},
@@ -107,6 +189,14 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
   {Wilman}, {Yang}, {Zhang}, \& {Zibetti}}]{Muldrew:2012aa}
 {Muldrew}, S.~I., {Croton}, D.~J., {Skibba}, R.~A., {et~al.} 2012, \mnras, 419,
   2670
+
+\bibitem[{{Noeske} {et~al.}(2007){Noeske}, {Weiner}, {Faber}, {Papovich},
+  {Koo}, {Somerville}, {Bundy}, {Conselice}, {Newman}, {Schiminovich}, {Le
+  Floc'h}, {Coil}, {Rieke}, {Lotz}, {Primack}, {Barmby}, {Cooper}, {Davis},
+  {Ellis}, {Fazio}, {Guhathakurta}, {Huang}, {Kassin}, {Martin}, {Phillips},
+  {Rich}, {Small}, {Willmer}, \& {Wilson}}]{Noeske:2007aa}
+{Noeske}, K.~G., {Weiner}, B.~J., {Faber}, S.~M., {et~al.} 2007, \apjl, 660,
+  L43
 
 \bibitem[{Oemler(1974)}]{oemler74a}
 Oemler, A. 1974, \apj, 194, 1

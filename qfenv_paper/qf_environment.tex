@@ -16,11 +16,11 @@
 \begin{document}
 
 \title{PRIMUS: Quiescent Fraction as a Function of Environment and Redshift}
-\author{ChangHoon Hahn, Michael Blanton, John Moustakas}
+\author{ChangHoon Hahn, Michael Blanton, Alison Coil, Richard Cool, Daniel Eisenstein, John Moustakas, Ken Wong, Guangtun Zhu}
 
 \begin{abstract}
-We examine the evolution of the quiescent fraction, for galaxies in 
-different density environments from $z=0.2-0.8$, using spectroscopic 
+We examine the evolution of the quiescent fraction (QF) for galaxies in 
+different density environments from $z=0.2-0.8$ using spectroscopic 
 redshift and multi-wavelength imaging data from PRism MUlti-object 
 Survey (PRIMUS) and the Sloan Digitial Sky Survey (SDSS). Using this 
 data we construct a stellar mass limited target galaxy population of 
@@ -35,9 +35,9 @@ from PRIMUS and SDSS.
 Thresholds for the environment are imposed to classify the target galaxies as
 high, mid, or low environments. For the quiescent and star-forming 
 target galaxies we calculate the stellar mass functions in different environments and redshift.
-Afterwards, we compute the quiescent fraction (QF) using the SMFs for the different environment 
+Afterwards, we compute the QFs using the SMFs for the different environment 
 and redshift ranges.  Comparing the QFs in these environment and redshift bins, we find the 
-QF increases over time (decrease in redshift); however, the change of 
+QF increases over cosmic time (decrease in redshift); however, the change of 
 the QFs for the different environments are independent of the 
 environment of galaxies. 
 \end{abstract}
@@ -105,6 +105,38 @@ using the Prism Multi-object Survey (PRIMUS; \citealt{coil11a,
 cool13a}), the largest available redshift survey covering the epochs
 between $0<z<1$.
 
+\begin{table*} %Subject to significant change based on the classification of environment
+  \caption{Summary of Galaxy Subsample}
+  \label{tab:subsample}
+  \begin{center}
+    \leavevmode
+    \begin{tabular}{lllll} \hline \hline              
+  Survey    &Redshift ($z$) &Density        &Quiescent $N_{\rm{g}}$ &Star-forming $N_{\rm{g}}$  \\ \hline 
+  SDSS      &$0.0375-0.145$ &High           &5470                       &4501                           \\
+            &               &Mid            &3614                       &4438                           \\
+            &               &Low            &5419                       &8927                           \\
+            &               &               &                       &                           \\ \hline
+  PRIMUS    &$0.2-0.4$      &High           &322                    &583                           \\
+            &               &Mid            &177                    &403                          \\
+            &               &Low            &768                    &2516                           \\
+            &               &               &                       &                           \\ \hline
+  PRIMUS    &$0.4-0.6$      &High           &350                       &675                           \\
+            &               &Mid            &195                       &405                           \\
+            &               &Low            &871                       &2385                           \\
+            &               &               &                       &                           \\ \hline
+  PRIMUS    &$0.6-0.8$      &High           &347                       &430                           \\
+            &               &Mid            &186                       &327                           \\
+            &               &Low            &833                       &1847                           \\
+            &               &               &                       &                           \\ \hline
+  PRIMUS    &$0.8-1.0$      &High           &136                       &232                           \\
+            &               &Mid            &94                       &163                           \\
+            &               &Low            &373                       &810                           \\
+            &               &               &                       &                           \\ \hline
+  \multicolumn{5}{l}{}                                             \\       
+    \end{tabular} 
+  \end{center}
+\end{table*}
+
 \section{Sample Selection}
 In this paper we are interested in measuring the quiescent fraction over a wide range of redshifts and for galaxies in different environments. 
 To do so, we use galaxies at intermediate redshifts from PRIMUS and galaxies at low redshift from SDSS.
@@ -129,8 +161,8 @@ The XMM-LSS consists of two separate but spatially adjacent fields: the Subaru/X
 and the Canadian-France-Hawaii Telescope Legacy Survey field (XMM-CFHTLS\footnote{http://www.cfht.hawaii.edu/Science/CFHLS}).
 In addition to the SWIRE fields we also include the COSMOS\footnote{http://cosmos.astro.caltech.edu} field for a total of five fields. 
 
-In all of the PRIMUS target fields we have near-UV (NUV) and far-UV (FUV) measurements from the {\em GALEX} Deep Imaging Survey (DIS; CITECITE ). 
-To minimize contamination from neighboring sources, we use a Bayesian photometric code EM$_{\rm{PHOT}}$ (based on expectation maximization algorithm of CITECITE ). 
+In all of the PRIMUS target fields we have near-UV (NUV) and far-UV (FUV) measurements from the {\em GALEX} Deep Imaging Survey (DIS; \cite{Martin:2005aa}; \cite{Morrissey:2005aa}). 
+To minimize contamination from neighboring sources, we use a Bayesian photometric code EM$_{\rm{PHOT}}$ (based on expectation maximization algorithm of \cite{Guillaume:2006aa}). 
 Furthermore, we use ground-based optical and {\em Spitzer}/IRAC mid-infrared photometric catalogs in each of the fields to obtain integrated fluxes in all 
 photometric bands.
 To summarize, the general strategy employed is to use a circular aperture photometry to constrain the shape of the SED and then fixing the overall normalization to 
@@ -142,17 +174,27 @@ in a simplified Bayesian framework.
 \texttt{iSEDfit}, which we will only briefly mention in this paper is discussed in detail in Appendix A of \cite{Moustakas:2013aa}.
 The code uses the redshift and the observed photometry of the galaxies to determine the statistical likelihood of a large ensemble of generated model SEDs. 
 These generated model SEDs depend on population synthesis models and prior parameters.
-In order to derive our fiducial stellar masses and star formation rates, we use the Flexible Stellar Population Synthesis (FSPS) models (CITECITE) based on the Chabrier (2003) IMF. 
-Other prior parameters are listed in Section 4.1 of \cite{Moustakas}. 
+In order to derive our fiducial stellar masses and star formation rates, we use the Flexible Stellar Population Synthesis (FSPS) models (\cite{Conroy:2010aa}) based on the \cite{Chabrier:2003aa} IMF. 
+Other prior parameters are listed in Section 4.1 of \cite{Moustakas:2013aa}. 
 The photometric bands we use for the fitting in our PRIMUS data are the {\em GALEX} FUV and NUV, the two shortest IRAC bands at $3.6$ and $4.5 \mu \rm{m}$, and the five optical bands
 (in the COSMOS field, we fit seven optical bands and near-infrared bands, see Section 2.3 of \cite{Moustakas:2013aa}).
 For a more detailed description of the data used in this paper, we refer readers to \cite{Moustakas:2013aa} Section 2 and Section 4.1.
 
+\begin{figure*}
+    \begin{center}
+        \leavevmode
+        \label{fig:targetEDP}
+        \epsscale{1.0}
+	\plotone{fig_EDP_absmag_redshift.png}
+        \caption{Absolute magnitude $M_{r}$ vs. redshift for the target galaxy population (black) with the Environment Defining Population (red) plotted on top. Both samples are divided into redshift bins:$0.06-0.145$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$. The target galaxy population is stellar mass complete (Section \ref{sec:target} while the EDP is volume limited through $M_{g}$ limits (Section \ref{sec:environment}).}
+    \end{center}
+\end{figure*}
+
 \subsection{SDSS-GALEX} \label{sec:sdss}
-For galaxies at low redshifts we use the SDSS Data Release 7 (DR7; CITECITE). 
+For galaxies at low redshifts we use the SDSS Data Release 7 (DR7; \cite{Abazajian:2009aa}). 
 From the SDSS DR7 data, which provides high fidelity $ugriz$ photometry and spectroscopic redshift, we specifically use galaxies from the New York University 
-Value-Added Galaxy Catalog that satisfy the main sample criterion (CITECITE) and have galaxy extinction corrected (CITECITE) Petrosian magnitudes $14.5 < r < 17.6$ 
-and spectroscopic redshits $0.01<z<0.2$. 
+Value-Added Galaxy Catalog that satisfy the main sample criterion and have galaxy extinction corrected Petrosian magnitudes $14.5 < r < 17.6$ 
+and spectroscopic redshits $0.01<z<0.2$ (\cite{Blanton:2005aa}). 
 Within this sample, we select galaxies with medium depth observations from GALEX. 
 This is done by first retrieving the positions of all {\em GALEX} tiles from GALEX Release 6 with total exposure time greater than $1$ ks and then constructing 
 a joint angular selection function of the SDSS-{\em GALEX} Sample. 
@@ -160,50 +202,18 @@ This results in a final sample of $167,727$ SDSS galaxies with {\em GALEX} imagi
 
 For this final sample, we use the MAST/CasJobs\footnote{http://galex.stsci.edu/casjobs} interface and a $4''$ diamater search radius to obtain the NUV and FUV photometry. 
 For the optical photometry we use $ugriz$ bands (from the SDSS \texttt{model} magnitudes) scaled to the $r$-band \texttt{cmodel} magnitude. 
-We supplement the above UV and optical photometry with integrated $JHK_s$ magnitudes from the 2MASS Extended Source Catalog (XSC; CITECITE) and with photometry at $3.4$ 
+We supplement the above UV and optical photometry with integrated $JHK_s$ magnitudes from the 2MASS Extended Source Catalog (XSC; \cite{Jarrett:2000aa}) and with photometry at $3.4$ 
 and $4.6 \mu \rm{m}$ from the WISE All-Sky Data Release\footnote{http://wise2.ipac.caltech.edu/docs/release/allsky}. 
 Further details on the photometry of the SDSS data used in this paper is provided in \cite{Moustakas:2013aa} Section 2.4. 
 
 To obtain the stellar masses and SFRs for the SDSS data, we use \texttt{iSEDfit} as done in Section \ref{sec:primus}. 
-Except we use twelve photometric bands: {\em GALEX} FUV and NUV, SDSS $ugriz$, 2MASS $JHK_{s}$, and WISE $3.4$ and $4.6 \mu \rm{m}$. 
-
-\subsection{Galaxy Sample} \label{sec:target} 
-\begin{table*} %Will contain much more information on environments. 
-  \caption{Subsample}
-  \label{tab:subsample}
-  \begin{center}
-    \leavevmode
-    \begin{tabular}{lllll} \hline \hline              
-  Survey    &Redshift ($z$) &Environment    &Quiescent $N_{\rm{g}}$ &Star-forming $N_{\rm{g}}$  \\ \hline 
-  SDSS      &$0.0375-0.145$ &High           &5470                       &4501                           \\
-            &               &Mid            &3614                       &4438                           \\
-            &               &Low            &5419                       &8927                           \\
-            &               &               &                       &                           \\ \hline
-  PRIMUS    &$0.2-0.4$      &High           &322                    &583                           \\
-            &               &Mid            &177                    &403                          \\
-            &               &Low            &768                    &2516                           \\
-            &               &               &                       &                           \\ \hline
-  PRIMUS    &$0.4-0.6$      &High           &350                       &675                           \\
-            &               &Mid            &195                       &405                           \\
-            &               &Low            &871                       &2385                           \\
-            &               &               &                       &                           \\ \hline
-  PRIMUS    &$0.6-0.8$      &High           &347                       &430                           \\
-            &               &Mid            &186                       &327                           \\
-            &               &Low            &833                       &1847                           \\
-            &               &               &                       &                           \\ \hline
-  PRIMUS    &$0.8-1.0$      &High           &136                       &232                           \\
-            &               &Mid            &94                       &163                           \\
-            &               &Low            &373                       &810                           \\
-            &               &               &                       &                           \\ \hline
-  \multicolumn{5}{l}{}                                             \\       
-    \end{tabular}
-  \end{center}
-\end{table*}
+Except we use twelve photometric bands: {\em GALEX} FUV and NUV, SDSS $ugriz$, 2MASS $JHK_{s}$, and WISE $3.4$ and $4.6 \mu \rm{m}$.
+\subsection{Galaxy Samples} \label{sec:target} 
 In this seciton we will define the galaxy sample we use for our SMFs and QFs.
 The population at intermediate redshift is derived from the PRIMUS data and the population at low redshift is derived from the SDSS data, both described above.
 For the intermediate redshift target galaxy population, we begin with the selection criteria imposed in \cite{Moustakas:2013aa} for its parent sample.
 We take the statistically complete {\em primary} sample from the PRIMUS data, \cite{Coil:2011aa}, and then we impose magnitude limits on optical selection bands as specified in 
-\cite{Moustakas:2013aa} (listed in its Table 1).
+\cite{Moustakas:2013aa} Table 1.
 These limits are in different optical selection bands and have different values for our five PRIMUS target fields.
 Next, we join the PRIMUS, {\em GALEX}, and IRAC window functions to construct the angular selection function.
 We then exclude stars and broad-line AGN to only select objects spectroscopically classified as galaxies, with high-quality spectroscopic redshifts ($Q \geq 3$) within the 
@@ -233,20 +243,11 @@ Note that these redshift bins will later be used to divide the target population
 For our target galaxy population at low redshift we use our SDSS-{\em GALEX} data. 
 We limit our target population within the redshift range $0.06-0.145$ due to redshift limits later imposed for the volume-limited Environment Defining Population (\ref{sec:environment}).
 The NYU-VAGC provides statistical weight estimates for targeting completeness.
-In order to have a stellar mass complete low redshift target population, we use a uniform stellar mass limit of $10^9 \mathcal{M}_{odot}$, which is above the surface 
-brightness and stellar mass-to-light ratio completness limits (CITECITE).
+In order to have a stellar mass complete low redshift target population, we use a uniform stellar mass limit of $10^9 \mathcal{M}_{\odot}$, which is above the surface 
+brightness and stellar mass-to-light ratio completness limits (\cite{Blanton:2005ab}; \cite{Baldry:2008aa}).
 The absolute magnitude ($M_g$) versus redshift for the target galaxy population at both low redshift and intermediate redshift is plotted in Figure \ref{fig:targetEDP}.
-We again refer readers to \cite{Moustakas:2013aa} for details; more specifically, Figure 2., Sections 3.1, and 4.3. 
+We again refer readers to \cite{Moustakas:2013aa} for details; more specifically, Figure 2., Sections 3.1, and 4.3.
 
-\begin{figure*}
-    \begin{center}
-        \leavevmode
-        \label{fig:targetEDP}
-        \epsscale{1.0}
-        \plotone{fig_EDP_absmag_redshift.png}
-        \caption{Absolute magnitude $M_{r}$ vs. redshift for the target galaxy population (black) with the Environment Defining Population (red) plotted on top. Both samples are divided into redshift bins:$0.06-0.145$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$. The target galaxy population is stellar mass complete (Section \ref{sec:target} while the EDP is volume limited through $M_{g}$ limits (Section \ref{sec:environment}).}
-    \end{center}
-\end{figure*}
 \subsection{Classifying Quiescent and Star-Forming Galaxies} \label{sec:sfq}
 We classify the galaxies from the target sample, defined in the last section, using an evolving cut based on specific star-formation rate utilized in \cite{Moustakas:2013aa}.
 For a detailed description of the classification scheme, we refer readers to Section 3.2 in \cite{Moustakas:2013aa}.
@@ -277,6 +278,30 @@ recent star formation history of galaxies.
 In order to obtain the fixed aperture based environment for the galaxies in the target population, 
 we first establish a volume limited {\it Environment Defining Population} (EDP) by imposing a fixed 
 cumulative number density absolute magnitude cut off. 
+By using a fixed cumulative number density for this sample we seek to build an EDP with galaxies that 
+have similar populations in all of the redshift bins i.e. accounting for the progenitor bias. 
+As \cite{Behroozi:2013aa} and \cite{Leja:2013aa} find in their analysis of the cumulative number density 
+method using a dark matter simulation with abundance matching and a semi-analytic model, respectively, 
+cumulative number density method, while it does not precisely account for the scatter in mass accretion or 
+galaxy-galaxy mergers, provides a promising tool to compare galaxy populations over a wide range of cosmic time.
+In addition we use the highest redshift bin cumulative number density as the fixed number density 
+%%%FINISH THIS SENTENCE
+Furthermore \cite{Behroozi:2013aa}
+
+\begin{figure*}
+    \begin{center}
+        \leavevmode
+        \label{fig:smf}
+        \epsscale{1.0}
+        \plotone{fig_smf_cylr2h25_thresh75_bin0_25.png}
+        \caption{Stellar mass functions and quiescent fraction for galaxies in the $30$ subsamples divided into redshift bins, $0.06-0.145$ (green), $0.2-0.4$ (red), $0.4-0.6$ 
+(magenta), $0.6-0.8$ (blue), and $0.8-1.0$ (black) with low, mid, and high environments. The environments were classified using cylindrical aperture of $R=1\rm{Mpc}$ and $H=50\rm{Mpc}$ 
+with environment classification thresholds specified in Table \ref{tab:aperture}. The mass bins for the SMFs and QFs have widths $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.3$. 
+SMFs for subsamples with the same environment density classification are plotted on panels along the same column: low (left), mid (middle), and high (right) environments. The top
+panels plot SMFs for subsamples with star forming galaxies. The middle panels plot the SMFs for subsamples with quiescent galaxies. The bottom panels plot the QFs for the 
+corresponding star-forming SMFs and quiescent SMFs in the same environment classification and redshift bin.}
+    \end{center}
+\end{figure*}
 
 The EDP for the PRIMUS sample is derived from the same parent sample as the target galaxies. 
 We restrict the PRIMUS EDP galaxies within the redshift range $0.2-1.0$ and divide them into redshift bins of width $\Delta z = 0.2$. 
@@ -307,7 +332,6 @@ In other words, the lower bound for the redshif range was empirically determined
 the $M_{g}$ versus redshift distribution and the upper bound by the faint limit of the 
 $M_{g}$ versus redshift distribution. 
 The same fixed cumulative number density method is used on this SDSS EDP. 
-By using a fixed cumulative number density method of 
 Ultimately we use $M_{g,\rm{lim}} = -20.57$, $-20.73$, $-20.80$ and $-20.95$ for the redshift bins 
 $0.06-0.145$, $0.2-0.4$, $0.4-0.6$, $0.6-0.8$, respectively. 
 These absolute magnitude limits are illustrated in Figure \ref{fig:targetEDP}, which plots the absolute magnitude versus the redshift for the EDP galaxies and the target galaxies. 
@@ -329,13 +353,14 @@ Similar fixed aperture methods have also been used in \cite{Croton:2005aa} for g
 for a mock galaxy catalogue generated from embedding galaxies onto the Millenium Dark Matter Simulation (\cite{Springel:2005aa}). 
 %Perhaps include a sentence that sums up everything in Croton and Muldrew? 
 
+\subsection{Edge Effects} \label{sec:edgeeffect}
 \begin{figure*}
     \begin{center}
         \leavevmode
         \label{fig:smf}
         \epsscale{1.0}
-        \plotone{fig_smf_cylr2h25_thresh75_bin0_25.png}
-        \caption{Stellar mass functions for galaxies in the $30$ subsamples divided into redshift bins, $0.06-0.145$ (green), $0.2-0.4$ (red), $0.4-0.6$ 
+        \plotone{fig_qf_cylr2h25_thresh75_bin0_25.png}
+        \caption{Quiescent fraction for galaxies in the $30$ subsamples divided into redshift bins, $0.06-0.145$ (green), $0.2-0.4$ (red), $0.4-0.6$ 
 (magenta), $0.6-0.8$ (blue), and $0.8-1.0$ (black) with low, mid, and high environments. The environments were classified using cylindrical aperture of $R=1\rm{Mpc}$ and $H=50\rm{Mpc}$ 
 with environment classification thresholds specified in Table \ref{tab:aperture}. The mass bins for the SMFs and QFs have widths $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.3$. 
 SMFs for subsamples with the same environment density classification are plotted on panels along the same column: low (left), mid (middle), and high (right) environments. The top
@@ -343,7 +368,7 @@ panels plot SMFs for subsamples with star forming galaxies. The middle panels pl
 corresponding star-forming SMFs and quiescent SMFs in the same environment classification and redshift bin.}
     \end{center}
 \end{figure*}
-\subsection{Edge Effects} \label{sec:edgeeffect}
+
 One of the challenges in obtaining the galaxy environment using a fixed aperture method is accounting for the edge effects of the survey.
 For the target galaxies located near the edge of the survey, part of the fixed aperture encompassing it will lie outside the survey regions. 
 In this case, the $n_{env}$ will only reflect the galaxies which lie in the fraction of the aperture contained within the survey geometry.
@@ -388,7 +413,7 @@ $w_i$ represnts the statistical weight of each galaxy $i$ and $\Phi(\rm{log}\: \
 stellar mass range $[\rm{log} \:\mathcal{M}, \rm{log} \:\mathcal{M}+\Delta(\rm{log} \:\mathcal{M})]$.
 
 $V_{\rm{max},i}$ is the maximum cosmological volume where it is possible to observe each galaxy $i$ given the apparent magnitude limits of the survey.
-However in Section \ref{sec:edgeffect} we remove the galaxies that lie on the edge of from the target sample. 
+However in Section \ref{sec:edgeeffect} we remove the galaxies that lie on the edge of from the target sample. 
 In doing so we reduce the maximum cosmological volume where a galaxy can be observed, thereby reducing $V_{\rm{max},i}$ to a what we will refer to as $V_{\rm{max,avail},i}$.
 
 To calculate $V_{\rm{max,avail},i}$, we generate a sample of points with random $RA$, $Dec$, and $z$ (not to be confused with the ransack sample in Section \ref{sec:edgeeffect}) 
@@ -414,22 +439,9 @@ $\langle \Phi^j \rangle$ is the mean number density of galaxies in each stellar 
 Since the SDSS-{\em GALEX} data are contained in one field, we first divide the field into a $30 \times 20$ rectangular grid and then only keep the sectors with at least $100$ galaxies in them. 
 Then we use the same method as above to compute the uncertainties through the jack knife technique. 
 The panels in the top two rows of Figure \ref{fig:smf} show the SMFs with uncertainties for all $30$ subsamples using aperture with dimensions $R_{\rm{ap}} = 1 \rm{Mpc}$ and $h_{\rm{ap}} = 50 \rm{Mpc}$.  
+
 %Multiple apertures Additionally, we employ multiple apertures, as listed in Table \ref{tab:aperture}, since we are interested in probing the density environment at various scales. 
 %Each aperture size will result in a different environment classification; so, $18$ SMFs are generated separately for every aperture we employ. 
-\begin{figure*}
-    \begin{center}
-        \leavevmode
-        \label{fig:smf}
-        \epsscale{1.0}
-        \plotone{fig_qf_cylr2h25_thresh75_bin0_25.png}
-        \caption{Quiescent fraction for galaxies in the $30$ subsamples divided into redshift bins, $0.06-0.145$ (green), $0.2-0.4$ (red), $0.4-0.6$ 
-(magenta), $0.6-0.8$ (blue), and $0.8-1.0$ (black) with low, mid, and high environments. The environments were classified using cylindrical aperture of $R=1\rm{Mpc}$ and $H=50\rm{Mpc}$ 
-with environment classification thresholds specified in Table \ref{tab:aperture}. The mass bins for the SMFs and QFs have widths $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.3$. 
-SMFs for subsamples with the same environment density classification are plotted on panels along the same column: low (left), mid (middle), and high (right) environments. The top
-panels plot SMFs for subsamples with star forming galaxies. The middle panels plot the SMFs for subsamples with quiescent galaxies. The bottom panels plot the QFs for the 
-corresponding star-forming SMFs and quiescent SMFs in the same environment classification and redshift bin.}
-    \end{center}
-\end{figure*}
 
 \subsection{Quiescent Fraction} \label{sec:qf_const}
 In the last section, we calculated the SMFs for all subsamples of the target galaxies classified by star-forming/quiescent, environment, and redshift. 
@@ -456,7 +468,7 @@ The results obtained from using these different are consistent with the results 
     \begin{center}
         \leavevmode
         \epsscale{1.0}
-        \plotone{fig_qffit_cylr2h25_thresh75_bin0_25.eps}
+        \plotone{fig_qffit_cylr2h25_thresh75_bin0_25.png}
         \label{fig:qf}
         \caption{Quiescent fraction at fiducial mass $\rm{log} (\mathcal{M}/\mathcal{M}_{\odot}) = 10.5$ for low (triangle), mid (square) and high (circle) environments in redshift bins: $0.06-0.145$, $0.2-0.4$, $0.4-0.6$, $0.6-0.8$, and $0.8-1.0$. Comparing these linear fit values in the redshift range for the different environment densities suggest that the change in QFs is indepdent of environment density.}
     \end{center}
@@ -480,7 +492,7 @@ More importantly we find that the change in QF over redshift is independent of t
 %
 \bibliography{PRIMUS}
 
-\section{Appendix}
+\appendix
 \begin{table*} %Will contain much more information on environments. 
   \caption{Fixed Cylindrical Aperture Dimensions}
   \label{tab:aperture}
@@ -494,6 +506,7 @@ More importantly we find that the change in QF over redshift is independent of t
     \end{tabular}
   \end{center}
 \end{table*}
+
 \subsection{Stellar Mass Function} \label{sec:smf_const}
 \begin{figure*}
     \begin{center}
@@ -501,7 +514,17 @@ More importantly we find that the change in QF over redshift is independent of t
         \label{fig:smf}
         \epsscale{1.0}
         \plotone{fig_smf_cylr1h25_thresh80_bin0_25.png}
-        \caption{SMF and QF for $r_{\rm{ap}}=1 \rm{Mpc}$ and $h_{\rm{ap}}=25 \rm{Mpc}$}
+        \caption{SMF for $r_{\rm{ap}}=1 \rm{Mpc}$ and $h_{\rm{ap}}=25 \rm{Mpc}$}
+    \end{center}
+\end{figure*}
+
+\begin{figure*}
+    \begin{center}
+        \leavevmode
+        \label{fig:smf}
+        \epsscale{1.0}
+        \plotone{fig_qf_cylr1h25_thresh80_bin0_25.png}
+        \caption{QF for $r_{\rm{ap}}=1 \rm{Mpc}$ and $h_{\rm{ap}}=25 \rm{Mpc}$}
     \end{center}
 \end{figure*}
 
@@ -509,9 +532,10 @@ More importantly we find that the change in QF over redshift is independent of t
     \begin{center}
         \leavevmode
         \epsscale{1.0}
-        \plotone{fig_qffit_cylr1h25_thresh80_bin0_25.eps}
+        \plotone{fig_qffit_cylr1h25_thresh80_bin0_25.png}
         \label{fig:qf}
-        \caption{QF at fiducial mass for $r_{\rm{ap}}=1 \rm{Mpc}$ and $h_{\rm{ap}}=25 \rm{Mpc}$}
+        \caption{QF at fiducial mass for $r_{\rm{ap}}=2 \rm{Mpc}$ and $h_{\rm{ap}}=50 \rm{Mpc}$}
     \end{center}
 \end{figure*}
+
 \end{document}

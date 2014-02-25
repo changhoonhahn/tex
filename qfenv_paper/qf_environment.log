@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 FEB 2014 10:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 FEB 2014 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -291,7 +291,23 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 16.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 16.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 16.
 
-No file qf_environment.aux.
+(./qf_environment.aux
+
+LaTeX Warning: Label `fig:smf' multiply defined.
+
+
+LaTeX Warning: Label `sec:smf_const' multiply defined.
+
+
+LaTeX Warning: Label `fig:smf' multiply defined.
+
+
+LaTeX Warning: Label `fig:smf' multiply defined.
+
+
+LaTeX Warning: Label `fig:qf' multiply defined.
+
+)
 \openout1 = `qf_environment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -306,7 +322,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen127
@@ -388,26 +404,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 
-Package natbib Warning: Citation `hubble36a' on page 1 undefined on input line 
-50.
-
-
-Package natbib Warning: Citation `oemler74a' on page 1 undefined on input line 
-50.
-
-
-Package natbib Warning: Citation `dressler80a' on page 1 undefined on input lin
-e 50.
-
-
-Package natbib Warning: Citation `hermit96a' on page 1 undefined on input line 
-50.
-
-
-Package natbib Warning: Citation `guzzo97a' on page 1 undefined on input line 5
-0.
-
-
 Package natbib Warning: Citation `blanton09a' on page 1 undefined on input line
  51.
 
@@ -420,72 +416,20 @@ Package natbib Warning: Citation `dressler84a' on page 1 undefined on input lin
 e 58.
 
 
-Package natbib Warning: Citation `desai07a' on page 1 undefined on input line 5
-8.
-
-
-Package natbib Warning: Citation `bundy06a' on page 1 undefined on input line 7
-0.
-
-
-Package natbib Warning: Citation `borch06a' on page 1 undefined on input line 7
-0.
-
-
-Package natbib Warning: Citation `taylor09a' on page 1 undefined on input line 
-70.
-
-
 Package natbib Warning: Citation `moustakas13a' on page 1 undefined on input li
 ne 70.
-
-
-Package natbib Warning: Citation `cooper08a' on page 1 undefined on input line 
-73.
-
-
-Package natbib Warning: Citation `patel09a' on page 1 undefined on input line 7
-3.
-
-
-Package natbib Warning: Citation `kovac10a' on page 1 undefined on input line 7
-3.
-
-
-Package natbib Warning: Citation `hopkins06a' on page 1 undefined on input line
- 77.
 
 
 Package natbib Warning: Citation `noeske07a' on page 1 undefined on input line 
 79.
 
 
-Package natbib Warning: Citation `bell05a' on page 1 undefined on input line 81
-.
-
-
-Package natbib Warning: Citation `magnelli09a' on page 1 undefined on input lin
-e 81.
-
-
 Package natbib Warning: Citation `blanton06a' on page 1 undefined on input line
  85.
 
 
-Package natbib Warning: Citation `bundy06a' on page 1 undefined on input line 8
-5.
-
-
-Package natbib Warning: Citation `borch06a' on page 1 undefined on input line 8
-5.
-
-
 Package natbib Warning: Citation `moustakas13a' on page 1 undefined on input li
 ne 85.
-
-
-Package natbib Warning: Citation `cooper08a' on page 1 undefined on input line 
-88.
 
 
 Package natbib Warning: Citation `coil11a' on page 1 undefined on input line 10
@@ -495,453 +439,156 @@ Package natbib Warning: Citation `coil11a' on page 1 undefined on input line 10
 Package natbib Warning: Citation `cool13a' on page 1 undefined on input line 10
 5.
 
-
-LaTeX Warning: Reference `sec:primus' on page 1 undefined on input line 112.
-
-
-LaTeX Warning: Reference `sec:sdss' on page 1 undefined on input line 112.
-
-
-LaTeX Warning: Reference `sec:target' on page 1 undefined on input line 113.
-
-
-LaTeX Warning: Reference `sec:sfq' on page 1 undefined on input line 114.
-
-
-LaTeX Warning: Reference `sec:environment' on page 1 undefined on input line 11
-5.
-
-
-LaTeX Warning: Reference `sec:edgeeffect' on page 1 undefined on input line 116
-.
-
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 172.
 
-Package natbib Warning: Citation `Coil:2011aa' on page 2 undefined on input lin
-e 121.
-
-
-Package natbib Warning: Citation `Cool:2013aa' on page 2 undefined on input lin
-e 121.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 123.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 138.
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 132--139
-\OT1/cmr/m/n/10 UV (NUV) and far-UV (FUV) mea-sure-ments from
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 132--139
-\OT1/cmr/m/n/10 ). Fur-ther-more, we use ground-based op-ti-cal and
- []
-
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 140.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 142.
-
-
-Package natbib Warning: Citation `Moustakas' on page 2 undefined on input line 
-146.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 148.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 149.
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 140--150
-\OT1/cmr/m/n/10 i-cal prop-er-ties in a sim-pli-fied Bayesian frame-work.
+Underfull \hbox (badness 1147) in paragraph at lines 172--182
+\OT1/cmr/m/n/10 lar masses, star for-ma-tion rates (SFRs) and other
  []
 
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 165.
-
-
-LaTeX Warning: Reference `sec:primus' on page 2 undefined on input line 167.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 204.
-
-
-Package natbib Warning: Citation `Coil:2011aa' on page 2 undefined on input lin
-e 205.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 2 undefined on inpu
-t line 206.
-
-
-Package natbib Warning: Citation `Coil:2011aa' on page 2 undefined on input lin
-e 211.
-
-
-Package natbib Warning: Citation `Cool:2013aa' on page 2 undefined on input lin
-e 211.
-
-[2]
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 217.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 222.
-
-
-Package natbib Warning: Citation `Pozzetti:2010aa' on page 3 undefined on input
- line 222.
-
-
-LaTeX Warning: Reference `sec:environment' on page 3 undefined on input line 23
-4.
-
-
-LaTeX Warning: Reference `fig:targetEDP' on page 3 undefined on input line 238.
-
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 239.
-
-<fig_EDP_absmag_redshift.png, id=24, 772.5663pt x 338.9463pt>
+[2] <fig_EDP_absmag_redshift.png, id=26, 772.5663pt x 338.9463pt>
 File: fig_EDP_absmag_redshift.png Graphic file (type png)
 
 <use fig_EDP_absmag_redshift.png>
-Package pdftex.def Info: fig_EDP_absmag_redshift.png used on input line 246.
+Package pdftex.def Info: fig_EDP_absmag_redshift.png used on input line 188.
 (pdftex.def)             Requested size: 436.15294pt x 191.34985pt.
+ [3]
+
+Package natbib Warning: Citation `Behroozi:2013aa' on page 4 undefined on input
+ line 283.
 
 
-LaTeX Warning: Reference `sec:target' on page 3 undefined on input line 247.
+Package natbib Warning: Citation `Leja:2013aa' on page 4 undefined on input lin
+e 283.
 
 
-LaTeX Warning: Reference `sec:environment' on page 3 undefined on input line 24
-7.
+Package natbib Warning: Citation `Behroozi:2013aa' on page 4 undefined on input
+ line 289.
 
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 251.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 252.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 256.
-
-
-Package natbib Warning: Citation `Salim:2007aa' on page 3 undefined on input li
-ne 257.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 258.
-
-
-LaTeX Warning: Reference `eq:qsfclass' on page 3 undefined on input line 264.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 264.
-
-
-LaTeX Warning: Reference `tab:aperture' on page 3 undefined on input line 268.
-
-
-Package natbib Warning: Citation `Croton:2005aa' on page 3 undefined on input l
-ine 269.
-
-
-LaTeX Warning: Reference `tab:aperture' on page 3 undefined on input line 271.
-
-
-Package natbib Warning: Citation `Blanton:2006aa' on page 3 undefined on input 
-line 271.
-
-
-Package natbib Warning: Citation `Blanton:2006aa' on page 3 undefined on input 
-line 272.
-
-
-Package natbib Warning: Citation `Blanton:2006aa' on page 3 undefined on input 
-line 274.
-
-[3]
-
-LaTeX Warning: Reference `sec:primus' on page 4 undefined on input line 295.
-
-
-LaTeX Warning: Reference `sec:sdss' on page 4 undefined on input line 295.
-
-
-Package natbib Warning: Citation `Moustakas:20133aa' on page 4 undefined on inp
-ut line 303.
-
-
-LaTeX Warning: Reference `fig:targetEDP' on page 4 undefined on input line 313.
-
-
-
-LaTeX Warning: Reference `tab:aperture' on page 4 undefined on input line 320.
-
-
-LaTeX Warning: Reference `tab:aperture' on page 4 undefined on input line 322.
-
-
-LaTeX Warning: Reference `tab:aperture' on page 4 undefined on input line 326.
-
-[4 <./fig_EDP_absmag_redshift.png>]
-
-Package natbib Warning: Citation `Croton:2005aa' on page 5 undefined on input l
-ine 328.
-
-
-Package natbib Warning: Citation `Colless:2003aa' on page 5 undefined on input 
-line 328.
-
-
-Package natbib Warning: Citation `Muldrew:2012aa' on page 5 undefined on input 
-line 328.
-
-
-Package natbib Warning: Citation `Springel:2005aa' on page 5 undefined on input
- line 329.
-
-<fig_smf_cylr2h25_thresh75_bin0_25.png, id=37, 758.835pt x 614.295pt>
+<fig_smf_cylr2h25_thresh75_bin0_25.png, id=31, 758.835pt x 614.295pt>
 File: fig_smf_cylr2h25_thresh75_bin0_25.png Graphic file (type png)
 
 <use fig_smf_cylr2h25_thresh75_bin0_25.png>
 Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_25.png used on input li
-ne 337.
+ne 296.
 (pdftex.def)             Requested size: 436.15294pt x 353.08565pt.
+ [4 <./fig_EDP_absmag_redshift.png>]
 
+Package natbib Warning: Citation `Moustakas:20133aa' on page 5 undefined on inp
+ut line 328.
 
-LaTeX Warning: Reference `tab:aperture' on page 5 undefined on input line 343.
-
-
-LaTeX Warning: Reference `tab:aperture' on page 5 undefined on input line 352.
-
-
-LaTeX Warning: Reference `tab:aperture' on page 5 undefined on input line 362.
-
-
-LaTeX Warning: Reference `sec:smf_const' on page 5 undefined on input line 367.
-
-
-
-LaTeX Warning: Reference `sec:qf_const' on page 5 undefined on input line 369.
-
-
-LaTeX Warning: Reference `sec:sfq' on page 5 undefined on input line 373.
-
-
-LaTeX Warning: Reference `sec:environment' on page 5 undefined on input line 37
-5.
-
-
-LaTeX Warning: Reference `target' on page 5 undefined on input line 376.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 5 undefined on inpu
-t line 379.
-
-
-Package natbib Warning: Citation `Johnston:2011aa' on page 5 undefined on input
- line 380.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 5 undefined on inpu
-t line 385.
-
-
-LaTeX Warning: Reference `sec:edgeffect' on page 5 undefined on input line 391.
-
-
-
-LaTeX Warning: Reference `sec:edgeeffect' on page 5 undefined on input line 394
-.
-
-
-LaTeX Warning: Reference `sec:edgeeffect' on page 5 undefined on input line 396
-.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 5 undefined on inpu
-t line 400.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 5 undefined on inpu
-t line 402.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 5 undefined on inpu
-t line 404.
-
-[5]
-
-LaTeX Warning: Reference `fig:smf' on page 6 undefined on input line 416.
-
+[5 <./fig_smf_cylr2h25_thresh75_bin0_25.png>]
 <fig_qf_cylr2h25_thresh75_bin0_25.png, id=42, 758.835pt x 433.62pt>
 File: fig_qf_cylr2h25_thresh75_bin0_25.png Graphic file (type png)
 
 <use fig_qf_cylr2h25_thresh75_bin0_25.png>
 Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_25.png used on input lin
-e 424.
+e 362.
 (pdftex.def)             Requested size: 436.15294pt x 249.23692pt.
 
 
-LaTeX Warning: Reference `tab:aperture' on page 6 undefined on input line 430.
+LaTeX Warning: Reference `target' on page 6 undefined on input line 401.
 
+[6] <fig_qffit_cylr2h25_thresh75_bin0_25.png, id=47, 614.295pt x 614.295pt>
+File: fig_qffit_cylr2h25_thresh75_bin0_25.png Graphic file (type png)
 
-LaTeX Warning: Reference `eq:phi' on page 6 undefined on input line 440.
-
-
-LaTeX Warning: Reference `fig:smf' on page 6 undefined on input line 442.
-
-
-LaTeX Warning: Reference `fig:qf' on page 6 undefined on input line 447.
-
-[6 <./fig_smf_cylr2h25_thresh75_bin0_25.png>]
-Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_25.eps>
-(epstopdf)                    date: 2014-02-24 10:17:52
-(epstopdf)                    size: 24952 bytes
-(epstopdf)             Output file: <fig_qffit_cylr2h25_thresh75_bin0_25-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2014-02-24 10:30:11
-(epstopdf)                    size: 12122 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr2h25_thresh7
-5_bin0_25-eps-converted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_25.eps>
-(epstopdf)             \includegraphics on input line 459.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig_qffit_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf, id=48, 614.295pt x 6
-14.295pt>
-File: fig_qffit_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf Graphic file (ty
-pe pdf)
- <use fig_qffit_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf>
-Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_25-eps-converted-to.p
-df used on input line 459.
+<use fig_qffit_cylr2h25_thresh75_bin0_25.png>
+Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_25.png used on input 
+line 471.
 (pdftex.def)             Requested size: 208.47804pt x 208.47322pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 484.
 
-
-LaTeX Warning: Reference `fig:qf' on page 7 undefined on input line 467.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 472.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 472.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 484.
+ [7 <./fig_qf_cylr2h25_thresh75_bin0_25.png>]
 
-(./qf_environment.bbl [7 <./fig_qf_cylr2h25_thresh75_bin0_25.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 136.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 486.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 136.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 486.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-) <fig_smf_cylr1h25_thresh80_bin0_25.png, id=54, 758.835pt x 614.295pt>
+(./qf_environment.bbl)
+<fig_smf_cylr1h25_thresh80_bin0_25.png, id=53, 758.835pt x 614.295pt>
 File: fig_smf_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
 
 <use fig_smf_cylr1h25_thresh80_bin0_25.png>
 Package pdftex.def Info: fig_smf_cylr1h25_thresh80_bin0_25.png used on input li
-ne 503.
+ne 516.
 (pdftex.def)             Requested size: 436.15294pt x 353.08565pt.
-Package epstopdf Info: Source file: <fig_qffit_cylr1h25_thresh80_bin0_25.eps>
-(epstopdf)                    date: 2014-02-24 10:17:52
-(epstopdf)                    size: 24868 bytes
-(epstopdf)             Output file: <fig_qffit_cylr1h25_thresh80_bin0_25-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2014-02-24 10:34:18
-(epstopdf)                    size: 12086 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr1h25_thresh8
-0_bin0_25-eps-converted-to.pdf fig_qffit_cylr1h25_thresh80_bin0_25.eps>
-(epstopdf)             \includegraphics on input line 512.
-Package epstopdf Info: Output file is already uptodate.
 
-<fig_qffit_cylr1h25_thresh80_bin0_25-eps-converted-to.pdf, id=55, 614.295pt x 6
-14.295pt>
-File: fig_qffit_cylr1h25_thresh80_bin0_25-eps-converted-to.pdf Graphic file (ty
-pe pdf)
- <use fig_qffit_cylr1h25_thresh80_bin0_25-eps-converted-to.pdf>
-Package pdftex.def Info: fig_qffit_cylr1h25_thresh80_bin0_25-eps-converted-to.p
-df used on input line 512.
+<fig_qf_cylr1h25_thresh80_bin0_25.png, id=54, 758.835pt x 433.62pt>
+File: fig_qf_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
+
+<use fig_qf_cylr1h25_thresh80_bin0_25.png>
+Package pdftex.def Info: fig_qf_cylr1h25_thresh80_bin0_25.png used on input lin
+e 526.
+(pdftex.def)             Requested size: 436.15294pt x 249.23692pt.
+
+<fig_qffit_cylr1h25_thresh80_bin0_25.png, id=55, 614.295pt x 614.295pt>
+File: fig_qffit_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
+
+<use fig_qffit_cylr1h25_thresh80_bin0_25.png>
+Package pdftex.def Info: fig_qffit_cylr1h25_thresh80_bin0_25.png used on input 
+line 535.
 (pdftex.def)             Requested size: 436.15294pt x 436.1525pt.
 
 
 Package natbib Warning: There were undefined citations.
 
-[8 <./fig_qffit_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf>] [9 <./fig_smf_
-cylr1h25_thresh80_bin0_25.png>] [10 <./fig_qffit_cylr1h25_thresh80_bin0_25-eps-
-converted-to.pdf>] (./qf_environment.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+[8 <./fig_qffit_cylr2h25_thresh75_bin0_25.png>] [9 <./fig_smf_cylr1h25_thresh80
+_bin0_25.png>] [10 <./fig_qf_cylr1h25_thresh80_bin0_25.png>] [11 <./fig_qffit_c
+ylr1h25_thresh80_bin0_25.png>] (./qf_environment.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5159 strings out of 493315
- 69421 string characters out of 6137904
- 154264 words of memory out of 5000000
- 8512 multiletter control sequences out of 15000+600000
- 12045 words of font info for 49 fonts, out of 8000000 for 9000
+ 5206 strings out of 493315
+ 70417 string characters out of 6137904
+ 169103 words of memory out of 5000000
+ 8558 multiletter control sequences out of 15000+600000
+ 11736 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,9n,28p,1227b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,9n,28p,1115b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
-/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (10 pages, 730028 bytes).
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
+rw/courier/ucrr8a.pfb>
+Output written on qf_environment.pdf (11 pages, 922456 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

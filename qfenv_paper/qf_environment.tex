@@ -44,12 +44,6 @@ $f_{\rm{Q}}$ at high and low environment remains constant at $< 0.1$.
 These results suggest that while $f_{\rm{Q}}$ increases for galaxies in 
 both dense and sparse environments over redshift, the evolution of $f_{\rm{Q}}$ 
 is independent of environment. 
-%The SMF evolution suggests that in dense environments over the redshift range $z=0.8$ to $0.0$, the SMF of 
-%quiescent galaxies increase by a factor of $over9000$ for $\mathcal{M}_{*} < 11.0$ 
-%while the SMF of the star-forming galaxies evolves little for all masses. Meanwhile in low 
-%density environments from $z=0.8$ to $0.0$, we find that the SMF of quiescent 
-%galaxies evolves little for all stellar masses and the SMF of star-forming 
-%galaxies decreases by a factor of $over9000$ for $\mathcal{M}_{*} > 10.5$.  
 \end{abstract}
 
 %Section heading
@@ -115,7 +109,7 @@ using the Prism Multi-object Survey (PRIMUS; \cite{Coil:2011aa},
 \cite{Cool:2013aa}), the largest available redshift survey covering the epochs
 between $0<z<1$.
 
-\section{Sample Selection}
+\section{Sample Selection} \label{sec:sample}
 In this paper we are interested in measuring the evolution of the quiescent 
 fraction over a wide range of redshifts and in different galaxy environments. 
 In order construct a sample with redshift depth and robust enough redshift values 
@@ -309,6 +303,7 @@ Similar fixed aperture methods have also been used in \cite{Croton:2005aa} for g
 Survey (\cite{Colless:2003aa}) and in \cite{Muldrew:2012aa} for a mock galaxy catalogue generated from embedding 
 galaxies onto the Millenium Dark Matter Simulation (\cite{Springel:2005aa}). 
 %include a sentence that sums up everything in Croton and Muldrew? 
+%Also include remarks on Wilman et al. 
 
 In order to measure environment using an aperture defined above, we first construct a volume limited 
 {\em Environment Defining Population} (EDP) with absolute magnitude cut-offs ($M_{r}$) at each redshift bin. 
@@ -403,18 +398,24 @@ If $n_{\rm{ransack}}$ for a target galaxy is greater than $E[n_{\rm{ransack}}]$ 
 in the sample; otherwise, it is discarded from the sample. 
 
 \section{Results}
-In this section, we describe our calculation to obtain the stellar mass functions (SMF) and quiescent fraction (QF) using the stellar mass complete target population.
-In Section \ref{sec:smf_const} we construct the non-parametric estimate of SMFs for star-forming and quiescent galaxies in redshift bins: $0.06-0.145$, $0.2-0.4$, 
-$0.4-0.6$, $0.6-0.8$, and $0.8-1.0$.
-Form these SMFs, we calculate the QFs in section \ref{sec:qf_const}.
+In the section below, we calculate stellar mass functions (SMFs) for the target galaxy population divided into 
+quiescent/star-forming and dense/sparse environment, Section \ref{sec:smf_const}. We use a non-parametric 
+$1/V_{\rm{max}}$ estimate of SMFs for the subsamples further divided into redshift bins. Then using these 
+SMFs, we calculate the quiescent fractions (QFs), Section \ref{sec:qf_const}, 
+and examine it's evolution over our redshift range. 
 
 \subsection{Stellar Mass Function} \label{sec:smf_const}
-Our primary interest in the SMFs is to investigate the evolution of the quiescent fraction in different density environments over our redshift range. 
-Hence, we first divide the target galaxy sample into quiescent and star-forming target samples using the classification scheme from Section \ref{sec:sfq}.
-Both the quiescent and star-forming target samples are then divided into "high-environment","mid-environment", and "low-environment" based on their environment classification described in 
-Section \ref{sec:environment}.
-We use the five redshift bins described in \ref{target} to get a total of $30$ subsamples that are classified based on star-forming/quiescent, environment, and redshift.
-For each of these subsamples, we calculate the SMFs and their errors. 
+The target galaxy sample defined above has so far
+been classified into quiescent or star-forming and 
+dense or sparse. We further divide these subsamples 
+into bins of redshift:  in redshift bins of $0.06-0.145$, 
+$0.2-0.4$, $0.4-0.6$, and $0.6-0.8$. While the 
+PRIMUS data ranges from $0.2 < z < 1.2$, we only 
+consider galaxies with $ z<0.8$ due to insufficient
+statistics for robust environment measurements at 
+higher redshifts. With added redshift bins, we have a
+total of 16 subsamples. We calculate the SMF for 
+each of these 16 subsamples. 
 
 To calculate the SMFs we employ a non-parametric $1/{V_{\rm{max}}}$ estimator commonly used for galaxy luminosity functions, as done in \cite{Moustakas:2013aa} and discussed 
 in the review \cite{Johnston:2011aa}. 
@@ -457,6 +458,13 @@ The panels in the top two rows of Figure \ref{fig:smf} show the SMFs with uncert
 
 %Multiple apertures Additionally, we employ multiple apertures, as listed in Table \ref{tab:aperture}, since we are interested in probing the density environment at various scales. 
 %Each aperture size will result in a different environment classification; so, $18$ SMFs are generated separately for every aperture we employ. 
+
+%The SMF evolution suggests that in dense environments over the redshift range $z=0.8$ to $0.0$, the SMF of 
+%quiescent galaxies increase by a factor of $over9000$ for $\mathcal{M}_{*} < 11.0$ 
+%while the SMF of the star-forming galaxies evolves little for all masses. Meanwhile in low 
+%density environments from $z=0.8$ to $0.0$, we find that the SMF of quiescent 
+%galaxies evolves little for all stellar masses and the SMF of star-forming 
+%galaxies decreases by a factor of $over9000$ for $\mathcal{M}_{*} > 10.5$.  
 
 \subsection{Quiescent Fraction} \label{sec:qf_const}
 In the last section, we calculated the SMFs for all subsamples of the target galaxies classified by star-forming/quiescent, environment, and redshift. 

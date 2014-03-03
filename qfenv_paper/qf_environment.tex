@@ -417,64 +417,96 @@ higher redshifts. With added redshift bins, we have a
 total of 16 subsamples. We calculate the SMF for 
 each of these 16 subsamples. 
 
-To calculate the SMFs we employ a non-parametric $1/{V_{\rm{max}}}$ estimator commonly used for galaxy luminosity functions, as done in \cite{Moustakas:2013aa} and discussed 
-in the review \cite{Johnston:2011aa}. 
-The differential SMF is given by the following equation:
+To calculate the SMFs we employ a non-parametric 
+$1/{V_{\rm{max}}}$ estimator commonly used for 
+galaxy luminosity functions and stellar mass functions
+, as done in \cite{Moustakas:2013aa} and discussed 
+in the review \cite{Johnston:2011aa}. The differential 
+SMF is given by the following equation:
 \begin{equation} \label{eq:phi}
 \Phi(\rm{log}\: \mathcal{M}) \Delta(\rm{log} \:\mathcal{M}) = \sum\limits_{i=1}^{N} \frac{w_i}{V_{\rm{max,avail},i}}. 
 \end{equation}
-The equation above is the same as Equation 3. in \cite{Moustakas:2013aa} other than the use of $V_{\rm{max,avail}}$ instead than $V_{\rm{max}}$, which is used because of edge effect 
-considerations along the edges of the survey. 
-$w_i$ represnts the statistical weight of each galaxy $i$ and $\Phi(\rm{log}\: \mathcal{M}) \Delta(\rm{log}\: \mathcal{M})$ is the number of galaxies ($N$) per unit volume within the 
-stellar mass range $[\rm{log} \:\mathcal{M}, \rm{log} \:\mathcal{M}+\Delta(\rm{log} \:\mathcal{M})]$.
+The equation above is same as Equation 3. in 
+\cite{Moustakas:2013aa} except for the distinction that 
+we use $V_{\rm{max,avail}}$ instead than $V_{\rm{max}}$, 
+to account for the edge effects of the survey for our
+environment measurements. $w_i$ here represents 
+the statistical weight of each galaxy $i$ and 
+$\Phi(\rm{log}\: \mathcal{M}) \Delta(\rm{log}\: \mathcal{M})$ 
+is the number of galaxies ($N$) per unit volume within the 
+stellar mass range 
+$[\rm{log} \:\mathcal{M}, \rm{log} \:\mathcal{M}+\Delta(\rm{log} \:\mathcal{M})]$.
 
-$V_{\rm{max},i}$ is the maximum cosmological volume where it is possible to observe each galaxy $i$ given the apparent magnitude limits of the survey.
-However in Section \ref{sec:edgeeffect} we remove the galaxies that lie on the edge of from the target sample. 
-In doing so we reduce the maximum cosmological volume where a galaxy can be observed, thereby reducing $V_{\rm{max},i}$ to a what we will refer to as $V_{\rm{max,avail},i}$.
+$V_{\rm{max},i}$ is the maximum cosmological volume 
+where it is possible to observe galaxy $i$ given the apparent 
+magnitude limits of the survey. However in Section \ref{sec:edgeeffect} 
+we remove the galaxies that lie on the edge from our sample. 
+In doing so we reduce the maximum cosmological volume 
+where a galaxy can be observed, thereby reducing $V_{\rm{max},i}$.
 
-To calculate $V_{\rm{max,avail},i}$, we generate a sample of points with random $RA$, $Dec$, and $z$ (not to be confused with the ransack sample in Section \ref{sec:edgeeffect}) 
-within the target fields and the redshift limits of the surveys.
-We then impose the same edge effect cut-off used on the target galaxy population, described in Section \ref{sec:edgeeffect}, onto this random sample. 
-For each redshift bin $j$ out of the $n_{\rm{bin}}$ redshift bins, we compute the fraction of the random points that remain in the bin after the points near the edges are removed: 
-$f_{\rm{edge},j}$.
-Finally we calculate: $V_{\rm{max,avail},i} = V_{\rm{max},i} \times f_{\rm{edge},j}$. 
-The $V_{\rm{max},i}$ values in the equation above are computed following the method described in \cite{Moustakas:2013aa} with the same redshift-dependent $K$-correction 
-from observed SED and luminosity evolution model.
-For more details on computing $V_{\rm{max}}$ we refer readers to Section 4.2 in \cite{Moustakas:2013aa}. 
+To calculate $V_{\rm{max,avail},i}$, we generate a sample of 
+points with random $RA$, $Dec$ within the window function of 
+the target sample and $z$ in the redshift range. This is not to be 
+confused with the ransack sample in Section \ref{sec:edgeeffect}. 
+We then impose the same edge cuts we applied to the target 
+galaxy population. At redshift bins of $\Delta z \sim 0.01$, we 
+compute theraction of random points that remain in the bin after 
+the edge cuts: $f_{\rm{edge}}$. Afterwards we apply this factor to 
+compute $V_{\rm{max,avail}} = V_{\rm{max}} \times f_{\rm{edge}}$. 
+The $V_{\rm{max}}$ in the equation above are computed following 
+the method described in \cite{Moustakas:2013aa} Section 4.2 with 
+the same redshift-dependent $K$-correction from observed SED 
+and luminosity evolution model.
 
-In order to calculate the uncertainty of the SMFs from the sample variance, we use a standard jackknife technique as done in \cite{Moustakas:2013aa}.
-For the PRIMUS target galaxies, we calculate SMFs after excluding one of the target fields each time.
-Note in these SMF calculations, the $1/V_{\rm{max},\rm{avail}}$ is corrected for the fact that excluding a field changes the total area of the survey.
+In order to calculate the uncertainty of the SMFs from the sample 
+variance, we use a standard jackknife technique as done in \cite{Moustakas:2013aa}.
+For the PRIMUS target galaxies, we calculate SMFs after excluding 
+one of the five target fields each time. And for the SDSS target galaxies
+we divide the field into a 30 $\times$ 20 rectangular $RA$ and $Dec$ 
+grid and calculate the SMFs after excluding part of the field each time. 
 Then using the calculated SMFs we calculate the uncertainty: 
 \begin{equation}
 \sigma^j = \sqrt{\frac{M-1}{M} \sum\limits_{k=1}^{M} (\Phi^j_k - \langle \Phi^j \rangle)^2}
 \end{equation} 
-$M$ in this equation is the number of jack knife SMFs in the mass bin; this value is different for each of the stellar mass bins since not all mass bins have galaxies from all five target fields.
-$\langle \Phi^j \rangle$ is the mean number density of galaxies in each stellar mass bin for all of the jack knife $\Phi^j$s.
+$M$ in this equation is the number of jack knife SMFs in the stellar mass
+bins. $\langle \Phi^j \rangle$ is the mean number density of galaxies 
+in each stellar mass bin for all of the jack knife $\Phi^j$s. The SMFs for 
+16 target galaxy subsamples classified into quiescent/star-forming (orange/blue)and 
+dense/spare environments are presented in Figure \ref{fig:smf}. The 
+redshift evolution of the SMFs are indicated by a darker shade for lower
+redshifts. The sample variance uncertainties are represented by the 
+width of the SMFs. The environment measurements and classifications
+for Figure \ref{fig:smf} is done using a cylindrical aperture with dimensions,
+$R_{\rm{ap}} = 2 \; \rm{Mpc}/h$ and $H_{\rm{ap}} = 25 \; \rm{Mpc}/h$. 
 
-Since the SDSS-{\em GALEX} data are contained in one field, we first divide the field into a $30 \times 20$ rectangular grid and then only keep the sectors with at least $100$ galaxies in them. 
-Then we use the same method as above to compute the uncertainties through the jack knife technique. 
-The panels in the top two rows of Figure \ref{fig:smf} show the SMFs with uncertainties for all $30$ subsamples using aperture with dimensions $R_{\rm{ap}} = 1 \rm{Mpc}$ and $h_{\rm{ap}} = 50 \rm{Mpc}$.  
-
-%Multiple apertures Additionally, we employ multiple apertures, as listed in Table \ref{tab:aperture}, since we are interested in probing the density environment at various scales. 
-%Each aperture size will result in a different environment classification; so, $18$ SMFs are generated separately for every aperture we employ. 
-
-%The SMF evolution suggests that in dense environments over the redshift range $z=0.8$ to $0.0$, the SMF of 
-%quiescent galaxies increase by a factor of $over9000$ for $\mathcal{M}_{*} < 11.0$ 
-%while the SMF of the star-forming galaxies evolves little for all masses. Meanwhile in low 
-%density environments from $z=0.8$ to $0.0$, we find that the SMF of quiescent 
-%galaxies evolves little for all stellar masses and the SMF of star-forming 
-%galaxies decreases by a factor of $over9000$ for $\mathcal{M}_{*} > 10.5$.  
+Examining the SMF evolution over $z \sim 0 - 0.8$, we find that in dense 
+environments, the quiescent SMFs increase by a factor of $over9000$ 
+for $\mathcal{M}_{*} < 11.0$ while the SMF of the star-forming 
+galaxies evolves little for all masses. Meanwhile in low density 
+environments from $z=0.8$ to $0.0$, we find that the SMF of 
+quiescent galaxies evolves little for all stellar masses and the 
+SMF of star-forming galaxies decreases by a factor of $over9000$ 
+for $\mathcal{M}_{*} > 10.5$.  
+%%% EXPAND ON ANALYSIS OF SMF
 
 \subsection{Quiescent Fraction} \label{sec:qf_const}
-In the last section, we calculated the SMFs for all subsamples of the target galaxies classified by star-forming/quiescent, environment, and redshift. 
-In this section, we use the $\Phi$ calculated for each subsample above to compute their respective $\rm{QF}$s: 
+Using the SMF number densities ($\Phi$) calculated above, 
+in this section, we compute the quiescent fraction, $f_{\rm{Q}}$ 
+for dense and sparse environments over the redshift range 
+$0.0 - 0.8$.  The quiescent fraction is simply given by the following 
+equation: 
 \begin{equation}
-\rm{QF} = \frac{\Phi_{Q}}{\Phi_{SF}+\Phi_{Q}}.
+f_{\rm{Q}} = \frac{\Phi_{Q}}{\Phi_{SF}+\Phi_{Q}}.
 \end{equation}
-$\Phi_{Q}$ and $\Phi_{SF}$ are the total number of galaxies per unit volume in stellar mass bin $\Delta(\rm{log} \: \mathcal{M})$ (Equation \ref{eq:phi}) for the quiescent and star-forming subsamples, respectively.
-A value for the $\rm{QF}$ is not assigned in stellar mass bins where either the star-formation subsample or the quiescent subsample do not have any galaxies. 
-The bottom panels of Figure \ref{fig:smf} shows the $\rm{QF}$s for the different redshift bins and environment density classifications.
+$\Phi_{Q}$ and $\Phi_{SF}$ are the total number of galaxies 
+per unit volume in stellar mass bin of $\Delta(\rm{log} \: \mathcal{M}) = 0.25$ 
+for the quiescent and star-forming subsamples, respectively 
+(Equation \ref{eq:phi}). The bottom panels of Figure \ref{fig:smf} 
+shows the evolution of $f_{\rm{Q}}$ for dense (right) and sparse (left)
+environments. As before, the darker shades of orange represent 
+lower redshift bins. 
+
+%%% INCLUDE BRIEF QUALITATIVE ANALYSIS OF THE EVOLUTION OF THE QUIESCENT FRACTION
 
 In order to compare the $\rm{QF}$s at different redshift for each of the environment classifications, we perform a linear least squares fit on the $\rm{QF}$ for all the $\rm{QF}$s. 
 Then we use the value of the linear fit at an empirically selected fiducial mass $\rm{log} \: \mathcal{M}/\mathcal{M}_{\odot} = 10.5$ (using fiducial mass of $\rm{log} \: \mathcal{M}/

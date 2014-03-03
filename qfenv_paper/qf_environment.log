@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 FEB 2014 18:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAR 2014 00:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,11 +440,11 @@ Package pdftex.def Info: fig_EDP_absmag_redshift.png used on input line 194.
 (pdftex.def)             Requested size: 436.15294pt x 191.34985pt.
  [2] [3 <./fig_EDP_absmag_redshift.png>]
 Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_25.eps>
-(epstopdf)                    date: 2014-02-25 08:58:46
+(epstopdf)                    date: 2014-02-23 18:00:22
 (epstopdf)                    size: 42838 bytes
 (epstopdf)             Output file: <fig_smf_cylr2h25_thresh75_bin0_25-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2014-02-25 08:58:46
+(epstopdf)                    date: 2014-02-23 18:01:18
 (epstopdf)                    size: 19550 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_smf_cylr2h25_thresh75_
 bin0_25-eps-converted-to.pdf fig_smf_cylr2h25_thresh75_bin0_25.eps>
@@ -461,11 +461,11 @@ Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_25-eps-converted-to.pdf
 (pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
  [4]
 Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_25.eps>
-(epstopdf)                    date: 2014-02-25 08:58:46
+(epstopdf)                    date: 2014-02-23 18:09:51
 (epstopdf)                    size: 29011 bytes
 (epstopdf)             Output file: <fig_qf_cylr2h25_thresh75_bin0_25-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2014-02-25 08:58:46
+(epstopdf)                    date: 2014-02-25 00:59:39
 (epstopdf)                    size: 14635 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_qf_cylr2h25_thresh75_b
 in0_25-eps-converted-to.pdf fig_qf_cylr2h25_thresh75_bin0_25.eps>
@@ -487,16 +487,16 @@ File: fig_qffit_cylr2h25_thresh75_bin0_25.png Graphic file (type png)
 
 <use fig_qffit_cylr2h25_thresh75_bin0_25.png>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_25.png used on input 
-line 494.
+line 526.
 (pdftex.def)             Requested size: 208.47804pt x 208.47322pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 511.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 543.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 511.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 543.
 
 (./qf_environment.bbl [7 <./fig_qffit_cylr2h25_thresh75_bin0_25.png>])
 <fig_smf_cylr1h25_thresh80_bin0_25.png, id=56, 758.835pt x 614.295pt>
@@ -504,7 +504,7 @@ File: fig_smf_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
 
 <use fig_smf_cylr1h25_thresh80_bin0_25.png>
 Package pdftex.def Info: fig_smf_cylr1h25_thresh80_bin0_25.png used on input li
-ne 543.
+ne 575.
 (pdftex.def)             Requested size: 436.15294pt x 353.08565pt.
 
 <fig_qf_cylr1h25_thresh80_bin0_25.png, id=57, 758.835pt x 433.62pt>
@@ -512,7 +512,7 @@ File: fig_qf_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
 
 <use fig_qf_cylr1h25_thresh80_bin0_25.png>
 Package pdftex.def Info: fig_qf_cylr1h25_thresh80_bin0_25.png used on input lin
-e 553.
+e 585.
 (pdftex.def)             Requested size: 436.15294pt x 249.23692pt.
 
 <fig_qffit_cylr1h25_thresh80_bin0_25.png, id=58, 614.295pt x 614.295pt>
@@ -520,7 +520,7 @@ File: fig_qffit_cylr1h25_thresh80_bin0_25.png Graphic file (type png)
 
 <use fig_qffit_cylr1h25_thresh80_bin0_25.png>
 Package pdftex.def Info: fig_qffit_cylr1h25_thresh80_bin0_25.png used on input 
-line 562.
+line 594.
 (pdftex.def)             Requested size: 436.15294pt x 436.1525pt.
  [8 <./fig_smf_cylr1h25_thresh80_bin0_25.png>] [9 <./fig_qf_cylr1h25_thresh80_b
 in0_25.png>] [10 <./fig_qffit_cylr1h25_thresh80_bin0_25.png>] (./qf_environment
@@ -530,13 +530,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5336 strings out of 493315
- 72459 string characters out of 6137904
+ 5335 strings out of 493315
+ 72449 string characters out of 6137904
  161712 words of memory out of 5000000
- 8680 multiletter control sequences out of 15000+600000
+ 8679 multiletter control sequences out of 15000+600000
  11736 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,9n,28p,802b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,9n,28p,802b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
@@ -558,7 +558,7 @@ pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (10 pages, 691803 bytes).
+Output written on qf_environment.pdf (10 pages, 691344 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream

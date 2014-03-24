@@ -218,7 +218,7 @@ Further details on the photometry of the SDSS data used in this paper is provide
 To obtain the stellar masses and SFRs for the SDSS data we use \texttt{iSEDfit}, as we did for the PRIMUS data in Section \ref{sec:primus}.  
 However, we use twelve photometric bands: {\em GALEX} FUV and NUV, SDSS $ugriz$, 2MASS $JHK_{s}$, and WISE $3.4$ and $4.6 \mu \rm{m}$.
 
-\subsection{Target Galaxy Samples} \label{sec:target} 
+\subsection{Target Galaxy Sample} \label{sec:target} 
 In this seciton we will define the target galaxy sample we use to compute the SMFs and QFs.
 The population at $z \sim 0.5$ is derived from the PRIMUS data and the population at $z \sim 0.1$ is derived from the SDSS data, both described above.
 For the intermediate redshift target galaxy population, we begin with the selection criteria imposed in \cite{Moustakas:2013aa} for its parent sample.
@@ -287,37 +287,62 @@ progressively lighter.}
 \end{figure*}
 
 \subsection{Galaxy Environment} \label{sec:environment}
-In addition to the quiescent/star-forming classification, we now measure the environment for the target galaxy sample. 
-First, we define the environment of a galaxy as the number of neighboring galaxies contained within a fixed aperture centered around it.
-As our aperture, we use a cylinder with dimensions with $R_{\rm{ap}} = 2 \; \rm{Mpc}/h$ and $H_{\rm{ap}} = 25 \; \rm{Mpc}/h$. 
-Though spherical apertures are often used in literature (e.g. \cite{Croton:2005aa}), we use a cylindrical aperture in order to 
-account for the PRIMUS redshift errors and redshift space distortions.  
-Furthermore, we use a cylinder with the specified dimensions based on scale dependence for clustering analysis done in 
-\cite{Blanton:2006aa}, which suggests that galactic properties such as star-formation histories are dependent on properties
- such as the masses of their host dark matter halos.
-Hence, with cylindrical apertures of $R_{\rm{ap}} = 2 \; \rm{Mpc}/h$ we are able to probe the local small scale environment 
-within the scales of the host dark matter halos.
-We extend our analysis to cylindrical apertures with cylindrical apertures with $R_{\rm{ap}} = 1 \; \rm{Mpc}/h$; however 
-we find that the variation in $R_{\rm{ap}}$ does not change our results significantly (difference in $f_{Q} < 0.05$). 
-Similar fixed aperture methods have also been used in \cite{Croton:2005aa} for galaxies in the 2dF Galaxy Redshift 
-Survey (\cite{Colless:2003aa}) and in \cite{Muldrew:2012aa} for a mock galaxy catalogue generated from embedding 
-galaxies onto the Millenium Dark Matter Simulation (\cite{Springel:2005aa}). 
-%include a sentence that sums up everything in Croton and Muldrew? 
-%Also include remarks on Wilman et al. 
+In addition to the quiescent/star-forming classification, in this section, 
+we measure the environment for our target galaxies. We define the 
+environment of a galaxy as the number of neighboring galaxies 
+contained within a fixed aperture centered around it. We use a fixed 
+aperture environment because, as \cite{Muldrew:2012aa} finds in 
+their comparison of different environment definition using simulations, 
+it provides a better probe of the entire halo in comparison to other 
+environment definitions such as nearest neighbor, which provides 
+a better tracer at inter-halo scales. For our aperture, 
+we use a cylinder of dimensions: $R_{\rm{ap}} = 2 \; \rm{Mpc}/h$ and 
+$H_{\rm{ap}} = 25 \; \rm{Mpc}/h$. Though spherical apertures are 
+often used in literature (e.g. \cite{Croton:2005aa}), we use a 
+cylindrical aperture in order to account for the PRIMUS redshift errors 
+and redshift space distortions (i.e. "Finger of God" effect). \cite{Cooper:2005aa} 
+finds that $\pm 1000 \; \rm{km} \rm{s^{-1}}$ optimally reduces the 
+effects of redshift space distortions and PRIMUS $\sigma_z \sim 
+0.0085$ at $z \sim 0.7$, so aperture height of $25 \; \rm{Mpc}/h$ 
+successfully accounts for both of these effects. Furthermore, our 
+choice of cylinder radius was motivated by scale dependence 
+analyses in literature (\cite{Blanton:2006aa}, \cite{Wilman:2010aa}, 
+and \cite{Muldrew:2012aa}), which suggest that galactic properties 
+such as color and quenched fractions are dependent on halo-scale 
+properties such as host dark matter halo mass. \cite{Wilman:2010aa}, 
+which uses environment defined by annuli of different radii, find 
+positive correlation for quenched fraction and color on scales 
+$< 1 \; \rm{Mpc}$ and anti-correlation on scales $> 3 \; \rm{Mpc}$. 
+Our choice of $2 \rm{Mpc}/h$ provides sufficient sample size of 
+galaxies in dense environments, for robust statistics, while 
+tracing galactic properties within the halo scale. When we extend our 
+analysis to cylindrical apertures with $R_{\rm{ap}} = 1 \; \rm{Mpc}/h$, 
+we find that the change in $R_{\rm{ap}}$ does not significantly change 
+our results (difference in $f_{Q} < 0.05$). 
+%Similar fixed aperture methods have also been used in \cite{Croton:2005aa} for galaxies in the 2dF Galaxy Redshift 
+%Survey (\cite{Colless:2003aa}) and in \cite{Muldrew:2012aa} for a mock galaxy catalogue generated from embedding 
+%galaxies onto the Millenium Dark Matter Simulation (\cite{Springel:2005aa}). 
 
-In order to measure environment using an aperture defined above, we first construct a volume limited 
-{\em Environment Defining Population} (EDP) with absolute magnitude cut-offs ($M_{r}$) at each redshift bin. 
-The $M_{r}$ cut-offs are selected so that the cumulative number density over $M_{r}$ at all redshift bins are equal. 
-By equating the cumulative number densities at different redshifts not only can we reasonably compare the 
-environment values at different redshift bins but we also attempt to build an EDP that has a similar galaxy 
-population in all of the redshift bins i.e. accounts for the progenitor bias. 
-As \cite{Behroozi:2013aa} and \cite{Leja:2013aa} find in their analysis of the cumulative number density 
-method using a dark matter simulation with abundance matching and a semi-analytic model, respectively, 
-the cumulative number density method, while it does not precisely account for the scatter in mass accretion or 
-galaxy-galaxy mergers, provides a reasonable means to compare galaxy populations over a wide range of cosmic time. 
-Furthermore \cite{Behroozi:2013aa} %%%FINISH THIS SENTENCE
+With proper motivation for the fixed aperture environment definition, 
+we now proceed to measuring the environment for our target galaxies. 
+First, we construct a volume limited {\em Environment Defining 
+Population} (EDP) with absolute magnitude cut-offs ($M_{r}$) at 
+each redshift bin. EDP galaxies within the aperture surrounding each 
+target galaxy are the neighboring galaxies in our definition of 
+environment. The $M_{r}$ cut-offs for the EDP are selected so that 
+the cumulative number density over $M_{r}$ at all redshift bins are 
+equal. Not only does this provide a reasonably comparison of the 
+environment measurements at different redshifts but it also seeks 
+to construct an EDP that contains similar galaxy populations 
+throughout our redshift range (i.e. to account for the progenitor bias 
+in our EDP). As \cite{Behroozi:2013aa} and \cite{Leja:2013aa} find 
+in their analysis of the cumulative number density method, the 
+cumulative number density method, though it does not precisely 
+account for the scatter in mass accretion or galaxy-galaxy mergers, 
+provides a reasonable means to compare galaxy populations over 
+a wide range of cosmic time. 
 
-To construct the EDP for the PRIMUS (hereafter PRIMUS EDP) we use the same PRIMUS data as the 
+In constructing the EDP for the PRIMUS (hereafter PRIMUS EDP) we use the same PRIMUS data as the 
 target galaxies, described in Section \ref{sec:target}. 
 We restrict the PRIMUS galaxies to $0.2 < z < 0.8$ and divide them into bins of $\Delta z = 0.2$. 
 Before we consider the cumulative number densities in these bins, we first determine $M_r$ limit for the 
@@ -331,11 +356,11 @@ number density of the highest redshift bin.
 The cumulative number density calculations accounts for the statistical weights of the galaxies (Section 
 \ref{sec:primus} and \ref{sec:sdss}).
 
-For the EDP of the SDSS-{\em GALEX} sample (hereafter SDSS EDP), we do not use the parent data of 
-the SDSS-{\em GALEX} target sample the geometry of the combined angular selection function of the 
+For the SDSS-{\em GALEX} EDP (hereafter SDSS EDP), we do not use the parent data of 
+the SDSS-{\em GALEX} target sample which uses the geometry of the combined angular selection function of the 
 SDSS VAGC and {\em GALEX}. 
 Instead, since FUV, NUV values are not necessary for EDP, we extend the parent data of the SDSS EDP
-to the entire SDSS VAGC to include galaxies outside of the {\em GALEX} window function. 
+to the entire SDSS VAGC, including galaxies outside of the {\em GALEX} window function. 
 Furthermore, we impose a redshift range of $0.0375-0.145$ on the SDSS EDP. 
 This redshift range is due to the lack of faint galaxies at $z \sim 0.2$ and the lack of bright galaxies at 
 $z \sim 0.01$ in the SDSS VAGC data.  

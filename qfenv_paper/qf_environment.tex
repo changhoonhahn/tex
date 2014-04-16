@@ -219,43 +219,77 @@ To obtain the stellar masses and SFRs for the SDSS data we use \texttt{iSEDfit},
 However, we use twelve photometric bands: {\em GALEX} FUV and NUV, SDSS $ugriz$, 2MASS $JHK_{s}$, and WISE $3.4$ and $4.6 \mu \rm{m}$.
 
 \subsection{Target Galaxy Sample} \label{sec:target} 
-In this seciton we will define the target galaxy sample we use to compute the SMFs and QFs.
-The population at $z \sim 0.5$ is derived from the PRIMUS data and the population at $z \sim 0.1$ is derived from the SDSS data, both described above.
-For the intermediate redshift target galaxy population, we begin with the selection criteria imposed in \cite{Moustakas:2013aa} for its parent sample.
-We take the statistically complete {\em primary} sample from the PRIMUS data (\cite{Coil:2011aa}) and then impose magnitude limits on optical selection bands as specified in 
-\cite{Moustakas:2013aa} Table 1.
-These limits are in different optical selection bands and have different values for our five PRIMUS target fields.
-Next, we join the PRIMUS, {\em GALEX}, and IRAC window functions to construct the angular selection function.
-We then exclude stars and broad-line AGN to only select objects spectroscopically classified as galaxies, with high-quality spectroscopic redshifts ($Q \geq 3$) within the 
-redshift range $0.2 - 0.8$.
-Afterwards we assign statistical weights (described in \cite{Coil:2011aa} and \cite{Cool:2013aa}) to the objects in order to correct for targeting incompleteness and redshift failures.
-The statistical weight, $w_i$, for each galaxy is given by
+In this section we will define the target galaxy sample 
+used to compute the SMFs and QFs. The population 
+at $z \sim 0.5$ is derived from PRIMUS data and the 
+population at $z \sim 0.1$ is derived from SDSS-{\em GALEX} 
+data, both described above. For the intermediate redshift 
+population, we begin with the selection criteria imposed 
+in \cite{Moustakas:2013aa} for their parent sample. We 
+take the statistically complete {\em primary} sample from 
+the PRIMUS data (\cite{Coil:2011aa}) and impose magnitude 
+limits on optical selection bands as specified in 
+\cite{Moustakas:2013aa} Table 1. These limits are in different 
+optical selection bands and have distinct values for the 
+five PRIMUS target fields. We then exclude stars and 
+broad-line AGN to only select objects spectroscopically 
+classified as galaxies, with high-quality spectroscopic redshifts 
+($Q \geq 3$) within the redshift range $0.2 - 0.8$. For 
+each of these objects we assign statistical weights (described 
+in \cite{Coil:2011aa} and \cite{Cool:2013aa}) in order to correct 
+for targeting incompleteness and redshift failures. The 
+statistical weight, $w_i$, for each galaxy is given by
 \begin{equation}
 w_{i} = (f_{\rm{target}} \times f_{\rm{collision}} \times f_{\rm{success}})^{-1},
 \end{equation}
-Equation (1) in \cite{Moustakas:2013aa}.
-In addition to the selection criteria above, we impose stellar mass limits to have a stellar mass complete sample.  
-Stellar mass completeness limits for a magnitude-limited survey such as PRIMUS is a function of redshift, apparent magnitude limit of the survey, and the typical stellar 
-mass-to-light ratio of galaxies near the flux limit.
+Equation (1) in \cite{Moustakas:2013aa}. Then to account 
+for stellar mass incompleteness, we impose derived stellar 
+mass limits to the sample. 
 
-As done in \cite{Moustakas:2013aa}, we follow \cite{Pozzetti:2010aa} to empirically determine the stellar mass completeness limits.
-Briefly, for each of the target galaxies we compute $\mathcal{M}_{\rm{lim}}$ using $\rm{log} \; \mathcal{M}_{\rm{lim}} = \rm{log} \; \mathcal{M} + 0.4 ( m - m_{\rm{lim}})$.
-$\mathcal{M}$ is the stellar mass of the galaxy in units of $\mathcal{M_{\odot}}$, $\mathcal{M}_{\rm{lim}}$ is the stellar mass of each galaxy if its magnitude was 
-equal to the survey magnitude limit, $m$ is observed apparent magnitude in the selection band, and $m_{\rm{lim}}$ is the magnitude limit for our five fields mentioned above.
-We construct a cumulative distribution of $\mathcal{M}_{\rm{lim}}$ for the $15\%$ faintested galaxies in $\Delta z=0.04$ redshift bins.
-In each of these redshift bins, we calculate the minimum stellar mass that includes $95 \%$ of the galaxies.
-Separately for quiescent and star-forming galaxies, we fit quadratic polynomials to the minimum stellar masses versus redshift (classificiation scheme for quiescent 
-and star-forming galaxies is included in the following section).
-Finally, we use the polynomials to obtain the minimum stellar masses at the center of the redshift bins, $0.2-0.4$, $0.4-0.6$, $0.6-0.8$, and $0.8-1.0$.
-These redshift bins will later be used to divide the target sample in order to compute the SMFs and QFs.
+Stellar mass completeness limits for a magnitude-limited 
+survey such as PRIMUS is a function of redshift, apparent 
+magnitude limit of the survey, and the typical stellar 
+mass-to-light ratio of galaxies near the flux limit. As done 
+in \cite{Moustakas:2013aa}, we follow \cite{Pozzetti:2010aa} 
+to empirically determine the stellar mass completeness limits.
+Briefly, for each of the target galaxies we compute 
+$\mathcal{M}_{\rm{lim}}$ using $\rm{log} \; \mathcal{M}_{\rm{lim}} = \rm{log} \; \mathcal{M} + 0.4 ( m - m_{\rm{lim}})$.
+$\mathcal{M}$ is the stellar mass of the galaxy in $\mathcal{M_{\odot}}$, 
+$\mathcal{M}_{\rm{lim}}$ is the stellar mass of each galaxy 
+if its magnitude was equal to the survey magnitude limit, 
+$m$ is observed apparent magnitude in the selection band, 
+and $m_{\rm{lim}}$ is the magnitude limit for our five 
+fields mentioned above. We construct a cumulative 
+distribution of $\mathcal{M}_{\rm{lim}}$ for the $15\%$ 
+faintest galaxies in $\Delta z=0.04$ bins. In each of these 
+redshift bins, we calculate the minimum stellar mass that 
+includes $95 \%$ of the galaxies. Separately for quiescent 
+and star-forming galaxies, we fit quadratic polynomials to 
+the minimum stellar masses versus redshift (galaxies are 
+classified into star-forming or quiescent in the following section).
+Finally, we use the polynomials to obtain the minimum stellar 
+masses at the center of redshift bins, $0.2-0.4$, $0.4-0.6$, 
+and $0.6-0.8$, which are then used as PRIMUS stellar mass
+completeness limits. 
 
-For our target galaxy population at low redshift we use our SDSS-{\em GALEX} data. 
-We limit our target population within the redshift range $0.0375-0.145$ due to redshift limits later imposed for the volume-limited Environment Defining Population (Section \ref{sec:environment}).
-The NYU-VAGC provides statistical weight estimates for targeting completeness.
-In order to have a stellar mass complete low redshift target population, we use a uniform stellar mass limit of $10^9 \mathcal{M}_{\odot}$, which is above the surface 
-brightness and stellar mass-to-light ratio completness limits (\cite{Blanton:2005ab}; \cite{Baldry:2008aa}).
-The absolute magnitude ($M_{r}$) versus redshift for the target galaxy population at both low redshift and intermediate redshift is plotted in Figure \ref{fig:targetEDP}.
-For further details we refer readers to \cite{Moustakas:2013aa} for details; more specifically, Figure 2., Sections 3.1, and 4.3.
+For our target galaxy population at low redshift we start with 
+the SDSS-{\em GALEX} data. We limit our population within 
+the redshift range $0.0375-0.145$ due to redshift limits later 
+imposed on the volume-limited Environment Defining Population 
+(Section \ref{sec:environment}). To account for targeting 
+completeness of this sample, we use the statistical weight 
+estimates provided by the NYU-VAGC. Then to account for 
+stellar mass incompleteness, we impose a uniform stellar mass 
+limit of $10^9.8 \mathcal{M}_{\odot}$, a limit determined by the 
+stellar mass-to-light ratio completeness of the NYU-VAGC 
+sample given the redshift limits. 
+
+The absolute magnitude ($M_{r}$) versus redshift for the 
+target galaxy population (black squares) is plotted in Figure 
+\ref{fig:targetEDP}. The left-most panel corresponds to the
+target sample derived from the SDSS-{\em GALEX} data and
+the rest correspond to the target sample derived from the 
+PRIMUS data divided in bins with $\Delta z \sim 0.2$. 
 
 \subsection{Classifying Quiescent and Star-Forming Galaxies} \label{sec:sfq}
 With the galaxy sample defined in the previous section, we now classify the galaxies as quiescent or star-forming using an evolving cut based on specific star-formation rate utilized in \cite{Moustakas:2013aa} Section 3.2.
@@ -274,15 +308,14 @@ If the target galaxy SFR and stellar mass place the galaxy above Equation \ref{e
 \begin{figure*}
   \begin{center}
     \leavevmode
-     \label{fig:smf}
-     \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_25.eps,height=0.75\textwidth,angle=90}
+     \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_25_2envbin_primuszerr.eps,height=0.75\textwidth,angle=90}
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
 low (left) and high (right) environments from redshift range $z=0-0.8$. The environment of each galaxy  
-was calculated using a cylindrical aperture size of $R=2\rm{Mpc}$ and $H=25\rm{Mpc}$ and  
+was calculated using a cylindrical aperture size of $R=2 \: \rm{Mpc}$ and $H=25 \: \rm{Mpc}$ and  
 classification based on the cut-offs specified in Table \ref{tab:aperture}. The SMFs use mass bins of 
 width $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.25$. In each panel we use shades of blue 
 (star-forming) and orange (quiescent) to represent the SMF at different redshift, higher redshifts being
-progressively lighter.}
+progressively lighter.}      \label{fig:smf}
     \end{center}
 \end{figure*}
 
@@ -368,7 +401,7 @@ The lower bound for the redshift range was empirically determined by the bright 
 by the faint limit of the $M_{r}$ versus redshift distribution. 
 The same fixed cumulative number density method, described above, is used on this SDSS EDP to equate
 the cumulative number density of SDSS EDP to the highest redshift bin of the PRIMUS EDP. 
-Ultimately, we get $M_{r,\rm{lim}} = -20.57$, $-20.73$, $-20.80$ and $-20.95$ for the redshift bins $0.06-0.145$, 
+Ultimately, we get $M_{r,\rm{lim}} = -20.57$, $-20.73$, $-20.80$ and $-20.95$ for the redshift bins $0.0375-0.145$, 
 $0.2-0.4$, $0.4-0.6$, $0.6-0.8$, respectively.  %%%% PUT NEW VALUES
 These absolute magnitude limits are illustrated in Figure \ref{fig:targetEDP}, which plots $M_{r}$ distribution as 
 a function of redshift for the EDP (red) and the target galaxy sample (black). 
@@ -390,11 +423,9 @@ More specific details for the dense and sparse environment cut-offs the various 
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \label{fig:smf}
-        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_25.eps,height=0.75\textwidth,angle=90}
-        \caption{Evolution of the quiescent fraction for target galaxies in low (left) and (high) environments
-from redshift range $z=0-0.8$. The QFs were calculated using the SMFs specificed in Figure \ref{fig:smf}. We use
-lighter shades of orange for the QFs at higher redshifts.}
+        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_25_primuszerr.eps,height=0.75\textwidth,angle=90}
+        \caption{Evolution of the quiescent fraction $f_{\rm{Q}}$ for target galaxies in spare (left) and dense (rights) environments
+from $z \sim 0.7$ to $z \sim 0.1$. $f_{\rm{Q}}$s were calculated using the SMFs computed in Section \ref{sec:smf} and shown in Figure\ref{fig:smf}, as described in text. Darker shading indicates lower redshift.}         \label{fig:qf}
     \end{center}
 \end{figure*}
 
@@ -422,18 +453,18 @@ threshold for the edge effect cut-off, which we vary based on $R_{\rm{ap}}$ (lis
 If $n_{\rm{ransack}}$ for a target galaxy is greater than $E[n_{\rm{ransack}}]$ then the target galaxy remains
 in the sample; otherwise, it is discarded from the sample. 
 
-\section{Results}
-In the section below, we calculate stellar mass functions (SMFs) for the target galaxy population divided into 
-quiescent/star-forming and dense/sparse environment, Section \ref{sec:smf_const}. We use a non-parametric 
-$1/V_{\rm{max}}$ estimate of SMFs for the subsamples further divided into redshift bins. Then using these 
-SMFs, we calculate the quiescent fractions (QFs), Section \ref{sec:qf_const}, 
-and examine it's evolution over our redshift range. 
+%\section{Results}
+%In the section below, we calculate stellar mass functions (SMFs) for the target galaxy population divided into 
+%quiescent/star-forming and dense/sparse environment, Section \ref{sec:smf_const}. We use a non-parametric 
+%$1/V_{\rm{max}}$ estimate of SMFs for the subsamples further divided into redshift bins. Then using these 
+%SMFs, we calculate the quiescent fractions (QFs), Section \ref{sec:qf_const}, 
+%and examine it's evolution over our redshift range. 
 
-\subsection{Stellar Mass Function} \label{sec:smf_const}
+\section{Stellar Mass Function} \label{sec:smf}
 The target galaxy sample defined above has so far
 been classified into quiescent or star-forming and 
 dense or sparse. We further divide these subsamples 
-into bins of redshift:  in redshift bins of $0.06-0.145$, 
+into bins of redshift:  in redshift bins of $0.0375-0.145$, 
 $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$. While the 
 PRIMUS data ranges from $0.2 < z < 1.2$, we only 
 consider galaxies with $ z<0.8$ due to insufficient
@@ -495,42 +526,50 @@ Then using the calculated SMFs we calculate the uncertainty:
 \end{equation} 
 $M$ in this equation is the number of jack knife SMFs in the stellar mass
 bins. $\langle \Phi^j \rangle$ is the mean number density of galaxies 
-in each stellar mass bin for all of the jack knife $\Phi^j$s. The SMFs for 
-16 target galaxy subsamples classified into quiescent/star-forming (orange/blue)and 
+in each stellar mass bin for all of the jack knife $\Phi^j$s. 
+
+SMFs for 16 target galaxy subsamples classified into quiescent/star-forming (orange/blue)and 
 dense/spare environments are presented in Figure \ref{fig:smf}. The 
 redshift evolution of the SMFs are indicated by a darker shade for lower
 redshifts. The sample variance uncertainties are represented by the 
 width of the SMFs. The environment measurements and classifications
-for Figure \ref{fig:smf} is done using a cylindrical aperture with dimensions,
+for Figure \ref{fig:smf} are done using a cylindrical aperture with dimensions,
 $R_{\rm{ap}} = 2 \; \rm{Mpc}/h$ and $H_{\rm{ap}} = 25 \; \rm{Mpc}/h$. 
 
-Examining the SMF evolution over $z \sim 0 - 0.8$, we find that in dense 
-environments, the quiescent SMFs increase by a factor of $over9000$ 
-for $\mathcal{M}_{*} < 11.0$ while the SMF of the star-forming 
-galaxies evolves little for all masses. Meanwhile in low density 
-environments from $z=0.8$ to $0.0$, we find that the SMF of 
-quiescent galaxies evolves little for all stellar masses and the 
-SMF of star-forming galaxies decreases by a factor of $over9000$ 
-for $\mathcal{M}_{*} > 10.5$.  
-%%% EXPAND ON ANALYSIS OF SMF
+Examining the SMF evolution from $z \sim 0.7$ to $z \sim 0.1$, 
+we find that in dense environments both the star-forming and quiescent
+SMFs increase at $\mathcal{M}_{*}$ below the knee of mass function 
+($\rm{log}\: \mathcal{M}_{*}/\mathcal{M}_{\odot} < 10.75$ for star-forming; 
+$\rm{log}\: \mathcal{M}_{*}/\mathcal{M}_{\odot} < 11.0$ for quiescent). 
+Meanwhile, at masses above the knee the SMFs for dense environments 
+exhibit little change throughout the redshift range.
 
-\subsection{Quiescent Fraction} \label{sec:qf_const}
-Using the SMF number densities ($\Phi$) calculated above, 
-in this section, we compute the quiescent fraction, $f_{\rm{Q}}$ 
-for dense and sparse environments over the redshift range 
-$0.0 - 0.8$.  The quiescent fraction is simply given by the following 
-equation: 
+At sparse environments, the quiescent SMF remains relatively constant 
+for galaxies with $\rm{log}\: \mathcal{M}_{*}/\mathcal{M}_{\odot} < 10.75$.
+At higher stellar masses, however, the SMF decreases notably. Finally 
+the sparse environment star-forming SMF shows a decrease at all 
+stellar mass ranges over the redshift range. 
+
+%%% COMPARISON TO OTHER LITERATURE? 
+
+\section{Quiescent Fraction} \label{sec:qf_const}
+From the SMF number densities ($\Phi$) calculated
+in the previous section, the quiescent fraction is computed 
+as follows, 
 \begin{equation}
 f_{\rm{Q}} = \frac{\Phi_{Q}}{\Phi_{SF}+\Phi_{Q}}.
 \end{equation}
 $\Phi_{Q}$ and $\Phi_{SF}$ are the total number of galaxies 
 per unit volume in stellar mass bin of $\Delta(\rm{log} \: \mathcal{M}) = 0.25$ 
 for the quiescent and star-forming subsamples, respectively 
-(Equation \ref{eq:phi}). The bottom panels of Figure \ref{fig:smf} 
-shows the evolution of $f_{\rm{Q}}$ for dense (right) and sparse (left)
-environments. As before, the darker shades of orange represent 
-lower redshift bins. 
+(Equation \ref{eq:phi}). We compute $f_{\rm{Q}}$ for dense 
+and spare environments over our redshift range as plotted in
+ Figure \ref{fig:qf}, which shows the evolution of $f_{\rm{Q}}$ 
+ for dense (right) and sparse (left) environments. As in 
+ Figure \ref{fig:smf}, the darker shading represent lower redshifts. 
 
+For both the spare and dense environments there is a notable 
+increase in $f_{\rm{Q}}$ at all stellar masses as redshift decreases.
 %%% INCLUDE BRIEF QUALITATIVE ANALYSIS OF THE EVOLUTION OF THE QUIESCENT FRACTION
 
 In order to compare the $\rm{QF}$s at different redshift for each of the environment classifications, we perform a linear least squares fit on the $\rm{QF}$ for all the $\rm{QF}$s. 
@@ -549,7 +588,7 @@ The results obtained from using these different are consistent with the results 
         \leavevmode
         \epsscale{1.0}
         \plotone{fig_qffit_cylr2h25_thresh75_bin0_25.png}
-        \label{fig:qf}
+        \label{fig:qffit}
         \caption{Quiescent fraction at fiducial mass $\rm{log} (\mathcal{M}/\mathcal{M}_{\odot}) = 10.5$ for 
 low (square) and high (circle) environments in the redshift range $z = 0 - 0.8$. The evolution of 
 $f_{Q}(\mathcal{M}_{\rm{fid}})$ for galaxies in different environments shows an evolution over the redshift
@@ -558,7 +597,7 @@ $f_{Q}(\mathcal{M}_{\rm{fid}})$ remains relatively constant and $ < 0.15$.}
     \end{center}
 \end{figure}
 
-\section{Discussion and Conclusions}
+\section{Summary}
 We have measured the SMFs and QFs using low redshift SDSS-{\em GALEX} galaxies and intermeidate redshift PRIMUS galaxies. 
 Specifically we anlayzed the evolution of the QFs over the redshift range $0.0-1.0$ for galaxies in environment densities (Figure \ref{fig:qf}). 
 We find that there is an expected increase in QF with decrease in the redshift for subsamples in all environment densities.
@@ -595,7 +634,6 @@ More importantly we find that the change in QF over redshift is independent of t
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \label{fig:smf}
         \epsscale{1.0}
         \plotone{fig_smf_cylr1h25_thresh80_bin0_25.png}
         \caption{SMF for $r_{\rm{ap}}=1 \rm{Mpc}$ and $h_{\rm{ap}}=25 \rm{Mpc}$}
@@ -605,7 +643,6 @@ More importantly we find that the change in QF over redshift is independent of t
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \label{fig:smf}
         \epsscale{1.0}
         \plotone{fig_qf_cylr1h25_thresh80_bin0_25.png}
         \caption{QF for $r_{\rm{ap}}=1 \rm{Mpc}$ and $h_{\rm{ap}}=25 \rm{Mpc}$}
@@ -617,7 +654,6 @@ More importantly we find that the change in QF over redshift is independent of t
         \leavevmode
         \epsscale{1.0}
         \plotone{fig_qffit_cylr1h25_thresh80_bin0_25.png}
-        \label{fig:qf}
         \caption{QF at fiducial mass for $r_{\rm{ap}}=2 \rm{Mpc}$ and $h_{\rm{ap}}=50 \rm{Mpc}$}
     \end{center}
 \end{figure*}

@@ -7,42 +7,42 @@ Database file #2: PRIMUS.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 43 entries,
             3085 wiz_defined-function locations,
-            962 strings with 20634 characters,
-and the built_in function-call counts, 24846 in all, are:
-= -- 1696
-> -- 2488
-< -- 10
-+ -- 830
-- -- 885
-* -- 2461
-:= -- 4911
+            963 strings with 19747 characters,
+and the built_in function-call counts, 24279 in all, are:
+= -- 1690
+> -- 2370
+< -- 11
++ -- 792
+- -- 845
+* -- 2367
+:= -- 4790
 add.period$ -- 43
 call.type$ -- 43
-change.case$ -- 269
-chr.to.int$ -- 41
+change.case$ -- 274
+chr.to.int$ -- 42
 cite$ -- 43
-duplicate$ -- 818
-empty$ -- 1220
-format.name$ -- 925
-if$ -- 4730
-int.to.chr$ -- 3
+duplicate$ -- 814
+empty$ -- 1213
+format.name$ -- 884
+if$ -- 4634
+int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 41
 newline$ -- 133
 num.names$ -- 173
-pop$ -- 294
+pop$ -- 298
 preamble$ -- 1
-purify$ -- 268
+purify$ -- 273
 quote$ -- 0
-skip$ -- 658
+skip$ -- 660
 stack$ -- 0
-substring$ -- 879
-swap$ -- 14
+substring$ -- 863
+swap$ -- 10
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 384
 warning$ -- 0
-while$ -- 150
+while$ -- 151
 width$ -- 0
 write$ -- 434

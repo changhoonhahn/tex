@@ -7,10 +7,6 @@
 {Abazajian}, K.~N., {Adelman-McCarthy}, J.~K., {Ag{\"u}eros}, M.~A., {et~al.}
   2009, \apjs, 182, 543
 
-\bibitem[{{Baldry} {et~al.}(2008){Baldry}, {Glazebrook}, \&
-  {Driver}}]{Baldry:2008aa}
-{Baldry}, I.~K., {Glazebrook}, K., \& {Driver}, S.~P. 2008, \mnras, 388, 945
-
 \bibitem[{{Behroozi} {et~al.}(2013){Behroozi}, {Marchesini}, {Wechsler},
   {Muzzin}, {Papovich}, \& {Stefanon}}]{Behroozi:2013aa}
 {Behroozi}, P.~S., {Marchesini}, D., {Wechsler}, R.~H., {et~al.} 2013, \apjl,
@@ -21,26 +17,28 @@
   {P{\'e}rez-Gonz{\'a}lez}, {Rieke}, {Rieke}, {Rigby}, \& {Rix}}]{bell05a}
 {Bell}, E.~F., {Papovich}, C., {Wolf}, C., {et~al.} 2005, \apj, 625, 23
 
+\bibitem[{{Bernardi} {et~al.}(2013){Bernardi}, {Meert}, {Sheth}, {Vikram},
+  {Huertas-Company}, {Mei}, \& {Shankar}}]{Bernardi:2013aa}
+{Bernardi}, M., {Meert}, A., {Sheth}, R.~K., {et~al.} 2013, \mnras, 436, 697
+
 \bibitem[{{Blanton} {et~al.}(2006){Blanton}, {Eisenstein}, {Hogg}, \&
   {Zehavi}}]{Blanton:2006aa}
 {Blanton}, M.~R., {Eisenstein}, D., {Hogg}, D.~W., \& {Zehavi}, I. 2006, \apj,
   645, 977
 
-\bibitem[{{Blanton} {et~al.}(2005{\natexlab{a}}){Blanton}, {Lupton},
-  {Schlegel}, {Strauss}, {Brinkmann}, {Fukugita}, \&
-  {Loveday}}]{Blanton:2005ab}
-{Blanton}, M.~R., {Lupton}, R.~H., {Schlegel}, D.~J., {et~al.}
-  2005{\natexlab{a}}, \apj, 631, 208
+\bibitem[{{Blanton} {et~al.}(2011){Blanton}, {Kazin}, {Muna}, {Weaver}, \&
+  {Price-Whelan}}]{Blanton:2011aa}
+{Blanton}, M.~R., {Kazin}, E., {Muna}, D., {Weaver}, B.~A., \& {Price-Whelan},
+  A. 2011, \aj, 142, 31
 
 \bibitem[{{Blanton} \& {Moustakas}(2009)}]{blanton09a}
 {Blanton}, M.~R., \& {Moustakas}, J. 2009, \araa, 47, 159
 
-\bibitem[{{Blanton} {et~al.}(2005{\natexlab{b}}){Blanton}, {Schlegel},
-  {Strauss}, {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg},
-  {Ivezi{\'c}}, {Knapp}, {Lupton}, {Munn}, {Schneider}, {Tegmark}, \&
-  {Zehavi}}]{Blanton:2005aa}
-{Blanton}, M.~R., {Schlegel}, D.~J., {Strauss}, M.~A., {et~al.}
-  2005{\natexlab{b}}, \aj, 129, 2562
+\bibitem[{{Blanton} {et~al.}(2005){Blanton}, {Schlegel}, {Strauss},
+  {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg}, {Ivezi{\'c}}, {Knapp},
+  {Lupton}, {Munn}, {Schneider}, {Tegmark}, \& {Zehavi}}]{Blanton:2005aa}
+{Blanton}, M.~R., {Schlegel}, D.~J., {Strauss}, M.~A., {et~al.} 2005, \aj, 129,
+  2562
 
 \bibitem[{{Borch} {et~al.}(2006){Borch}, {Meisenheimer}, {Bell}, {Rix}, {Wolf},
   {Dye}, {Kleinheinrich}, {Kovacs}, \& {Wisotzki}}]{borch06a}
@@ -58,14 +56,6 @@
   {Hogg}}]{Coil:2011aa}
 {Coil}, A.~L., {Blanton}, M.~R., {Burles}, S.~M., {et~al.} 2011, \apj, 741, 8
 
-\bibitem[{{Colless} {et~al.}(2003){Colless}, {Dalton}, {Maddox}, {Sutherland},
-  {Norberg}, {Cole}, {Bland-Hawthorn}, {Bridges}, {Cannon}, {Collins}, {Couch},
-  {Cross}, {Deeley}, {de Propris}, {Driver}, {Efstathiou}, {Ellis}, {Frenk},
-  {Glazebrook}, {Jackson}, {Lahav}, {Lewis}, {Lumsden}, {Madgwick}, {Peacock},
-  {Peterson}, {Price}, {Seaborne}, \& {Taylor}}]{Colless:2003aa}
-{Colless}, M., {Dalton}, G., {Maddox}, S., {et~al.} 2003, VizieR Online Data
-  Catalog, 7226, 0
-
 \bibitem[{{Conroy} \& {Gunn}(2010)}]{Conroy:2010aa}
 {Conroy}, C., \& {Gunn}, J.~E. 2010, {FSPS: Flexible Stellar Population
   Synthesis}, astrophysics Source Code Library, ascl:1010.043
@@ -74,6 +64,11 @@
   {Coil}, {Eisenstein}, {Wong}, {Zhu}, {Aird}, {Bernstein}, {Bolton}, {Hogg},
   \& {Mendez}}]{Cool:2013aa}
 {Cool}, R.~J., {Moustakas}, J., {Blanton}, M.~R., {et~al.} 2013, \apj, 767, 118
+
+\bibitem[{{Cooper} {et~al.}(2005){Cooper}, {Newman}, {Madgwick}, {Gerke},
+  {Yan}, \& {Davis}}]{Cooper:2005aa}
+{Cooper}, M.~C., {Newman}, J.~A., {Madgwick}, D.~S., {et~al.} 2005, \apj, 634,
+  833
 
 \bibitem[{{Cooper} {et~al.}(2008){Cooper}, {Newman}, {Weiner}, {Yan},
   {Willmer}, {Bundy}, {Coil}, {Conselice}, {Davis}, {Faber}, {Gerke},
@@ -104,14 +99,6 @@ Dressler, A. 1980, \apj, 236, 351
 
 \bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12a}
 {Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
-
-\bibitem[{{Guillaume} {et~al.}(2006){Guillaume}, {Llebaria}, {Aymeric},
-  {Arnouts}, \& {Milliard}}]{Guillaume:2006aa}
-{Guillaume}, M., {Llebaria}, A., {Aymeric}, D., {Arnouts}, S., \& {Milliard},
-  B. 2006, in Society of Photo-Optical Instrumentation Engineers (SPIE)
-  Conference Series, Vol. 6064, Image Processing: Algorithms and Systems,
-  Neural Networks, and Machine Learning, ed. E.~R. {Dougherty}, J.~T. {Astola},
-  K.~O. {Egiazarian}, N.~M. {Nasrabadi}, \& S.~A. {Rizvi}, 332--341
 
 \bibitem[{Guzzo {et~al.}(1997)Guzzo, Strauss, Fisher, Giovanelli, \&
   Haynes}]{guzzo97a}
@@ -154,6 +141,11 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
 \bibitem[{{Magnelli} {et~al.}(2009){Magnelli}, {Elbaz}, {Chary}, {Dickinson},
   {Le Borgne}, {Frayer}, \& {Willmer}}]{magnelli09a}
 {Magnelli}, B., {Elbaz}, D., {Chary}, R.~R., {et~al.} 2009, \aap, 496, 57
+
+\bibitem[{{Markwardt}(2009)}]{Markwardt:2009aa}
+{Markwardt}, C.~B. 2009, in Astronomical Society of the Pacific Conference
+  Series, Vol. 411, Astronomical Data Analysis Software and Systems XVIII, ed.
+  D.~A. {Bohlender}, D.~{Durand}, \& P.~{Dowler}, 251
 
 \bibitem[{{Martin} {et~al.}(2005){Martin}, {Fanson}, {Schiminovich},
   {Morrissey}, {Friedman}, {Barlow}, {Conrow}, {Grange}, {Jelinsky},
@@ -226,15 +218,14 @@ Oemler, A. 1974, \apj, 194, 1
   {Yi}}]{Salim:2007aa}
 {Salim}, S., {Rich}, R.~M., {Charlot}, S., {et~al.} 2007, \apjs, 173, 267
 
-\bibitem[{{Springel} {et~al.}(2005){Springel}, {White}, {Jenkins}, {Frenk},
-  {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole},
-  {Thomas}, {Couchman}, {Evrard}, {Colberg}, \& {Pearce}}]{Springel:2005aa}
-{Springel}, V., {White}, S.~D.~M., {Jenkins}, A., {et~al.} 2005, \nat, 435, 629
-
 \bibitem[{{Taylor} {et~al.}(2009){Taylor}, {Franx}, {van Dokkum}, {Bell},
   {Brammer}, {Rudnick}, {Wuyts}, {Gawiser}, {Lira}, {Urry}, \&
   {Rix}}]{taylor09a}
 {Taylor}, E.~N., {Franx}, M., {van Dokkum}, P.~G., {et~al.} 2009, \apj, 694,
   1171
+
+\bibitem[{{Wilman} {et~al.}(2010){Wilman}, {Zibetti}, \&
+  {Budav{\'a}ri}}]{Wilman:2010aa}
+{Wilman}, D.~J., {Zibetti}, S., \& {Budav{\'a}ri}, T. 2010, \mnras, 406, 1701
 
 \end{thebibliography}

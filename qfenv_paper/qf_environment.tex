@@ -87,11 +87,9 @@ using the Prism Multi-object Survey (PRIMUS; \cite{Coil:2011aa},
 between $0<z<1$.
 
 \section{Sample Selection} \label{sec:sample}
-In this paper we are interested in measuring the evolution of the quiescent 
-fraction over a wide range of redshifts and in different galaxy environments. 
-In order construct a sample with redshift depth and robust enough redshift values 
-to measure galaxy environment, we use galaxies at intermediate redshifts from PRIMUS. 
-Additionally we supplement our sample with galaxies at low redshift ($z \sim 0.1$) from SDSS.
+In this paper we are interested in quantifying the effects of galaxy environment on the evolution of the quiescent fraction over the redshift range $z \sim 0.8$ to $0.1$. In order to do so, we construct a sample with the necessary redshift depth to probe the evolution and robustness to measure galaxy environment. For the intermediate redshift range, $0.2 < z < 0.8$ we use galaxies from PRIMUS
+
+In this paper we measure the quiescent fraction evolution over the redshift range $z ~ 0.8$ to $0.1$ for galaxies in different environment densities. In order to construct a sample with the necessary redshift depth and robustness to measure galaxy environment, we use galaxies from PRIMUS for intermediate redshifts and galaxies from SDSS for low redshifts. 
 
 We begin with a brief summary of the PRIMUS data in Section \ref{sec:primus} followed by a summary of the SDSS data in Section \ref{sec:sdss}.
 Then in Section \ref{sec:target} we use this data to define the stellar mass complete target galaxy population.
@@ -285,14 +283,8 @@ If the target galaxy SFR and stellar mass place the galaxy above Equation \ref{e
 \begin{figure*}
   \begin{center}
     \leavevmode
-<<<<<<< HEAD
-     \label{fig:smf}
-     \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_25.eps,height=0.75\textwidth,angle=90}
-     \caption{NEED TO UPDATE WITH CORRECT SDSS MASS LIMIT. Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) galaxies in 
-=======
      \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_25_2envbin_primuszerr.eps,height=0.75\textwidth,angle=90}
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
->>>>>>> FETCH_HEAD
 low (left) and high (right) environments from redshift range $z=0-0.8$. The environment of each galaxy  
 was calculated using a cylindrical aperture size of $R=2 \: \rm{Mpc}$ and $H=25 \: \rm{Mpc}$ and  
 classification based on the cut-offs specified in Table \ref{tab:aperture}. The SMFs use mass bins of 
@@ -406,17 +398,9 @@ More specific details for the dense and sparse environment cut-offs the various 
 \begin{figure*}
     \begin{center}
         \leavevmode
-<<<<<<< HEAD
-        \label{fig:smf}
-        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_25_primuszerr.eps,height=0.75\textwidth,angle=90}
-        \caption{Evolution of the quiescent fraction for target galaxies in low (left) and (high) environments
-from redshift range $z=0-0.8$. The QFs were calculated using the SMFs specificed in Figure \ref{fig:smf}. We use
-lighter shades of orange for the QFs at higher redshifts.}
-=======
         \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_25_primuszerr.eps,height=0.75\textwidth,angle=90}
         \caption{Evolution of the quiescent fraction $f_{\rm{Q}}$ for target galaxies in spare (left) and dense (rights) environments
 from $z \sim 0.7$ to $z \sim 0.1$. $f_{\rm{Q}}$s were calculated using the SMFs computed in Section \ref{sec:smf} and shown in Figure\ref{fig:smf}, as described in text. Darker shading indicates lower redshift.}         \label{fig:qf}
->>>>>>> FETCH_HEAD
     \end{center}
 \end{figure*}
 
@@ -589,18 +573,8 @@ bins at low masses than at high masses.
     \begin{center}
         \leavevmode
         \epsscale{1.0}
-<<<<<<< HEAD
-        \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_25_fidmass10_5_fixedslope_primuszerr.eps,height=0.5\textwidth}
-        \label{fig:qf}
-        \caption{Quiescent fraction at fiducial mass $\rm{log} (\mathcal{M}/\mathcal{M}_{\odot}) = 10.5$ for 
-low (square) and high (circle) environments in the redshift range $z = 0 - 0.8$. The evolution of 
-$f_{Q}(\mathcal{M}_{\rm{fid}})$ for galaxies in different environments shows an evolution over the redshift
-range that is independent of environment density. Futhermore throughout the redshift range the difference in 
-$f_{Q}(\mathcal{M}_{\rm{fid}})$ remains relatively constant and $ < 0.15$.}
-=======
         \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_25_fidmass10_5_primuszerr.eps,height=0.45\textwidth}
         \caption{The evolution of the quiescent fraction at fiducial mass, $f_{Q}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$, for sparse (square) and dense (circle) environments within the redshift range $z = 0.0 - 0.8$.  There is a significant increase in $f_{Q}(\mathcal{M}_{\rm{fid}})$ with decrease in redshift for both environments. In addition, over the entire redshift range, $f_{Q}(\mathcal{M}_{\rm{fid}})$ for dense environment is greater than $f_{Q}(\mathcal{M}_{\rm{fid}})$ for lower environment. However the difference in $f_{Q}(\mathcal{M}_{\rm{fid}})$ for the two environments remains constant throughout suggesting that while the quiescent fraction is higher in dense environments, the evolution of the quiescent fraction is independent of environment.}         \label{fig:qffit}
->>>>>>> FETCH_HEAD
     \end{center}
 \end{figure}
 %fiducial mass may be 11.0 depending on what we want.

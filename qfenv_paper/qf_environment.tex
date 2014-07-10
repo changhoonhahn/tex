@@ -133,8 +133,8 @@ Finally, from the spectroscopic redshift and broad wavelength photometry we use 
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \epsscale{1.0}
-	\plotone{fig_EDP_absmag_redshift.png}
+        \epsscale{1.2}
+	\plotone{fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png}
         \caption{Absolute magnitude $M_{r}$ versus redshift for the target galaxy population (black squares) with the Environment Defining Population (red circles) plotted on top. Both samples are divided into redshift bins:$z \approx 0.0375-0.145$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$ (panels left to right). Stellar mass completeness limits are imposed on the target galaxy population (Section \ref{sec:target}) while the $M_{r}$ limits are imposed on the EDP (Section \ref{sec:environment}). The lowest redshift bin ($z \approx 0.0375-0.145$; leftmost panel) contain our galaxy sample and EDP selected from SDSS. The rest contain galaxies and EDP selected from PRIMUS.} \label{fig:targetEDP}
     \end{center}
 \end{figure*}
@@ -175,7 +175,7 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
 \begin{figure*}
   \begin{center}
     \leavevmode
-     \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_25_lit_2envbin_primuszerr.eps,height=0.75\textwidth,angle=90}
+    \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr.eps,height=0.75\textwidth,angle=90}
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
 low (left) and high (right) environments from redshift range $z=0-0.8$. The environment of each galaxy  
 was calculated using a cylindrical aperture size of $R=2 \: \rm{Mpc}$ and $H=25 \: \rm{Mpc}$ and  
@@ -203,7 +203,7 @@ Finally we measure the environment for each galaxy in our sampling by counting t
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_25_lit_primuszerr.eps,height=0.75\textwidth,angle=90}
+        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr.eps,height=0.75\textwidth,angle=90}
         \caption{Evolution of the quiescent fraction $f_{\rm{Q}}$ for galaxies in low (left) and high (rights) density environments for $z < 0.8$. $f_{\rm{Q}}$s were calculated using the SMFs in Figure\ref{fig:smf}, as described in text. Darker shading indicates lower redshift.}         \label{fig:qf}
     \end{center}
 \end{figure*}
@@ -258,7 +258,7 @@ In both high and low density environments, Figure \ref{fig:qf} shows a clear inc
     \begin{center}
         \leavevmode
         \epsscale{1.0}
-        \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_25_fidmass10_5_primuszerr.eps,height=0.45\textwidth}
+        \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr.eps,height=0.45\textwidth}
         \caption{The evolution of the quiescent fraction at fiducial mass, $f_{Q}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$, for low (square) and high (circle) density environments within the redshift range $z = 0.0 - 0.8$.  There is a significant increase in $f_{Q}(\mathcal{M}_{\rm{fid}})$ with decrease in redshift for both environments. In addition, over the entire redshift range, high density environment $f_{Q}(\mathcal{M}_{\rm{fid}})$ is greater than low density environment $f_{Q}(\mathcal{M}_{\rm{fid}})$. However the difference in $f_{Q}(\mathcal{M}_{\rm{fid}})$ for the two environments remains constant throughout suggesting that while the quiescent fraction is higher in dense environments, the evolution of the quiescent fraction is independent of environment.}         \label{fig:qffit}
     \end{center}
 \end{figure}
@@ -273,14 +273,30 @@ where $a$ are $b$ are best-fit parameters using {\em MPFIT} (\cite{Markwardt:200
 The analysis described in this paper use a fixed cylindrical aperture with dimensions $R_{\rm{ap}} = 2 \: \rm{Mpc}$ and $H_{\rm{ap}} = 25 \: \rm{Mpc}$ to measure environment, the same analysis was extended for varying aperture dimensions $R_{\rm{ap}} = 1, 2, 3 \: \rm{Mpc}$ and $H_{\rm{ap}} = 25, 50 \: \rm{Mpc}$. Minor adjustments to the environment classification thresholds were adopted in these analyses for the smaller apertures ($r_{\rm{ap}} = 0.5, 1 \rm{Mpc}$ and $r_{\rm{ap}} = 25 \rm{Mpc}$). The results obtained from using these different are consistent with the results displayed in this paper. 
 
 \section{Summary} \label{sec:summary}
-Using a stellar mass complete galaxy sample, we demonstrate that the quiescent fraction increases over cosmic time for $z < 0.8$. Furthermore with a consistently measured galaxy environment from robust spectroscopic redshift, we demonstrate that the quiescent fraction in high density environments is always greater than the fraction in low density environments. While the difference in quiescent fraction between the two environments is significant, it remains constant throughout the redshift range suggesting that the evolution of the quiescent fraction is independent of environment. 
+Using a stellar mass complete galaxy sample, we demonstrate that the quiescent fraction increases over cosmic time for $z < 0.8$. Furthermore with a consistently measured galaxy environment from robust spectroscopic redshifts, we demonstrate that the quiescent fraction in high density environments is always greater than the fraction in low density environments. While the difference in quiescent fraction between the two environments is significant, it remains constant throughout the redshift range suggesting that the evolution of the quiescent fraction is independent of environment. 
 
 \begin{itemize}
     \item Comparison to other works. 
     \begin{itemize}
         \item Alberts et al. 2013 
+        \begin{itemize}
+        		\item SFR, SSFR evolution 
+        \end{itemize}
         \item Tinker et al. 2011
+        \begin{itemize}
+        		\item Properties of galaxies at fixed halo mass are independent of density measured on scales larger than the halo radius
+		\item The dependence of the quenched fraction of galaxies on large scale environment can be explained by the variations of the halo mass function with environment and by disentangling the relative contributions of central and satellite galaxies.
+		\item Different between lowest redshift $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})_{high}$ and $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})_{low}$ is similar to the $\Delta f_{\rm{Q}}$ between low $\rho/\bar{\rho}$ and high $\rho/\bar{\rho}$. Except the size of the aperture is very different. 
+		\item Compare high environment $f_{\rm{Q}}$ to solid lines in Tinker et al. 2011?
+        \end{itemize}
         \item Geha et al. 2012
+        \begin{itemize}
+        		\item Compare low environment and central galaxies? 
+		\item SDSS bin does not extend to Geha paper
+	\end{itemize}
+	\item Iovino et al. 2010
+	\item Kovac et al. 2013
+	\item Peng et al. 2010
     \end{itemize}
 \end{itemize}
 

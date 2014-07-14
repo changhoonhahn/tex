@@ -243,8 +243,10 @@ Examining the SMF evolution from $z \sim 0.7$ to $z \sim 0.1$, we find that in h
 
 At low density environments, the quiescent SMF remains relatively constant for galaxies with $\rm{log}\: \mathcal{M}_{*}/\mathcal{M}_{\odot} < 10.75$. At higher stellar masses, however, the quiescent low density environment SMF decreases notably. Finally, the low density environment star-forming SMF shows a decrease at all stellar mass ranges over the redshift range. We caution readers and reserve any detailed analysis of the SMF evolution to future work due to the improvements in photometry that significantly alter the lowest redshift bin SMFs mentioned in Section \ref{sec:sdss}. 
 
+%Compare SMFs at low environment vs high environment and remark that the SMFs are significantly different. With far more mass galaxies in high env than in low env. 
+
 \section{Quiescent Fraction} \label{sec:qf_const}
-The SMFs calculated in the previous section describe the stellar mass distribution of our galaxy population and reveal the evolution of this distribution over comic time. When we compute the quiescent fractions we compare the quiescent and the star-forming populations and quantify the fraction of galaxies that have depleted their star-formation. By adding environment classifications to our analysis, we investigate the effects of the environment on the quiescent fraction and its evolution. Moreover, by analyzing the quiescent fraction, we are able to reveal the environment dependence of quenching mechanisms. 
+The SMFs calculated in the previous section describe the stellar mass distribution of our galaxy population and reveal the evolution of this distribution over comic time. We compare the quiescent and the star-forming populations, using the SMFs, in order to quantify the fraction of galaxies that have depleted their star-formation - the quiescent fraction. Adding environment classifications to our analysis, we investigate the effects of environment on the quiescent fraction and its evolution. By comparing the quiescent fraction evolution between high and low environments we are able to isolate and quantify the effects of environment dependent external quenching mechanisms as opposed to the internal mechanisms that operate within the galaxy. 
 
 From the SMF number densities ($\Phi$) the quiescent fraction is computed as follows, 
 \begin{equation}
@@ -252,7 +254,13 @@ f_{\rm{Q}} = \frac{\Phi_{Q}}{\Phi_{SF}+\Phi_{Q}}.
 \end{equation}
 $\Phi_{Q}$ and $\Phi_{SF}$ are the total number of galaxies per unit volume in stellar mass bin of $\Delta(\rm{log} \: \mathcal{M}) = 0.25$ for the quiescent and star-forming subsamples, respectively (Equation \ref{eq:phi}). We compute $f_{\rm{Q}}$ for high and low density environments for all redshift bins as plotted in Figure \ref{fig:qf}, which shows the evolution of $f_{\rm{Q}}$ for high (right) and low (left) density environments. As in Figure \ref{fig:smf}, the darker shading represent lower redshift bins. 
 
-In both high and low density environments, Figure \ref{fig:qf} shows a clear increase in $f_{\rm{Q}}$ with decrease in redshift at all stellar masses. Qualitatively, this $f_{\rm{Q}}$ evolution exhibits a noticeable mass dependence. More specifically, the $f_{\rm{Q}}$ in low density environments shows a greater evolution between redshift bins at high masses than at low masses. On the other hand, the $f_{\rm{Q}}$ in high density environments shows a greater evolution between redshift bins at low masses than at high masses.
+In both panels, $f_{\rm{Q}}$ increases monotonically as a function of mass for all redshift bins. This result is strongly consistent with the well established trend that generally more massive galaxies are more likely to be quenched. Furthermore, the results are also consistent with previous measurements of the quiescent fraction. Using a group-finding algorithm on the SDSS DR7 catalog, \cite{Tinker:2011aa} presented the relationship between $f_{\rm{Q}}$ and overdensity for galaxies within the mass range $\rm{log} \; \mathcal{M}_{*} = [9.8, 10.1]$. The \cite{Tinker:2011aa} $f_{\rm{Q}}$ values at the lowest and highest overdensity values, $f_{\rm{Q}} \sim 0.4$ and $f_{\rm{Q}} \sim 0.6$ respectively, are consistent with our SDSS sample low and high density environment $f_{\rm{Q}}$ at the lowest mass bin $\rm{log} \; \mathcal{M} \sim 10.2$. Likewise at higher redshifts, our high and low environment $f_{\rm{Q}}$ results are in general agreement with the $F_{\rm{blue}}$ values for group and isolated galaxies from the zCOSMOS Redshift Survey, as presented in \cite{Iovino:2010aa}. 
+
+Though our $f_{\rm{Q}}$ results do not extend beyond masses lower than $10^{9.5} \mathcal{M}_{\odot}$, if we loosely extrapolate the monotonic relation between $f_{\rm{Q}}$ and stellar mass for the low density environment SDSS sample to lower masses, $f_{\rm{Q}}$ extends to $0$ for $\mathcal{M}_{*} < 10^{9.0} \mathcal{M}_{\odot}$. This is broadly consistent with the stellar mass threshold ($10^9 \mathcal{M}_{\odot}$) for quenching of field galaxies presented by \cite{Geha:2012aa}. 
+
+In addition to its relation with mass, in Figure \ref{fig:qf}, $f_{\rm{Q}}$ increases as redshift decreases for all masses and environments. Though restricted by the stellar mass limits, the $f_{\rm{Q}}$ evolution exhibits a slight mass dependence. $f_{\rm{Q}}$ in low density environments shows a greater evolution between redshift bins at high masses than at low masses. In contrast, the $f_{\rm{Q}}$ in high density environments shows a greater evolution between redshift bins at low masses than at high masses.
+
+%Remark on the difference between low environment and high environment. 
 
 \begin{figure}
     \begin{center}
@@ -273,32 +281,14 @@ where $a$ are $b$ are best-fit parameters using {\em MPFIT} (\cite{Markwardt:200
 The analysis described in this paper use a fixed cylindrical aperture with dimensions $R_{\rm{ap}} = 2 \: \rm{Mpc}$ and $H_{\rm{ap}} = 25 \: \rm{Mpc}$ to measure environment, the same analysis was extended for varying aperture dimensions $R_{\rm{ap}} = 1, 2, 3 \: \rm{Mpc}$ and $H_{\rm{ap}} = 25, 50 \: \rm{Mpc}$. Minor adjustments to the environment classification thresholds were adopted in these analyses for the smaller apertures ($r_{\rm{ap}} = 0.5, 1 \rm{Mpc}$ and $r_{\rm{ap}} = 25 \rm{Mpc}$). The results obtained from using these different are consistent with the results displayed in this paper. 
 
 \section{Summary} \label{sec:summary}
-Using a stellar mass complete galaxy sample, we demonstrate that the quiescent fraction increases over cosmic time for $z < 0.8$. Furthermore with a consistently measured galaxy environment from robust spectroscopic redshifts, we demonstrate that the quiescent fraction in high density environments is always greater than the fraction in low density environments. While the difference in quiescent fraction between the two environments is significant, it remains constant throughout the redshift range suggesting that the evolution of the quiescent fraction is independent of environment. 
+Using a stellar mass complete galaxy sampled derived from SDSS and PRIMUS accompanied by a consistently measured galaxy environment from robust spectroscopic redshifts, we demonstrate that the quiescent fraction increases over cosmic time for $ z < 0.8$, regardless of environment. During this epoch the quiescent fraction in high density environments is consistently greater than the quiescent fraction in low density environments. Furthermore, when we fit the quiescent fraction at a fiducial mass ($\mathcal{M}_{\rm{fid}}$), we find that the evolution of the quiescent fraction from $z \sim 0.8$ to $z \sim 0.1$ is similar for high and low density environments. 
 
-\begin{itemize}
-    \item Comparison to other works. 
-    \begin{itemize}
-        \item Alberts et al. 2013 
-        \begin{itemize}
-        		\item SFR, SSFR evolution 
-        \end{itemize}
-        \item Tinker et al. 2011
-        \begin{itemize}
-        		\item Properties of galaxies at fixed halo mass are independent of density measured on scales larger than the halo radius
-		\item The dependence of the quenched fraction of galaxies on large scale environment can be explained by the variations of the halo mass function with environment and by disentangling the relative contributions of central and satellite galaxies.
-		\item Different between lowest redshift $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})_{high}$ and $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})_{low}$ is similar to the $\Delta f_{\rm{Q}}$ between low $\rho/\bar{\rho}$ and high $\rho/\bar{\rho}$. Except the size of the aperture is very different. 
-		\item Compare high environment $f_{\rm{Q}}$ to solid lines in Tinker et al. 2011?
-        \end{itemize}
-        \item Geha et al. 2012
-        \begin{itemize}
-        		\item Compare low environment and central galaxies? 
-		\item SDSS bin does not extend to Geha paper
-	\end{itemize}
-	\item Iovino et al. 2010
-	\item Kovac et al. 2013
-	\item Peng et al. 2010
-    \end{itemize}
-\end{itemize}
+
+1. SMFs in low and high environment are different for both SF and Q
+2. Mass dependence of QF
+3. redshift dependence of Qf
+4. environment dependence of QF
+5. QF fit 
 
 %
 % References

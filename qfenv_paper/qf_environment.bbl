@@ -48,6 +48,9 @@
   {Cooper}, {Willmer}, {Weiner}, {Coil}, {Noeske}, \& {Eisenhardt}}]{bundy06a}
 {Bundy}, K., {Ellis}, R.~S., {Conselice}, C.~J., {et~al.} 2006, \apj, 651, 120
 
+\bibitem[{{Butcher} \& {Oemler}(1984)}]{Butcher:1984aa}
+{Butcher}, H., \& {Oemler}, Jr., A. 1984, \apj, 285, 426
+
 \bibitem[{{Chabrier}(2003)}]{Chabrier:2003aa}
 {Chabrier}, G. 2003, \pasp, 115, 763
 
@@ -97,8 +100,14 @@ Dressler, A. 1980, \apj, 236, 351
 \bibitem[{{Dressler}(1984)}]{dressler84a}
 {Dressler}, A. 1984, \araa, 22, 185
 
-\bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12a}
-{Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
+\bibitem[{{Geha} {et~al.}(2012{\natexlab{a}}){Geha}, {Blanton}, {Yan}, \&
+  {Tinker}}]{geha12a}
+{Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012{\natexlab{a}},
+  \apj, 757, 85
+
+\bibitem[{{Geha} {et~al.}(2012{\natexlab{b}}){Geha}, {Blanton}, {Yan}, \&
+  {Tinker}}]{Geha:2012aa}
+---. 2012{\natexlab{b}}, \apj, 757, 85
 
 \bibitem[{Guzzo {et~al.}(1997)Guzzo, Strauss, Fisher, Giovanelli, \&
   Haynes}]{guzzo97a}
@@ -114,6 +123,18 @@ Hermit, S., Santiago, B.~X., Lahav, O., {et~al.} 1996, \mnras, 283, 709
 
 \bibitem[{Hubble(1936)}]{hubble36a}
 Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
+
+\bibitem[{{Iovino} {et~al.}(2010){Iovino}, {Cucciati}, {Scodeggio}, {Knobel},
+  {Kova{\v c}}, {Lilly}, {Bolzonella}, {Tasca}, {Zamorani}, {Zucca}, {Caputi},
+  {Pozzetti}, {Oesch}, {Lamareille}, {Halliday}, {Bardelli}, {Finoguenov},
+  {Guzzo}, {Kampczyk}, {Maier}, {Tanaka}, {Vergani}, {Carollo}, {Contini},
+  {Kneib}, {Le F{\`e}vre}, {Mainieri}, {Renzini}, {Bongiorno}, {Coppa}, {de la
+  Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Le Borgne}, {Le Brun},
+  {Mignoli}, {Pell{\`o}}, {Peng}, {Perez-Montero}, {Ricciardelli}, {Silverman},
+  {Tresse}, {Abbas}, {Bottini}, {Cappi}, {Cassata}, {Cimatti}, {Koekemoer},
+  {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux},
+  {Porciani}, {Scaramella}, {Schiminovich}, \& {Scoville}}]{Iovino:2010aa}
+{Iovino}, A., {Cucciati}, O., {Scodeggio}, M., {et~al.} 2010, \aap, 509, A40
 
 \bibitem[{{Jarrett} {et~al.}(2000){Jarrett}, {Chester}, {Cutri}, {Schneider},
   {Skrutskie}, \& {Huchra}}]{Jarrett:2000aa}
@@ -223,6 +244,11 @@ Oemler, A. 1974, \apj, 194, 1
   {Rix}}]{taylor09a}
 {Taylor}, E.~N., {Franx}, M., {van Dokkum}, P.~G., {et~al.} 2009, \apj, 694,
   1171
+
+\bibitem[{{Tinker} {et~al.}(2011){Tinker}, {Wetzel}, \&
+  {Conroy}}]{Tinker:2011aa}
+{Tinker}, J., {Wetzel}, A., \& {Conroy}, C. 2011, ArXiv e-prints,
+  arXiv:1107.5046
 
 \bibitem[{{Wilman} {et~al.}(2010){Wilman}, {Zibetti}, \&
   {Budav{\'a}ri}}]{Wilman:2010aa}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 JUL 2014 17:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  21 JUL 2014 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -498,20 +498,38 @@ asses,
  []
 
 
-Package natbib Warning: Citation `Tinker:2011aa' on page 7 undefined on input l
-ine 257.
+Package natbib Warning: Citation `Cooper:2010aa' on page 7 undefined on input l
+ine 252.
 
 
-Package natbib Warning: Citation `Tinker:2011aa' on page 7 undefined on input l
-ine 257.
+Package natbib Warning: Citation `Blanton:2009aa' on page 7 undefined on input 
+line 260.
+
+[7 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_prim
+uszerr-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `Baldry:2006aa' on page 8 undefined on input l
+ine 266.
 
 
-Package natbib Warning: Citation `Iovino:2010aa' on page 7 undefined on input l
-ine 257.
+Package natbib Warning: Citation `Cucciati:2010aa' on page 8 undefined on input
+ line 268.
 
 
-Package natbib Warning: Citation `Geha:2012aa' on page 7 undefined on input lin
-e 259.
+Package natbib Warning: Citation `Kovac:2014aa' on page 8 undefined on input li
+ne 268.
+
+
+Package natbib Warning: Citation `Cucciati:2010aa' on page 8 undefined on input
+ line 268.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 8 undefined on input li
+ne 268.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 8 undefined on input li
+ne 270.
 
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr.eps>
@@ -525,11 +543,11 @@ Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-conver
 ted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_
 fidmass10_5_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_
-5_lit_primuszerr-eps-converted-to.pdf, id=47, 614.295pt x 614.295pt>
+5_lit_primuszerr-eps-converted-to.pdf, id=54, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidma
 ss10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -537,46 +555,55 @@ ss10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 s10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf used on input lin
-e 269.
+e 287.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
- [7 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_pri
-muszerr-eps-converted-to.pdf>]
-(./qf_environment.bbl [8 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12
-_primus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf>])
+
+Underfull \hbox (badness 2119) in paragraph at lines 298--299
+[]\OT1/cmr/m/n/10 The same fit-ting was per-formed us-ing $\OMS/cmsy/m/n/10 M[]
+ \OT1/cmr/m/n/10 =
+ []
+
+[8 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidma
+ss10_5_lit_primuszerr-eps-converted-to.pdf>] (./qf_environment.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[9] (./qf_environment.aux) ) 
+[9] (./qf_environment.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 5307 strings out of 493315
- 72552 string characters out of 6137904
- 168298 words of memory out of 5000000
- 8657 multiletter control sequences out of 15000+600000
+ 5324 strings out of 493315
+ 72904 string characters out of 6137904
+ 179129 words of memory out of 5000000
+ 8674 multiletter control sequences out of 15000+600000
  11736 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,8n,28p,2337b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips
-/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (9 pages, 488069 bytes).
+ 39i,8n,28p,2337b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
+rw/courier/ucrr8a.pfb>
+Output written on qf_environment.pdf (9 pages, 489963 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream

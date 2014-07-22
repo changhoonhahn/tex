@@ -7,6 +7,11 @@
 {Abazajian}, K.~N., {Adelman-McCarthy}, J.~K., {Ag{\"u}eros}, M.~A., {et~al.}
   2009, \apjs, 182, 543
 
+\bibitem[{{Baldry} {et~al.}(2006){Baldry}, {Balogh}, {Bower}, {Glazebrook},
+  {Nichol}, {Bamford}, \& {Budavari}}]{Baldry:2006aa}
+{Baldry}, I.~K., {Balogh}, M.~L., {Bower}, R.~G., {et~al.} 2006, \mnras, 373,
+  469
+
 \bibitem[{{Behroozi} {et~al.}(2013){Behroozi}, {Marchesini}, {Wechsler},
   {Muzzin}, {Papovich}, \& {Stefanon}}]{Behroozi:2013aa}
 {Behroozi}, P.~S., {Marchesini}, D., {Wechsler}, R.~H., {et~al.} 2013, \apjl,
@@ -79,6 +84,11 @@
 {Cooper}, M.~C., {Newman}, J.~A., {Weiner}, B.~J., {et~al.} 2008, \mnras, 383,
   1058
 
+\bibitem[{{Cooper} {et~al.}(2010){Cooper}, {Coil}, {Gerke}, {Newman}, {Bundy},
+  {Conselice}, {Croton}, {Davis}, {Faber}, {Guhathakurta}, {Koo}, {Lin},
+  {Weiner}, {Willmer}, \& {Yan}}]{Cooper:2010aa}
+{Cooper}, M.~C., {Coil}, A.~L., {Gerke}, B.~F., {et~al.} 2010, \mnras, 409, 337
+
 \bibitem[{{Croton} {et~al.}(2005){Croton}, {Farrar}, {Norberg}, {Colless},
   {Peacock}, {Baldry}, {Baugh}, {Bland-Hawthorn}, {Bridges}, {Cannon}, {Cole},
   {Collins}, {Couch}, {Dalton}, {De Propris}, {Driver}, {Efstathiou}, {Ellis},
@@ -86,6 +96,18 @@
   {Madgwick}, {Peterson}, {Sutherland}, \& {Taylor}}]{Croton:2005aa}
 {Croton}, D.~J., {Farrar}, G.~R., {Norberg}, P., {et~al.} 2005, \mnras, 356,
   1155
+
+\bibitem[{{Cucciati} {et~al.}(2010){Cucciati}, {Iovino}, {Kova{\v c}},
+  {Scodeggio}, {Lilly}, {Bolzonella}, {Bardelli}, {Vergani}, {Tasca}, {Zucca},
+  {Zamorani}, {Pozzetti}, {Knobel}, {Oesch}, {Lamareille}, {Caputi},
+  {Kampczyk}, {Tresse}, {Maier}, {Carollo}, {Contini}, {Kneib}, {Le F{\`e}vre},
+  {Mainieri}, {Renzini}, {Bongiorno}, {Coppa}, {de la Torre}, {de Ravel},
+  {Franzetti}, {Garilli}, {Le Borgne}, {Le Brun}, {Mignoli}, {Pell{\`o}},
+  {Peng}, {Perez-Montero}, {Ricciardelli}, {Silverman}, {Tanaka}, {Koekemoer},
+  {Scoville}, {Abbas}, {Bottini}, {Cappi}, {Cassata}, {Cimatti}, {Guzzo},
+  {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux},
+  {Porciani}, \& {Scaramella}}]{Cucciati:2010aa}
+{Cucciati}, O., {Iovino}, A., {Kova{\v c}}, K., {et~al.} 2010, \aap, 524, A2
 
 \bibitem[{{Desai} {et~al.}(2007){Desai}, {Dalcanton}, {Arag{\'o}n-Salamanca},
   {Jablonka}, {Poggianti}, {Gogarten}, {Simard}, {Milvang-Jensen}, {Rudnick},
@@ -100,14 +122,8 @@ Dressler, A. 1980, \apj, 236, 351
 \bibitem[{{Dressler}(1984)}]{dressler84a}
 {Dressler}, A. 1984, \araa, 22, 185
 
-\bibitem[{{Geha} {et~al.}(2012{\natexlab{a}}){Geha}, {Blanton}, {Yan}, \&
-  {Tinker}}]{geha12a}
-{Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012{\natexlab{a}},
-  \apj, 757, 85
-
-\bibitem[{{Geha} {et~al.}(2012{\natexlab{b}}){Geha}, {Blanton}, {Yan}, \&
-  {Tinker}}]{Geha:2012aa}
----. 2012{\natexlab{b}}, \apj, 757, 85
+\bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12a}
+{Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
 
 \bibitem[{Guzzo {et~al.}(1997)Guzzo, Strauss, Fisher, Giovanelli, \&
   Haynes}]{guzzo97a}
@@ -155,6 +171,16 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
   {Marinoni}, {McCracken}, {Memeo}, {Meneux}, {Porciani}, {Scaramella}, \&
   {Scoville}}]{kovac10a}
 {Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2010, \apj, 718, 86
+
+\bibitem[{{Kova{\v c}} {et~al.}(2014){Kova{\v c}}, {Lilly}, {Knobel},
+  {Bschorr}, {Peng}, {Carollo}, {Contini}, {Kneib}, {Le F{\'e}vre}, {Mainieri},
+  {Renzini}, {Scodeggio}, {Zamorani}, {Bardelli}, {Bolzonella}, {Bongiorno},
+  {Caputi}, {Cucciati}, {de la Torre}, {de Ravel}, {Franzetti}, {Garilli},
+  {Iovino}, {Kampczyk}, {Lamareille}, {Le Borgne}, {Le Brun}, {Maier},
+  {Mignoli}, {Oesch}, {Pello}, {Montero}, {Presotto}, {Silverman}, {Tanaka},
+  {Tasca}, {Tresse}, {Vergani}, {Zucca}, {Aussel}, {Koekemoer}, {Le Floc'h},
+  {Moresco}, \& {Pozzetti}}]{Kovac:2014aa}
+---. 2014, \mnras, 438, 717
 
 \bibitem[{{Leja} {et~al.}(2013){Leja}, {van Dokkum}, \& {Franx}}]{Leja:2013aa}
 {Leja}, J., {van Dokkum}, P., \& {Franx}, M. 2013, \apj, 766, 33

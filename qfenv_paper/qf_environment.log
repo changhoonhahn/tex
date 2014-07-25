@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 JUL 2014 17:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  25 JUL 2014 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -402,59 +402,65 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 104.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (23.28809pt too wide) in paragraph at lines 110--130
- []$ 
- []
-
-
 <fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png, id=17, 1228.59pt x 433.62
 pt>
 File: fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png Graphic file (type pn
 g)
  <use fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png>
 Package pdftex.def Info: fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png us
-ed on input line 137.
+ed on input line 136.
 (pdftex.def)             Requested size: 523.38219pt x 184.72606pt.
 
-Overfull \hbox (10.26476pt too wide) in paragraph at lines 135--138
+Overfull \hbox (10.26476pt too wide) in paragraph at lines 134--137
  [] 
  []
 
-[2] [3 <./fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png>]
+[2]
+<fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primuszerr_masslimit_histogram.
+png, id=27, 1445.4pt x 722.7pt>
+File: fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primuszerr_masslimit_histo
+gram.png Graphic file (type png)
+
+<use fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primuszerr_masslimit_histog
+ram.png>
+Package pdftex.def Info: fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primusz
+err_masslimit_histogram.png used on input line 154.
+(pdftex.def)             Requested size: 513.10957pt x 256.55872pt.
+ [3 <./fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png>] [4 <./fig_envcount
+_cylr2h25_thresh75_sdss_z0_05_0_12_primuszerr_masslimit_histogram.png>]
 Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr.eps>
-(epstopdf)                    date: 2014-07-10 12:28:33
-(epstopdf)                    size: 40586 bytes
+(epstopdf)                    date: 2014-07-25 11:13:19
+(epstopdf)                    size: 42148 bytes
 (epstopdf)             Output file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-07-10 12:37:22
-(epstopdf)                    size: 18624 bytes
+(epstopdf)                    date: 2014-07-25 11:13:40
+(epstopdf)                    size: 19296 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_smf_cylr2h25_thresh75_
 bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to
 .pdf fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2env
 bin_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_
-primuszerr-eps-converted-to.pdf, id=32, 614.295pt x 758.835pt>
+primuszerr-eps-converted-to.pdf, id=37, 614.295pt x 758.835pt>
 File: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2en
 vbin_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2env
 bin_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_prim
-us_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to.pdf used on input line 178.
+us_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to.pdf used on input line 185.
 
 (pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
- [4] [5 <./fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_li
-t_2envbin_primuszerr-eps-converted-to.pdf>]
+ [5]
 Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
 5_0_12_primus_z0_2_1_0_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-07-14 11:37:11
@@ -467,42 +473,22 @@ Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
 in0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf fig_
 qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr.eps
 >
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszer
-r-eps-converted-to.pdf, id=42, 433.62pt x 758.835pt>
+r-eps-converted-to.pdf, id=41, 433.62pt x 758.835pt>
 File: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_prim
 uszerr-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primu
 szerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primu
-s_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf used on input line 208.
+s_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf used on input line 215.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-[]\OT1/cmr/m/n/10 At low den-sity en-vi-ron-ments, the qui-es-cent
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 251--252
-\OT1/cmr/m/n/10 SMF re-mains rel-a-tively con-stant for galax-ies with
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 251--252
-[] \OMS/cmsy/m/n/10 M[]\OML/cmm/m/it/10 =\OMS/cmsy/m/n/10 M[] \OML/cmm/m/it/10 
-< \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 75$. At higher stel-lar m
-asses,
- []
-
-
-Package natbib Warning: Citation `McCarthy:2008aa' on page 7 undefined on input
- line 259.
-
-[7 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_prim
-uszerr-eps-converted-to.pdf>]
+ [6 <./fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2e
+nvbin_primuszerr-eps-converted-to.pdf>] [7 <./fig_qf_cylr2h25_thresh75_bin0_20_
+sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf>] [8]
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-07-14 11:44:14
@@ -515,11 +501,11 @@ Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-conver
 ted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_
 fidmass10_5_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 284.
+(epstopdf)             \includegraphics on input line 290.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_
-5_lit_primuszerr-eps-converted-to.pdf, id=54, 614.295pt x 614.295pt>
+5_lit_primuszerr-eps-converted-to.pdf, id=58, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidma
 ss10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -527,83 +513,56 @@ ss10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 s10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf used on input lin
-e 284.
+e 290.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
-
-
-Package natbib Warning: Citation `Scodeggio:2009aa' on page 8 undefined on inpu
-t line 294.
-
-
-Package natbib Warning: Citation `Tasca:2009aa' on page 8 undefined on input li
-ne 294.
-
-[8]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 295.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 295.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 296--297
+ [9 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidm
+ass10_5_lit_primuszerr-eps-converted-to.pdf>]
+Underfull \hbox (badness 1430) in paragraph at lines 302--303
 []\OT1/cmr/m/n/10 The same fit-ting pro-ce-dure was per-formed us-ing
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 306.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
- [9 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidm
-ass10_5_lit_primuszerr-eps-converted-to.pdf>] (./qf_environment.bbl)
+Package natbib Warning: Citation `Peng:2010aa' on page 10 undefined on input li
+ne 306.
+
+(./qf_environment.bbl [10])
 
 Package natbib Warning: There were undefined citations.
 
-[10] (./qf_environment.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[11] (./qf_environment.aux) ) 
 Here is how much of TeX's memory you used:
- 5355 strings out of 493315
- 73502 string characters out of 6137904
- 182567 words of memory out of 5000000
- 8702 multiletter control sequences out of 15000+600000
+ 5358 strings out of 493315
+ 73970 string characters out of 6137904
+ 197251 words of memory out of 5000000
+ 8707 multiletter control sequences out of 15000+600000
  11736 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,8n,28p,2337b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
-rw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (10 pages, 496695 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on qf_environment.pdf (11 pages, 565225 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

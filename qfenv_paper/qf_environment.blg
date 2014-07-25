@@ -4,47 +4,45 @@ The top-level auxiliary file: qf_environment.aux
 The style file: apj.bst
 Database file #1: qf_environmentNotes.bib
 Database file #2: PRIMUS.bib
-Warning--I didn't find a database entry for "Blanton:2009aa"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 50 entries,
+You've used 54 entries,
             3085 wiz_defined-function locations,
-            1019 strings with 24391 characters,
-and the built_in function-call counts, 29550 in all, are:
-= -- 1967
-> -- 3065
+            1047 strings with 28619 characters,
+and the built_in function-call counts, 33667 in all, are:
+= -- 2132
+> -- 3708
 < -- 12
-+ -- 1022
-- -- 1086
-* -- 2959
-:= -- 5874
-add.period$ -- 50
-call.type$ -- 50
-change.case$ -- 318
-chr.to.int$ -- 49
-cite$ -- 50
-duplicate$ -- 948
-empty$ -- 1407
-format.name$ -- 1134
-if$ -- 5591
++ -- 1236
+- -- 1308
+* -- 3466
+:= -- 6747
+add.period$ -- 54
+call.type$ -- 54
+change.case$ -- 345
+chr.to.int$ -- 53
+cite$ -- 54
+duplicate$ -- 1024
+empty$ -- 1518
+format.name$ -- 1359
+if$ -- 6310
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 48
-newline$ -- 154
-num.names$ -- 201
-pop$ -- 348
+missing$ -- 52
+newline$ -- 166
+num.names$ -- 217
+pop$ -- 378
 preamble$ -- 1
-purify$ -- 317
+purify$ -- 344
 quote$ -- 0
-skip$ -- 764
+skip$ -- 824
 stack$ -- 0
-substring$ -- 997
+substring$ -- 1078
 swap$ -- 10
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 447
+type$ -- 483
 warning$ -- 0
-while$ -- 174
+while$ -- 187
 width$ -- 0
-write$ -- 504
-(There was 1 warning)
+write$ -- 544

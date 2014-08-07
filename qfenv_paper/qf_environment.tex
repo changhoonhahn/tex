@@ -22,21 +22,29 @@ Michael~Blanton\altaffilmark{1},
 Alison~Coil\altaffilmark{2}, 
 Richard~Cool\altaffilmark{3}, 
 Daniel Eisenstein\altaffilmark{4},
-John Moustakas\altaffilmark{4}, 
-Ken Wong\altaffilmark{3}, 
-Guangtun Zhu\altaffilmark{3}
+John Moustakas\altaffilmark{5}, 
+Ken Wong\altaffilmark{6}, 
+Guangtun Zhu\altaffilmark{7}
 }
 \altaffiltext{1}{Center for Cosmology and Particle Physics, Department of Physics, New York University, 4 Washington Place, New York, NY 10003}
 \altaffiltext{2}{Center for Astrophysics and Space Sciences, Department of Physics, University of California, 9500 Gilman Dr., La Jolla, CA 92093}
 \altaffiltext{3}{MMT Observatory, University of Arizona, 1540 E Second Street, Tucson AZ 85721}
 \altaffiltext{4}{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138}
-
+\altaffiltext{5}{Department of Physics and Astronomy, Siena College, 515 Loudon Road, Loudonville, NY 12211}
+\altaffiltext{6}{Steward Observatory, University of Arizona, 933 North Cherry Avenue, Tucson, AZ 85721} 
+\altaffiltext{7}{Department of Physics and Astronomy, The Johns Hopkins University, 3400 North Charles Street, Baltimore, MD 21218} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ABSTRACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 We investigate the effects of galaxy environment on the evolution of the quiescent fraction ($f_{\rm{Q}}$) from $z =0.8 $ to $ 0.0$ using spectroscopic redshifts and multi-wavelength imaging data from PRism MUlti-object Survey (PRIMUS) and the Sloan Digitial Sky Survey (SDSS). Our stellar mass limited galaxy sample consists of $\sim 40000$ PRIMUS galaxies within $z = 0.2-0.8$ and $\sim 130000$ SDSS galaxies within $z = 0.0375-0.145$. We classify the galaxies as quiescent or star-forming, based on an evolving specific star formation cut, and as low or high density environments, based on fixed cylindrical aperture environment measurements on a volume-limited {\em Environment Definition Population} (from PRIMUS and SDSS). 
 
 For each of these subsamples, we examine the stellar mass function (SMF) evolution and compute the $f_{\rm{Q}}(\mathcal{M}_{*})$. We find that in both low and high density environments the quiescent fraction increases with cosmic time over the probed redshift range. Moreover, the difference between the quiescent fraction in low and high density environments remains constant throughout the redshift range. These results suggest that the evolution of the quiescent fraction is independent of environment and provide constraints on quenching mechanisms in high density environments such as groups and clusters.  
 \end{abstract}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INTRODUCTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 Galaxies, in their detailed properties, carry the imprints of their
 surroundings, with a strong dependence of the quiescent fraction of
@@ -261,8 +269,9 @@ Although we imposed PRIMUS redshift errors on our SDSS galaxies in order to cons
 % STELLAR MASS FUNCTION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Stellar Mass Function} \label{sec:smf}
-Our galaxy sample has so far been classified into quiescent or star-forming and low or high density environments. We further divide these subsamples into redshift bins: $0.05-0.12$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$ for a total 16 subsamples. In this section, we calculate the SMF for each of these subsamples. 
+Our galaxy sample has so far been classified into quiescent or star-forming and low or high density environments. We further divide these subsamples into redshift bins: $0.05-0.12$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$ for a total 16 subsamples. In Section \ref{sec:smfcalc}, we calculate the SMF for each of these subsamples. Then we examine the evolution of active and quiescent subsample SMFs in different environments in Section \ref{sec:smfevol}.  
 
+\subsection{Stellar Mass Function Calculations} \label{sec:smfcalc} 
 To calculate the SMFs we employ a non-parametric $1/{V_{\rm{max}}}$ estimator commonly used for galaxy luminosity functions and stellar mass functions, as done in \cite{Moustakas:2013aa} and discussed in the review \cite{Johnston:2011aa}. The differential SMF is given by the following equation:
 \begin{equation} \label{eq:phi}
 \Phi(\rm{log}\: \mathcal{M}) \Delta(\rm{log} \:\mathcal{M}) = \sum\limits_{i=1}^{N} \frac{w_i}{V_{\rm{max,avail},i}}. 
@@ -279,13 +288,21 @@ To calculate the uncertainty of the SMFs from the sample variance, we use a stan
 \end{equation} 
 $M$ in this equation is the number of jack knife SMFs in the stellar mass bin. $\langle \Phi^j \rangle$ is the mean number density of galaxies in each stellar mass bin for all of the jack knife $\Phi^j$s. 
 
+\subsection{Evolution of the Stellar Mass Function in Different Environments} \label{sec:smfevol}
 In Figure \ref{fig:smf}, we present the SMFs of the quiescent/star-forming (orange/blue, bottom/top panels) and high/low density environment (left/right panels) subsamples. The redshift evolution of the SMFs in each of these panels are indicated by a darker shade for lower redshift bins. The width of the SMFs represent the sample variance uncertainties.
+%%%%%%% REWRITE AFTER REVISED SMF RESULTS
+%As a result, we caution that the SMF redshift evolution is inconsistent during the transition from the PRIMUS sample to the SDSS sample at $z \sim 0.2$. 
 
-As a result, we caution that the SMF redshift evolution is inconsistent during the transition from the PRIMUS sample to the SDSS sample at $z \sim 0.2$. 
+%Yet, from the PRIMUS samples alone, we probe a sufficient redshift to observe notable trends in the SMF evolution for each of the panels in Figure \ref{fig:smf}. 
+In panel (a), star-forming galaxies in low density environments, we find a significant decrease in the high mass end of the SMF ($\mathcal{M} > 10^{10.75} \mathcal{M}_{\odot}$). In contrast at lower masses ($\mathcal{M} < 10^{10.5} \mathcal{M}_{\odot}$) we observe a notable increase in the SMF. In panel (b), star-forming galaxies in high density environments, we notice a possible decrease above the knee of the SMF ($\mathcal{M} \sim 10^{10.7} \mathcal{M}_{\odot}$) accompanied by an increase below the knee. For the quiescent population in low density environment, shown in panel (c) of Figure \ref{fig:smf}, we notice an increase in $\Phi$ for lower masses, but we do not notice any clear SMF evolution at the massive end. Lastly for the quiescent population in high density environments, panel (d), we find significant increase in $\Phi$ at all masses. 
 
-Yet, from the PRIMUS samples alone, we probe a sufficient redshift to observe notable trends in the SMF evolution for each of the panels in Figure \ref{fig:smf}. Later we compare these trends to SMF results from DEEP2 (\cite{bundy06a}) and zCOSMOS (\cite{Bolzonella:2010aa}). In panel (a), star-forming galaxies in low density environments, we find a significant decrease in the high mass end of the SMF ($\mathcal{M} > 10^{10.75} \mathcal{M}_{\odot}$). In contrast at lower masses ($\mathcal{M} < 10^{10.5} \mathcal{M}_{\odot}$) we observe a notable increase in the SMF. In panel (b), star-forming galaxies in high density environments, we notice a possible decrease above the knee of the SMF ($\mathcal{M} \sim 10^{10.7} \mathcal{M}_{\odot}$) accompanied by an increase below the knee. For the quiescent population in low density environment, shown in panel (c) of Figure \ref{fig:smf}, we notice an increase in $\Phi$ for lower masses, but we do not notice any clear SMF evolution at the massive end. Lastly for the quiescent population in high density environments, panel (d), we find significant increase in $\Phi$ at all masses. 
+In comparison to \cite{bundy06a} and \cite{Bolzonella:2010aa}, some of the noted trends are not immediately evident. However, this is mostly due to the conflicting mass limits proposed in each study. Not to mention, only part of the redshift range probed by \cite{bundy06a} overlap with our results. Overall, we find that the trends we note in the SMF evolution above are in good agreement with results from DEEP2 and zCOSMOS. 
 
-We caution readers and reserve detailed analysis of the SMFs to future work due to the improvements in photometry that significantly alter the SDSS SMFs mentioned in Section \ref{sec:sdss}. 
+Observing the evolutionary trends in SMF for each of these sub-populations simultaneously provides a naive narrative of the different galaxy evolutionary tracks involving environment and quenching. For example, the decrease in the massive star-forming galaxies in low density environment over cosmic time can be attributed to the transition of those galaxies to any of the other panels. The star-forming galaxies in low density environments that have quenched their star formation over time are possibly responsible for the increase of the quiescent, low density environment SMF over time. The star-forming galaxies that fall into higher density environments explain the increase in the star-forming high density environment SMF below the knee. Finally, star-forming galaxies in high density environments that have quenched their star-formation, quiescent galaxies that have transitioned from low to high density environments, and star-forming galaxies in low density environments that quench their star-formation while infalling to high density environments all contribute to the overall increase of the high environment quiescent SMF.
+
+In addition to the evolution over cosmic time, we observe noticeable trends when we compare the SMFs for star-forming and quiescent galaxies between the two environments. Comparison of the SMFs in low versus high density environments reveal a noticeable relation between mass and density, with SMFs in high density environments having more massive galaxies. We further confirm this trend when we compare the median mass between the two environments to find that the median mass for galaxies in high density environments is significantly greater than in low density environments. The relationship between mass and environment observed in our SMFs mirror the well-established mass-density relation and observed mass segregation with environment in the literature (\cite{bundy06a}; \cite{Scodeggio:2009aa}; \cite{Bolzonella:2010aa}).
+
+%We caution readers and reserve detailed analysis of the SMFs to future work due to the improvements in photometry that significantly alter the SDSS SMFs mentioned in Section \ref{sec:sdss}. 
 % There is also the issue with the SMF evolution: the uneven fractional contribution of the population and each environment classification. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -331,11 +348,6 @@ Finally, from Figure \ref{fig:qffit}, we note that for both environments $f_{\rm
 % DISCUSSION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion} \label{sec:discussion}
-In comparison to \cite{bundy06a} and \cite{Bolzonella:2010aa}, some of the noted trends are not immediately evident. However, this is mostly due to the conflicting mass limits proposed in each study. Not to mention, only part of the redshift range probed by \cite{bundy06a} overlap with our results. Overall, we find that the trends we note in the SMF evolution above are in good agreement with results from DEEP2 and zCOSMOS. 
-
-Observing the evolutionary trends in SMF for each of these sub-populations simultaneously provides a naive narrative of the different galaxy evolutionary tracks involving environment and quenching. For example, the decrease in the massive star-forming galaxies in low density environment over cosmic time can be attributed to the transition of those galaxies to any of the other panels. The star-forming galaxies in low density environments that have quenched their star formation over time are possibly responsible for the increase of the quiescent, low density environment SMF over time. The star-forming galaxies that fall into higher density environments explain the increase in the star-forming high density environment SMF below the knee. Finally, star-forming galaxies in high density environments that have quenched their star-formation, quiescent galaxies that have transitioned from low to high density environments, and star-forming galaxies in low density environments that quench their star-formation while infalling to high density environments all contribute to the overall increase of the high environment quiescent SMF.
-
-In addition to the evolution over cosmic time, we observe noticeable trends when we compare the SMFs for star-forming and quiescent galaxies between the two environments. Comparison of the SMFs in low versus high density environments reveal a noticeable relation between mass and density, with SMFs in high density environments having more massive galaxies. We further confirm this trend when we compare the median mass between the two environments to find that the median mass for galaxies in high density environments is significantly greater than in low density environments. The relationship between mass and environment observed in our SMFs mirror the well-established mass-density relation and observed mass segregation with environment in the literature (\cite{bundy06a}; \cite{Scodeggio:2009aa}; \cite{Bolzonella:2010aa}).
 
 Finally, we compare our $f_{\rm{Q}}$ results to previous $f_{\rm{Q}}/f_{\rm{red}}$ measurements for analogous environment classifications. For our lowest redshift bin, we find that our $f_{\rm{Q}}$ values for low and high environments are consistent with previous $f_{\rm{Q}}/f_{\rm{red}}$ measurements for SDSS galaxies as a function of environment. For example, \cite{Tinker:2011aa}, using a group-finding algorithm on the SDSS DR7, presents the relationship between $f_{\rm{Q}}$ and overdensity for galaxies within the mass range $\rm{log} \; \mathcal{M} = [9.8, 10.1]$. The \cite{Tinker:2011aa} $f_{\rm{Q}}$ at the lowest and highest overdensities, $f_{\rm{Q}} \sim 0.4$ and $f_{\rm{Q}} \sim 0.6$ respectively, are consistent with our $f_{\rm{Q}}$ for low and high density environment at the lowest mass bin ($\rm{log} \; \mathcal{M} \sim 10.2$). At higher masses, our $f_{\rm{Q}}$ results are consistent with \cite{Baldry:2006aa}. \cite{Baldry:2006aa} uses project neighbor density environment measures ($\rm{log} \;  \Sigma$) to obtain $f_{\rm{Q}}(\mathcal{M})$ for a range of environmental densities. Although the different environment measurements make a direct comparison unclear, at higher environments ($\rm{log} \; \Sigma > 0.2$) in \cite{Baldry:2006aa} $f_{\rm{Q}} \sim 0.6$ at $\mathcal{M} \sim 10^{10.2} \mathcal{M}_{\odot}$ and $f_{\rm{Q}} \sim 0.9$ at $\mathcal{M} \sim 10^{11.5} \mathcal{M}_{\odot}$, in agreement our high density environment. Likewise, for lower environments in \cite{Baldry:2006aa} ($\rm{log} \; \Sigma < -0.4$) $f_{\rm{Q}} \sim 0.4$ at $\mathcal{M} \sim 10^{10.2} \mathcal{M}_{\odot}$ and $f_{\rm{Q}} \sim 0.8$ at $\mathcal{M} \sim 10^{11.5} \mathcal{M}_{\odot}$, which also agree with our low density environment $f_{\rm{Q}}$. 
 

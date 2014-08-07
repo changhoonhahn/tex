@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 AUG 2014 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  7 AUG 2014 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,17 +383,17 @@ e
 ))
 \openout3 = `qf_environmentNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 35.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 40.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -404,14 +404,14 @@ Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package natbib Warning: Citation `York:2000aa' on page 2 undefined on input lin
-e 107.
+e 115.
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 115--116
+Underfull \hbox (badness 1360) in paragraph at lines 123--124
 []\OT1/cmr/m/n/10 At in-ter-me-di-ate red-shifts we use mul-ti-wave-length
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 119.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 127.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -422,10 +422,10 @@ File: fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png Graphic file (type pn
 g)
  <use fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png>
 Package pdftex.def Info: fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png us
-ed on input line 149.
+ed on input line 157.
 (pdftex.def)             Requested size: 523.38219pt x 184.72606pt.
 
-Overfull \hbox (10.26476pt too wide) in paragraph at lines 147--150
+Overfull \hbox (10.26476pt too wide) in paragraph at lines 155--158
  [] 
  []
 
@@ -438,7 +438,7 @@ gram.png Graphic file (type png)
 <use fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primuszerr_masslimit_histog
 ram.png>
 Package pdftex.def Info: fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primusz
-err_masslimit_histogram.png used on input line 171.
+err_masslimit_histogram.png used on input line 179.
 (pdftex.def)             Requested size: 342.09068pt x 256.55872pt.
  [3 <./fig_edp_sdss_z005_012_primus_z02_10_Mr_redshift.png>] [4 <./fig_envcount
 _cylr2h25_thresh75_sdss_z0_05_0_12_primuszerr_masslimit_histogram.png>]
@@ -454,7 +454,7 @@ Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to
 .pdf fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2env
 bin_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 204.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_
@@ -465,7 +465,7 @@ vbin_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2env
 bin_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_prim
-us_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to.pdf used on input line 204.
+us_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to.pdf used on input line 212.
 
 (pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
  [5]
@@ -481,7 +481,7 @@ Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
 in0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf fig_
 qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr.eps
 >
-(epstopdf)             \includegraphics on input line 241.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszer
@@ -492,36 +492,36 @@ uszerr-eps-converted-to.pdf Graphic file (type pdf)
 <use fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primu
 szerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primu
-s_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf used on input line 241.
+s_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf used on input line 249.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
  [6 <./fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2e
 nvbin_primuszerr-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 $\OML/cmm/m/it/10 w[]$ \OT1/cmr/m/n/10 is the sta-tis-ti-cal weight of galaxy $
 \OML/cmm/m/it/10 i$ \OT1/cmr/m/n/10 and
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 269--271
+Underfull \hbox (badness 1072) in paragraph at lines 278--280
 \OT1/cmr/m/n/10 ^^H([] \OMS/cmsy/m/n/10 M\OT1/cmr/m/n/10 )^^A([] \OMS/cmsy/m/n/
 10 M\OT1/cmr/m/n/10 )$ is the num-ber of galax-ies ($\OML/cmm/m/it/10 N$\OT1/cm
 r/m/n/10 )
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 269--271
+Underfull \hbox (badness 5847) in paragraph at lines 278--280
 \OT1/cmr/m/n/10 per unit vol-ume within the stel-lar mass range
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 269--271
+Underfull \hbox (badness 1205) in paragraph at lines 278--280
 \OT1/cmr/m/n/10 [[] \OMS/cmsy/m/n/10 M\OML/cmm/m/it/10 ; [] \OMS/cmsy/m/n/10 M 
 \OT1/cmr/m/n/10 + ^^A([] \OMS/cmsy/m/n/10 M\OT1/cmr/m/n/10 )]$. The equa-tion a
 bove
  []
 
 [7 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_prim
-uszerr-eps-converted-to.pdf>]
+uszerr-eps-converted-to.pdf>] [8]
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-07-14 11:44:14
@@ -534,11 +534,11 @@ Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-conver
 ted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_
 fidmass10_5_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 313.
+(epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_
-5_lit_primuszerr-eps-converted-to.pdf, id=56, 614.295pt x 614.295pt>
+5_lit_primuszerr-eps-converted-to.pdf, id=59, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidma
 ss10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -546,20 +546,10 @@ ss10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 s10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf used on input lin
-e 313.
+e 330.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
- [8]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 323.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 323.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 326--327
+Underfull \hbox (badness 1430) in paragraph at lines 343--344
 []\OT1/cmr/m/n/10 The same fit-ting pro-ce-dure was per-formed us-ing
  []
 
@@ -567,7 +557,7 @@ Underfull \hbox (badness 1430) in paragraph at lines 326--327
 ss10_5_lit_primuszerr-eps-converted-to.pdf>]
 
 Package natbib Warning: Citation `Peng:2010aa' on page 10 undefined on input li
-ne 346.
+ne 358.
 
 [10] (./qf_environment.bbl)
 
@@ -575,10 +565,10 @@ Package natbib Warning: There were undefined citations.
 
 [11] [12] (./qf_environment.aux) ) 
 Here is how much of TeX's memory you used:
- 5370 strings out of 493315
- 74100 string characters out of 6137904
- 190859 words of memory out of 5000000
- 8715 multiletter control sequences out of 15000+600000
+ 5373 strings out of 493315
+ 74136 string characters out of 6137904
+ 191397 words of memory out of 5000000
+ 8718 multiletter control sequences out of 15000+600000
  13389 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,9n,29p,1904b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -603,7 +593,7 @@ texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (12 pages, 533507 bytes).
+Output written on qf_environment.pdf (12 pages, 534102 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream

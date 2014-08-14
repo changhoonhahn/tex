@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 AUG 2014 11:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 AUG 2014 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,6 +554,11 @@ imus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf used on input lin
 e 348.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 
+Overfull \hbox (2.44067pt too wide) in paragraph at lines 367--383
+ []$ 
+ []
+
+
 Underfull \hbox (badness 1430) in paragraph at lines 391--392
 []\OT1/cmr/m/n/10 The same fit-ting pro-ce-dure was per-formed us-ing
  []
@@ -576,7 +581,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  5377 strings out of 493315
  74232 string characters out of 6137904
- 171148 words of memory out of 5000000
+ 172148 words of memory out of 5000000
  8721 multiletter control sequences out of 15000+600000
  13698 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -603,7 +608,7 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (12 pages, 544121 bytes).
+Output written on qf_environment.pdf (12 pages, 544538 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream

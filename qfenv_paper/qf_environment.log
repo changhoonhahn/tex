@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  15 AUG 2014 17:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 AUG 2014 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,7 +304,11 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 16.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 16.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 16.
 
-(./qf_environment.aux)
+(./qf_environment.aux
+
+LaTeX Warning: Label `fig:qffit' multiply defined.
+
+)
 \openout1 = `qf_environment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -319,8 +323,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
 \scratchdimen=\dimen127
@@ -448,33 +451,36 @@ err_masslimit_edgecut_histogram.png used on input line 185.
 [4 <./fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primuszerr_masslimit_edgec
 ut_histogram.png>]
 Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
-05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr.eps>
-(epstopdf)                    date: 2014-08-11 17:52:16
-(epstopdf)                    size: 42148 bytes
+05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
+(epstopdf)                    date: 2014-08-18 11:46:55
+(epstopdf)                    size: 43269 bytes
 (epstopdf)             Output file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
-05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-11 18:05:23
-(epstopdf)                    size: 19290 bytes
+05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-08-18 11:49:00
+(epstopdf)                    size: 19873 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_smf_cylr2h25_thresh75_
-bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to
-.pdf fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2env
-bin_primuszerr.eps>
+bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primus
+zerr-eps-converted-to.pdf fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pri
+mus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_
-primuszerr-eps-converted-to.pdf, id=39, 614.295pt x 758.835pt>
-File: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2en
-vbin_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
+<fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowe
+nv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=39, 614.295pt x 758.83
+5pt>
+File: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin
+_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pd
+f)
 
-<use fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2env
-bin_primuszerr-eps-converted-to.pdf>
+<use fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_
+lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_prim
-us_z0_2_1_0_lit_2envbin_primuszerr-eps-converted-to.pdf used on input line 218.
-
+us_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf us
+ed on input line 218.
 (pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
- [5] [6 <./fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_li
-t_2envbin_primuszerr-eps-converted-to.pdf>]
+ [5] [6 <./fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2e
+nvbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 280--282
 $\OML/cmm/m/it/10 w[]$ \OT1/cmr/m/n/10 is the sta-tis-ti-cal weight of galaxy $
 \OML/cmm/m/it/10 i$ \OT1/cmr/m/n/10 and
@@ -501,57 +507,62 @@ bove
 
 [7]
 Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
-5_0_12_primus_z0_2_1_0_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-08-11 17:54:26
-(epstopdf)                    size: 27151 bytes
+5_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
+(epstopdf)                    date: 2014-08-18 11:17:03
+(epstopdf)                    size: 26755 bytes
 (epstopdf)             Output file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
-5_0_12_primus_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-11 18:05:24
-(epstopdf)                    size: 13933 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_qf_cylr2h25_thresh75_b
-in0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf fig_
-qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr.eps
+5_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf
 >
+(epstopdf)                    date: 2014-08-18 11:49:01
+(epstopdf)                    size: 13834 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig_qf_cylr2h25_thresh75_b
+in0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-
+converted-to.pdf fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1
+_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszer
-r-eps-converted-to.pdf, id=54, 433.62pt x 758.835pt>
-File: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_prim
-uszerr-eps-converted-to.pdf Graphic file (type pdf)
+<fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_hig
+henv3_0_lit_primuszerr-eps-converted-to.pdf, id=54, 433.62pt x 758.835pt>
+File: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
+5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
-<use fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primu
-szerr-eps-converted-to.pdf>
+<use fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5
+_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primu
-s_z0_2_1_0_lit_primuszerr-eps-converted-to.pdf used on input line 309.
+s_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf used on inp
+ut line 309.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
- [8] [9 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit
-_primuszerr-eps-converted-to.pdf>]
+ [8] [9 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_low
+env0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
-0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-08-11 18:06:11
-(epstopdf)                    size: 23626 bytes
+0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr.eps>
+(epstopdf)                    date: 2014-08-18 11:17:07
+(epstopdf)                    size: 24140 bytes
 (epstopdf)             Output file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
-0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-11 18:07:19
-(epstopdf)                    size: 13147 bytes
+0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2014-08-18 11:49:02
+(epstopdf)                    size: 13502 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr2h25_thresh7
-5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-conver
-ted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_
-fidmass10_5_lit_primuszerr.eps>
+5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_
+primuszerr-eps-converted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_
+0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr.eps>
 (epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_
-5_lit_primuszerr-eps-converted-to.pdf, id=63, 614.295pt x 614.295pt>
-File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidma
-ss10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
+<fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
+highenv3_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf, id=63, 614.295pt x 
+614.295pt>
+File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
+v0_5_highenv3_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf Graphic file (t
+ype pdf)
 
-<use fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmas
-s10_5_lit_primuszerr-eps-converted-to.pdf>
+<use fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv
+0_5_highenv3_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
-imus_z0_2_1_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf used on input lin
-e 348.
+imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr-eps-converted-to.
+pdf used on input line 348.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 
 Overfull \hbox (2.44067pt too wide) in paragraph at lines 367--383
@@ -563,13 +574,48 @@ Underfull \hbox (badness 1430) in paragraph at lines 391--392
 []\OT1/cmr/m/n/10 The same fit-ting pro-ce-dure was per-formed us-ing
  []
 
-[10 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidm
-ass10_5_lit_primuszerr-eps-converted-to.pdf>]
+[10 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
+nv0_5_highenv3_0_fidmass10_5_lit_primuszerr-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
+0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosm
+oscomp_envthresh_kovacoffset.eps>
+(epstopdf)                    date: 2014-08-18 11:52:12
+(epstopdf)                    size: 42409 bytes
+(epstopdf)             Output file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
+0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosm
+oscomp_envthresh_kovacoffset-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-08-18 11:52:40
+(epstopdf)                    size: 21849 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr2h25_thresh7
+5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_
+primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-converted-to.pdf fig_qffit_cyl
+r2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fid
+mass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset.eps>
+(epstopdf)             \includegraphics on input line 399.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
+highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-con
+verted-to.pdf, id=69, 614.295pt x 614.295pt>
+File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
+v0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-ep
+s-converted-to.pdf Graphic file (type pdf)
+
+<use fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv
+0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-eps
+-converted-to.pdf>
+Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
+imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envth
+resh_kovacoffset-eps-converted-to.pdf used on input line 399.
+(pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
+
 
 Package natbib Warning: Citation `Peng:2010aa' on page 11 undefined on input li
-ne 395.
+ne 404.
 
-(./qf_environment.bbl [11])
+(./qf_environment.bbl [11 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_1
+2_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_e
+nvthresh_kovacoffset-eps-converted-to.pdf>])
 
 Package natbib Warning: There were undefined citations.
 
@@ -577,15 +623,18 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 5379 strings out of 493315
- 74252 string characters out of 6137904
- 178440 words of memory out of 5000000
- 8723 multiletter control sequences out of 15000+600000
+ 5384 strings out of 493315
+ 75419 string characters out of 6137904
+ 189454 words of memory out of 5000000
+ 8727 multiletter control sequences out of 15000+600000
  13698 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,8n,29p,1904b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,29p,1904b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
@@ -608,10 +657,10 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (12 pages, 544666 bytes).
+Output written on qf_environment.pdf (12 pages, 565961 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -215,7 +215,7 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
 \begin{figure*}
   \begin{center}
     \leavevmode
-    \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_2envbin_primuszerr.eps,height=0.75\textwidth,angle=90}
+    \epsfig{file=fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps, height=0.75\textwidth,angle=90}
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
 low (left) and high (right) environments from redshift range $z=0-0.8$. The environment of each galaxy  
 was calculated using a cylindrical aperture size of $R=2 \: \rm{Mpc}$ and $H=25 \: \rm{Mpc}$ and  
@@ -306,7 +306,7 @@ While our mass complete subsample coupled with robust environment measurement al
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lit_primuszerr.eps,height=0.75\textwidth,angle=90}
+        \epsfig{file=fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps, height=0.75\textwidth,angle=90}
         \caption{Evolution of the quiescent fraction $f_{\rm{Q}}$ for galaxies in low (left) and high (rights) density environments for $z < 0.8$. $f_{\rm{Q}}$s were calculated using the SMFs in Figure\ref{fig:smf}, as described in text. Darker shading indicates lower redshift.}         \label{fig:qf}
     \end{center}
 \end{figure*}
@@ -316,7 +316,7 @@ While our mass complete subsample coupled with robust environment measurement al
 \section{Quiescent Fraction} \label{sec:qf_const}
 The SMFs calculated in the previous section illustrate the stellar mass distribution of our galaxy population and its evolution over comic time. In this section, using the SMFs of our subsamples, we compare the quiescent and the star-forming populations by calculating the fraction of galaxies that have quenched their star-formation, the quiescent fraction. 
 
-With the suffic ient statistics available from SDSS and PRIMUS, we evaluate the quiescent fraction in bins of stellar mass and redshift for low and high density environments (Section \ref{sec:qfevol}). More specifically, by analyzing the quiescent fraction with respect to mass, redshift, and environment we are able to compare the quiescent fraction evolution in low and high density environments. Through this comparison, in Section \ref{sec:env_qf_evol}, we reveal the subtle environmental effects in quenching star formation that are often obscured by the underlying correlations among galactic properties such as color-mass and mass-density relations (\cite{Cooper:2010aa}). Furthermore by quantifying the environmental effects of star-formation quenching, we are able to provide constraints on the various proposed environmental quenching mechanisms, such as strangulation and ram-pressure stripping (\cite{McCarthy:2008aa}).
+With the sufficient statistics available from SDSS and PRIMUS, we evaluate the quiescent fraction in bins of stellar mass and redshift for low and high density environments (Section \ref{sec:qfevol}). More specifically, by analyzing the quiescent fraction with respect to mass, redshift, and environment we are able to compare the quiescent fraction evolution in low and high density environments. Through this comparison, in Section \ref{sec:env_qf_evol}, we reveal the subtle environmental effects in quenching star formation that are often obscured by the underlying correlations among galactic properties such as color-mass and mass-density relations (\cite{Cooper:2010aa}). Furthermore by quantifying the environmental effects of star-formation quenching, we are able to provide constraints on the various proposed environmental quenching mechanisms, such as strangulation and ram-pressure stripping (\cite{McCarthy:2008aa}).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % EVOLUTION OF THE QUIESCENT FRACTION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -345,7 +345,7 @@ Additionally, the zCOSMOS results indicate that the $f_{\rm{red}}$ values in hig
     \begin{center}
         \leavevmode
         \epsscale{1.0}
-        \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_fidmass10_5_lit_primuszerr.eps,height=0.45\textwidth}
+        \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr.eps, height=0.45\textwidth}
         \caption{The evolution of the quiescent fraction at fiducial mass, $f_{Q}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$, for low (square) and high (circle) density environments within the redshift range $z = 0.0 - 0.8$.  There is a significant increase in $f_{Q}(\mathcal{M}_{\rm{fid}})$ with decrease in redshift for both environments. In addition, over the entire redshift range, high density environment $f_{Q}(\mathcal{M}_{\rm{fid}})$ is greater than low density environment $f_{Q}(\mathcal{M}_{\rm{fid}})$. However the difference in $f_{Q}(\mathcal{M}_{\rm{fid}})$ for the two environments remains constant throughout suggesting that while the quiescent fraction is higher in dense environments, the evolution of the quiescent fraction is independent of environment.}         \label{fig:qffit}
     \end{center}
 \end{figure}
@@ -367,8 +367,8 @@ where $a$ are $b$ are best-fit parameters using {\em MPFIT} (\cite{Markwardt:200
     \leavevmode
     \begin{tabular}{lllll} \hline \hline              
     $z_1 < z < z_2$ &Environment        &a  &b  \\ \hline 
-$0.05 < z< 0.12$ &Low           &$0.3612 \pm 0.015$	&$0.482 \pm 0.006$                           \\
-               &High            &18952                       &13387                           \\ 
+$0.05 < z< 0.12$ &$n_{\rm{env}} < 0.5$           &$0.3612 \pm 0.015$	&$0.482 \pm 0.006$                           \\
+               &$n_{\rm{env}} > 3$            &18952                       &13387                           \\ 
                               &               &                       &                           \\ \hline
 $0.2 < z <0.4$      &Low           &1158                    &3445                           \\
                &High            &817                    &1531                           \\
@@ -391,6 +391,15 @@ Figure \ref{fig:qffit} illustrates that throughout the entire redshift range, hi
 The same fitting procedure was performed using $\mathcal{M}_{\rm{fid}} = 10^{11} \mathcal{M}_\odot$; however, aside from an overall shift in $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})$ by $\sim 0.2$, we observe the same evolutionary trends. $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}} = 10^{11}\mathcal{M}_{\odot})$ for both low and high density environments each increase by $\sim 0.2$ as redshift decreases from $\sim 0.7$ to $\sim 0.1$, just as Figure \ref{fig:qffit}. Evidently, increasing the fiducial mass to $10^{11} \mathcal{M}_{\odot}$ does not change the total evolution for either environments. On the other hand, \cite{Iovino:2010aa}, for both group and isolated galaxies, finds significantly less $f_{\rm{Q}}$ evolution for $\mathcal{M} \sim 10^{11.0} \mathcal{M}_{\odot}$ than in $\mathcal{M} \sim 10^{10.5} \mathcal{M}_{\odot}$. Furthermore, \cite{Iovino:2010aa} also finds that the difference in $f_{\rm{blue}}$ evolution between group and isolated galaxies ($f_{\rm{blue}, \rm{isolated}}(z) - f_{\rm{blue}, \rm{group}}(z))$ is much greater at $\mathcal{M} \sim 10^{10.5} \mathcal{M}_{\odot}$ than at $\mathcal{M} \sim 10^{11} \mathcal{M}_{\odot}$, where they find almost no difference. In contrast, we find that changing the fiducial mass does not significantly alter the difference in $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})$. The zCOSMOS results find a clear mass dependence in the $f_{\rm{blue}}$ evolution; however, the consistency in evolutionary trends when the fiducial mass is change reveal that our $f_{\rm{Q}}$ evolution exhibits little mass dependence. Although our sample from SDSS and PRIMUS provides significantly larger statistics, due to the limited mass ranges probed in our mass-complete sample (e.g. $\mathcal{M} > 10^{10.5} \mathcal{M}_{\odot}$ for our $z \sim 0.7$ bin) it is difficult to dismiss the mass dependence observed in the zCOSMOS results.
 
 Finally, from Figure \ref{fig:qffit}, we note that for both environments $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})$ increases as redshift decreases. This highlights the general increase of $f_{\rm{Q}}(\mathcal{M})$ as redshift decreases noted earlier. More importantly, we quantify the total evolution of $f_{\rm{Q}}$ for both low and high density environments through $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}}, z \sim 0.1) - f_{\rm{Q}}(\mathcal{M}_{\rm{fid}}, z \sim 0.7)$ for both environments. Remarkably, $f_{\rm{Q}}$ evolves by the same amount for both environments. In other words, the total evolution of $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})$ from $z \sim 0.7$ to $\sim 0.1$ show little environment dependence. This disagrees with the $f_{\rm{blue}}$ results from \cite{Iovino:2010aa}, which show a clear distinction between group and isolated galaxies. In \cite{Iovino:2010aa}, $f_{\rm{blue}}$ for isolated galaxies decrease much faster than $f_{\rm{blue}}$ for group galaxies. At $\mathcal{M} \sim 10.5$, \cite{Iovino:2010aa} finds that $f_{\rm{blue}}$ for isolated galaxy decreases by 0.3 from $z \sim 0.6$ to 0.3, while for $f_{\rm{blue}}$ for group galaxies only decrease by 0.1 in the same redshift limit, showing a clear dependence in environment. Considering that fixed aperture definition of environment is susceptible to contamination due to PRIMUS redshift errors, we consider more stringent classification of high density environments extending the cut-off to $n_{\rm{env}} > 6, 9$. While a more stringent classification increases the $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})$ overall as well as the uncertainties, it does not reveal reveal any significant environment dependence in the $f_{\rm{Q}}$ evolution. Therefore, the potential contamination in our environment measurements cannot explain the lack of environment dependence in the $f_{\rm{Q}}$ evolution. 
+
+\begin{figure}
+    \begin{center}
+        \leavevmode
+        \epsscale{1.0}
+        \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset.eps, height=0.45\textwidth}
+        \caption{The evolution of the quiescent fraction at fiducial mass, $f_{Q}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$, for low (square) and high (circle) density environments within the redshift range $z = 0.0 - 0.8$.}         \label{fig:qffit}
+    \end{center}
+\end{figure}
 
 Many physical mechanisms have been proposed to explain the quenching of star-formation observed in our universe. Often star-formation quenching is classified into two distinct mechanisms: mass-dependent and environment dependent mechanisms (\cite{Baldry:2006aa}; \cite{Peng:2010aa}). From the mass-dependence presented in all $f_{\rm{Q}}$ in Figure \ref{fig:qf}, we concur that galaxy stellar mass plays a significant role in quenching. Furthermore, since $f_Q$ in high density environments is always greater than $f_Q$ in low density environments, our results also reflect the environment dependence in quenching. %However, in many of the proposed environment dependent quenching mechanisms, the quenching time scale is proposed to decrease. This would result in an increase in the quenched fraction that's faster than the increase in low density environment $f_Q$. We find that this is not the case. % What does this have to say about physical processes in groups and clusters that affect quenching?
 

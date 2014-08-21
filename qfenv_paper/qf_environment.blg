@@ -4,47 +4,45 @@ The top-level auxiliary file: qf_environment.aux
 The style file: apj.bst
 Database file #1: qf_environmentNotes.bib
 Database file #2: PRIMUS.bib
-Warning--I didn't find a database entry for "moustakas13a"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 55 entries,
+You've used 56 entries,
             3085 wiz_defined-function locations,
-            1063 strings with 32887 characters,
-and the built_in function-call counts, 36667 in all, are:
-= -- 2172
-> -- 4322
+            1070 strings with 33116 characters,
+and the built_in function-call counts, 37184 in all, are:
+= -- 2217
+> -- 4360
 < -- 12
-+ -- 1439
-- -- 1514
-* -- 3893
-:= -- 7420
-add.period$ -- 55
-call.type$ -- 55
-change.case$ -- 350
-chr.to.int$ -- 55
-cite$ -- 55
-duplicate$ -- 1043
-empty$ -- 1548
-format.name$ -- 1566
-if$ -- 6796
++ -- 1452
+- -- 1529
+* -- 3938
+:= -- 7515
+add.period$ -- 56
+call.type$ -- 56
+change.case$ -- 358
+chr.to.int$ -- 56
+cite$ -- 56
+duplicate$ -- 1062
+empty$ -- 1577
+format.name$ -- 1581
+if$ -- 6899
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 53
-newline$ -- 169
-num.names$ -- 221
-pop$ -- 385
+missing$ -- 54
+newline$ -- 172
+num.names$ -- 225
+pop$ -- 394
 preamble$ -- 1
-purify$ -- 349
+purify$ -- 357
 quote$ -- 0
-skip$ -- 843
+skip$ -- 859
 stack$ -- 0
-substring$ -- 1105
+substring$ -- 1129
 swap$ -- 8
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 492
+type$ -- 501
 warning$ -- 0
-while$ -- 190
+while$ -- 194
 width$ -- 0
-write$ -- 554
-(There was 1 warning)
+write$ -- 564

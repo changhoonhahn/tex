@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 SEP 2014 12:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  9 SEP 2014 20:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,8 +449,8 @@ Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 (epstopdf)             Output file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-08-18 11:49:00
-(epstopdf)                    size: 19873 bytes
+(epstopdf)                    date: 2014-09-03 16:26:07
+(epstopdf)                    size: 28877 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_smf_cylr2h25_thresh75_
 bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primus
 zerr-eps-converted-to.pdf fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pri
@@ -459,7 +459,7 @@ mus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowe
-nv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=42, 614.295pt x 758.83
+nv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=42, 758.835pt x 614.29
 5pt>
 File: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin
 _lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pd
@@ -470,7 +470,7 @@ lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_prim
 us_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf us
 ed on input line 259.
-(pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
+(pdftex.def)             Requested size: 475.39388pt x 384.83807pt.
  [6 <./fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_
 highenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 281--283
@@ -516,7 +516,7 @@ _0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_hig
-henv3_0_lit_primuszerr-eps-converted-to.pdf, id=54, 433.62pt x 758.835pt>
+henv3_0_lit_primuszerr-eps-converted-to.pdf, id=62, 433.62pt x 758.835pt>
 File: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -526,8 +526,7 @@ Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primu
 s_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf used on inp
 ut line 310.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
- [8] [9 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_low
-env0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
+ [8]
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primusz
 err.eps>
@@ -543,11 +542,11 @@ err-eps-converted-to.pdf>
 10_5_lit_primuszerr-eps-converted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sd
 ss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_pri
 muszerr.eps>
-(epstopdf)             \includegraphics on input line 353.
+(epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
-highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf, id=63, 614
+highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf, id=66, 614
 .295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
 v0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf Graphi
@@ -557,11 +556,20 @@ c file (type pdf)
 0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-conv
-erted-to.pdf used on input line 353.
+erted-to.pdf used on input line 348.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 
-[10 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
-nv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>]
+[9 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
+5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 382.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 382.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosm
 oscomp_envthresh_kovacoffset.eps>
@@ -577,12 +585,12 @@ oscomp_envthresh_kovacoffset-eps-converted-to.pdf>
 primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-converted-to.pdf fig_qffit_cyl
 r2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fid
 mass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset.eps>
-(epstopdf)             \includegraphics on input line 400.
+(epstopdf)             \includegraphics on input line 403.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
 highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-con
-verted-to.pdf, id=69, 614.295pt x 614.295pt>
+verted-to.pdf, id=72, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
 v0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-ep
 s-converted-to.pdf Graphic file (type pdf)
@@ -592,18 +600,20 @@ s-converted-to.pdf Graphic file (type pdf)
 -converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envth
-resh_kovacoffset-eps-converted-to.pdf used on input line 400.
+resh_kovacoffset-eps-converted-to.pdf used on input line 403.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 
-Underfull \hbox (badness 1178) in paragraph at lines 401--401
+Underfull \hbox (badness 1178) in paragraph at lines 404--404
   []\OT1/cmr/m/sc/8 --- $\OML/cmm/m/it/8 f[]\OT1/cmr/m/n/8 (\OMS/cmsy/m/n/8 M[]
  \OT1/cmr/m/n/8 = 10[]\OMS/cmsy/m/n/8 M[]\OT1/cmr/m/n/8 )$ evo-lu-tion com-pare
 d to
  []
 
+[10 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
+nv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>]
 [11 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
 nv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-e
-ps-converted-to.pdf>] (./qf_environment.bbl [12])
+ps-converted-to.pdf>] [12] (./qf_environment.bbl [13])
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass11_0_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-08-18 12:45:19
@@ -617,11 +627,11 @@ onverted-to.pdf>
 5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass11_0_lit_
 primuszerr-eps-converted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_
 0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass11_0_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 471.
+(epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
-highenv3_0_fidmass11_0_lit_primuszerr-eps-converted-to.pdf, id=78, 614.295pt x 
+highenv3_0_fidmass11_0_lit_primuszerr-eps-converted-to.pdf, id=90, 614.295pt x 
 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
 v0_5_highenv3_0_fidmass11_0_lit_primuszerr-eps-converted-to.pdf Graphic file (t
@@ -631,7 +641,7 @@ ype pdf)
 0_5_highenv3_0_fidmass11_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass11_0_lit_primuszerr-eps-converted-to.
-pdf used on input line 471.
+pdf used on input line 502.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass11_0_lit_primuszerr_zcosm
@@ -648,12 +658,12 @@ oscomp_envthresh_kovacoffset-eps-converted-to.pdf>
 primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-converted-to.pdf fig_qffit_cyl
 r2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fid
 mass11_0_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset.eps>
-(epstopdf)             \includegraphics on input line 480.
+(epstopdf)             \includegraphics on input line 511.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
 highenv3_0_fidmass11_0_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-con
-verted-to.pdf, id=79, 614.295pt x 614.295pt>
+verted-to.pdf, id=91, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
 v0_5_highenv3_0_fidmass11_0_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-ep
 s-converted-to.pdf Graphic file (type pdf)
@@ -663,10 +673,10 @@ s-converted-to.pdf Graphic file (type pdf)
 -converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass11_0_lit_primuszerr_zcosmoscomp_envth
-resh_kovacoffset-eps-converted-to.pdf used on input line 480.
+resh_kovacoffset-eps-converted-to.pdf used on input line 511.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
- [13 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_low
-env0_5_highenv3_0_fidmass11_0_lit_primuszerr-eps-converted-to.pdf>] [14 <./fig_
+ [14 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_low
+env0_5_highenv3_0_fidmass11_0_lit_primuszerr-eps-converted-to.pdf>] [15 <./fig_
 qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highe
 nv3_0_fidmass11_0_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-converte
 d-to.pdf>] (./qf_environment.aux)
@@ -675,13 +685,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5410 strings out of 493315
- 77448 string characters out of 6137904
- 179889 words of memory out of 5000000
- 8750 multiletter control sequences out of 15000+600000
- 14745 words of font info for 59 fonts, out of 8000000 for 9000
+ 5405 strings out of 493315
+ 77388 string characters out of 6137904
+ 172464 words of memory out of 5000000
+ 8746 multiletter control sequences out of 15000+600000
+ 13698 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,11n,29p,1863b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,29p,1863b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
@@ -704,10 +714,10 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 606978 bytes).
+Output written on qf_environment.pdf (15 pages, 623295 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 170 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

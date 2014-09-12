@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -402,11 +402,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `sec:discussion' on page 2 undefined on input line 110
-.
-
-
 <fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png, id=17, 1228.59pt x 43
 3.62pt>
 File: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png Graphic file (typ
@@ -429,9 +424,9 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 138.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [2] [3 <./fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>] [4]
+) [2] [3 <./fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>]
 <fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_highen
-v3_0_primuszerr_masslimit_edgecut_histogram.png, id=38, 578.16pt x 433.62pt>
+v3_0_primuszerr_masslimit_edgecut_histogram.png, id=32, 578.16pt x 433.62pt>
 File: fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_h
 ighenv3_0_primuszerr_masslimit_edgecut_histogram.png Graphic file (type png)
 
@@ -441,7 +436,8 @@ Package pdftex.def Info: fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_
 z0_21_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png used on
  input line 214.
 (pdftex.def)             Requested size: 342.09068pt x 256.55872pt.
- [5]
+ [4] [5 <./fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv
+0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
 Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-08-18 11:46:55
@@ -475,8 +471,7 @@ ed on input line 259.
 
 LaTeX Warning: Reference `tab:aperture' on page 6 undefined on input line 266.
 
-[6 <./fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_h
-ighenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 281--283
 $\OML/cmm/m/it/10 w[]$ \OT1/cmr/m/n/10 is the sta-tis-ti-cal weight of galaxy $
 \OML/cmm/m/it/10 i$ \OT1/cmr/m/n/10 and
@@ -520,7 +515,7 @@ _0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_hig
-henv3_0_lit_primuszerr-eps-converted-to.pdf, id=62, 433.62pt x 758.835pt>
+henv3_0_lit_primuszerr-eps-converted-to.pdf, id=61, 433.62pt x 758.835pt>
 File: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -550,7 +545,7 @@ muszerr.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
-highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf, id=66, 614
+highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf, id=65, 614
 .295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
 v0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf Graphi
@@ -596,7 +591,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
 highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-eps-con
-verted-to.pdf, id=77, 614.295pt x 614.295pt>
+verted-to.pdf, id=76, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowen
 v0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosmoscomp_envthresh_kovacoffset-ep
 s-converted-to.pdf Graphic file (type pdf)
@@ -634,12 +629,16 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 5396 strings out of 493315
- 75868 string characters out of 6137904
+ 5395 strings out of 493315
+ 75852 string characters out of 6137904
  195779 words of memory out of 5000000
- 8739 multiletter control sequences out of 15000+600000
+ 8738 multiletter control sequences out of 15000+600000
  13698 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,11n,29p,1879b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -665,7 +664,7 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 592346 bytes).
+Output written on qf_environment.pdf (14 pages, 592344 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 SEP 2014 04:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  9 OCT 2014 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,12 +439,12 @@ z0_21_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png used on
  [5]
 Package epstopdf Info: Source file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-08-20 18:01:17
+(epstopdf)                    date: 2014-08-18 11:46:55
 (epstopdf)                    size: 43269 bytes
 (epstopdf)             Output file: <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-09-10 18:39:25
+(epstopdf)                    date: 2014-09-03 16:26:07
 (epstopdf)                    size: 28877 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_smf_cylr2h25_thresh75_
 bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primus
@@ -500,12 +500,12 @@ bove
 _lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
 5_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-08-20 18:01:17
+(epstopdf)                    date: 2014-08-18 11:17:03
 (epstopdf)                    size: 26755 bytes
 (epstopdf)             Output file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
 5_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2014-08-20 18:01:17
+(epstopdf)                    date: 2014-08-18 11:49:01
 (epstopdf)                    size: 13834 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_qf_cylr2h25_thresh75_b
 in0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-
@@ -529,12 +529,12 @@ ut line 310.
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primusz
 err.eps>
-(epstopdf)                    date: 2014-08-20 18:01:17
+(epstopdf)                    date: 2014-08-18 15:26:26
 (epstopdf)                    size: 20865 bytes
 (epstopdf)             Output file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primusz
 err-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-20 18:01:17
+(epstopdf)                    date: 2014-08-18 15:27:02
 (epstopdf)                    size: 12212 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr2h25_thresh7
 5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_
@@ -574,12 +574,12 @@ nv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosm
 oscomp_envthresh_kovacoffset.eps>
-(epstopdf)                    date: 2014-09-13 19:02:14
+(epstopdf)                    date: 2014-09-11 16:36:13
 (epstopdf)                    size: 45769 bytes
 (epstopdf)             Output file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
 0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_zcosm
 oscomp_envthresh_kovacoffset-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-13 19:02:14
+(epstopdf)                    date: 2014-09-11 16:36:32
 (epstopdf)                    size: 23262 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr2h25_thresh7
 5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_
@@ -621,16 +621,12 @@ Underfull \hbox (badness 1127) in paragraph at lines 433--434
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 5393 strings out of 493315
- 75827 string characters out of 6137904
+ 5394 strings out of 493315
+ 75838 string characters out of 6137904
  195596 words of memory out of 5000000
- 8737 multiletter control sequences out of 15000+600000
+ 8738 multiletter control sequences out of 15000+600000
  13390 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,11n,29p,1879b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -655,7 +651,7 @@ e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 583512 bytes).
+Output written on qf_environment.pdf (14 pages, 583200 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams

@@ -170,7 +170,7 @@ account for edge effects in the surveys.
         \leavevmode
         \epsscale{1.2}
 	\plotone{fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png}
-        \caption{Absolute magnitude $M_{r}$ versus redshift for our mass complete galaxy sample (black squares) with the Environment Defining Population (red circles) plotted on top. Both samples are divided into redshift bins:$z \approx 0.05-0.12$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$ (panels left to right). The lowest redshift bin ($z \approx 0.05-0.12$; leftmost panel) contain our galaxy sample and EDP selected from SDSS. The rest contain galaxies and EDP selected from PRIMUS. The redshift limits for the lowest redshift bin are empirically selected based on the bright and faint limits of SDSS galaxies. Stellar mass completeness limits, specified in Section \ref{sec:target}, are imposed on the galaxy population. Meanwhile, $M_{r}$ limits are applied to the EDP such that the number density in each panel are equivalent (Section \ref{sec:environment}).} \label{fig:targetEDP}
+        \caption{Absolute magnitude $M_{r}$ versus redshift for our mass complete galaxy sample (black squares) with the Environment Defining Population (red circles) plotted on top. Both samples are divided into redshift bins: $z \approx 0.05-0.12$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$ (panels left to right). The lowest redshift bin ($z \approx 0.05-0.12$; leftmost panel) contain our galaxy sample and EDP selected from SDSS. The rest contain galaxies and EDP selected from PRIMUS. The redshift limits for the lowest redshift bin are empirically selected based on the bright and faint limits of SDSS galaxies. Stellar mass completeness limits, specified in Section \ref{sec:target}, are imposed on the galaxy population. Meanwhile, $M_{r}$ limits are applied to the EDP such that the number density in each panel are equivalent (Section \ref{sec:environment}).} \label{fig:targetEDP}
     \end{center}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -323,15 +323,17 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
 \subsection{Galaxy Environment} \label{sec:environment}
 We define the environment of a galaxy as the number of neighboring Environment Defining Population galaxies (defined below) within a fixed aperture centered around it. We use a fixed aperture measurement of environment in order to probe environment on the halo scale, as \cite{Muldrew:2012aa} finds in their comparison of different environment definition using simulations. 
 
-For our aperture, we use a cylinder of dimensions: $R_{\rm{ap}} = 2 \;
-h^{-1} \rm{Mpc}$ and $H_{\rm{ap}} = 25 \; h^{-1}\rm{Mpc}$.  We use a
+For our aperture, we use a cylinder of dimensions: $R_{\rm{ap}} =
+2.9\;
+\rm{Mpc}$ and $H_{\rm{ap}} = 36\; \rm{Mpc}$.  We use a
 cylindrical aperture in order to account for the PRIMUS redshift
 errors and redshift space distortions (i.e. ``Finger of God"
 effect). \cite{Cooper:2005aa} finds that $\pm 1000 \; \rm{km} \;
 \rm{s^{-1}}$ optimally reduces the effects of redshift space
 distortions. The PRIMUS redshift uncertainty at $z \sim 0.7$
-corresponds to $\sigma_z < 0.01$, so our aperture height choice of $25
-\; \rm{Mpc}/h$ accounts for both of these effects. Our choice of
+corresponds to $\sigma_z < 0.01$, so our aperture height choice of
+$36\;
+\rm{Mpc}$ accounts for both of these effects. Our choice of
 cylinder radius was motivated by scale dependence analyses in the
 literature (\citealt{Blanton:2006aa, Wilman:2010aa, Muldrew:2012aa}),
 which suggest that galactic properties such as color and quiescent
@@ -386,7 +388,7 @@ of the target galaxy sample (black).
 
 For our SDSS-{\em GALEX} galaxy sample, in Section \ref{sec:target}, we apply PRIMUS redshift errors in order to establish a consistent measurement of environment throughout our redshift range. We appropriately apply equivalent redshift adjustments for the SDSS EDP. So for the SDSS EDP galaxies that are within the SDSS-{\em GALEX} sample, we adjust the redshift by an identical amount. For the rest, we apply the same redshift adjustment procedure described in Section \ref{sec:target} in order to obtain PRIMUS level redshift uncertainties. 
 
-Finally we measure the environment for each galaxy in our galaxy
+Finally, we measure the environment for each galaxy in our galaxy
 sample by counting the number of EDP galaxies, $n_{\rm{env}}$ with RA,
 Dec, and $z$ within our cylindrical aperture centered around
 it. $n_{\rm{env}}$ accounts for the statistical weights of the EDP
@@ -400,10 +402,10 @@ Section \ref{sec:env_qf_evol} we will also explore higher density
 cutoffs for $n_{\rm{env}}$.
 
 The analysis we describe below uses a fixed cylindrical aperture with
-dimensions $R_{\rm{ap}} = 2 \:h^{-1}\rm{Mpc}$ and $H_{\rm{ap}} = 25
-\:h^{-1}\rm{Mpc}$ to measure environment. The same analysis was
-extended for varying aperture dimensions $R_{\rm{ap}} = 1, 2, 3 \:
-h^{-1}\rm{Mpc}$ and $H_{\rm{ap}} = 25, 50 \:h^{-1}\rm{Mpc}$. We also
+dimensions $R_{\rm{ap}} = 2.9 \;rm{Mpc}$ and $H_{\rm{ap}} = 36
+\;\rm{Mpc}$ to measure environment. The same analysis was
+extended for varying aperture dimensions $R_{\rm{ap}} = 1.4, 2.9, 4.3 \:
+\rm{Mpc}$ and $H_{\rm{ap}} = 36, 71 \;\rm{Mpc}$. We also
 adjusted the environment classification thresholds for these
 analyses. The results obtained from using different apertures and
 environment classification thresholds are qualitatively consistent with the results presented below.  
@@ -418,7 +420,7 @@ To account for these edge effects, we use a Monte Carlo method to impose edge cu
 \begin{equation} \label{eq:ransack}
 \langle n_{\rm{ransack}}\rangle_{i} = \frac{N_{\rm{ransack}}}{A_{\rm{EDP}}}\times {\pi \theta_{i, \rm{ap}}^2} \times f_{\rm{thresh}}. 
 \end{equation} 
-$A_{\rm{EDP}}$ is the total angular area of the EDP window function and $f_{\rm{thresh}}$ is the fractional threshold for the edge effect cut-off. For $R_{\rm{ap}}= 2\;h^{-1} \rm{Mpc}$, $f_{\rm{thresh}} = 0.75$. If $n_{i, \rm{ransack}}$ is greater than $<n_{\rm{ransack}}>_i$ then galaxy $i$ remains in our sample; otherwise, it is discarded. 
+$A_{\rm{EDP}}$ is the total angular area of the EDP window function and $f_{\rm{thresh}}$ is the fractional threshold for the edge effect cut-off. For $R_{\rm{ap}}= 2.9 \;\rm{Mpc}$, $f_{\rm{thresh}} = 0.75$. If $n_{i, \rm{ransack}}$ is greater than $<n_{\rm{ransack}}>_i$ then galaxy $i$ remains in our sample; otherwise, it is discarded. 
 
 Once the edge effect cuts are applied, we are left with the final galaxy sample. In Figure \ref{fig:envcount} we present the distribution of environment measurements ($n_{\rm{env}}$) for our final galaxy sample in redshift bins: $0.05 - 0.12$, $0.2 - 0.4$, $0.4-0.6$, and $0.6-0.8$. The quiescent galaxy contributions are colored in red while the star-forming galaxy contributions are colored in blue and patterned. The low and high density environment classifications are represented by black vertical lines that divide the distribution at $n_{\rm{env}} = 0.5$ and $n_{\rm{env}} = 3.5$. The percentage of the total galaxies in the redshift bin that are in these environment densities are labeled on the figure. 
 
@@ -430,7 +432,8 @@ Although we imposed PRIMUS redshift errors on our SDSS galaxies in order to cons
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
 low (left) and high (right) environments in the redshift range
 $z=0$--$0.8$. The environment of each galaxy  
-was calculated using a cylindrical aperture size of $R=2 \: \rm{Mpc}$ and $H=25 \: \rm{Mpc}$ and  
+was calculated using a cylindrical aperture size of $R=2.9 \:
+\rm{Mpc}$ and $H=36 \: \rm{Mpc}$ and  
 classification based on the cut-offs specified in Table \ref{tab:aperture}. The SMFs use mass bins of 
 width $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.25$. In each panel we use shades of blue 
 (star-forming) and orange (quiescent) to represent the SMF at different redshift, higher redshifts being

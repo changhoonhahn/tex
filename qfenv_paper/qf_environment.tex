@@ -402,7 +402,7 @@ Section \ref{sec:env_qf_evol} we will also explore higher density
 cutoffs for $n_{\rm{env}}$.
 
 The analysis we describe below uses a fixed cylindrical aperture with
-dimensions $R_{\rm{ap}} = 2.9 \;rm{Mpc}$ and $H_{\rm{ap}} = 36
+dimensions $R_{\rm{ap}} = 2.9 \; \rm{Mpc}$ and $H_{\rm{ap}} = 36
 \;\rm{Mpc}$ to measure environment. The same analysis was
 extended for varying aperture dimensions $R_{\rm{ap}} = 1.4, 2.9, 4.3 \:
 \rm{Mpc}$ and $H_{\rm{ap}} = 36, 71 \;\rm{Mpc}$. We also
@@ -432,10 +432,9 @@ Although we imposed PRIMUS redshift errors on our SDSS galaxies in order to cons
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
 low (left) and high (right) environments in the redshift range
 $z=0$--$0.8$. The environment of each galaxy  
-was calculated using a cylindrical aperture size of $R=2.9 \:
-\rm{Mpc}$ and $H=36 \: \rm{Mpc}$ and  
-classification based on the cut-offs specified in Table \ref{tab:aperture}. The SMFs use mass bins of 
-width $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.25$. In each panel we use shades of blue 
+was calculated using a cylindrical aperture size of $R=2.9 \: \rm{Mpc}$ and $H=36 \: \rm{Mpc}$ and  
+classified as low environment when $n_{\mathrm{env}} < 0.5$ and as high environment when $n_{\mathrm{env}} > 3.0$. The SMFs use mass bins of 
+width $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.2$. In each panel we use shades of blue 
 (star-forming) and orange (quiescent) to represent the SMF at different redshift, higher redshifts being
 progressively lighter.}      \label{fig:smf}
     \end{center}
@@ -500,9 +499,9 @@ $M$ in this equation is the number of jack knife SMFs in the stellar mass bin. $
 In Figure \ref{fig:smf}, we present the SMFs of the quiescent/star-forming (orange/blue, bottom/top panels) and high/low density environment (left/right panels) subsamples. The redshift evolution of the SMFs in each of these panels are indicated by a darker shade for lower redshift bins. The width of the SMFs represent the sample variance uncertainties.
 
 While a detailed comparison of the SMFs in each panel for different
-epochs is complicated due to the different stellar mass completeness limits, we present some notable trends in each panel. In panel (a), star-forming galaxies in low density environments, we find a significant decrease in the high mass end of the SMF ($\mathcal{M} > 10^{10.75} \mathcal{M}_{\odot}$). In contrast at lower masses ($\mathcal{M} < 10^{10.5} \mathcal{M}_{\odot}$) we observe a notable increase in the SMF. In panel (b), star-forming galaxies in high density environments, we notice a possible decrease above the knee of the SMF ($\mathcal{M} \sim 10^{10.7} \mathcal{M}_{\odot}$) accompanied by an increase below the knee. For the quiescent population in low density environment, shown in panel (c) of Figure \ref{fig:smf}, we notice an increase in $\Phi$ for lower masses, but we do not notice any clear SMF evolution at the massive end. Lastly for the quiescent population in high density environments, panel (d), we find significant increase in $\Phi$ at all masses. 
+epochs is complicated due to the different stellar mass completeness limits, we present some notable trends in each panel. In panel (a), star-forming galaxies in low density environments, we find a significant decrease in the high mass end of the SMF ($\mathcal{M} > 10^{10.75} \mathcal{M}_{\odot}$). At lower masses ($\mathcal{M} < 10^{10.5} \mathcal{M}_{\odot}$) we observe no noticeable trend in the SMF. In panel (b), star-forming galaxies in high density environments, we notice a possible decrease above the knee of the SMF ($\mathcal{M} \sim 10^{10.7} \mathcal{M}_{\odot}$) accompanied by an increase below the knee. For the quiescent population in low density environment, shown in panel (c) of Figure \ref{fig:smf}, we do not notice any clear SMF evolution throughout the mass range. Lastly for the quiescent population in high density environments, panel (d), we find significant increase in $\Phi$ for lower masses but no notable trend at higher masses. 
 
-In comparison to results from DEEP2 (\citealt{bundy06a}) and zCOSMOS (\citealt{Bolzonella:2010aa}), some of the noted trends are not immediately evident. However, this is mostly due to the conflicting mass limits proposed in each study. In addition, only part of the redshift range probed by \cite{bundy06a} overlap with our results. Overall, we find that the trends we note in the SMF evolution above are in good agreement with \cite{bundy06a} and \cite{Bolzonella:2010aa}. 
+%In comparison to results from DEEP2 (\citealt{bundy06a}) and zCOSMOS (\citealt{Bolzonella:2010aa}), some of the noted trends are not immediately evident. However, this is mostly due to the conflicting mass limits proposed in each study. In addition, only part of the redshift range probed by \cite{bundy06a} overlap with our results. Overall, we find that the trends we note in the SMF evolution above are in good agreement with \cite{bundy06a} and \cite{Bolzonella:2010aa}. 
 
 Observing the evolutionary trends in SMF for each of these
 sub-populations provides a narrative of the different galaxy
@@ -770,7 +769,7 @@ formation.
         \leavevmode
         \epsscale{1.0}
         \epsfig{file=fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset.eps, height=\textwidth, angle=90}
-        \caption{$f_{\rm{Q}}(\mathcal{M}_{\rm{fid}}=10^{10.5} \mathcal{M}_\odot)$ evolution compared to $f_{\rm{red}}(\mathcal{M}_{*}=10^{10.5} \; \mathcal{M}_{\odot})$ in the literature: \cite{Baldry:2006aa} (diamond) and \cite{geha12a} (cross) from SDSS (panel a), \cite{Iovino:2010aa} (empty square) and \cite{Kovac:2014aa} (triangle) from zCOSMOS (panel b), and \cite{Peng:2010aa} (filled square) from SDSS and zCOSMOS (panel c). The $f_{\rm{red}}$ values from \cite{Iovino:2010aa}, \cite{Kovac:2014aa}, \cite{Baldry:2006aa}, and \cite{Peng:2010aa} are calculated from the best-fit parameterizations presented in the respective works. The $f_{\rm{Q}}$ value from \cite{geha12a} is the $f_{\rm{Q}}$ value at $\mathcal{M} = 10^{10.55} \mathcal{M}_{\odot}$. High density environment is represented in red and low density environment is represented in blue. For \cite{Kovac:2014aa} we apply the offset between the color-based and SFR-based galaxy classification in order to plot the $f_{\rm{Q}}$ estimates. We also plot the $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$ evolution of our sample with varying environment cut-offs specified on the top right. As in Figure \ref{fig:qffit} the width of the $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$ evolution represent the uncertainty in the best-fit parameters of Equation \ref{eq:qffit}.}         \label{fig:qffit_comp}
+        \caption{$f_{\rm{Q}}(\mathcal{M}_{\rm{fid}}=10^{10.5} \mathcal{M}_\odot)$ evolution compared to $f_{\rm{red}}(\mathcal{M}_{*}=10^{10.5} \; \mathcal{M}_{\odot})$ in the literature: \cite{Baldry:2006aa} (diamond) and \cite{geha12a} (cross) from SDSS (panel a), \cite{Iovino:2010aa} (empty square) and \cite{Kovac:2014aa} (triangle) from zCOSMOS (panel b), and \cite{Peng:2010aa} (filled square) from both SDSS and zCOSMOS (panel c). The $f_{\rm{red}}$ values from \cite{Iovino:2010aa}, \cite{Kovac:2014aa}, \cite{Baldry:2006aa}, and \cite{Peng:2010aa} are calculated from the best-fit parameterizations presented in the respective works. The $f_{\rm{Q}}$ value from \cite{geha12a} is the $f_{\rm{Q}}$ value at $\mathcal{M} = 10^{10.55} \mathcal{M}_{\odot}$. High density environment is represented in red and low density environment is represented in blue. For \cite{Kovac:2014aa} we apply the offset between the color-based and SFR-based galaxy classification in order to plot the $f_{\rm{Q}}$ estimates. We also plot the $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$ evolution of our sample with varying environment cut-offs specified on the top right. As in Figure \ref{fig:qffit} the width of the $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}} = 10^{10.5} \mathcal{M}_\odot)$ evolution represent the uncertainty in the best-fit parameters of Equation \ref{eq:qffit}.}         \label{fig:qffit_comp}
     \end{center}
 \end{figure*}
 
@@ -982,7 +981,7 @@ quiescent fraction anchored at a fiducial mass.
 From our analyses we find the following notable results. The first
 three demonstrate that previous findings that are well known in the
 local universe are applicable out to $z\sim 0.7$. The last two are
-consistent with the findings of \cite{peng10a} but provide increased
+consistent with the findings of \cite{Peng:2010aa} but provide increased
 detail on the environmental dependence of galaxy evolution:
 \begin{enumerate}
 % NOT SURE WHAT THIS ONE WAS SAYING:

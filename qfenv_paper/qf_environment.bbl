@@ -22,10 +22,6 @@
   {P{\'e}rez-Gonz{\'a}lez}, {Rieke}, {Rieke}, {Rigby}, \& {Rix}}]{bell05a}
 {Bell}, E.~F., {Papovich}, C., {Wolf}, C., {et~al.} 2005, \apj, 625, 23
 
-\bibitem[{{Bernardi} {et~al.}(2013){Bernardi}, {Meert}, {Sheth}, {Vikram},
-  {Huertas-Company}, {Mei}, \& {Shankar}}]{Bernardi:2013aa}
-{Bernardi}, M., {Meert}, A., {Sheth}, R.~K., {et~al.} 2013, \mnras, 436, 697
-
 \bibitem[{{Blanton} {et~al.}(2006){Blanton}, {Eisenstein}, {Hogg}, \&
   {Zehavi}}]{Blanton:2006aa}
 {Blanton}, M.~R., {Eisenstein}, D., {Hogg}, D.~W., \& {Zehavi}, I. 2006, \apj,
@@ -103,14 +99,6 @@
   {Conselice}, {Croton}, {Davis}, {Faber}, {Guhathakurta}, {Koo}, {Lin},
   {Weiner}, {Willmer}, \& {Yan}}]{Cooper:2010aa}
 {Cooper}, M.~C., {Coil}, A.~L., {Gerke}, B.~F., {et~al.} 2010, \mnras, 409, 337
-
-\bibitem[{{Croton} {et~al.}(2005){Croton}, {Farrar}, {Norberg}, {Colless},
-  {Peacock}, {Baldry}, {Baugh}, {Bland-Hawthorn}, {Bridges}, {Cannon}, {Cole},
-  {Collins}, {Couch}, {Dalton}, {De Propris}, {Driver}, {Efstathiou}, {Ellis},
-  {Frenk}, {Glazebrook}, {Jackson}, {Lahav}, {Lewis}, {Lumsden}, {Maddox},
-  {Madgwick}, {Peterson}, {Sutherland}, \& {Taylor}}]{Croton:2005aa}
-{Croton}, D.~J., {Farrar}, G.~R., {Norberg}, P., {et~al.} 2005, \mnras, 356,
-  1155
 
 \bibitem[{{Cucciati} {et~al.}(2010){Cucciati}, {Iovino}, {Kova{\v c}},
   {Scodeggio}, {Lilly}, {Bolzonella}, {Bardelli}, {Vergani}, {Tasca}, {Zucca},
@@ -217,11 +205,6 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
 {Martin}, D.~C., {Fanson}, J., {Schiminovich}, D., {et~al.} 2005, \apjl, 619,
   L1
 
-\bibitem[{{McCarthy} {et~al.}(2008){McCarthy}, {Frenk}, {Font}, {Lacey},
-  {Bower}, {Mitchell}, {Balogh}, \& {Theuns}}]{McCarthy:2008aa}
-{McCarthy}, I.~G., {Frenk}, C.~S., {Font}, A.~S., {et~al.} 2008, \mnras, 383,
-  593
-
 \bibitem[{{Morrissey} {et~al.}(2005){Morrissey}, {Schiminovich}, {Barlow},
   {Martin}, {Blakkolb}, {Conrow}, {Cooke}, {Erickson}, {Fanson}, {Friedman},
   {Grange}, {Jelinsky}, {Lee}, {Liu}, {Mazer}, {McLean}, {Milliard}, {Randall},
@@ -250,6 +233,9 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
   {Rich}, {Small}, {Willmer}, \& {Wilson}}]{Noeske:2007aa}
 {Noeske}, K.~G., {Weiner}, B.~J., {Faber}, S.~M., {et~al.} 2007, \apjl, 660,
   L43
+
+\bibitem[{Norberg {et~al.}(2002)}]{norberg02a}
+Norberg, P., {et~al.} 2002, \mnras, 332, 827
 
 \bibitem[{Oemler(1974)}]{oemler74a}
 Oemler, A. 1974, \apj, 194, 1
@@ -308,19 +294,6 @@ Oemler, A. 1974, \apj, 194, 1
 {Swanson}, M.~E.~C., {Tegmark}, M., {Hamilton}, A.~J.~S., \& {Hill}, J.~C.
   2008, \mnras, 387, 1391
 
-\bibitem[{{Tasca} {et~al.}(2009){Tasca}, {Kneib}, {Iovino}, {Le F{\`e}vre},
-  {Kova{\v c}}, {Bolzonella}, {Lilly}, {Abraham}, {Cassata}, {Cucciati},
-  {Guzzo}, {Tresse}, {Zamorani}, {Capak}, {Garilli}, {Scodeggio}, {Sheth},
-  {Zucca}, {Carollo}, {Contini}, {Mainieri}, {Renzini}, {Bardelli},
-  {Bongiorno}, {Caputi}, {Coppa}, {de La Torre}, {de Ravel}, {Franzetti},
-  {Kampczyk}, {Knobel}, {Koekemoer}, {Lamareille}, {Le Borgne}, {Le Brun},
-  {Maier}, {Mignoli}, {Pello}, {Peng}, {Perez Montero}, {Ricciardelli},
-  {Silverman}, {Vergani}, {Tanaka}, {Abbas}, {Bottini}, {Cappi}, {Cimatti},
-  {Ilbert}, {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo},
-  {Meneux}, {Oesch}, {Porciani}, {Pozzetti}, {Scaramella}, \&
-  {Scarlata}}]{Tasca:2009aa}
-{Tasca}, L.~A.~M., {Kneib}, J.-P., {Iovino}, A., {et~al.} 2009, \aap, 503, 379
-
 \bibitem[{{Taylor} {et~al.}(2009){Taylor}, {Franx}, {van Dokkum}, {Bell},
   {Brammer}, {Rudnick}, {Wuyts}, {Gawiser}, {Lira}, {Urry}, \&
   {Rix}}]{taylor09a}
@@ -360,5 +333,8 @@ Oemler, A. 1974, \apj, 194, 1
   {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{York:2000aa}
 {York}, D.~G., {Adelman}, J., {Anderson}, Jr., J.~E., {et~al.} 2000, \aj, 120,
   1579
+
+\bibitem[{Zehavi {et~al.}(2002)}]{zehavi02a}
+Zehavi, I., {et~al.} 2002, \apj, 571, 172
 
 \end{thebibliography}

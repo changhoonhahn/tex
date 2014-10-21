@@ -4,45 +4,53 @@ The top-level auxiliary file: qf_environment.aux
 The style file: apj.bst
 Database file #1: qf_environmentNotes.bib
 Database file #2: PRIMUS.bib
+Warning--I didn't find a database entry for "west05a"
+Warning--I didn't find a database entry for "blanton05b"
+Warning--I didn't find a database entry for "lauer07a"
+Warning--I didn't find a database entry for "bernardi07a"
+Warning--I didn't find a database entry for "hyde09a"
+Warning--I didn't find a database entry for "west10a"
+Warning--I didn't find a database entry for "peng10a"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 56 entries,
+You've used 54 entries,
             3085 wiz_defined-function locations,
-            1070 strings with 33116 characters,
-and the built_in function-call counts, 37184 in all, are:
-= -- 2217
-> -- 4360
-< -- 12
-+ -- 1452
-- -- 1529
-* -- 3938
-:= -- 7515
-add.period$ -- 56
-call.type$ -- 56
-change.case$ -- 358
-chr.to.int$ -- 56
-cite$ -- 56
-duplicate$ -- 1062
-empty$ -- 1577
-format.name$ -- 1581
-if$ -- 6899
+            1057 strings with 30758 characters,
+and the built_in function-call counts, 34823 in all, are:
+= -- 2116
+> -- 3992
+< -- 14
++ -- 1329
+- -- 1396
+* -- 3639
+:= -- 7021
+add.period$ -- 54
+call.type$ -- 54
+change.case$ -- 335
+chr.to.int$ -- 54
+cite$ -- 54
+duplicate$ -- 1024
+empty$ -- 1520
+format.name$ -- 1452
+if$ -- 6491
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 54
-newline$ -- 172
-num.names$ -- 225
-pop$ -- 394
+missing$ -- 52
+newline$ -- 166
+num.names$ -- 217
+pop$ -- 365
 preamble$ -- 1
-purify$ -- 357
+purify$ -- 334
 quote$ -- 0
-skip$ -- 859
+skip$ -- 832
 stack$ -- 0
-substring$ -- 1129
+substring$ -- 1086
 swap$ -- 8
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 501
+type$ -- 483
 warning$ -- 0
-while$ -- 194
+while$ -- 188
 width$ -- 0
-write$ -- 564
+write$ -- 544
+(There were 7 warnings)

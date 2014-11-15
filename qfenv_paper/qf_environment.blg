@@ -4,53 +4,48 @@ The top-level auxiliary file: qf_environment.aux
 The style file: apj.bst
 Database file #1: qf_environmentNotes.bib
 Database file #2: PRIMUS.bib
-Warning--I didn't find a database entry for "west05a"
-Warning--I didn't find a database entry for "blanton05b"
-Warning--I didn't find a database entry for "lauer07a"
-Warning--I didn't find a database entry for "bernardi07a"
-Warning--I didn't find a database entry for "hyde09a"
-Warning--I didn't find a database entry for "west10a"
-Warning--I didn't find a database entry for "peng10a"
+Warning--string name "november" is undefined
+--line 34 of file PRIMUS.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 54 entries,
+You've used 61 entries,
             3085 wiz_defined-function locations,
-            1057 strings with 30758 characters,
-and the built_in function-call counts, 34823 in all, are:
-= -- 2116
-> -- 3992
-< -- 14
-+ -- 1329
-- -- 1396
-* -- 3639
-:= -- 7021
-add.period$ -- 54
-call.type$ -- 54
-change.case$ -- 335
-chr.to.int$ -- 54
-cite$ -- 54
-duplicate$ -- 1024
-empty$ -- 1520
-format.name$ -- 1452
-if$ -- 6491
-int.to.chr$ -- 1
+            1101 strings with 32515 characters,
+and the built_in function-call counts, 38389 in all, are:
+= -- 2412
+> -- 4272
+< -- 16
++ -- 1426
+- -- 1501
+* -- 3954
+:= -- 7701
+add.period$ -- 61
+call.type$ -- 61
+change.case$ -- 390
+chr.to.int$ -- 60
+cite$ -- 61
+duplicate$ -- 1154
+empty$ -- 1714
+format.name$ -- 1563
+if$ -- 7186
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 52
-newline$ -- 166
-num.names$ -- 217
-pop$ -- 365
+missing$ -- 58
+newline$ -- 187
+num.names$ -- 245
+pop$ -- 426
 preamble$ -- 1
-purify$ -- 334
+purify$ -- 389
 quote$ -- 0
-skip$ -- 832
+skip$ -- 935
 stack$ -- 0
-substring$ -- 1086
-swap$ -- 8
+substring$ -- 1229
+swap$ -- 10
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 483
+type$ -- 546
 warning$ -- 0
-while$ -- 188
+while$ -- 214
 width$ -- 0
-write$ -- 544
-(There were 7 warnings)
+write$ -- 614
+(There was 1 warning)

@@ -14,6 +14,9 @@
 \def \Hbp {H$\beta ^\prime$}
 \def \lowenvthresh {0.5}
 \def \highenvthresh {3.0}
+\def \apradius{2.5}
+\def \apheight{35}
+
 
 \begin{document}
 
@@ -21,18 +24,18 @@
 \author{
 ChangHoon~Hahn\altaffilmark{1}, 
 Michael~Blanton\altaffilmark{1}, 
-Alison~Coil\altaffilmark{2}, 
-Richard~Cool\altaffilmark{3}, 
-Daniel Eisenstein\altaffilmark{4},
-John Moustakas\altaffilmark{5}, 
+John Moustakas\altaffilmark{2},
+Alison~Coil\altaffilmark{3}, 
+Richard~Cool\altaffilmark{4}, 
+Daniel Eisenstein\altaffilmark{5},
 Ken Wong\altaffilmark{6}, 
 Guangtun Zhu\altaffilmark{7}
 }
 \altaffiltext{1}{Center for Cosmology and Particle Physics, Department of Physics, New York University, 4 Washington Place, New York, NY 10003}
-\altaffiltext{2}{Center for Astrophysics and Space Sciences, Department of Physics, University of California, 9500 Gilman Dr., La Jolla, CA 92093}
-\altaffiltext{3}{MMT Observatory, University of Arizona, 1540 E Second Street, Tucson AZ 85721}
-\altaffiltext{4}{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138}
-\altaffiltext{5}{Department of Physics and Astronomy, Siena College, 515 Loudon Road, Loudonville, NY 12211}
+\altaffiltext{2}{Department of Physics and Astronomy, Siena College, 515 Loudon Road, Loudonville, NY 12211}
+\altaffiltext{3}{Center for Astrophysics and Space Sciences, Department of Physics, University of California, 9500 Gilman Dr., La Jolla, CA 92093}
+\altaffiltext{4}{MMT Observatory, University of Arizona, 1540 E Second Street, Tucson AZ 85721}
+\altaffiltext{5}{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138}
 \altaffiltext{6}{Steward Observatory, University of Arizona, 933 North Cherry Avenue, Tucson, AZ 85721} 
 \altaffiltext{7}{Department of Physics and Astronomy, The Johns Hopkins University, 3400 North Charles Street, Baltimore, MD 21218} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -56,11 +59,11 @@ SMFs we compute $f_{\rm{Q}}(\mathcal{M}_{*})$ and quantify its
 evolution within our redshift range. As expected, the quiescent
 fraction is higher at higher masses and in denser environments. The
 quiescent fraction rises with cosmic time for all masses and
-environments. At a fiducial mass of $10^{10.5}M_\odot$, between $z\sim
-0.7$ and $0.1$, the quiescent fraction's rise varies from 0.15 at the
-lowest environments to 0.25 at the highest environments we measure.
+environments. At a fiducial mass of $10^{10.5}M_\odot$, from $z\sim
+0.7$ to $0.1$, the quiescent fraction rises by $15\%$ at the
+lowest environments and by $25\%$ at the highest environments we measure.
 These results suggest that for a minority of galaxies their cessation
-of star formation might be associated with external influences on
+of star formation is due to external influences on
 them. However, in the recent Universe a substantial fraction of the
 galaxies that cease forming stars do so due to internal processes.
 \end{abstract}
@@ -87,7 +90,7 @@ investigation of the role of environment, and how that role changes
 over time.
 
 Nevertheless, the evolution of the role of environment is a relatively
-subtle effect and difficult to study.  Although history of galaxies
+subtle effect and difficult to study.  Although the history of galaxies
 prior to $z\sim 1$ appears to have been one of rapid assembly, since
 that time the galaxy population has continued to evolve, but less
 dramatically. Although there are detectable changes in the population,
@@ -154,7 +157,7 @@ Throughout the paper we assume a cosmology with $\Omega_{m} = 0.3,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Sample Selection} \label{sec:sample}
 We are interested in quantifying the effects of galaxy environment on
-the evolution of the quiescent fraction over the redshift range $0 < z < 1$. For our analysis, we require a sample with sufficient depth and robustness to probe the redshift range and to measure galaxy environment. PRIMUS with its $\sim 120,000$ spectroscopic redshifts provides a large data set at intermediate redshifts for our analysis. In addition, we anchor our analysis at intermediate redshifts with a low redshift sample derived from the Sloan Digital Sky Survey (\cite{York:2000aa}). 
+the evolution of the quiescent fraction over the redshift range $0 < z < 1$. For our analysis, we require a sample with sufficient depth and high quality spectroscopic redshift to probe the redshift range and to measure galaxy environment. PRIMUS with its $\sim 120,000$ spectroscopic redshifts provides a large data set at intermediate redshifts for our analysis. In addition, we anchor our analysis with a low redshift sample derived from the Sloan Digital Sky Survey (\cite{York:2000aa}). 
 
 In Section \ref{sec:primus} and Section \ref{sec:sdss} we provide a
 brief summary of the PRIMUS data and the SDSS data used for our sample
@@ -200,8 +203,8 @@ based on SDSS Data Release 7, using the standard SDSS photometric
 measurements. Several investigators have found that the background
 subtraction techniques used in the standard photometric catalogs
 introduce a size dependent bias in the galaxy fluxes and consequently
-stellar masses (\citealt{west05a, blanton05b, lauer07a, bernardi07a,
-  hyde09a, west10a}).
+stellar masses (\citealt{West:2005aa, Blanton:2005ab, Lauer:2007aa, Bernardi:2007aa,
+  Hyde:2009aa, West:2010aa}).
 
 In order to quantify the effects of these photometric underestimations
 in our analysis, we tried replacing our SDSS fluxes in the $ugriz$
@@ -255,6 +258,7 @@ Total &      & \multicolumn{2}{c}{76887} & \\ \hline
     \bigskip
 \end{table*}
 
+\subsection{Stellar Mass Complete Galaxy Sample} \label{sec:masscomp}
 From the low redshift SDSS-{\em GALEX} and intermediate redshift
 PRIMUS data we define our mass complete galaxy
 sample. We begin by imposing the parent sample selection criteria from
@@ -280,9 +284,9 @@ as in Equation (1) in \cite{Moustakas:2013aa}.
 Since we are ultimately interested in a mass complete galaxy sample to
 derive SMFs and QFs, next we impose stellar mass completeness limits
 to our galaxy sample.
-Stellar mass completeness limits for a magnitude-limited survey such as PRIMUS are functions of redshift, the apparent magnitude limit of the survey, and the typical stellar mass-to-light ratio of galaxies near the flux limit. As in \cite{Moustakas:2013aa}, we follow \cite{Pozzetti:2010aa} to empirically determine the stellar mass completeness limits. For each of the target galaxies we compute $\mathcal{M}_{\rm{lim}}$ using $\log \; \mathcal{M}_{\mathrm{lim}} = \log \; \mathcal{M} + 0.4 (m - m_{\mathrm{lim}})$, where $\mathcal{M}$ is the stellar mass of the galaxy in $\mathcal{M_{\odot}}$, $\mathcal{M}_{\rm{lim}}$ is the stellar mass of each galaxy if its magnitude was equal to the survey magnitude limit, $m$ is the observed apparent magnitude in the selection band, and $m_{\rm{lim}}$ is the magnitude limit for our five fields. We construct a cumulative distribution of $\mathcal{M}_{\rm{lim}}$ for the $15\%$ faintest galaxies in $\Delta z=0.04$ bins. In each of these redshift bins, we calculate the minimum stellar mass that includes $95 \%$ of the galaxies. Separately for quiescent and star-forming galaxies, we fit quadratic polynomials to the minimum stellar masses versus redshift (star-forming or quiescent classification is described in the following section). Finally, we use the polynomials to obtain the minimum stellar masses at the center of redshift bins, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$, which are then used as PRIMUS stellar mass completeness limits.
+Stellar mass completeness limits for a magnitude-limited survey such as PRIMUS are functions of redshift, the apparent magnitude limit of the survey, and the typical stellar mass-to-light ratio of galaxies near the flux limit. We use the same procedure as \cite{Moustakas:2013aa}, which follows \cite{Pozzetti:2010aa}, to empircally determine the stellar mass completeness limits. For each of the target galaxies we compute $\mathcal{M}_{\rm{lim}}$ using $\log \; \mathcal{M}_{\mathrm{lim}} = \log \; \mathcal{M} + 0.4 (m - m_{\mathrm{lim}})$, where $\mathcal{M}$ is the stellar mass of the galaxy in $\mathcal{M_{\odot}}$, $\mathcal{M}_{\rm{lim}}$ is the stellar mass of each galaxy if its magnitude was equal to the survey magnitude limit, $m$ is the observed apparent magnitude in the selection band, and $m_{\rm{lim}}$ is the magnitude limit for our five fields. We construct a cumulative distribution of $\mathcal{M}_{\rm{lim}}$ for the $15\%$ faintest galaxies in $\Delta z=0.04$ bins. In each of these redshift bins, we calculate the minimum stellar mass that includes $95 \%$ of the galaxies. Separately for quiescent and star-forming galaxies, we fit quadratic polynomials to the minimum stellar masses versus redshift (star-forming or quiescent classification is described in the following section). Finally, we use the polynomials to obtain the minimum stellar masses at the center of redshift bins, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$, which are then used as PRIMUS stellar mass completeness limits.
 
-For the low redshift portion of our galaxy sample, we start by limiting the SDSS-{\em GALEX} data to objects within $0.05 < z < 0.12$, a redshift range later imposed on the volume-limited Environment Defining Population (Section \ref{sec:environment}). To account for the targeting incompleteness of the SDSS-{\em GALEX} sample, we use the statistical weight estimates provided by the NYU-VAGC catalog. Furthermore, we determine a uniform stellar mass completeness limit of $10^{10.2} \mathcal{M}_{\odot}$ above the stellar mass-to-light ratio of the SDSS-{\em GALEX} data within the imposed redshift limits. We then apply this mass limit in order to obtain our mass-complete galaxy sample at low redshift. 
+For the low redshift portion of our galaxy sample, we start by limiting the SDSS-{\em GALEX} data to objects within $0.05 < z < 0.12$, a redshift range later imposed on the volume-limited Environment Defining Population (Section \ref{sec:environment}). To account for the targeting incompleteness of the SDSS-{\em GALEX} sample, we use the statistical weight estimates provided by the NYU-VAGC catalog. Furthermore, we determine a uniform stellar mass completeness limit of $10^{10.2} \mathcal{M}_{\odot}$ above the stellar mass-to-light ratio completeness limit of the SDSS-{\em GALEX} data within the imposed redshift limits (\citealt{Blanton:2005ab, Baldry:2008aa, Moustakas:2013aa}). We then apply this mass limit in order to obtain our mass-complete galaxy sample at low redshift. 
 
 We now have a stellar mass complete sample derived from SDSS-{\em
   GALEX} and PRIMUS data. Since our sample is derived from two
@@ -298,12 +302,12 @@ redshift by randomly sampling a Gaussian distribution with standard
 deviation $\sigma = 0.005 (1+z_{\rm{SDSS}-GALEX})$, where
 $z_{\rm{SDSS}-GALEX}$ is the redshift of the galaxy.
 
-We present the absolute magnitude ($M_{r}$) versus redshift for the galaxy sample (black squares) in Figure \ref{fig:targetEDP}. The left-most panel corresponds to the sample derived from the SDSS-{\em GALEX} data and the rest correspond to the target sample derived from the PRIMUS data divided in bins with $\Delta z \sim 0.2$. 
+%We present the absolute magnitude ($M_{r}$) versus redshift for the galaxy sample (black squares) in Figure \ref{fig:targetEDP}. The left-most panel corresponds to the sample derived from the SDSS-{\em GALEX} data and the rest correspond to the target sample derived from the PRIMUS data divided in bins with $\Delta z \sim 0.2$. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CLASSIFYING QUIESCENT AND STAR-FORMING GALAXIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Classifying Quiescent and Star-Forming Galaxies} \label{sec:sfq}
-We now classify our mass complete galaxy sample into quiescent or star-forming using an evolving cut based on specific star-formation rate utilized in \cite{Moustakas:2013aa} Section 3.2. This classification method uses the star-forming (SF) sequence, which is the correlation between star-formation rate (SFR) and stellar mass in star-forming galaxies observed at least until $z \sim 2$ (\citealt{Noeske:2007aa}). The PRIMUS sample displays a well-defined SF sequence within the redshift range of our galaxy sample. Using the power-law slope for the SF sequence from \cite{Salim:2007aa} (SFR $\propto \mathcal{M}^{0.65}$) and the minimum of the quiescent/star-forming bimodality, determined empirically, we obtain the following equation to classify the target galaxies (Equation 2 in \citealt{Moustakas:2013aa}):
+We now classify our mass complete galaxy sample into quiescent or star-forming using an evolving cut based on specific star-formation rate utilized in \cite{Moustakas:2013aa} Section 3.2. This classification method uses the star-forming (SF) sequence, which is the correlation between star-formation rate (SFR) and stellar mass in star-forming galaxies observed at least until $z \sim 2$ (\citealt{Noeske:2007aa, Karim:2011aa}). The PRIMUS sample displays a well-defined SF sequence within the redshift range of our galaxy sample. Using the power-law slope for the SF sequence from \cite{Salim:2007aa} (SFR $\propto \mathcal{M}^{0.65}$) and the minimum of the quiescent/star-forming bimodality, determined empirically, we obtain the following equation to classify the target galaxies (Equation 2 in \citealt{Moustakas:2013aa}):
 \begin{equation}
 \rm{log}(\rm{SFR}_{\rm{min}}) = -0.49 + 0.64 \rm{log}(\mathcal{M} - 10) +1.07(z-0.1), 
 \end{equation} \label{eq:qsfclass} 
@@ -316,7 +320,7 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
   \begin{center}
     \leavevmode
     \epsfig{file=fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png, height=0.5\textwidth}
-     \caption{Normalized distribution of environment measurements ($n_{\rm{env}}$) for our mass complete galaxy sample within the edges. The star-forming galaxies contribution to the distribution is colored blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Each redshift panel is divided into three sections by the environment classification cutoffs (vertical black lines): low density environment $n_{\rm{env}} < 0.5$ and high density environment $n_{\rm{env}} > 3.0$. The percentages of the redshift bin contained in the environment classifications are presented above the distribution. For example at $0.2 < z < 0.4$, $56.0 \%$ of galaxies in the redshift bin have low density environments while $29.0\%$ of galaxies in the redshift bin have high density environments. }      \label{fig:envcount}
+     \caption{Normalized distribution of environment measurements ($n_{\rm{env}}$) for our mass complete galaxy sample within the edges. The star-forming galaxies contribution to the distribution is colored blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Each redshift panel is divided into three sections by the environment classification cutoffs (black veritcal lines): low density environment $n_{\rm{env}} < 0.5$ and high density environment $n_{\rm{env}} > 3.0$. The percentages of the redshift bin contained in the environment classifications are presented above the distribution. For example at $0.2 < z < 0.4$, $36.0 \%$ of galaxies in the redshift bin are in low density environments while $35.0\%$ of galaxies in the redshift bin are in high density environments. The significant difference between the SDSS distribution and the PRIMUS distribution above is due to the difference in stellar mass completeness limit imposed in our galaxy sample.}      \label{fig:envcount}
     \end{center}
 \end{figure*}
 
@@ -324,15 +328,15 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
 We define the environment of a galaxy as the number of neighboring Environment Defining Population galaxies (defined below) within a fixed aperture centered around it. We use a fixed aperture measurement of environment in order to probe environment on the halo scale, as \cite{Muldrew:2012aa} finds in their comparison of different environment definition using simulations. 
 
 For our aperture, we use a cylinder of dimensions: $R_{\rm{ap}} =
-2.9\;
-\rm{Mpc}$ and $H_{\rm{ap}} = 36\; \rm{Mpc}$.  We use a
+\apradius\;
+\rm{Mpc}$ and $H_{\rm{ap}} = \apheight\; \rm{Mpc}$.  We use a
 cylindrical aperture in order to account for the PRIMUS redshift
 errors and redshift space distortions (i.e. ``Finger of God"
 effect). \cite{Cooper:2005aa} finds that $\pm 1000 \; \rm{km} \;
 \rm{s^{-1}}$ optimally reduces the effects of redshift space
 distortions. The PRIMUS redshift uncertainty at $z \sim 0.7$
 corresponds to $\sigma_z < 0.01$, so our aperture height choice of
-$36\;
+$\apheight\;
 \rm{Mpc}$ accounts for both of these effects. Our choice of
 cylinder radius was motivated by scale dependence analyses in the
 literature (\citealt{Blanton:2006aa, Wilman:2010aa, Muldrew:2012aa}),
@@ -366,7 +370,7 @@ does not precisely account for the scatter in mass accretion or
 galaxy-galaxy mergers, it provides a reasonable means to compare
 galaxy populations over a wide range of cosmic time.
 
-In constructing the PRIMUS EDP we use the same PRIMUS data used to select our galaxy sample (described in Section \ref{sec:target}). We again restrict the PRIMUS galaxies to $0.2 < z < 0.8$ and divide them into bins of $\Delta z = 0.2$. Before we consider the cumulative number densities in the redshift bins, we first determine the $M_r$ limit for the highest redshift bin ($0.6-0.8$) by examining the $M_{r}$ distribution with bin size $\Delta M_{r} = 0.25$ and select $M_{r,\rm{lim}}$ near the peak of the distribution where bins with $M_{r} > M_{r,\rm{lim}}$ have fewer galaxies than the bin at $M_{r, \rm{lim}}$. We conservatively choose $M_{r, \rm{lim}}(0.6 < z < 0.8)$ to be $M_{r} = -20.98$. Then for the lower redshift bins, we impose absolute magnitude limits ($M_{r,\rm{lim}}$) such that the cumulative number density, calculated with the galaxy statistical weights, of the bin ordered by $M_{r}$ is equal to the cumulative number density of the highest redshift bin at $M_{r, \rm{lim}}(0.6 < z < 0.8) = -20.98$. 
+In constructing the PRIMUS EDP we use the same PRIMUS data used to select our galaxy sample (described in Section \ref{sec:target}). We again restrict the PRIMUS galaxies to $0.2 < z < 0.8$ and divide them into bins of $\Delta z = 0.2$. Before we consider the cumulative number densities in the redshift bins, we first determine the $M_r$ limit for the highest redshift bin ($0.6-0.8$) by examining the $M_{r}$ distribution with bin size $\Delta M_{r} = 0.25$ and select $M_{r,\rm{lim}}$ near the peak of the distribution where bins with $M_{r} > M_{r,\rm{lim}}$ have fewer galaxies than the bin at $M_{r, \rm{lim}}$. We conservatively choose $M_{r, \rm{lim}}(0.6 < z < 0.8)$ to be $M_{r} = -21.0$. Then for the lower redshift bins, we impose absolute magnitude limits ($M_{r,\rm{lim}}$) such that the cumulative number density, calculated with the galaxy statistical weights, of the bin ordered by $M_{r}$ is equal to the cumulative number density of the highest redshift bin at $M_{r, \rm{lim}}(0.6 < z < 0.8) = -21.0$. 
 
 For the SDSS EDP, we do not use the SDSS-{\em GALEX} parent data,
 which is limited to the combined angular selection window of the
@@ -402,10 +406,10 @@ Section \ref{sec:env_qf_evol} we will also explore higher density
 cutoffs for $n_{\rm{env}}$.
 
 The analysis we describe below uses a fixed cylindrical aperture with
-dimensions $R_{\rm{ap}} = 2.9 \; \rm{Mpc}$ and $H_{\rm{ap}} = 36
+dimensions $R_{\rm{ap}} = \apradius \; \rm{Mpc}$ and $H_{\rm{ap}} = \apheight
 \;\rm{Mpc}$ to measure environment. The same analysis was
-extended for varying aperture dimensions $R_{\rm{ap}} = 1.4, 2.9, 4.3 \:
-\rm{Mpc}$ and $H_{\rm{ap}} = 36, 71 \;\rm{Mpc}$. We also
+extended for varying aperture dimensions $R_{\rm{ap}} = 1.5, \apradius, 3.0 \:
+\rm{Mpc}$ and $H_{\rm{ap}} = \apheight, 70 \;\rm{Mpc}$. We also
 adjusted the environment classification thresholds for these
 analyses. The results obtained from using different apertures and
 environment classification thresholds are qualitatively consistent with the results presented below.  
@@ -533,7 +537,7 @@ for galaxies in high density environments is significantly greater
 than in low density environments. The relationship between mass and
 environment observed in our SMFs reflect the well-established
 mass-density relation and observed mass segregation with environment
-in the literature (\citealt{norberg02a, zehavi02a, blanton05b,
+in the literature (\citealt{norberg02a, zehavi02a, Blanton:2005ab,
   bundy06a, Scodeggio:2009aa, Bolzonella:2010aa}).
 
 While our mass complete subsample coupled with robust environment

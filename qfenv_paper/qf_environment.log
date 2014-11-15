@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  21 OCT 2014 15:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 NOV 2014 19:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -296,29 +296,29 @@ Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 18.
-Class revtex4-1 Info: Patching longtable package on input line 18.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 18.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 21.
+Class revtex4-1 Info: Patching longtable package on input line 21.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 21.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 18.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 18.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 18.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 21.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 21.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 21.
 
 (./qf_environment.aux)
 \openout1 = `qf_environment.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -383,17 +383,17 @@ e
 ))
 \openout3 = `qf_environmentNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 43.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 46.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -408,50 +408,30 @@ File: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png Graphic file (typ
 e png)
  <use fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>
 Package pdftex.def Info: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.pn
-g used on input line 172.
+g used on input line 175.
 (pdftex.def)             Requested size: 523.38219pt x 184.72606pt.
 
-Overfull \hbox (10.26476pt too wide) in paragraph at lines 170--173
+Overfull \hbox (10.26476pt too wide) in paragraph at lines 173--176
  [] 
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 180--185
+Underfull \hbox (badness 1360) in paragraph at lines 183--188
 []\OT1/cmr/m/n/10 At in-ter-me-di-ate red-shifts we use mul-ti-wave-length
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 188.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 191.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [2]
+) [2] [3 <./fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>]
 
-Package natbib Warning: Citation `west05a' on page 3 undefined on input line 20
-4.
-
-
-Package natbib Warning: Citation `blanton05b' on page 3 undefined on input line
- 204.
+Package natbib Warning: Citation `Karim:2011aa' on page 4 undefined on input li
+ne 310.
 
 
-Package natbib Warning: Citation `lauer07a' on page 3 undefined on input line 2
-04.
-
-
-Package natbib Warning: Citation `bernardi07a' on page 3 undefined on input lin
-e 204.
-
-
-Package natbib Warning: Citation `hyde09a' on page 3 undefined on input line 20
-4.
-
-
-Package natbib Warning: Citation `west10a' on page 3 undefined on input line 20
-4.
-
-[3 <./fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>]
 <fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_highen
-v3_0_primuszerr_masslimit_edgecut_histogram.png, id=33, 578.16pt x 433.62pt>
+v3_0_primuszerr_masslimit_edgecut_histogram.png, id=32, 578.16pt x 433.62pt>
 File: fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_h
 ighenv3_0_primuszerr_masslimit_edgecut_histogram.png Graphic file (type png)
 
@@ -459,7 +439,7 @@ ighenv3_0_primuszerr_masslimit_edgecut_histogram.png Graphic file (type png)
 ghenv3_0_primuszerr_masslimit_edgecut_histogram.png>
 Package pdftex.def Info: fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_
 z0_21_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png used on
- input line 318.
+ input line 322.
 (pdftex.def)             Requested size: 342.09068pt x 256.55872pt.
  [4] [5 <./fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv
 0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
@@ -476,7 +456,7 @@ ed-to.pdf>
 bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primus
 zerr-eps-converted-to.pdf fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pri
 mus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 435.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowe
@@ -490,28 +470,28 @@ f)
 lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_prim
 us_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf us
-ed on input line 431.
+ed on input line 435.
 (pdftex.def)             Requested size: 475.39388pt x 384.83807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--463
+Underfull \hbox (badness 10000) in paragraph at lines 461--467
 $\OML/cmm/m/it/10 w[]$ \OT1/cmr/m/n/10 is the sta-tis-ti-cal weight of galaxy $
 \OML/cmm/m/it/10 i$ \OT1/cmr/m/n/10 and
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 457--463
+Underfull \hbox (badness 1072) in paragraph at lines 461--467
 \OT1/cmr/m/n/10 ^^H([] \OMS/cmsy/m/n/10 M\OT1/cmr/m/n/10 )^^A([] \OMS/cmsy/m/n/
 10 M\OT1/cmr/m/n/10 )$ is the num-ber of galax-ies ($\OML/cmm/m/it/10 N$\OT1/cm
 r/m/n/10 )
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 457--463
+Underfull \hbox (badness 5847) in paragraph at lines 461--467
 \OT1/cmr/m/n/10 per unit vol-ume within the stel-lar mass range
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 457--463
+Underfull \hbox (badness 1205) in paragraph at lines 461--467
 \OT1/cmr/m/n/10 [[] \OMS/cmsy/m/n/10 M\OML/cmm/m/it/10 ; [] \OMS/cmsy/m/n/10 M 
 \OT1/cmr/m/n/10 + ^^A([] \OMS/cmsy/m/n/10 M\OT1/cmr/m/n/10 )]$. The equa-tion a
 bove
@@ -519,10 +499,6 @@ bove
 
 [6] [7 <./fig_smf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2en
 vbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `blanton05b' on page 8 undefined on input line
- 537.
-
 Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
 5_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-08-18 11:17:03
@@ -536,7 +512,7 @@ Package epstopdf Info: Source file: <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_0
 in0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-
 converted-to.pdf fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1
 _0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 549.
+(epstopdf)             \includegraphics on input line 553.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_hig
@@ -548,7 +524,7 @@ File: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 _highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primu
 s_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf used on inp
-ut line 549.
+ut line 553.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
  [8]
 Package epstopdf Info: Source file: <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z
@@ -566,7 +542,7 @@ err-eps-converted-to.pdf>
 10_5_lit_primuszerr-eps-converted-to.pdf fig_qffit_cylr2h25_thresh75_bin0_20_sd
 ss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_pri
 muszerr.eps>
-(epstopdf)             \includegraphics on input line 650.
+(epstopdf)             \includegraphics on input line 654.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
@@ -580,16 +556,16 @@ c file (type pdf)
 0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-conv
-erted-to.pdf used on input line 650.
+erted-to.pdf used on input line 654.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 
 [9 <./fig_qf_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 696.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 698.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 696.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 698.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -610,7 +586,7 @@ primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-converted-to
 .pdf fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv
 0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envthre
 sh_kovacoffset.eps>
-(epstopdf)             \includegraphics on input line 771.
+(epstopdf)             \includegraphics on input line 775.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_
@@ -625,7 +601,7 @@ esh_kovacoffset-eps-converted-to.pdf Graphic file (type pdf)
 sh_kovacoffset-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovin
-o_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf used on input line 771.
+o_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf used on input line 775.
 
 (pdftex.def)             Requested size: 260.87389pt x 513.11743pt.
  [10 <./fig_qffit_cylr2h25_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_low
@@ -639,10 +615,10 @@ Package natbib Warning: There were undefined citations.
 
 [14] (./qf_environment.aux) ) 
 Here is how much of TeX's memory you used:
- 5391 strings out of 493315
- 75775 string characters out of 6137904
- 196821 words of memory out of 5000000
- 8734 multiletter control sequences out of 15000+600000
+ 5417 strings out of 493315
+ 76319 string characters out of 6137904
+ 205187 words of memory out of 5000000
+ 8760 multiletter control sequences out of 15000+600000
  13698 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,29p,1674b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -668,7 +644,7 @@ ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
 013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013
 /texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 605465 bytes).
+Output written on qf_environment.pdf (14 pages, 606370 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams

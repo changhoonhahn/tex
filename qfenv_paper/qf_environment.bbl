@@ -12,6 +12,10 @@
 {Baldry}, I.~K., {Balogh}, M.~L., {Bower}, R.~G., {et~al.} 2006, \mnras, 373,
   469
 
+\bibitem[{{Baldry} {et~al.}(2008){Baldry}, {Glazebrook}, \&
+  {Driver}}]{Baldry:2008aa}
+{Baldry}, I.~K., {Glazebrook}, K., \& {Driver}, S.~P. 2008, \mnras, 388, 945
+
 \bibitem[{{Behroozi} {et~al.}(2013){Behroozi}, {Marchesini}, {Wechsler},
   {Muzzin}, {Papovich}, \& {Stefanon}}]{Behroozi:2013aa}
 {Behroozi}, P.~S., {Marchesini}, D., {Wechsler}, R.~H., {et~al.} 2013, \apjl,
@@ -21,6 +25,11 @@
   {Caldwell}, {Barden}, {Egami}, {McIntosh}, {Meisenheimer},
   {P{\'e}rez-Gonz{\'a}lez}, {Rieke}, {Rieke}, {Rigby}, \& {Rix}}]{bell05a}
 {Bell}, E.~F., {Papovich}, C., {Wolf}, C., {et~al.} 2005, \apj, 625, 23
+
+\bibitem[{{Bernardi} {et~al.}(2007){Bernardi}, {Hyde}, {Sheth}, {Miller}, \&
+  {Nichol}}]{Bernardi:2007aa}
+{Bernardi}, M., {Hyde}, J.~B., {Sheth}, R.~K., {Miller}, C.~J., \& {Nichol},
+  R.~C. 2007, \aj, 133, 1741
 
 \bibitem[{{Blanton} {et~al.}(2006){Blanton}, {Eisenstein}, {Hogg}, \&
   {Zehavi}}]{Blanton:2006aa}
@@ -32,14 +41,21 @@
 {Blanton}, M.~R., {Kazin}, E., {Muna}, D., {Weaver}, B.~A., \& {Price-Whelan},
   A. 2011, \aj, 142, 31
 
+\bibitem[{{Blanton} {et~al.}(2005{\natexlab{a}}){Blanton}, {Lupton},
+  {Schlegel}, {Strauss}, {Brinkmann}, {Fukugita}, \&
+  {Loveday}}]{Blanton:2005ab}
+{Blanton}, M.~R., {Lupton}, R.~H., {Schlegel}, D.~J., {et~al.}
+  2005{\natexlab{a}}, \apj, 631, 208
+
 \bibitem[{{Blanton} \& {Moustakas}(2009)}]{blanton09a}
 {Blanton}, M.~R., \& {Moustakas}, J. 2009, \araa, 47, 159
 
-\bibitem[{{Blanton} {et~al.}(2005){Blanton}, {Schlegel}, {Strauss},
-  {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg}, {Ivezi{\'c}}, {Knapp},
-  {Lupton}, {Munn}, {Schneider}, {Tegmark}, \& {Zehavi}}]{Blanton:2005aa}
-{Blanton}, M.~R., {Schlegel}, D.~J., {Strauss}, M.~A., {et~al.} 2005, \aj, 129,
-  2562
+\bibitem[{{Blanton} {et~al.}(2005{\natexlab{b}}){Blanton}, {Schlegel},
+  {Strauss}, {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg},
+  {Ivezi{\'c}}, {Knapp}, {Lupton}, {Munn}, {Schneider}, {Tegmark}, \&
+  {Zehavi}}]{Blanton:2005aa}
+{Blanton}, M.~R., {Schlegel}, D.~J., {Strauss}, M.~A., {et~al.}
+  2005{\natexlab{b}}, \aj, 129, 2562
 
 \bibitem[{{Bolzonella} {et~al.}(2010){Bolzonella}, {Kova{\v c}}, {Pozzetti},
   {Zucca}, {Cucciati}, {Lilly}, {Peng}, {Iovino}, {Zamorani}, {Vergani},
@@ -143,6 +159,9 @@ Hermit, S., Santiago, B.~X., Lahav, O., {et~al.} 1996, \mnras, 283, 709
 \bibitem[{Hubble(1936)}]{hubble36a}
 Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
 
+\bibitem[{{Hyde} \& {Bernardi}(2009)}]{Hyde:2009aa}
+{Hyde}, J.~B., \& {Bernardi}, M. 2009, \mnras, 394, 1978
+
 \bibitem[{{Iovino} {et~al.}(2010){Iovino}, {Cucciati}, {Scodeggio}, {Knobel},
   {Kova{\v c}}, {Lilly}, {Bolzonella}, {Tasca}, {Zamorani}, {Zucca}, {Caputi},
   {Pozzetti}, {Oesch}, {Lamareille}, {Halliday}, {Bardelli}, {Finoguenov},
@@ -184,6 +203,11 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
   {Tasca}, {Tresse}, {Vergani}, {Zucca}, {Aussel}, {Koekemoer}, {Le Floc'h},
   {Moresco}, \& {Pozzetti}}]{Kovac:2014aa}
 ---. 2014, \mnras, 438, 717
+
+\bibitem[{{Lauer} {et~al.}(2007){Lauer}, {Faber}, {Richstone}, {Gebhardt},
+  {Tremaine}, {Postman}, {Dressler}, {Aller}, {Filippenko}, {Green}, {Ho},
+  {Kormendy}, {Magorrian}, \& {Pinkney}}]{Lauer:2007aa}
+{Lauer}, T.~R., {Faber}, S.~M., {Richstone}, D., {et~al.} 2007, \apj, 662, 808
 
 \bibitem[{{Leja} {et~al.}(2013){Leja}, {van Dokkum}, \& {Franx}}]{Leja:2013aa}
 {Leja}, J., {van Dokkum}, P., \& {Franx}, M. 2013, \apj, 766, 33
@@ -304,6 +328,14 @@ Oemler, A. 1974, \apj, 194, 1
   {Conroy}}]{Tinker:2011aa}
 {Tinker}, J., {Wetzel}, A., \& {Conroy}, C. 2011, ArXiv e-prints,
   arXiv:1107.5046
+
+\bibitem[{{West}(2005)}]{West:2005aa}
+{West}, A.~A. 2005, PhD thesis, University of Washington, Washington, USA
+
+\bibitem[{{West} {et~al.}(2010){West}, {Garcia-Appadoo}, {Dalcanton}, {Disney},
+  {Rockosi}, {Ivezi{\'c}}, {Bentz}, \& {Brinkmann}}]{West:2010aa}
+{West}, A.~A., {Garcia-Appadoo}, D.~A., {Dalcanton}, J.~J., {et~al.} 2010,
+  \apj, 139, 315
 
 \bibitem[{{Wilman} {et~al.}(2010){Wilman}, {Zibetti}, \&
   {Budav{\'a}ri}}]{Wilman:2010aa}

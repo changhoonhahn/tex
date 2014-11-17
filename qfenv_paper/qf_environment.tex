@@ -56,7 +56,7 @@ Defining Population (from PRIMUS and SDSS). For quiescent and
 star-forming galaxies in low or high density environments, we examine
 the evolution of their stellar mass function (SMF). Then using the
 SMFs we compute $f_{\rm{Q}}(\mathcal{M}_{*})$ and quantify its
-evolution within our redshift range. As expected, the quiescent
+evolution within our redshift range. We find that the quiescent
 fraction is higher at higher masses and in denser environments. The
 quiescent fraction rises with cosmic time for all masses and
 environments. At a fiducial mass of $10^{10.5}M_\odot$, from $z\sim
@@ -74,7 +74,7 @@ galaxies that cease forming stars do so due to internal processes.
 \section{Introduction}
 Galaxies, in their detailed properties, carry the imprints of their
 surroundings, with a strong dependence of the quiescent fraction of
-galaxies on their local environment (e.g. \citealt{hubble36a,
+galaxies on their local environment (e.g. \citealt{hubble36,
 oemler74a, dressler80a, hermit96a, guzzo97a}; for a recent review see
 \citealt{blanton09a}).  The strength of this dependence is itself a
 strongly decreasing function of galaxy stellar mass; at the extreme,
@@ -320,7 +320,7 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
   \begin{center}
     \leavevmode
     \epsfig{file=fig_envcount_cylr2h25_thresh75_sdss_z0_05_0_12_primus_z0_21_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png, height=0.5\textwidth}
-     \caption{Normalized distribution of environment measurements ($n_{\rm{env}}$) for our mass complete galaxy sample within the edges. The star-forming galaxies contribution to the distribution is colored blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Each redshift panel is divided into three sections by the environment classification cutoffs (black veritcal lines): low density environment $n_{\rm{env}} < 0.5$ and high density environment $n_{\rm{env}} > 3.0$. The percentages of the redshift bin contained in the environment classifications are presented above the distribution. For example at $0.2 < z < 0.4$, $36.0 \%$ of galaxies in the redshift bin are in low density environments while $35.0\%$ of galaxies in the redshift bin are in high density environments. The significant difference between the SDSS distribution and the PRIMUS distribution above is due to the difference in stellar mass completeness limit imposed in our galaxy sample.}      \label{fig:envcount}
+     \caption{Normalized distribution of environment measurements ($n_{\rm{env}}$) for our mass complete galaxy sample within the edges. The star-forming galaxies contribution to the distribution is colored blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Each redshift panel is divided into three sections by the environment classification cutoffs (black veritcal lines): low density environment $n_{\rm{env}} < 0.5$ and high density environment $n_{\rm{env}} > 3.0$. The percentages of the redshift bin contained in the environment classifications are presented above the distribution. For example at $0.2 < z < 0.4$, $\apheight.0 \%$ of galaxies in the redshift bin are in low density environments while $35.0\%$ of galaxies in the redshift bin are in high density environments. We note that the significant difference between the SDSS distribution and the PRIMUS distribution above is due to the difference in stellar mass completeness limit imposed in our galaxy sample.}      \label{fig:envcount}
     \end{center}
 \end{figure*}
 
@@ -386,9 +386,11 @@ the cumulative number density of the highest redshift bin. For
 redshift bins $0.05-0.12$, $0.2-0.4$, $0.4-0.6$, $0.6-0.8$ we get
 $M_{r,\rm{lim}} = -20.90$, $-21.06$, $-21.10$ and $-20.98$,
 respectively. These absolute magnitude limits are illustrated in
-Figure \ref{fig:targetEDP}, which show clear $M_r$ cutoffs in the
-$M_{r}$ distribution versus redshift for the EDP (red circles) on top
-of the target galaxy sample (black).
+Figure \ref{fig:targetEDP}, where we present the absolute magnitude ($M_{r}$) versus redshift for the galaxy sample (black squares) ad the EDP (red circles). 
+The left-most panel corresponds to the sample derived from the SDSS-{\em GALEX} data and the rest correspond to the target sample derived from the PRIMUS data divided in bins with $\Delta z \sim 0.2$. 
+Figure \ref{fig:targetEDP} shows clear $M_r$ cutoffs in the
+$M_{r}$ distribution versus redshift for the EDP on top
+of the target galaxy sample.
 
 For our SDSS-{\em GALEX} galaxy sample, in Section \ref{sec:target}, we apply PRIMUS redshift errors in order to establish a consistent measurement of environment throughout our redshift range. We appropriately apply equivalent redshift adjustments for the SDSS EDP. So for the SDSS EDP galaxies that are within the SDSS-{\em GALEX} sample, we adjust the redshift by an identical amount. For the rest, we apply the same redshift adjustment procedure described in Section \ref{sec:target} in order to obtain PRIMUS level redshift uncertainties. 
 
@@ -424,11 +426,11 @@ To account for these edge effects, we use a Monte Carlo method to impose edge cu
 \begin{equation} \label{eq:ransack}
 \langle n_{\rm{ransack}}\rangle_{i} = \frac{N_{\rm{ransack}}}{A_{\rm{EDP}}}\times {\pi \theta_{i, \rm{ap}}^2} \times f_{\rm{thresh}}. 
 \end{equation} 
-$A_{\rm{EDP}}$ is the total angular area of the EDP window function and $f_{\rm{thresh}}$ is the fractional threshold for the edge effect cut-off. For $R_{\rm{ap}}= 2.9 \;\rm{Mpc}$, $f_{\rm{thresh}} = 0.75$. If $n_{i, \rm{ransack}}$ is greater than $<n_{\rm{ransack}}>_i$ then galaxy $i$ remains in our sample; otherwise, it is discarded. 
+$A_{\rm{EDP}}$ is the total angular area of the EDP window function and $f_{\rm{thresh}}$ is the fractional threshold for the edge effect cut-off. For $R_{\rm{ap}}= \apradius \;\rm{Mpc}$, $f_{\rm{thresh}} = 0.75$. If $n_{i, \rm{ransack}}$ is greater than $<n_{\rm{ransack}}>_i$ then galaxy $i$ remains in our sample; otherwise, it is discarded. 
 
 Once the edge effect cuts are applied, we are left with the final galaxy sample. In Figure \ref{fig:envcount} we present the distribution of environment measurements ($n_{\rm{env}}$) for our final galaxy sample in redshift bins: $0.05 - 0.12$, $0.2 - 0.4$, $0.4-0.6$, and $0.6-0.8$. The quiescent galaxy contributions are colored in red while the star-forming galaxy contributions are colored in blue and patterned. The low and high density environment classifications are represented by black vertical lines that divide the distribution at $n_{\rm{env}} = 0.5$ and $n_{\rm{env}} = 3.5$. The percentage of the total galaxies in the redshift bin that are in these environment densities are labeled on the figure. 
 
-Although we imposed PRIMUS redshift errors on our SDSS galaxies in order to consistently measure environment throughout our entire sample, we note a significant discrepancy between the SDSS and PRIMUS samples in the fractional contribution of each environment classification within the redshift bin. For each of the PRIMUS redshift bins, approximately $50 \%$ of galaxies in the redshift bin are in low density environments and roughly $30 \%$ are in high density environments. In contrast, in the SDSS redshift bin, $38 \%$ of galaxies in the redshift bin are in low density environments and $45 \%$ are in high density environments. We remind the reader that this is due to the different mass-completeness limits imposed on our galaxy sample for each redshift bins. 
+Although we imposed PRIMUS redshift errors on our SDSS galaxies in order to consistently measure environment throughout our entire sample, we note a significant discrepancy between the SDSS and PRIMUS samples in the fractional contribution of each environment classification within the redshift bin. For each of the PRIMUS redshift bins, approximately $50 \%$ of galaxies in the redshift bin are in low density environments and roughly $30 \%$ are in high density environments. In contrast, in the SDSS redshift bin, $38 \%$ of galaxies in the redshift bin are in low density environments and $45 \%$ are in high density environments. We remind the reader that this is due to the different mass-completeness limits imposed on our galaxy sample for each redshift bins and does not affect our results. 
 \begin{figure*}
   \begin{center}
     \leavevmode
@@ -436,7 +438,7 @@ Although we imposed PRIMUS redshift errors on our SDSS galaxies in order to cons
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) target galaxies in 
 low (left) and high (right) environments in the redshift range
 $z=0$--$0.8$. The environment of each galaxy  
-was calculated using a cylindrical aperture size of $R=2.9 \: \rm{Mpc}$ and $H=36 \: \rm{Mpc}$ and  
+was calculated using a cylindrical aperture size of $R=\apradius \: \rm{Mpc}$ and $H=\apheight \: \rm{Mpc}$ and  
 classified as low environment when $n_{\mathrm{env}} < 0.5$ and as high environment when $n_{\mathrm{env}} > 3.0$. The SMFs use mass bins of 
 width $\Delta \rm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.2$. In each panel we use shades of blue 
 (star-forming) and orange (quiescent) to represent the SMF at different redshift, higher redshifts being
@@ -490,10 +492,10 @@ points in the bin: $f_{\rm{edge}}$. We then apply this factor to
 compute $V_{\rm{max,avail}} = V_{\rm{max}} \times f_{\rm{edge}}$. The
 $V_{\rm{max}}$ values in the equation above are computed following the
 method described in \cite{Moustakas:2013aa} Section 4.2 with the same
-redshift-dependent $K$-correction from observed SED and luminosity
+redshift-dependent $K$-correction from the observed SED and luminosity
 evolution model.
 
-To calculate the uncertainty of the SMFs from the sample variance, we use a standard jackknife technique (as done in \citealt{Moustakas:2013aa}). For the PRIMUS galaxies, we calculate SMFs after excluding one of the five target fields at a time. For the SDSS target galaxies we divide the field into a 12 $\times$ 9 rectangular RA and Dec grid and calculate the SMFs after excluding one grid at a time. From the calculated SMFs we calculate the uncertainty: 
+To calculate the uncertainty of the SMFs from the sample variance, we use a standard jackknife technique (following \citealt{Moustakas:2013aa}). For the PRIMUS galaxies, we calculate SMFs after excluding one of the five target fields at a time. For the SDSS target galaxies we divide the field into a 12 $\times$ 9 rectangular RA and Dec grid and calculate the SMFs after excluding one grid at a time. From the calculated SMFs we calculate the uncertainty: 
 \begin{equation}
 \sigma^j = \sqrt{\frac{M-1}{M} \sum\limits_{k=1}^{M} (\Phi^j_k - \langle \Phi^j \rangle)^2}
 \end{equation} 
@@ -535,13 +537,13 @@ massive galaxies. We further confirm this trend when we compare the
 median mass between the two environments to find that the median mass
 for galaxies in high density environments is significantly greater
 than in low density environments. The relationship between mass and
-environment observed in our SMFs reflect the well-established
+environment observed in our SMFs reflects the well-established
 mass-density relation and observed mass segregation with environment
 in the literature (\citealt{norberg02a, zehavi02a, Blanton:2005ab,
   bundy06a, Scodeggio:2009aa, Bolzonella:2010aa}).
 
 While our mass complete subsample coupled with robust environment
-measurement allows us to compare SMF evolution for each of our
+measurements allows us to compare SMF evolution for each of our
 subsamples out to $z=0.8$, we caution readers regarding the
 photometric biases affecting the SDSS imaging (and perhaps the other
 imaging sources) and reserve detailed analysis of the SMFs for 
@@ -606,8 +608,8 @@ following the same steps as for the SMF uncertainty in Section \ref{sec:smfcalc}
 
 Most noticeably in Figure \ref{fig:qf}, we find $f_{\rm{Q}}$ increases
 monotonically as a function of mass at all redshifts and
-environments. In other words, for all subsamples, galaxies in higher
-mass bins are more likely to have ended its star-formation. With the roughly linear correlation between galaxy SFR to galaxy color and morphology, we find that this trend reflects the well established color-mass and morphology-mass relations: more massive galaxies are more likely to be red or early-type (\citealt{blanton09a}). 
+environments. In other words, for galaxies in all environments and at all redshifts, galaxies with higher
+masses are more likely to have ceased their star-formation. With the roughly linear correlation between galaxy SFR to galaxy color and morphology, we find that this trend reflects the well established color-mass and morphology-mass relations: more massive galaxies are more likely to be red or early-type (\citealt{blanton09a}). 
 
 Focusing on the redshift evolution of $f_{\rm{Q}}$, we find that for
 both environments $f_{\rm{Q}}$ increases as redshift decreases. For
@@ -634,7 +636,7 @@ bin, we find that $f_{\rm{Q}}$ at low density environments ranges from
 $\sim 0.4$ to $\sim 0.8$ for $10^{10.2} \mathcal{M}_{\odot} <
 \mathcal{M}_{*} < 10^{11.5} \mathcal{M}_{\odot}$. Over the same mass
 range, $f_{\rm{Q}}$ at high density environment ranges from $\sim
-0.55$ to $\sim 0.9$. Evidently for our SDSS sample, $f_{\rm{Q}}$ in
+0.55$ to $\sim 0.9$. For our SDSS sample, $f_{\rm{Q}}$ in
 high density environments is notably higher. 
 
 For our PRIMUS sample at $z \sim 0.3$, over $10^{9.5} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11} \mathcal{M}_{\odot}$ $f_{\rm{Q}}$ ranges from $\sim 0.15$ to $\sim 0.55$ for low density environment, while at high density environment $f_{\rm{Q}}$ ranges from $\sim 0.2$ to $\sim 0.7$. Similarly, at $z \sim 0.5$, over $10^{10} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11.2} \mathcal{M}_{\odot}$ $f_{\rm{Q}}$ ranges from $\sim 0.25$ to $\sim 0.55$ for low density environment and $f_{\rm{Q}}$ ranges from $\sim 0.3$ to $\sim 0.7$. Finally in our highest redshift bin $z \sim 0.7$, over the mass range $10^{10.5} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11.5} \mathcal{M}_{\odot}$, $f_{\rm{Q}}$ ranges from $\sim 0.3$ to $\sim 0.55$ for low density and $\sim 0.45$ to $\sim 0.8$ for high density. For the entire redshift range of our sample, $f_{\rm{Q}}$ in high density environment is higher than $f_{\rm{Q}}$ in low density environments. 
@@ -718,7 +720,7 @@ evolution illustrates that the quiescent fraction in low density
 environment increases over cosmic time:
 $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}, z \sim 0.1) -
 f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}, z \sim 0.7) \sim 0.1$. This
-significant quiescent fraction evolution for low density environment
+significant quiescent fraction evolution for low density environments
 suggests that internal mechanisms, independent of environment, are
 responsible for a significant amount of star-formation cessation. Meanwhile, the $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}})$ evolution in high density environment ($f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}, z \sim 0.1) - f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}, z \sim 0.7) \sim 0.12$) shows little additional evolution.
 
@@ -728,7 +730,7 @@ $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})$ by $\sim 0.2$, we observe the
 same evolutionary trends. $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}} =
 10^{11}\mathcal{M}_{\odot})$ for both low and high density
 environments each increase by $\sim 0.1$ from at all redshifts we
-study. Evidently, increasing the fiducial mass to $10^{11}
+study. Increasing the fiducial mass to $10^{11}
 \mathcal{M}_{\odot}$ does not significantly alter the evolutionary
 trends in either environment. Although the varying stellar mass
 completeness at each redshift bin limits the masses we probe for the
@@ -759,9 +761,9 @@ density environment. $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}, z
 \sim 0.2$ for $n_{\rm{env}} > 9$ versus
 $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}, z \sim 0.1) -
 f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}, z \sim 0.7) \sim 0.1$ for
-low density environment as we listed earlier. In addition to the
+low density environment. In addition to the
 environment independent internal mechanisms that can explain the
-$f_{\rm{Q}}$ evolution at low density environments, there may be other
+$f_{\rm{Q}}$ evolution in low density environments, there may be other
 environment dependent mechanisms that can account for the moderate
 environment dependence of the $f_{\rm{Q}}$ evolution. Our measured
 difference in the $f_{\rm{Q}}$ evolution between environments provides
@@ -785,8 +787,9 @@ Although a direct comparison with other results is difficult due to
 our sample specific methodology, a number of results from the literature have investigated the quiescent fraction in comparable fashions. In this section we compare our $f_{\rm{Q}}$ results from above to a number of these results, specifically from SDSS and zCOSMOS, with similarly defined samples and analogous environment classifications. 
 
 In Figure \ref{fig:qffit_comp}, we plot  best-fit parameterization of
-$f_{\rm{red}}$ for high and low density environment from SDSS (panel a), \cite{Baldry:2006aa} (diamond) and \cite{geha12a} (cross), zCOSMOS (panel b),
-\cite{Iovino:2010aa} (empty square) and \cite{Kovac:2014aa} (triangle), and \cite{Peng:2010aa} (filled square; panel c) from both surveys. From
+$f_{\rm{red}}$ for high and low density environment from SDSS (panel a), zCOSMOS (panel b), and \cite{Peng:2010aa} (filled square; panel c) from both surveys. From
+%$f_{\rm{red}}$ for high and low density environment from SDSS (panel a), \cite{Baldry:2006aa} (diamond) and \cite{geha12a} (cross), zCOSMOS (panel b),
+%\cite{Iovino:2010aa} (empty square) and \cite{Kovac:2014aa} (triangle), and \cite{Peng:2010aa} (filled square; panel c) from both surveys. From
 \cite{Iovino:2010aa} we calculate $f_{\rm{red}} = 1-f_{\rm{blue}}$
 using the best-fit $f_{\rm{blue}}$ from the mass bin $\mathcal{M} =
 10^{10.3} - 10^{10.8} \mathcal{M}_{\odot}$. From \cite{Kovac:2014aa}
@@ -853,7 +856,8 @@ adjusting the fiducial mass only shifted the overall
 $f_{\rm{Q}}(\mathcal{M}_{\rm{fid}})$, but did not change the
 $f_{\rm{Q}}$ evolutionary trend. The consistency in the $f_{\rm{Q}}$
 evolutionary trends when the fiducial mass is changed suggest that
-$f_{\rm{Q}}$ evolution exhibit little mass dependence. In contrast to
+$f_{\rm{Q}}$ evolution exhibit little mass dependence within the 
+mass range probed in our analysis. In contrast to
 the weak mass dependence we observe in our results,
 \cite{Iovino:2010aa} find significantly different $f_{\rm{Q}}$
 evolution at $\mathcal{M} \sim 10^{11} \mathcal{M}_{\odot}$ and
@@ -896,7 +900,7 @@ based on the Vimos VLT Deep Survey ($0.2 < z< 1.4$).
 
 % Purposely not mentioning the lack of morphology-density relation for M>10^10.5Msun galaxies as argued in Tasca et al. 2009 in order to not bring up morphology. 
 
-In Section \ref{sec:env_qf_evol}, we pointed out that $f_{\rm{Q}}$ in
+In Section \ref{sec:env_qf_evol}, we showed that $f_{\rm{Q}}$ in
 low density environments evolves over cosmic time. From this trend we
 deduce that internal, environment independent, mechanisms contribute
 to ending star-formation in galaxy evolution. \cite{Iovino:2010aa}
@@ -934,7 +938,7 @@ correction we impose to the \cite{Kovac:2014aa} results. However, even
 without the correction (not shown), in their best-fit $f_{\rm{Q}}$
 results, the same evolutionary trends mentioned above are observed.
 
-While the zCOSMOS survey provides more precise spectroscopic redshifts than PRIMUS, our sample provides a significantly larger statistics. In addition, our sample covers a larger portion of the sky. Our SDSS-{\em GALEX} sample covers $2,505 \;\rm{deg}^2$. More comparably, our PRIMUS sample covers $5.5 \;\rm{deg}^2$, which is over 3 times the sky coverage of zCOSMOS, $1.7 \;\rm{deg}^2$. With a significantly greater sky coverage our sample is less susceptible to cosmic variance. 
+While the zCOSMOS survey provides more precise spectroscopic redshifts than PRIMUS, our sample provides a significantly larger statistics. In addition, our sample covers a larger portion of the sky. Our SDSS-{\em GALEX} sample covers $2,505 \;\rm{deg}^2$. More comparably, our PRIMUS sample covers $5.5 \;\rm{deg}^2$, which is over 3 times the sky coverage of zCOSMOS ($1.7 \;\rm{deg}^2$). With a significantly greater sky coverage in five separate fields, our sample is less susceptible to cosmic variance. 
 
 As listed in Table \ref{tab:subsample}, after our edge effect cuts and
 stellar mass completeness limits, our sample consists of $12,861$
@@ -1040,9 +1044,9 @@ addition to the internal mechanisms, in high density environments such
 as groups and clusters, environment-dependent effects may also
 contribute to the end of star-formation. Our results do not
 specifically shed light on which mechanism (e.g. strangulation,
-ram-pressure stripping, etc.) occur in high density environments. In
-addition, the mechanism could yet be indirect; for example, the
-galaxies in higher density environments could yet end star-formation
+ram-pressure stripping, etc.) occur in high density environments. Not to 
+mention, the mechanism could yet be indirect; for example, the
+galaxies in higher density environments could end star-formation
 primarily due internal processes that affect the galaxies that end up
 in groups and clusters more greatly.  Nevertheless, our results impose
 important constraints on the total possible contribution of
@@ -1054,7 +1058,7 @@ galaxies.
 We thank people ...
 
 Support for this work was provided by ... 
-
+%"ALC acknowledges support from NSF CAREER award"
 something something, details details
 
 The SDSS is managed by the Astrophysical Research Con- sortium for the Participating Institutions. The Participating In- stitutions are the American Museum of Natural History, As- trophysical Institute Potsdam, University of Basel, University of Cambridge, Case Western Reserve University, University of Chicago, Drexel University, Fermilab, the Institute for Ad- vanced Study, the Japan Participation Group, Johns Hopkins University, the Joint Institute for Nuclear Astrophysics, the Kavli Institute for Particle Astrophysics and Cosmology, the Korean Scientist Group, the Chinese Academy of Sciences (LAMOST), Los Alamos National Laboratory, the Max-Planck- Institute for Astronomy (MPIA), the Max-Planck-Institute for Astrophysics (MPA), New Mexico State University, Ohio State University, University of Pittsburgh, University of Portsmouth, Princeton University, the United States Naval Observatory, and the University of Washington.

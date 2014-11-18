@@ -141,6 +141,13 @@ Dressler, A. 1980, \apj, 236, 351
 \bibitem[{{Dressler}(1984)}]{dressler84a}
 {Dressler}, A. 1984, \araa, 22, 185
 
+\bibitem[{{Gallazzi} {et~al.}(2009){Gallazzi}, {Bell}, {Wolf}, {Gray},
+  {Papovich}, {Barden}, {Peng}, {Meisenheimer}, {Heymans}, {van Kampen},
+  {Gilmour}, {Balogh}, {McIntosh}, {Bacon}, {Barazza}, {B{\"o}hm}, {Caldwell},
+  {H{\"a}ubler}, {Jahnke}, {Jogee}, {Lane}, {Robaina}, {Sanchez}, {Taylor},
+  {Wisotzki}, \& {Zheng}}]{Gallazzi:2009aa}
+{Gallazzi}, A., {Bell}, E.~F., {Wolf}, C., {et~al.} 2009, \apj, 690, 1883
+
 \bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12a}
 {Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
 
@@ -181,18 +188,39 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
 \bibitem[{{Johnston}(2011)}]{Johnston:2011aa}
 {Johnston}, R. 2011, \aapr, 19, 41
 
-\bibitem[{{Kova{\v c}} {et~al.}(2010){Kova{\v c}}, {Lilly}, {Knobel},
-  {Bolzonella}, {Iovino}, {Carollo}, {Scarlata}, {Sargent}, {Cucciati},
-  {Zamorani}, {Pozzetti}, {Tasca}, {Scodeggio}, {Kampczyk}, {Peng}, {Oesch},
-  {Zucca}, {Finoguenov}, {Contini}, {Kneib}, {Le F{\`e}vre}, {Mainieri},
-  {Renzini}, {Bardelli}, {Bongiorno}, {Caputi}, {Coppa}, {de la Torre}, {de
-  Ravel}, {Franzetti}, {Garilli}, {Lamareille}, {Le Borgne}, {Le Brun},
-  {Maier}, {Mignoli}, {Pello}, {Perez Montero}, {Ricciardelli}, {Silverman},
-  {Tanaka}, {Tresse}, {Vergani}, {Abbas}, {Bottini}, {Cappi}, {Cassata},
-  {Cimatti}, {Fumana}, {Guzzo}, {Koekemoer}, {Leauthaud}, {Maccagni},
-  {Marinoni}, {McCracken}, {Memeo}, {Meneux}, {Porciani}, {Scaramella}, \&
-  {Scoville}}]{kovac10a}
-{Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2010, \apj, 718, 86
+\bibitem[{{Karim} {et~al.}(2011){Karim}, {Schinnerer},
+  {Mart{\'{\i}}nez-Sansigre}, {Sargent}, {van der Wel}, {Rix}, {Ilbert},
+  {Smol{\v c}i{\'c}}, {Carilli}, {Pannella}, {Koekemoer}, {Bell}, \&
+  {Salvato}}]{Karim:2011aa}
+{Karim}, A., {Schinnerer}, E., {Mart{\'{\i}}nez-Sansigre}, A., {et~al.} 2011,
+  \apj, 730, 61
+
+\bibitem[{{Kova{\v c}} {et~al.}(2010{\natexlab{a}}){Kova{\v c}}, {Lilly},
+  {Knobel}, {Bolzonella}, {Iovino}, {Carollo}, {Scarlata}, {Sargent},
+  {Cucciati}, {Zamorani}, {Pozzetti}, {Tasca}, {Scodeggio}, {Kampczyk}, {Peng},
+  {Oesch}, {Zucca}, {Finoguenov}, {Contini}, {Kneib}, {Le F{\`e}vre},
+  {Mainieri}, {Renzini}, {Bardelli}, {Bongiorno}, {Caputi}, {Coppa}, {de la
+  Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Lamareille}, {Le Borgne}, {Le
+  Brun}, {Maier}, {Mignoli}, {Pello}, {Perez Montero}, {Ricciardelli},
+  {Silverman}, {Tanaka}, {Tresse}, {Vergani}, {Abbas}, {Bottini}, {Cappi},
+  {Cassata}, {Cimatti}, {Fumana}, {Guzzo}, {Koekemoer}, {Leauthaud},
+  {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux}, {Porciani},
+  {Scaramella}, \& {Scoville}}]{kovac10a}
+{Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2010{\natexlab{a}},
+  \apj, 718, 86
+
+\bibitem[{{Kova{\v c}} {et~al.}(2010{\natexlab{b}}){Kova{\v c}}, {Lilly},
+  {Cucciati}, {Porciani}, {Iovino}, {Zamorani}, {Oesch}, {Bolzonella},
+  {Knobel}, {Finoguenov}, {Peng}, {Carollo}, {Pozzetti}, {Caputi}, {Silverman},
+  {Tasca}, {Scodeggio}, {Vergani}, {Scoville}, {Capak}, {Contini}, {Kneib}, {Le
+  F{\`e}vre}, {Mainieri}, {Renzini}, {Bardelli}, {Bongiorno}, {Coppa}, {de la
+  Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Guzzo}, {Kampczyk},
+  {Lamareille}, {Le Borgne}, {Le Brun}, {Maier}, {Mignoli}, {Pello}, {Perez
+  Montero}, {Ricciardelli}, {Tanaka}, {Tresse}, {Zucca}, {Abbas}, {Bottini},
+  {Cappi}, {Cassata}, {Cimatti}, {Fumana}, {Koekemoer}, {Maccagni}, {Marinoni},
+  {McCracken}, {Memeo}, {Meneux}, \& {Scaramella}}]{Kovac:2010ab}
+{Kova{\v c}}, K., {Lilly}, S.~J., {Cucciati}, O., {et~al.} 2010{\natexlab{b}},
+  \apj, 708, 505
 
 \bibitem[{{Kova{\v c}} {et~al.}(2014){Kova{\v c}}, {Lilly}, {Knobel},
   {Bschorr}, {Peng}, {Carollo}, {Contini}, {Kneib}, {Le F{\'e}vre}, {Mainieri},
@@ -202,7 +230,7 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
   {Mignoli}, {Oesch}, {Pello}, {Montero}, {Presotto}, {Silverman}, {Tanaka},
   {Tasca}, {Tresse}, {Vergani}, {Zucca}, {Aussel}, {Koekemoer}, {Le Floc'h},
   {Moresco}, \& {Pozzetti}}]{Kovac:2014aa}
----. 2014, \mnras, 438, 717
+{Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2014, \mnras, 438, 717
 
 \bibitem[{{Lauer} {et~al.}(2007){Lauer}, {Faber}, {Richstone}, {Gebhardt},
   {Tremaine}, {Postman}, {Dressler}, {Aller}, {Filippenko}, {Green}, {Ho},
@@ -211,6 +239,20 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
 
 \bibitem[{{Leja} {et~al.}(2013){Leja}, {van Dokkum}, \& {Franx}}]{Leja:2013aa}
 {Leja}, J., {van Dokkum}, P., \& {Franx}, M. 2013, \apj, 766, 33
+
+\bibitem[{{Lilly} {et~al.}(2009){Lilly}, {Le Brun}, {Maier}, {Mainieri},
+  {Mignoli}, {Scodeggio}, {Zamorani}, {Carollo}, {Contini}, {Kneib}, {Le
+  F{\`e}vre}, {Renzini}, {Bardelli}, {Bolzonella}, {Bongiorno}, {Caputi},
+  {Coppa}, {Cucciati}, {de la Torre}, {de Ravel}, {Franzetti}, {Garilli},
+  {Iovino}, {Kampczyk}, {Kovac}, {Knobel}, {Lamareille}, {Le Borgne}, {Pello},
+  {Peng}, {P{\'e}rez-Montero}, {Ricciardelli}, {Silverman}, {Tanaka}, {Tasca},
+  {Tresse}, {Vergani}, {Zucca}, {Ilbert}, {Salvato}, {Oesch}, {Abbas},
+  {Bottini}, {Capak}, {Cappi}, {Cassata}, {Cimatti}, {Elvis}, {Fumana},
+  {Guzzo}, {Hasinger}, {Koekemoer}, {Leauthaud}, {Maccagni}, {Marinoni},
+  {McCracken}, {Memeo}, {Meneux}, {Porciani}, {Pozzetti}, {Sanders},
+  {Scaramella}, {Scarlata}, {Scoville}, {Shopbell}, \&
+  {Taniguchi}}]{Lilly:2009aa}
+{Lilly}, S.~J., {Le Brun}, V., {Maier}, C., {et~al.} 2009, \apjs, 184, 218
 
 \bibitem[{{Magnelli} {et~al.}(2009){Magnelli}, {Elbaz}, {Chary}, {Dickinson},
   {Le Borgne}, {Frayer}, \& {Willmer}}]{magnelli09a}
@@ -312,6 +354,11 @@ Oemler, A. 1974, \apj, 194, 1
   {Bongiorno}, {Brinchmann}, {de La Torre}, {de Ravel}, {Gregorini}, {Memeo},
   {Perez-Montero}, {Mellier}, {Temporin}, \& {Walcher}}]{Scodeggio:2009aa}
 {Scodeggio}, M., {Vergani}, D., {Cucciati}, O., {et~al.} 2009, \aap, 501, 21
+
+\bibitem[{{Skibba} {et~al.}(2013){Skibba}, {Sheth}, {Croton}, {Muldrew},
+  {Abbas}, {Pearce}, \& {Shattow}}]{Skibba:2013aa}
+{Skibba}, R.~A., {Sheth}, R.~K., {Croton}, D.~J., {et~al.} 2013, \mnras, 429,
+  458
 
 \bibitem[{{Swanson} {et~al.}(2008){Swanson}, {Tegmark}, {Hamilton}, \&
   {Hill}}]{Swanson:2008aa}

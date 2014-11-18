@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 NOV 2014 14:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 NOV 2014 15:50
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **qf_environment.tex
@@ -452,17 +452,17 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
 Package epstopdf Info: Source file: <fig_smf_cylr2_50000h35_thresh75_bin0_20_sd
 ss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 15:33:09
 (epstopdf)                    size: 48235 bytes
 (epstopdf)             Output file: <fig_smf_cylr2_50000h35_thresh75_bin0_20_sd
 ss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 15:33:29
 (epstopdf)                    size: 22503 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_smf_cylr2_50000h35_thr
-esh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_
-primuszerr-eps-converted-to.pdf fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0
-_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
+(epstopdf)             Command: <epstopdf --outfile=fig_smf_cylr2_50000h35_thre
+sh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_p
+rimuszerr-eps-converted-to.pdf fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_
+05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)             \includegraphics on input line 438.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -508,17 +508,17 @@ bove
 _0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qf_cylr2_50000h35_thresh75_bin0_20_sds
 s_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 15:34:24
 (epstopdf)                    size: 26724 bytes
 (epstopdf)             Output file: <fig_qf_cylr2_50000h35_thresh75_bin0_20_sds
 s_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 15:35:17
 (epstopdf)                    size: 13831 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_qf_cylr2_50000h35_thre
-sh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszer
-r-eps-converted-to.pdf fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_p
-rimus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
+(epstopdf)             Command: <epstopdf --outfile=fig_qf_cylr2_50000h35_thres
+h75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr
+-eps-converted-to.pdf fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_pr
+imus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)             \includegraphics on input line 556.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -537,18 +537,18 @@ on input line 556.
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_p
 rimuszerr.eps>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 17:01:45
 (epstopdf)                    size: 20334 bytes
 (epstopdf)             Output file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_p
 rimuszerr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 17:09:54
 (epstopdf)                    size: 11847 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr2_50000h35_t
-hresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscom
-p11_0_10_5_lit_primuszerr-eps-converted-to.pdf fig_qffit_cylr2_50000h35_thresh7
-5_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_
-10_5_lit_primuszerr.eps>
+(epstopdf)             Command: <epstopdf --outfile=fig_qffit_cylr2_50000h35_th
+resh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp
+11_0_10_5_lit_primuszerr-eps-converted-to.pdf fig_qffit_cylr2_50000h35_thresh75
+_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_1
+0_5_lit_primuszerr.eps>
 (epstopdf)             \includegraphics on input line 657.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -573,19 +573,19 @@ asscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr
 _baldry_geha_iovino_kovac_peng_envthresh_kovacoffset.eps>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 18:23:07
 (epstopdf)                    size: 86609 bytes
 (epstopdf)             Output file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr
 _baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-18 09:15:29
+(epstopdf)                    date: 2014-11-17 18:36:04
 (epstopdf)                    size: 40966 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig_qffit_cylr2_50000h35_t
-hresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_
-5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-conver
-ted-to.pdf fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_
-2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_
-peng_envthresh_kovacoffset.eps>
+(epstopdf)             Command: <epstopdf --outfile=fig_qffit_cylr2_50000h35_th
+resh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5
+_lit_primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-convert
+ed-to.pdf fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2
+_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_p
+eng_envthresh_kovacoffset.eps>
 (epstopdf)             \includegraphics on input line 778.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -611,7 +611,7 @@ c_peng_envthresh_kovacoffset-eps-converted-to.pdf>] [12] (./qf_environment.bbl
 Here is how much of TeX's memory you used:
  5434 strings out of 493315
  76825 string characters out of 6137904
- 188959 words of memory out of 5000000
+ 188958 words of memory out of 5000000
  8778 multiletter control sequences out of 15000+600000
  13390 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191

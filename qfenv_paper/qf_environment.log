@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 NOV 2014 15:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 NOV 2014 12:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -452,13 +452,13 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
 Package epstopdf Info: Source file: <fig_smf_cylr2_50000h35_thresh75_bin0_20_sd
 ss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-11-17 15:33:09
-(epstopdf)                    size: 48235 bytes
+(epstopdf)                    date: 2014-11-19 11:09:57
+(epstopdf)                    size: 48208 bytes
 (epstopdf)             Output file: <fig_smf_cylr2_50000h35_thresh75_bin0_20_sd
 ss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2014-11-17 15:33:29
-(epstopdf)                    size: 22503 bytes
+(epstopdf)                    date: 2014-11-19 11:13:49
+(epstopdf)                    size: 22485 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig_smf_cylr2_50000h35_thre
 sh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_p
 rimuszerr-eps-converted-to.pdf fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_
@@ -508,13 +508,13 @@ bove
 _0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qf_cylr2_50000h35_thresh75_bin0_20_sds
 s_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)                    date: 2014-11-17 15:34:24
-(epstopdf)                    size: 26724 bytes
+(epstopdf)                    date: 2014-11-19 11:11:20
+(epstopdf)                    size: 26725 bytes
 (epstopdf)             Output file: <fig_qf_cylr2_50000h35_thresh75_bin0_20_sds
 s_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-11-17 15:35:17
-(epstopdf)                    size: 13831 bytes
+(epstopdf)                    date: 2014-11-19 11:13:50
+(epstopdf)                    size: 13801 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig_qf_cylr2_50000h35_thres
 h75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr
 -eps-converted-to.pdf fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_pr
@@ -537,13 +537,13 @@ on input line 556.
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_p
 rimuszerr.eps>
-(epstopdf)                    date: 2014-11-17 17:01:45
-(epstopdf)                    size: 20334 bytes
+(epstopdf)                    date: 2014-11-19 12:24:08
+(epstopdf)                    size: 20313 bytes
 (epstopdf)             Output file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_p
 rimuszerr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-17 17:09:54
-(epstopdf)                    size: 11847 bytes
+(epstopdf)                    date: 2014-11-19 12:32:00
+(epstopdf)                    size: 11850 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig_qffit_cylr2_50000h35_th
 resh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp
 11_0_10_5_lit_primuszerr-eps-converted-to.pdf fig_qffit_cylr2_50000h35_thresh75
@@ -573,8 +573,8 @@ asscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr
 _baldry_geha_iovino_kovac_peng_envthresh_kovacoffset.eps>
-(epstopdf)                    date: 2014-11-17 18:23:07
-(epstopdf)                    size: 86609 bytes
+(epstopdf)                    date: 2014-11-19 11:11:45
+(epstopdf)                    size: 58761 bytes
 (epstopdf)             Output file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr
 _baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf>
@@ -587,7 +587,18 @@ ed-to.pdf fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2
 _1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_p
 eng_envthresh_kovacoffset.eps>
 (epstopdf)             \includegraphics on input line 778.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_
+05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_
+geha_iovino_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf fig_qffit_cyl
+r2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3
+_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffs
+et.eps)...executed.
+
+Package epstopdf Info: Result file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
+sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr
+_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-19 12:32:57
+(epstopdf)                    size: 29438 bytes.
 
 <fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
 nv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envth
@@ -637,7 +648,7 @@ texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 585272 bytes).
+Output written on qf_environment.pdf (14 pages, 574327 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  103 compressed objects within 2 object streams

@@ -52,7 +52,7 @@ galaxies within $z = 0.05-0.12$. We classify the galaxies as quiescent
 or star-forming based on an evolving specific star formation cut, and
 as low or high density environments based on fixed cylindrical
 aperture environment measurements on a volume-limited environment
-defining population (from PRIMUS and SDSS). For quiescent and
+defining population. For quiescent and
 star-forming galaxies in low or high density environments, we examine
 the evolution of their stellar mass function (SMF). Then using the
 SMFs we compute $f_{\rm{Q}}(\mathcal{M}_{*})$ and quantify its
@@ -325,7 +325,7 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
 \end{figure}
 
 \subsection{Galaxy Environment} \label{sec:environment}
-We define the environment of a galaxy as the number of neighboring Environment Defining Population galaxies (defined below) within a fixed aperture centered around it. We use a fixed aperture measurement of environment to quantify environment with an aperture sufficiently large to encompass massive halos (\citealt{Muldrew:2012aa, Skibba:2013aa}).
+We define the environment of a galaxy as the number of neighboring Environment Defining Population galaxies (defined below) within a fixed aperture centered around it. We use fixed aperture measurements in order to quantify galaxy environment with an aperture sufficiently large to encompass massive halos (\citealt{Muldrew:2012aa, Skibba:2013aa}).
 %We use a fixed aperture measurement of environment in order to probe environment on the halo scale, as \cite{Muldrew:2012aa} finds in their comparison of different environment definition using simulations.
 
 For our aperture, we use a cylinder of dimensions: $R_{\rm{ap}} =
@@ -359,7 +359,7 @@ host dark matter halo sizes.
 %galaxies onto the Millenium Dark Matter Simulation (\cite{Springel:2005aa}). 
 
 Before we measure the environment for our galaxy sample, we first
-construct a volume limited environment defining population (EDP) with
+construct a volume limited Environment Defining Population (EDP) with
 absolute magnitude cut-offs ($M_{r}$) in redshift bins with $\Delta z
 \sim 0.2$. The $M_{r}$ cut-offs for the EDP are selected such that the
 cumulative number density over $M_{r}$ for all redshift bins are
@@ -371,7 +371,7 @@ does not precisely account for the scatter in mass accretion or
 galaxy-galaxy mergers, it provides a reasonable means to compare
 galaxy populations over a wide range of cosmic time.
 
-In constructing the PRIMUS EDP we use the same PRIMUS data used to select our galaxy sample (described in Section \ref{sec:target}). We again restrict the PRIMUS galaxies to $0.2 < z < 0.8$ and divide them into bins of $\Delta z = 0.2$. Before we consider the cumulative number densities in the redshift bins, we first determine the $M_r$ limit for the highest redshift bin ($0.6-0.8$) by examining the $M_{r}$ distribution with bin size $\Delta M_{r} = 0.25$ and select $M_{r,\rm{lim}}$ near the peak of the distribution where bins with $M_{r} > M_{r,\rm{lim}}$ have fewer galaxies than the bin at $M_{r, \rm{lim}}$. We conservatively choose $M_{r, \rm{lim}}(0.6 < z < 0.8)$ to be $M_{r} = -21.0$. Then for the lower redshift bins, we impose absolute magnitude limits ($M_{r,\rm{lim}}$) such that the cumulative number density, calculated with the galaxy statistical weights, of the bin ordered by $M_{r}$ is equal to the cumulative number density of the highest redshift bin at $M_{r, \rm{lim}}(0.6 < z < 0.8) = -21.0$. 
+In constructing the PRIMUS EDP we use the same PRIMUS data used to select our galaxy sample (described in Section \ref{sec:target}). We again restrict the PRIMUS galaxies to $0.2 < z < 0.8$ and divide them into bins of $\Delta z = 0.2$. Before we consider the cumulative number densities in the redshift bins, we first determine the $M_r$ limit for the highest redshift bin ($0.6-0.8$) by examining the $M_{r}$ distribution with bin size $\Delta M_{r} = 0.25$ and select $M_{r,\rm{lim}}$ near the peak of the distribution where bins with $M_{r} > M_{r,\rm{lim}}$ have fewer galaxies than the bin at $M_{r, \rm{lim}}$. We conservatively choose $M_{r, \rm{lim}}(0.6 < z < 0.8)$ to be $M_{r} = -21.0$. Then for the lower redshift bins, we impose absolute magnitude limits ($M_{r,\rm{lim}}$) such that the cumulative number density, calculated with the galaxy statistical weights, of the bin ordered by $M_{r}$ is equal to the cumulative number density of the highest redshift bin at $M_{r, \rm{lim}}(0.6 < z < 0.8) = -20.97$. 
 
 For the SDSS EDP, we do not use the SDSS-{\em GALEX} parent data,
 which is limited to the combined angular selection window of the
@@ -384,8 +384,8 @@ account for the lack of faint galaxies at $z \sim 0.2$ and the lack of
 bright galaxies at $z \sim 0.01$ in the VAGC. As with the PRIMUS
 redshift bins, we determine the SDSS EDP $M_{r, \rm{lim}}$ by matching
 the cumulative number density of the highest redshift bin. For
-redshift bins $0.05-0.12$, $0.2-0.4$, $0.4-0.6$, $0.6-0.8$ we get
-$M_{r,\rm{lim}} = -20.90$, $-21.06$, $-21.10$ and $-20.98$,
+redshift bins $z = 0.05-0.12$, $0.2-0.4$, $0.4-0.6$, $0.6-0.8$ we get
+$M_{r,\rm{lim}} = -20.95$, $-21.03$, $-20.98$ and $-20.97$,
 respectively. These absolute magnitude limits are illustrated in
 Figure \ref{fig:targetEDP}, where we present the absolute magnitude ($M_{r}$) versus redshift for the galaxy sample (black squares) ad the EDP (red circles). 
 The left-most panel corresponds to the sample derived from the SDSS-{\em GALEX} data and the rest correspond to the target sample derived from the PRIMUS data divided in bins with $\Delta z \sim 0.2$. 
@@ -399,7 +399,10 @@ Finally, we measure the environment for each galaxy in our galaxy
 sample by counting the number of EDP galaxies, $n_{\rm{env}}$ with RA,
 Dec, and $z$ within our cylindrical aperture centered around
 it. $n_{\rm{env}}$ accounts for the statistical weights of the EDP
-galaxies. Once we obtain environment measurements for all the galaxies
+galaxies. 
+For our galaxy sample, the expected $n_{\rm{env}}$ given the constant number density in 
+each of our EDP redshift bin and volume of our cylindrical aperture is $< n_{\rm{env}} > = 1.3$. 
+Once we obtain environment measurements for all the galaxies
 in our galaxy sample, we classify galaxies with $n_{\rm{env}} < 0.5$
 to be ``low" environment density and galaxies with $n_{\rm{env}} > 3$
 to be ``high" environment densities. The high environment cutoff was
@@ -506,7 +509,8 @@ $N$ in this equation is the number of jackknife SMFs in the stellar mass bin. $\
 In Figure \ref{fig:smf}, we present the SMFs of the quiescent/star-forming (orange/blue, bottom/top panels) and high/low density environment (left/right panels) subsamples. The redshift evolution of the SMFs in each of these panels are indicated by a darker shade for lower redshift bins. The width of the SMFs represent the sample variance uncertainties.
 
 While a detailed comparison of the SMFs in each panel for different
-epochs is complicated due to the different stellar mass completeness limits, we present some notable trends in each panel. In panel (a), star-forming galaxies in low density environments, we find a significant decrease in the high mass end of the SMF ($\mathcal{M} > 10^{10.75} \mathcal{M}_{\odot}$). At lower masses ($\mathcal{M} < 10^{10.5} \mathcal{M}_{\odot}$) we observe no noticeable trend in the SMF. In panel (b), star-forming galaxies in high density environments, we notice a possible decrease above the knee of the SMF ($\mathcal{M} \sim 10^{10.7} \mathcal{M}_{\odot}$) accompanied by an increase below the knee. For the quiescent population in low density environment, shown in panel (c) of Figure \ref{fig:smf}, we do not notice any clear SMF evolution throughout the mass range. Lastly for the quiescent population in high density environments, panel (d), we find significant increase in $\Phi$ for lower masses but no notable trend at higher masses. 
+epochs is complicated due to the different stellar mass completeness limits, we present some notable trends in each panel. In panel (a), star-forming galaxies in low density environments, we find a significant decrease in the high mass end of the SMF ($\mathcal{M} > 10^{10.75} \mathcal{M}_{\odot}$). At lower masses ($\mathcal{M} < 10^{10.5} \mathcal{M}_{\odot}$) we observe no noticeable trend in the SMF. In panel (b), star-forming galaxies in high density environments, we do not observe any clear trends above the knee of the SMF ($\mathcal{M} \sim 10^{10.7} \mathcal{M}_{\odot}$) but an increase in SMF below the knee. For the quiescent population in low density environment, shown in panel (c) of Figure \ref{fig:smf}, we observe a potential decrease at high masses ($\mathcal{M} > 10^{10.7} \mathcal{M}_{\odot}$). Lastly for the quiescent population in high density environments, panel (d), we find significant increase in $\Phi$ for lower masses but no notable trend at higher masses. 
+%do not notice any clear SMF evolution throughout the mass range. 
 
 %In comparison to results from DEEP2 (\citealt{bundy06a}) and zCOSMOS (\citealt{Bolzonella:2010aa}), some of the noted trends are not immediately evident. However, this is mostly due to the conflicting mass limits proposed in each study. In addition, only part of the redshift range probed by \cite{bundy06a} overlap with our results. Overall, we find that the trends we note in the SMF evolution above are in good agreement with \cite{bundy06a} and \cite{Bolzonella:2010aa}. 
 
@@ -534,7 +538,9 @@ trends when we compare the SMFs for star-forming and quiescent
 galaxies between the two environments. Comparison of the SMFs in low
 versus high density environments reveal a noticeable relation between
 mass and density, with SMFs in high density environments having more
-massive galaxies. We further confirm this trend w hen we compare the
+massive galaxies, especially evident in our lowest redshift bin. 
+We further confirm this trend when we compare the
+%massive galaxies. We further confirm this trend w hen we compare the
 median mass between the two environments to find that the median mass
 for galaxies in high density environments is significantly greater
 than in low density environments. The relationship between mass and
@@ -574,7 +580,7 @@ While the fractional relation of the star-forming and quiescent
 populations has been investigated in the past, with limited
 statistics, disentangling the environmental effects from underlying
 correlations among observable galaxy properties such as the color-mass
-or mass-density relations (\citealt{Cooper:2010aa}) remains a
+or mass-density relations (\citealt{Cooper:2010aa}) remains a 
 challenge. With the better statistics available from SDSS and
 PRIMUS, we evaluate the quiescent fraction in bins of stellar mass,
 redshift, and environment in Section \ref{sec:qfevol}. By analyzing

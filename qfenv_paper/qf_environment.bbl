@@ -50,6 +50,9 @@
 \bibitem[{{Blanton} \& {Moustakas}(2009)}]{blanton09a}
 {Blanton}, M.~R., \& {Moustakas}, J. 2009, \araa, 47, 159
 
+\bibitem[{{Blanton} \& {Roweis}(2007)}]{Blanton:2007aa}
+{Blanton}, M.~R., \& {Roweis}, S. 2007, \aj, 133, 734
+
 \bibitem[{{Blanton} {et~al.}(2005{\natexlab{b}}){Blanton}, {Schlegel},
   {Strauss}, {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg},
   {Ivezi{\'c}}, {Knapp}, {Lupton}, {Munn}, {Schneider}, {Tegmark}, \&
@@ -140,6 +143,10 @@ Dressler, A. 1980, \apj, 236, 351
 
 \bibitem[{{Dressler}(1984)}]{dressler84a}
 {Dressler}, A. 1984, \araa, 22, 185
+
+\bibitem[{{Fasano} {et~al.}(2000){Fasano}, {Poggianti}, {Couch}, {Bettoni},
+  {Kj{\ae}rgaard}, \& {Moles}}]{Fasano:2000aa}
+{Fasano}, G., {Poggianti}, B.~M., {Couch}, W.~J., {et~al.} 2000, \apj, 542, 673
 
 \bibitem[{{Gallazzi} {et~al.}(2009){Gallazzi}, {Bell}, {Wolf}, {Gray},
   {Papovich}, {Barden}, {Peng}, {Meisenheimer}, {Heymans}, {van Kampen},
@@ -360,6 +367,11 @@ Oemler, A. 1974, \apj, 194, 1
 {Skibba}, R.~A., {Sheth}, R.~K., {Croton}, D.~J., {et~al.} 2013, \mnras, 429,
   458
 
+\bibitem[{{Smith} {et~al.}(2005){Smith}, {Treu}, {Ellis}, {Moran}, \&
+  {Dressler}}]{Smith:2005aa}
+{Smith}, G.~P., {Treu}, T., {Ellis}, R.~S., {Moran}, S.~M., \& {Dressler}, A.
+  2005, \apj, 620, 78
+
 \bibitem[{{Swanson} {et~al.}(2008){Swanson}, {Tegmark}, {Hamilton}, \&
   {Hill}}]{Swanson:2008aa}
 {Swanson}, M.~E.~C., {Tegmark}, M., {Hamilton}, A.~J.~S., \& {Hill}, J.~C.
@@ -383,6 +395,11 @@ Oemler, A. 1974, \apj, 194, 1
   {Rockosi}, {Ivezi{\'c}}, {Bentz}, \& {Brinkmann}}]{West:2010aa}
 {West}, A.~A., {Garcia-Appadoo}, D.~A., {Dalcanton}, J.~J., {et~al.} 2010,
   \apj, 139, 315
+
+\bibitem[{{Williams} {et~al.}(2009){Williams}, {Quadri}, {Franx}, {van Dokkum},
+  \& {Labb{\'e}}}]{Williams:2009aa}
+{Williams}, R.~J., {Quadri}, R.~F., {Franx}, M., {van Dokkum}, P., \&
+  {Labb{\'e}}, I. 2009, \apj, 691, 1879
 
 \bibitem[{{Wilman} {et~al.}(2010){Wilman}, {Zibetti}, \&
   {Budav{\'a}ri}}]{Wilman:2010aa}

@@ -1,0 +1,24 @@
+For instance, the major classes of galaxies we observe today, 
+star-forming galaxies that form a tight sequence in SFR for 
+given mass and quiescent galaxies with substantially lower SFRs
+that form the red color-magnitude sequence, 
+have existed at z \sim 1. However, since z \sim 1, luminosity 
+and stellar mass functions indicate that there has been 
+a significant decline in the number density of luminous/massive 
+star-forming galaxies accompanied by an increase in the number 
+density of  quiescent galaxies (SMF Paper citations). 
+
+
+While we detect the dependence of galaxy properties to with lower star-formation rate early-type galaxies popu- lating the denser regions (Cooper et al. 2008; Patel et al. 2009; Kovaˇc et al. 2010a)
+
+Although not as dramatic as the evolution since z \sim 2, 
+since z \sim 1 there has been a drastic decline in the 
+number density of luminous blue galaxies  
+
+
+
+Talk about how the red sequence increases as star-forming galaxies cease their star-formation and move to the red sequence. (SMF paper citations) 
+Briefly mention the green valley?
+
+- Decline in star-formation rate in Star-forming galaxies (Noeske 2007) 
+

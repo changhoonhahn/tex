@@ -1,9 +1,8 @@
-For instance, the major classes of galaxies we observe today, 
-star-forming galaxies that form a tight sequence in SFR for 
+Nevertheless, the evolution of the role of environment is a relatively subtle effect and difficult to study. Although the history of galaxies prior to $z \sim 1$ appears to have been one of rapid assembly, since that time the galaxy population has continued to evolve, but less dramatically. For instance, the major classes of galaxies we observe today, star-forming galaxies that form a tight sequence in SFR for 
 given mass and quiescent galaxies with substantially lower SFRs
 that form the red color-magnitude sequence, 
-have existed at z \sim 1. However, since z \sim 1, luminosity 
-and stellar mass functions indicate that there has been 
+have existed at z \sim 1. However, the evolution of luminosity 
+and stellar mass functions since then suggest that there has been 
 a significant decline in the number density of luminous/massive 
 star-forming galaxies accompanied by an increase in the number 
 density of  quiescent galaxies (SMF Paper citations). 

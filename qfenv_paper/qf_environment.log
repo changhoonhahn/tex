@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  8 DEC 2014 17:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  9 DEC 2014 20:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -401,12 +401,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
-
-Package natbib Warning: Citation `Bell:2004aa' on page 1 undefined on input lin
-e 82.
-
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png, id=19, 1089.8316pt x 
+<fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png, id=18, 1089.8316pt x 
 409.7709pt>
 File: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png Graphic file (typ
 e png)
@@ -430,7 +426,7 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 156.
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [2] [3 <./fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>] [4]
 <fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_hig
-henv3_0_primuszerr_masslimit_edgecut_histogram.png, id=38, 517.4532pt x 390.980
+henv3_0_primuszerr_masslimit_edgecut_histogram.png, id=37, 517.4532pt x 390.980
 7pt>
 File: fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png Graphic file (type png)
@@ -461,7 +457,7 @@ rimuszerr-eps-converted-to.pdf fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbi
-n_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=43, 614.295pt x 
+n_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=42, 614.295pt x 
 758.835pt>
 File: fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2
 envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (t
@@ -498,7 +494,8 @@ Underfull \hbox (badness 1205) in paragraph at lines 433--439
 bove
  []
 
-[6]
+[6] [7 <./fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1
+_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig_qf_cylr2_50000h35_thresh75_bin0_20_sds
 s_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-11-19 11:11:20
@@ -516,7 +513,7 @@ imus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0
-_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=48, 433.62pt x 758.835pt>
+_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=53, 433.62pt x 758.835pt>
 File: fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lo
 wenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -526,10 +523,7 @@ Package pdftex.def Info: fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12
 _primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf used 
 on input line 486.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
- [7 <./fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_
-2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>] [8 <./fig_qf
-_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_high
-env3_0_lit_primuszerr-eps-converted-to.pdf>]
+ [8]
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_p
 rimuszerr.eps>
@@ -549,8 +543,8 @@ _bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_1
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
-nv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf, id=6
-0, 614.295pt x 614.295pt>
+nv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf, id=5
+7, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0
 _lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf 
 Graphic file (type pdf)
@@ -562,9 +556,19 @@ _12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-ep
 s-converted-to.pdf used on input line 630.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 
-[9 <./fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0
-_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>
-]
+[9 <./fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lo
+wenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf> <./fig_qffit_cylr2_5000
+0h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidm
+asscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 678.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 678.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr
 _baldry_geha_iovino_kovac_peng_envthresh_kovacoffset_4panel.eps>
@@ -587,7 +591,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
 nv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envth
-resh_kovacoffset_4panel-eps-converted-to.pdf, id=66, 614.295pt x 1517.67pt>
+resh_kovacoffset_4panel-eps-converted-to.pdf, id=65, 614.295pt x 1517.67pt>
 File: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0
 _lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_
 envthresh_kovacoffset_4panel-eps-converted-to.pdf Graphic file (type pdf)
@@ -603,45 +607,41 @@ put line 754.
  [10] [11 <./fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z
 0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kova
 c_peng_envthresh_kovacoffset_4panel-eps-converted-to.pdf>] [12] (./qf_environme
-nt.bbl [13])
-
-Package natbib Warning: There were undefined citations.
-
-[14] (./qf_environment.aux) ) 
+nt.bbl [13]) [14]
+(./qf_environment.aux) ) 
 Here is how much of TeX's memory you used:
- 5457 strings out of 493315
- 77273 string characters out of 6137904
- 191516 words of memory out of 5000000
- 8800 multiletter control sequences out of 15000+600000
- 13698 words of font info for 56 fonts, out of 8000000 for 9000
+ 5489 strings out of 493315
+ 77988 string characters out of 6137904
+ 212031 words of memory out of 5000000
+ 8833 multiletter control sequences out of 15000+600000
+ 13390 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,10n,29p,1704b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvip
-s/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 589325 bytes).
+ 39i,10n,29p,1704b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
+10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on qf_environment.pdf (14 pages, 581434 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 149 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,47 +5,47 @@ The style file: apj.bst
 Database file #1: qf_environmentNotes.bib
 Database file #2: PRIMUS.bib
 Warning--string name "november" is undefined
---line 221 of file PRIMUS.bib
+--line 455 of file PRIMUS.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 70 entries,
+You've used 79 entries,
             3085 wiz_defined-function locations,
-            1170 strings with 37257 characters,
-and the built_in function-call counts, 44784 in all, are:
-= -- 2795
-> -- 5044
-< -- 17
-+ -- 1685
-- -- 1777
-* -- 4645
-:= -- 8989
-add.period$ -- 70
-call.type$ -- 70
-change.case$ -- 455
-chr.to.int$ -- 68
-cite$ -- 70
-duplicate$ -- 1325
-empty$ -- 1966
-format.name$ -- 1845
-if$ -- 8367
-int.to.chr$ -- 3
+            1243 strings with 38850 characters,
+and the built_in function-call counts, 48537 in all, are:
+= -- 3146
+> -- 5243
+< -- 20
++ -- 1749
+- -- 1849
+* -- 4930
+:= -- 9686
+add.period$ -- 79
+call.type$ -- 79
+change.case$ -- 512
+chr.to.int$ -- 78
+cite$ -- 79
+duplicate$ -- 1494
+empty$ -- 2216
+format.name$ -- 1932
+if$ -- 9132
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 67
-newline$ -- 214
-num.names$ -- 281
-pop$ -- 499
+missing$ -- 76
+newline$ -- 241
+num.names$ -- 317
+pop$ -- 562
 preamble$ -- 1
-purify$ -- 454
+purify$ -- 511
 quote$ -- 0
-skip$ -- 1069
+skip$ -- 1209
 stack$ -- 0
-substring$ -- 1418
-swap$ -- 12
+substring$ -- 1601
+swap$ -- 10
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 627
+type$ -- 708
 warning$ -- 0
-while$ -- 246
+while$ -- 280
 width$ -- 0
-write$ -- 704
+write$ -- 794
 (There was 1 warning)

@@ -16,10 +16,21 @@
   {Driver}}]{Baldry:2008aa}
 {Baldry}, I.~K., {Glazebrook}, K., \& {Driver}, S.~P. 2008, \mnras, 388, 945
 
+\bibitem[{{Balogh} {et~al.}(2000){Balogh}, {Navarro}, \&
+  {Morris}}]{Balogh:2000aa}
+{Balogh}, M.~L., {Navarro}, J.~F., \& {Morris}, S.~L. 2000, \apj, 540, 113
+
 \bibitem[{{Behroozi} {et~al.}(2013){Behroozi}, {Marchesini}, {Wechsler},
   {Muzzin}, {Papovich}, \& {Stefanon}}]{Behroozi:2013aa}
 {Behroozi}, P.~S., {Marchesini}, D., {Wechsler}, R.~H., {et~al.} 2013, \apjl,
   777, L10
+
+\bibitem[{{Bekki}(2009)}]{Bekki:2009aa}
+{Bekki}, K. 2009, \mnras, 399, 2221
+
+\bibitem[{{Bell} {et~al.}(2004){Bell}, {Wolf}, {Meisenheimer}, {Rix}, {Borch},
+  {Dye}, {Kleinheinrich}, {Wisotzki}, \& {McIntosh}}]{Bell:2004aa}
+{Bell}, E.~F., {Wolf}, C., {Meisenheimer}, K., {et~al.} 2004, \apj, 608, 752
 
 \bibitem[{{Bell} {et~al.}(2005){Bell}, {Papovich}, {Wolf}, {Le Floc'h},
   {Caldwell}, {Barden}, {Egami}, {McIntosh}, {Meisenheimer},
@@ -119,6 +130,12 @@
   {Weiner}, {Willmer}, \& {Yan}}]{Cooper:2010aa}
 {Cooper}, M.~C., {Coil}, A.~L., {Gerke}, B.~F., {et~al.} 2010, \mnras, 409, 337
 
+\bibitem[{{Croton} {et~al.}(2006){Croton}, {Springel}, {White}, {De Lucia},
+  {Frenk}, {Gao}, {Jenkins}, {Kauffmann}, {Navarro}, \&
+  {Yoshida}}]{Croton:2006aa}
+{Croton}, D.~J., {Springel}, V., {White}, S.~D.~M., {et~al.} 2006, \mnras, 365,
+  11
+
 \bibitem[{{Cucciati} {et~al.}(2010){Cucciati}, {Iovino}, {Kova{\v c}},
   {Scodeggio}, {Lilly}, {Bolzonella}, {Bardelli}, {Vergani}, {Tasca}, {Zucca},
   {Zamorani}, {Pozzetti}, {Knobel}, {Oesch}, {Lamareille}, {Caputi},
@@ -130,6 +147,9 @@
   {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux},
   {Porciani}, \& {Scaramella}}]{Cucciati:2010aa}
 {Cucciati}, O., {Iovino}, A., {Kova{\v c}}, K., {et~al.} 2010, \aap, 524, A2
+
+\bibitem[{{Dekel} \& {Birnboim}(2008)}]{Dekel:2008aa}
+{Dekel}, A., \& {Birnboim}, Y. 2008, \mnras, 383, 119
 
 \bibitem[{{Desai} {et~al.}(2007){Desai}, {Dalcanton}, {Arag{\'o}n-Salamanca},
   {Jablonka}, {Poggianti}, {Gogarten}, {Simard}, {Milvang-Jensen}, {Rudnick},
@@ -144,6 +164,14 @@ Dressler, A. 1980, \apj, 236, 351
 \bibitem[{{Dressler}(1984)}]{dressler84a}
 {Dressler}, A. 1984, \araa, 22, 185
 
+\bibitem[{{Faber} {et~al.}(2007){Faber}, {Willmer}, {Wolf}, {Koo}, {Weiner},
+  {Newman}, {Im}, {Coil}, {Conroy}, {Cooper}, {Davis}, {Finkbeiner}, {Gerke},
+  {Gebhardt}, {Groth}, {Guhathakurta}, {Harker}, {Kaiser}, {Kassin},
+  {Kleinheinrich}, {Konidaris}, {Kron}, {Lin}, {Luppino}, {Madgwick},
+  {Meisenheimer}, {Noeske}, {Phillips}, {Sarajedini}, {Schiavon}, {Simard},
+  {Szalay}, {Vogt}, \& {Yan}}]{Faber:2007aa}
+{Faber}, S.~M., {Willmer}, C.~N.~A., {Wolf}, C., {et~al.} 2007, \apj, 665, 265
+
 \bibitem[{{Fasano} {et~al.}(2000){Fasano}, {Poggianti}, {Couch}, {Bettoni},
   {Kj{\ae}rgaard}, \& {Moles}}]{Fasano:2000aa}
 {Fasano}, G., {Poggianti}, B.~M., {Couch}, W.~J., {et~al.} 2000, \apj, 542, 673
@@ -157,6 +185,9 @@ Dressler, A. 1980, \apj, 236, 351
 
 \bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12a}
 {Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
+
+\bibitem[{{Gunn} \& {Gott}(1972)}]{Gunn:1972aa}
+{Gunn}, J.~E., \& {Gott}, III, J.~R. 1972, \apj, 176, 1
 
 \bibitem[{Guzzo {et~al.}(1997)Guzzo, Strauss, Fisher, Giovanelli, \&
   Haynes}]{guzzo97a}
@@ -202,32 +233,22 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
 {Karim}, A., {Schinnerer}, E., {Mart{\'{\i}}nez-Sansigre}, A., {et~al.} 2011,
   \apj, 730, 61
 
-\bibitem[{{Kova{\v c}} {et~al.}(2010{\natexlab{a}}){Kova{\v c}}, {Lilly},
-  {Knobel}, {Bolzonella}, {Iovino}, {Carollo}, {Scarlata}, {Sargent},
-  {Cucciati}, {Zamorani}, {Pozzetti}, {Tasca}, {Scodeggio}, {Kampczyk}, {Peng},
-  {Oesch}, {Zucca}, {Finoguenov}, {Contini}, {Kneib}, {Le F{\`e}vre},
-  {Mainieri}, {Renzini}, {Bardelli}, {Bongiorno}, {Caputi}, {Coppa}, {de la
-  Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Lamareille}, {Le Borgne}, {Le
-  Brun}, {Maier}, {Mignoli}, {Pello}, {Perez Montero}, {Ricciardelli},
-  {Silverman}, {Tanaka}, {Tresse}, {Vergani}, {Abbas}, {Bottini}, {Cappi},
-  {Cassata}, {Cimatti}, {Fumana}, {Guzzo}, {Koekemoer}, {Leauthaud},
-  {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux}, {Porciani},
-  {Scaramella}, \& {Scoville}}]{kovac10a}
-{Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2010{\natexlab{a}},
-  \apj, 718, 86
+\bibitem[{{Kere{\v s}} {et~al.}(2005){Kere{\v s}}, {Katz}, {Weinberg}, \&
+  {Dav{\'e}}}]{Keres:2005aa}
+{Kere{\v s}}, D., {Katz}, N., {Weinberg}, D.~H., \& {Dav{\'e}}, R. 2005,
+  \mnras, 363, 2
 
-\bibitem[{{Kova{\v c}} {et~al.}(2010{\natexlab{b}}){Kova{\v c}}, {Lilly},
-  {Cucciati}, {Porciani}, {Iovino}, {Zamorani}, {Oesch}, {Bolzonella},
-  {Knobel}, {Finoguenov}, {Peng}, {Carollo}, {Pozzetti}, {Caputi}, {Silverman},
-  {Tasca}, {Scodeggio}, {Vergani}, {Scoville}, {Capak}, {Contini}, {Kneib}, {Le
+\bibitem[{{Kova{\v c}} {et~al.}(2010){Kova{\v c}}, {Lilly}, {Cucciati},
+  {Porciani}, {Iovino}, {Zamorani}, {Oesch}, {Bolzonella}, {Knobel},
+  {Finoguenov}, {Peng}, {Carollo}, {Pozzetti}, {Caputi}, {Silverman}, {Tasca},
+  {Scodeggio}, {Vergani}, {Scoville}, {Capak}, {Contini}, {Kneib}, {Le
   F{\`e}vre}, {Mainieri}, {Renzini}, {Bardelli}, {Bongiorno}, {Coppa}, {de la
   Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Guzzo}, {Kampczyk},
   {Lamareille}, {Le Borgne}, {Le Brun}, {Maier}, {Mignoli}, {Pello}, {Perez
   Montero}, {Ricciardelli}, {Tanaka}, {Tresse}, {Zucca}, {Abbas}, {Bottini},
   {Cappi}, {Cassata}, {Cimatti}, {Fumana}, {Koekemoer}, {Maccagni}, {Marinoni},
   {McCracken}, {Memeo}, {Meneux}, \& {Scaramella}}]{Kovac:2010ab}
-{Kova{\v c}}, K., {Lilly}, S.~J., {Cucciati}, O., {et~al.} 2010{\natexlab{b}},
-  \apj, 708, 505
+{Kova{\v c}}, K., {Lilly}, S.~J., {Cucciati}, O., {et~al.} 2010, \apj, 708, 505
 
 \bibitem[{{Kova{\v c}} {et~al.}(2014){Kova{\v c}}, {Lilly}, {Knobel},
   {Bschorr}, {Peng}, {Carollo}, {Contini}, {Kneib}, {Le F{\'e}vre}, {Mainieri},
@@ -238,6 +259,10 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
   {Tasca}, {Tresse}, {Vergani}, {Zucca}, {Aussel}, {Koekemoer}, {Le Floc'h},
   {Moresco}, \& {Pozzetti}}]{Kovac:2014aa}
 {Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2014, \mnras, 438, 717
+
+\bibitem[{{Larson} {et~al.}(1980){Larson}, {Tinsley}, \&
+  {Caldwell}}]{Larson:1980aa}
+{Larson}, R.~B., {Tinsley}, B.~M., \& {Caldwell}, C.~N. 1980, \apj, 237, 692
 
 \bibitem[{{Lauer} {et~al.}(2007){Lauer}, {Faber}, {Richstone}, {Gebhardt},
   {Tremaine}, {Postman}, {Dressler}, {Aller}, {Filippenko}, {Green}, {Ho},
@@ -278,6 +303,9 @@ Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
 {Martin}, D.~C., {Fanson}, J., {Schiminovich}, D., {et~al.} 2005, \apjl, 619,
   L1
 
+\bibitem[{{Moore} {et~al.}(1998){Moore}, {Lake}, \& {Katz}}]{Moore:1998aa}
+{Moore}, B., {Lake}, G., \& {Katz}, N. 1998, \apj, 495, 139
+
 \bibitem[{{Morrissey} {et~al.}(2005){Morrissey}, {Schiminovich}, {Barlow},
   {Martin}, {Blakkolb}, {Conrow}, {Cooke}, {Erickson}, {Fanson}, {Friedman},
   {Grange}, {Jelinsky}, {Lee}, {Liu}, {Mazer}, {McLean}, {Milliard}, {Randall},
@@ -312,11 +340,6 @@ Norberg, P., {et~al.} 2002, \mnras, 332, 827
 
 \bibitem[{Oemler(1974)}]{oemler74a}
 Oemler, A. 1974, \apj, 194, 1
-
-\bibitem[{{Patel} {et~al.}(2009){Patel}, {Holden}, {Kelson}, {Illingworth}, \&
-  {Franx}}]{patel09a}
-{Patel}, S.~G., {Holden}, B.~P., {Kelson}, D.~D., {Illingworth}, G.~D., \&
-  {Franx}, M. 2009, \apjl, 705, L67
 
 \bibitem[{{Peng} {et~al.}(2010){Peng}, {Lilly}, {Kova{\v c}}, {Bolzonella},
   {Pozzetti}, {Renzini}, {Zamorani}, {Ilbert}, {Knobel}, {Iovino}, {Maier},
@@ -387,6 +410,11 @@ Oemler, A. 1974, \apj, 194, 1
   {Conroy}}]{Tinker:2011aa}
 {Tinker}, J., {Wetzel}, A., \& {Conroy}, C. 2011, ArXiv e-prints,
   arXiv:1107.5046
+
+\bibitem[{{Weinmann} {et~al.}(2006){Weinmann}, {van den Bosch}, {Yang}, {Mo},
+  {Croton}, \& {Moore}}]{Weinmann:2006aa}
+{Weinmann}, S.~M., {van den Bosch}, F.~C., {Yang}, X., {et~al.} 2006, \mnras,
+  372, 1161
 
 \bibitem[{{West}(2005)}]{West:2005aa}
 {West}, A.~A. 2005, PhD thesis, University of Washington, Washington, USA

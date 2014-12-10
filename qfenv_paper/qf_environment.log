@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  9 DEC 2014 20:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 DEC 2014 11:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -610,10 +610,10 @@ c_peng_envthresh_kovacoffset_4panel-eps-converted-to.pdf>] [12] (./qf_environme
 nt.bbl [13]) [14]
 (./qf_environment.aux) ) 
 Here is how much of TeX's memory you used:
- 5489 strings out of 493315
- 77988 string characters out of 6137904
+ 5490 strings out of 493315
+ 77997 string characters out of 6137904
  212031 words of memory out of 5000000
- 8833 multiletter control sequences out of 15000+600000
+ 8834 multiletter control sequences out of 15000+600000
  13390 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,29p,1704b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -638,7 +638,7 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/tex
 mf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 581434 bytes).
+Output written on qf_environment.pdf (14 pages, 581038 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  103 compressed objects within 2 object streams

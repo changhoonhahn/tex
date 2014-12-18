@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 DEC 2014 16:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 DEC 2014 17:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -408,19 +408,19 @@ File: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png Graphic file (typ
 e png)
  <use fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>
 Package pdftex.def Info: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.pn
-g used on input line 142.
+g used on input line 148.
 (pdftex.def)             Requested size: 523.38219pt x 196.78783pt.
 
-Overfull \hbox (10.26476pt too wide) in paragraph at lines 140--143
+Overfull \hbox (10.26476pt too wide) in paragraph at lines 146--149
  [] 
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 150--155
+Underfull \hbox (badness 1360) in paragraph at lines 156--161
 []\OT1/cmr/m/n/10 At in-ter-me-di-ate red-shifts we use mul-ti-wave-length
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 156.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 162.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -436,7 +436,7 @@ File: fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 _highenv3_0_primuszerr_masslimit_edgecut_histogram.png>
 Package pdftex.def Info: fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primu
 s_z0_2_1_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png used
- on input line 288.
+ on input line 294.
 (pdftex.def)             Requested size: 230.90128pt x 174.46611pt.
  [5 <./fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0
 _5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
@@ -453,7 +453,7 @@ onverted-to.pdf>
 sh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_p
 rimuszerr-eps-converted-to.pdf fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 407.
+(epstopdf)             \includegraphics on input line 413.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbi
@@ -467,28 +467,28 @@ ype pdf)
 nvbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_1
 2_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.
-pdf used on input line 407.
+pdf used on input line 413.
 (pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--439
+Underfull \hbox (badness 10000) in paragraph at lines 439--445
 $\OML/cmm/m/it/10 w[]$ \OT1/cmr/m/n/10 is the sta-tis-ti-cal weight of galaxy $
 \OML/cmm/m/it/10 i$ \OT1/cmr/m/n/10 and
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 433--439
+Underfull \hbox (badness 1072) in paragraph at lines 439--445
 \OT1/cmr/m/n/10 ^^H([] \OMS/cmsy/m/n/10 M\OT1/cmr/m/n/10 )^^A([] \OMS/cmsy/m/n/
 10 M\OT1/cmr/m/n/10 )$ is the num-ber of galax-ies ($\OML/cmm/m/it/10 N$\OT1/cm
 r/m/n/10 )
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 433--439
+Underfull \hbox (badness 5847) in paragraph at lines 439--445
 \OT1/cmr/m/n/10 per unit vol-ume within the stel-lar mass range
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 433--439
+Underfull \hbox (badness 1205) in paragraph at lines 439--445
 \OT1/cmr/m/n/10 [[] \OMS/cmsy/m/n/10 M\OML/cmm/m/it/10 ; [] \OMS/cmsy/m/n/10 M 
 \OT1/cmr/m/n/10 + ^^A([] \OMS/cmsy/m/n/10 M\OT1/cmr/m/n/10 )]$. The equa-tion a
 bove
@@ -509,7 +509,7 @@ to.pdf>
 h75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr
 -eps-converted-to.pdf fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 486.
+(epstopdf)             \includegraphics on input line 492.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0
@@ -521,7 +521,7 @@ wenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 env0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12
 _primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf used 
-on input line 486.
+on input line 492.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
  [8]
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
@@ -539,7 +539,7 @@ resh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp
 11_0_10_5_lit_primuszerr-eps-converted-to.pdf fig_qffit_cylr2_50000h35_thresh75
 _bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_1
 0_5_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 630.
+(epstopdf)             \includegraphics on input line 636.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
@@ -553,7 +553,7 @@ Graphic file (type pdf)
 lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0
 _12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-ep
-s-converted-to.pdf used on input line 630.
+s-converted-to.pdf used on input line 636.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
 
 [9 <./fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lo
@@ -561,10 +561,10 @@ wenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf> <./fig_qffit_cylr2_5000
 0h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidm
 asscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 678.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 682.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 678.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 682.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -585,7 +585,7 @@ _lit_primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-convert
 ed-to.pdf fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2
 _1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_p
 eng_envthresh_kovacoffset.eps>
-(epstopdf)             \includegraphics on input line 754.
+(epstopdf)             \includegraphics on input line 760.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
@@ -601,17 +601,17 @@ nvthresh_kovacoffset-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0
 _12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha
 _iovino_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf used on input lin
-e 754.
+e 760.
 (pdftex.def)             Requested size: 260.87389pt x 513.11743pt.
  [10] [11 <./fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z
 0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kova
 c_peng_envthresh_kovacoffset-eps-converted-to.pdf>] [12] (./qf_environment.bbl 
 [13]) [14] (./qf_environment.aux) ) 
 Here is how much of TeX's memory you used:
- 5490 strings out of 493315
- 77962 string characters out of 6137904
- 217908 words of memory out of 5000000
- 8834 multiletter control sequences out of 15000+600000
+ 5488 strings out of 493315
+ 77942 string characters out of 6137904
+ 219669 words of memory out of 5000000
+ 8832 multiletter control sequences out of 15000+600000
  13390 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,29p,1754b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -636,7 +636,7 @@ texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 577690 bytes).
+Output written on qf_environment.pdf (14 pages, 578433 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  103 compressed objects within 2 object streams

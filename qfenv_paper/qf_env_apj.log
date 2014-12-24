@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 DEC 2014 18:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  22 DEC 2014 11:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -292,375 +292,735 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `hubble36a' on page 2 undefined on input line 
-74.
-
-
-Package natbib Warning: Citation `oemler74a' on page 2 undefined on input line 
-74.
-
-
-Package natbib Warning: Citation `dressler80a' on page 2 undefined on input lin
-e 74.
-
-
-Package natbib Warning: Citation `hermit96a' on page 2 undefined on input line 
-74.
-
-
-Package natbib Warning: Citation `guzzo97a' on page 2 undefined on input line 7
-4.
-
-
-Package natbib Warning: Citation `blanton09a' on page 2 undefined on input line
- 74.
-
-
-Package natbib Warning: Citation `geha12a' on page 2 undefined on input line 74
-.
-
-
-Package natbib Warning: Citation `dressler84a' on page 2 undefined on input lin
-e 74.
-
-
-Package natbib Warning: Citation `Fasano:2000aa' on page 2 undefined on input l
-ine 74.
-
-
-Package natbib Warning: Citation `Smith:2005aa' on page 2 undefined on input li
-ne 74.
-
-
-Package natbib Warning: Citation `desai07a' on page 2 undefined on input line 7
-4.
-
-[2
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 
+Package natbib Warning: Citation `hubble36a' on page 3 undefined on input line 
+76.
+
+
+Package natbib Warning: Citation `oemler74a' on page 3 undefined on input line 
+76.
+
+
+Package natbib Warning: Citation `dressler80a' on page 3 undefined on input lin
+e 76.
+
+
+Package natbib Warning: Citation `hermit96a' on page 3 undefined on input line 
+76.
+
+
+Package natbib Warning: Citation `guzzo97a' on page 3 undefined on input line 7
+6.
+
+
+Package natbib Warning: Citation `blanton09a' on page 3 undefined on input line
+ 76.
+
+
+Package natbib Warning: Citation `geha12a' on page 3 undefined on input line 76
+.
+
+
+Package natbib Warning: Citation `dressler84a' on page 3 undefined on input lin
+e 76.
+
+
+Package natbib Warning: Citation `Fasano:2000aa' on page 3 undefined on input l
+ine 76.
+
+
+Package natbib Warning: Citation `Smith:2005aa' on page 3 undefined on input li
+ne 76.
+
+
+Package natbib Warning: Citation `desai07a' on page 3 undefined on input line 7
+6.
+
+
 Package natbib Warning: Citation `hopkins06a' on page 3 undefined on input line
- 78.
+ 80.
 
 
 Package natbib Warning: Citation `Noeske:2007aa' on page 3 undefined on input l
-ine 78.
+ine 80.
 
 
-Package natbib Warning: Citation `bell05a' on page 3 undefined on input line 78
+Package natbib Warning: Citation `bell05a' on page 3 undefined on input line 80
 .
 
 
 Package natbib Warning: Citation `magnelli09a' on page 3 undefined on input lin
-e 78.
-
-
-Package natbib Warning: Citation `cooper08a' on page 3 undefined on input line 
-78.
-
-
-Package natbib Warning: Citation `bundy06a' on page 3 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `borch06a' on page 3 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `taylor09a' on page 3 undefined on input line 
-80.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 80.
-
-
-Package natbib Warning: Citation `Blanton:2006aa' on page 3 undefined on input 
-line 80.
-
-
-Package natbib Warning: Citation `bundy06a' on page 3 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `borch06a' on page 3 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 80.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
-t line 80.
-
-
-Package natbib Warning: Citation `Bell:2004aa' on page 3 undefined on input lin
 e 80.
 
 
+Package natbib Warning: Citation `cooper08a' on page 3 undefined on input line 
+80.
+
+
+Package natbib Warning: Citation `bundy06a' on page 3 undefined on input line 8
+2.
+
+
 Package natbib Warning: Citation `borch06a' on page 3 undefined on input line 8
-0.
+2.
 
 
-Package natbib Warning: Citation `Faber:2007aa' on page 3 undefined on input li
-ne 80.
-
-[3]
-
-Package natbib Warning: Citation `Keres:2005aa' on page 4 undefined on input li
-ne 82.
+Package natbib Warning: Citation `taylor09a' on page 3 undefined on input line 
+82.
 
 
-Package natbib Warning: Citation `Croton:2006aa' on page 4 undefined on input l
-ine 82.
+Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
+t line 82.
 
 
-Package natbib Warning: Citation `Dekel:2008aa' on page 4 undefined on input li
-ne 82.
+Package natbib Warning: Citation `Blanton:2006aa' on page 3 undefined on input 
+line 82.
 
 
-Package natbib Warning: Citation `Gunn:1972aa' on page 4 undefined on input lin
+Package natbib Warning: Citation `bundy06a' on page 3 undefined on input line 8
+2.
+
+
+Package natbib Warning: Citation `borch06a' on page 3 undefined on input line 8
+2.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
+t line 82.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 3 undefined on inpu
+t line 82.
+
+
+Package natbib Warning: Citation `Bell:2004aa' on page 3 undefined on input lin
 e 82.
 
 
-Package natbib Warning: Citation `Bekki:2009aa' on page 4 undefined on input li
+Package natbib Warning: Citation `borch06a' on page 3 undefined on input line 8
+2.
+
+
+Package natbib Warning: Citation `Faber:2007aa' on page 3 undefined on input li
 ne 82.
 
+[3
 
-Package natbib Warning: Citation `Larson:1980aa' on page 4 undefined on input l
-ine 82.
+]
 
-
-Package natbib Warning: Citation `Balogh:2000aa' on page 4 undefined on input l
-ine 82.
-
-
-Package natbib Warning: Citation `Moore:1998aa' on page 4 undefined on input li
-ne 82.
+Package natbib Warning: Citation `Keres:2005aa' on page 4 undefined on input li
+ne 84.
 
 
-Package natbib Warning: Citation `Weinmann:2006aa' on page 4 undefined on input
- line 84.
+Package natbib Warning: Citation `Croton:2006aa' on page 4 undefined on input l
+ine 84.
 
 
-Package natbib Warning: Citation `Peng:2010aa' on page 4 undefined on input lin
+Package natbib Warning: Citation `Dekel:2008aa' on page 4 undefined on input li
+ne 84.
+
+
+Package natbib Warning: Citation `Gunn:1972aa' on page 4 undefined on input lin
 e 84.
 
 
+Package natbib Warning: Citation `Bekki:2009aa' on page 4 undefined on input li
+ne 84.
+
+
+Package natbib Warning: Citation `Larson:1980aa' on page 4 undefined on input l
+ine 84.
+
+
+Package natbib Warning: Citation `Balogh:2000aa' on page 4 undefined on input l
+ine 84.
+
+
+Package natbib Warning: Citation `Moore:1998aa' on page 4 undefined on input li
+ne 84.
+
+
+Package natbib Warning: Citation `Weinmann:2006aa' on page 4 undefined on input
+ line 86.
+
+
+Package natbib Warning: Citation `Peng:2010aa' on page 4 undefined on input lin
+e 86.
+
+
 Package natbib Warning: Citation `blanton09a' on page 4 undefined on input line
- 84.
+ 86.
 
 
 Package natbib Warning: Citation `Coil:2011aa' on page 4 undefined on input lin
-e 107.
+e 97.
 
 
 Package natbib Warning: Citation `Cool:2013aa' on page 4 undefined on input lin
-e 108.
+e 98.
 
 [4]
 
 Package natbib Warning: Citation `York:2000aa' on page 5 undefined on input lin
-e 133.
+e 123.
 
 [5]
-Plotone included the file fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.p
-ng
-
-<fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png, id=25, 1089.8316pt x 
-409.7709pt>
-File: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png Graphic file (typ
-e png)
- <use fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>
-Package pdftex.def Info: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.pn
-g used on input line 148.
-(pdftex.def)             Requested size: 563.70454pt x 211.95036pt.
-
-Overfull \hbox (93.94955pt too wide) in paragraph at lines 146--149
- [] 
- []
-
 
 Package natbib Warning: Citation `Coil:2011aa' on page 6 undefined on input lin
-e 160.
+e 142.
 
 
 Package natbib Warning: Citation `Cool:2013aa' on page 6 undefined on input lin
-e 160.
+e 142.
 
 
 Package natbib Warning: Citation `Moustakas:2013aa' on page 6 undefined on inpu
-t line 162.
+t line 144.
 
 
 Package natbib Warning: Citation `Martin:2005aa' on page 6 undefined on input l
-ine 162.
+ine 144.
 
 
 Package natbib Warning: Citation `Morrissey:2005aa' on page 6 undefined on inpu
-t line 162.
+t line 144.
 
 
 Package natbib Warning: Citation `Moustakas:2013aa' on page 6 undefined on inpu
-t line 162.
+t line 144.
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 162.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 144.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
 Package natbib Warning: Citation `Blanton:2007aa' on page 6 undefined on input 
+line 144.
+
+[6]
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 7 undefined on inpu
+t line 146.
+
+
+Package natbib Warning: Citation `Conroy:2010aa' on page 7 undefined on input l
+ine 146.
+
+
+Package natbib Warning: Citation `Chabrier:2003aa' on page 7 undefined on input
+ line 146.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 7 undefined on inpu
+t line 146.
+
+
+Package natbib Warning: Citation `Abazajian:2009aa' on page 7 undefined on inpu
+t line 152.
+
+
+Package natbib Warning: Citation `Blanton:2005aa' on page 7 undefined on input 
+line 152.
+
+[7]
+
+Package natbib Warning: Citation `Jarrett:2000aa' on page 8 undefined on input 
+line 154.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 8 undefined on inpu
+t line 154.
+
+
+Package natbib Warning: Citation `West:2005aa' on page 8 undefined on input lin
+e 162.
+
+
+Package natbib Warning: Citation `Blanton:2005ab' on page 8 undefined on input 
 line 162.
 
-[6] [7 <./fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>]
 
-Package natbib Warning: Citation `Moustakas:2013aa' on page 8 undefined on inpu
-t line 164.
-
-
-Package natbib Warning: Citation `Conroy:2010aa' on page 8 undefined on input l
-ine 164.
+Package natbib Warning: Citation `Lauer:2007aa' on page 8 undefined on input li
+ne 162.
 
 
-Package natbib Warning: Citation `Chabrier:2003aa' on page 8 undefined on input
- line 164.
+Package natbib Warning: Citation `Bernardi:2007aa' on page 8 undefined on input
+ line 162.
 
 
-Package natbib Warning: Citation `Moustakas:2013aa' on page 8 undefined on inpu
-t line 164.
+Package natbib Warning: Citation `Hyde:2009aa' on page 8 undefined on input lin
+e 162.
 
 
-Package natbib Warning: Citation `Abazajian:2009aa' on page 8 undefined on inpu
-t line 170.
+Package natbib Warning: Citation `West:2010aa' on page 8 undefined on input lin
+e 162.
 
 
-Package natbib Warning: Citation `Blanton:2005aa' on page 8 undefined on input 
-line 170.
+Package natbib Warning: Citation `Blanton:2011aa' on page 8 undefined on input 
+line 168.
 
 [8]
 
-Package natbib Warning: Citation `Jarrett:2000aa' on page 9 undefined on input 
-line 172.
+Package natbib Warning: Citation `Moustakas:2013aa' on page 9 undefined on inpu
+t line 191.
+
+
+Package natbib Warning: Citation `Coil:2011aa' on page 9 undefined on input lin
+e 193.
 
 
 Package natbib Warning: Citation `Moustakas:2013aa' on page 9 undefined on inpu
-t line 172.
+t line 194.
 
 
-Package natbib Warning: Citation `West:2005aa' on page 9 undefined on input lin
-e 180.
+Package natbib Warning: Citation `Coil:2011aa' on page 9 undefined on input lin
+e 204.
 
 
-Package natbib Warning: Citation `Blanton:2005ab' on page 9 undefined on input 
-line 180.
+Package natbib Warning: Citation `Cool:2013aa' on page 9 undefined on input lin
+e 204.
 
 
-Package natbib Warning: Citation `Lauer:2007aa' on page 9 undefined on input li
-ne 180.
-
-
-Package natbib Warning: Citation `Bernardi:2007aa' on page 9 undefined on input
- line 180.
-
-
-Package natbib Warning: Citation `Hyde:2009aa' on page 9 undefined on input lin
-e 180.
-
-
-Package natbib Warning: Citation `West:2010aa' on page 9 undefined on input lin
-e 180.
-
-
-Package natbib Warning: Citation `Blanton:2011aa' on page 9 undefined on input 
-line 186.
+Package natbib Warning: Citation `Moustakas:2013aa' on page 9 undefined on inpu
+t line 208.
 
 [9]
-Overfull \hbox (11.61057pt too wide) in paragraph at lines 209--227
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 10 undefined on inp
+ut line 213.
+
+
+Package natbib Warning: Citation `Pozzetti:2010aa' on page 10 undefined on inpu
+t line 213.
+
+
+Package natbib Warning: Citation `Blanton:2005ab' on page 10 undefined on input
+ line 215.
+
+
+Package natbib Warning: Citation `Baldry:2008aa' on page 10 undefined on input 
+line 215.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 10 undefined on inp
+ut line 215.
+
+[10]
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 11 undefined on inp
+ut line 235.
+
+
+Package natbib Warning: Citation `Noeske:2007aa' on page 11 undefined on input 
+line 235.
+
+
+Package natbib Warning: Citation `Williams:2009aa' on page 11 undefined on inpu
+t line 235.
+
+
+Package natbib Warning: Citation `Karim:2011aa' on page 11 undefined on input l
+ine 235.
+
+
+Package natbib Warning: Citation `Salim:2007aa' on page 11 undefined on input l
+ine 235.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 11 undefined on inp
+ut line 235.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 11 undefined on inp
+ut line 239.
+
+
+Package natbib Warning: Citation `Muldrew:2012aa' on page 11 undefined on input
+ line 244.
+
+
+Package natbib Warning: Citation `Skibba:2013aa' on page 11 undefined on input 
+line 244.
+
+[11]
+
+Package natbib Warning: Citation `Cooper:2005aa' on page 12 undefined on input 
+line 252.
+
+
+Package natbib Warning: Citation `Gallazzi:2009aa' on page 12 undefined on inpu
+t line 252.
+
+
+Package natbib Warning: Citation `Blanton:2006aa' on page 12 undefined on input
+ line 258.
+
+
+Package natbib Warning: Citation `Wilman:2010aa' on page 12 undefined on input 
+line 258.
+
+
+Package natbib Warning: Citation `Muldrew:2012aa' on page 12 undefined on input
+ line 258.
+
+
+Package natbib Warning: Citation `Behroozi:2013aa' on page 12 undefined on inpu
+t line 271.
+
+
+Package natbib Warning: Citation `Leja:2013aa' on page 12 undefined on input li
+ne 271.
+
+[12] [13] [14]
+
+Package natbib Warning: Citation `Swanson:2008aa' on page 15 undefined on input
+ line 330.
+
+[15]
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 16 undefined on inp
+ut line 351.
+
+
+Package natbib Warning: Citation `Johnston:2011aa' on page 16 undefined on inpu
+t line 351.
+
+[16]
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 17 undefined on inp
+ut line 358.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 17 undefined on inp
+ut line 384.
+
+
+Package natbib Warning: Citation `Moustakas:2013aa' on page 17 undefined on inp
+ut line 388.
+
+[17] [18]
+
+Package natbib Warning: Citation `norberg02a' on page 19 undefined on input lin
+e 437.
+
+
+Package natbib Warning: Citation `zehavi02a' on page 19 undefined on input line
+ 437.
+
+
+Package natbib Warning: Citation `Blanton:2005ab' on page 19 undefined on input
+ line 437.
+
+
+Package natbib Warning: Citation `bundy06a' on page 19 undefined on input line 
+437.
+
+
+Package natbib Warning: Citation `Scodeggio:2009aa' on page 19 undefined on inp
+ut line 437.
+
+
+Package natbib Warning: Citation `Bolzonella:2010aa' on page 19 undefined on in
+put line 437.
+
+[19]
+
+Package natbib Warning: Citation `Cooper:2010aa' on page 20 undefined on input 
+line 460.
+
+[20]
+
+Package natbib Warning: Citation `blanton09a' on page 21 undefined on input lin
+e 496.
+
+
+Package natbib Warning: Citation `Butcher:1984aa' on page 21 undefined on input
+ line 501.
+
+
+Package natbib Warning: Citation `bundy06a' on page 21 undefined on input line 
+510.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 21 undefined on input 
+line 513.
+
+[21] [22]
+
+Package natbib Warning: Citation `Markwardt:2009aa' on page 23 undefined on inp
+ut line 544.
+
+[23] [24]
+
+Package natbib Warning: Citation `Peng:2010aa' on page 25 undefined on input li
+ne 625.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 25 undefined on input 
+line 628.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 25 undefined on input l
+ine 630.
+
+
+Package natbib Warning: Citation `Baldry:2006aa' on page 25 undefined on input 
+line 635.
+
+
+Package natbib Warning: Citation `geha12a' on page 25 undefined on input line 6
+38.
+
+
+Package natbib Warning: Citation `Peng:2010aa' on page 25 undefined on input li
+ne 639.
+
+
+Package natbib Warning: Citation `Baldry:2006aa' on page 25 undefined on input 
+line 644.
+
+
+Package natbib Warning: Citation `Baldry:2006aa' on page 25 undefined on input 
+line 649.
+
+
+Package natbib Warning: Citation `Baldry:2006aa' on page 25 undefined on input 
+line 654.
+
+
+Package natbib Warning: Citation `Baldry:2006aa' on page 25 undefined on input 
+line 657.
+
+[25]
+
+Package natbib Warning: Citation `Tinker:2011aa' on page 26 undefined on input 
+line 661.
+
+
+Package natbib Warning: Citation `Tinker:2011aa' on page 26 undefined on input 
+line 661.
+
+
+Package natbib Warning: Citation `Tinker:2011aa' on page 26 undefined on input 
+line 663.
+
+
+Package natbib Warning: Citation `geha12a' on page 26 undefined on input line 6
+63.
+
+
+Package natbib Warning: Citation `geha12a' on page 26 undefined on input line 6
+66.
+
+
+Package natbib Warning: Citation `geha12a' on page 26 undefined on input line 6
+69.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 26 undefined on input 
+line 679.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 679.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 26 undefined on input 
+line 679.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 679.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 26 undefined on input 
+line 679.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 682.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 684.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 685.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 685.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 685.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 26 undefined on input l
+ine 685.
+
+[26]
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 27 undefined on input 
+line 697.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 27 undefined on input 
+line 701.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 27 undefined on input 
+line 707.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 27 undefined on input 
+line 711.
+
+
+Package natbib Warning: Citation `Cucciati:2010aa' on page 27 undefined on inpu
+t line 725.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 27 undefined on input l
+ine 725.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 27 undefined on input l
+ine 726.
+
+
+Package natbib Warning: Citation `Cucciati:2010aa' on page 27 undefined on inpu
+t line 730.
+
+
+Package natbib Warning: Citation `Cooper:2010aa' on page 27 undefined on input 
+line 730.
+
+
+Package natbib Warning: Citation `Scodeggio:2009aa' on page 27 undefined on inp
+ut line 732.
+
+[27]
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 28 undefined on input 
+line 740.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 28 undefined on input l
+ine 742.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 28 undefined on input l
+ine 742.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 28 undefined on input 
+line 748.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 28 undefined on input l
+ine 748.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 28 undefined on input 
+line 750.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 28 undefined on input 
+line 753.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 28 undefined on input 
+line 756.
+
+[28]
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 29 undefined on input l
+ine 760.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 29 undefined on input l
+ine 765.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 29 undefined on input l
+ine 771.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 29 undefined on input 
+line 781.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 29 undefined on input 
+line 786.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 29 undefined on input 
+line 789.
+
+
+Package natbib Warning: Citation `Iovino:2010aa' on page 29 undefined on input 
+line 794.
+
+[29]
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 30 undefined on input l
+ine 796.
+
+
+Package natbib Warning: Citation `Kovac:2014aa' on page 30 undefined on input l
+ine 801.
+
+
+Package natbib Warning: Citation `Lilly:2009aa' on page 30 undefined on input l
+ine 806.
+
+
+Package natbib Warning: Citation `Kovac:2010ab' on page 30 undefined on input l
+ine 806.
+
+
+Package natbib Warning: Citation `Peng:2010aa' on page 30 undefined on input li
+ne 829.
+
+[30]
+
+Package natbib Warning: Citation `Baldry:2006aa' on page 31 undefined on input 
+line 868.
+
+
+Package natbib Warning: Citation `Peng:2010aa' on page 31 undefined on input li
+ne 868.
+
+[31] [32]
+No file qf_env_apj.bbl.
+[33]
+Plotone included the file fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.p
+ng
+
+<fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png, id=119, 1089.8316pt x
+ 409.7709pt>
+File: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png Graphic file (typ
+e png)
+ <use fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>
+Package pdftex.def Info: fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.pn
+g used on input line 903.
+(pdftex.def)             Requested size: 469.75499pt x 176.62323pt.
+
+[34 <./fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png>]
+Overfull \hbox (11.61057pt too wide) in paragraph at lines 913--931
  [] 
  []
 
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 10 undefined on inp
-ut line 238.
-
-
-Package natbib Warning: Citation `Coil:2011aa' on page 10 undefined on input li
-ne 240.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 10 undefined on inp
-ut line 241.
-
-
-Package natbib Warning: Citation `Coil:2011aa' on page 10 undefined on input li
-ne 251.
-
-
-Package natbib Warning: Citation `Cool:2013aa' on page 10 undefined on input li
-ne 251.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 10 undefined on inp
-ut line 255.
-
-[10] [11]
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 12 undefined on inp
-ut line 260.
-
-
-Package natbib Warning: Citation `Pozzetti:2010aa' on page 12 undefined on inpu
-t line 260.
-
-
-Package natbib Warning: Citation `Blanton:2005ab' on page 12 undefined on input
- line 262.
-
-
-Package natbib Warning: Citation `Baldry:2008aa' on page 12 undefined on input 
-line 262.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 12 undefined on inp
-ut line 262.
-
-[12]
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 13 undefined on inp
-ut line 283.
-
-
-Package natbib Warning: Citation `Noeske:2007aa' on page 13 undefined on input 
-line 283.
-
-
-Package natbib Warning: Citation `Williams:2009aa' on page 13 undefined on inpu
-t line 283.
-
-
-Package natbib Warning: Citation `Karim:2011aa' on page 13 undefined on input l
-ine 283.
-
-
-Package natbib Warning: Citation `Salim:2007aa' on page 13 undefined on input l
-ine 283.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 13 undefined on inp
-ut line 283.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 13 undefined on inp
-ut line 287.
-
-
+[35]
 <fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_hig
-henv3_0_primuszerr_masslimit_edgecut_histogram.png, id=52, 517.4532pt x 412.661
-7pt>
+henv3_0_primuszerr_masslimit_edgecut_histogram.png, id=131, 517.4532pt x 412.66
+17pt>
 File: fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png Graphic file (type png)
 
@@ -669,53 +1029,8 @@ File: fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_
 _highenv3_0_primuszerr_masslimit_edgecut_histogram.png>
 Package pdftex.def Info: fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primu
 s_z0_2_1_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png used
- on input line 294.
-(pdftex.def)             Requested size: 211.3883pt x 168.5816pt.
-
-
-Package natbib Warning: Citation `Muldrew:2012aa' on page 13 undefined on input
- line 301.
-
-
-Package natbib Warning: Citation `Skibba:2013aa' on page 13 undefined on input 
-line 301.
-
-[13] [14 <./fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lo
-wenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png>]
-
-Package natbib Warning: Citation `Cooper:2005aa' on page 15 undefined on input 
-line 309.
-
-
-Package natbib Warning: Citation `Gallazzi:2009aa' on page 15 undefined on inpu
-t line 309.
-
-
-Package natbib Warning: Citation `Blanton:2006aa' on page 15 undefined on input
- line 315.
-
-
-Package natbib Warning: Citation `Wilman:2010aa' on page 15 undefined on input 
-line 315.
-
-
-Package natbib Warning: Citation `Muldrew:2012aa' on page 15 undefined on input
- line 315.
-
-
-Package natbib Warning: Citation `Behroozi:2013aa' on page 15 undefined on inpu
-t line 341.
-
-
-Package natbib Warning: Citation `Leja:2013aa' on page 15 undefined on input li
-ne 341.
-
-[15] [16] [17]
-
-Package natbib Warning: Citation `Swanson:2008aa' on page 18 undefined on input
- line 400.
-
-[18]
+ on input line 942.
+(pdftex.def)             Requested size: 469.75499pt x 374.62859pt.
 Package epstopdf Info: Source file: <fig_smf_cylr2_50000h35_thresh75_bin0_20_sd
 ss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-12-19 14:33:45
@@ -729,12 +1044,12 @@ onverted-to.pdf>
 sh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_p
 rimuszerr-eps-converted-to.pdf fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_
 05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 412.
+(epstopdf)             \includegraphics on input line 951.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbi
-n_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=73, 614.295pt x 
-758.835pt>
+n_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=132, 614.295pt x
+ 758.835pt>
 File: fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2
 envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -743,32 +1058,8 @@ ype pdf)
 nvbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_1
 2_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.
-pdf used on input line 412.
-(pdftex.def)             Requested size: 285.21304pt x 352.31624pt.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 19 undefined on inp
-ut line 435.
-
-
-Package natbib Warning: Citation `Johnston:2011aa' on page 19 undefined on inpu
-t line 435.
-
-[19] [20 <./fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2
-_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 21 undefined on inp
-ut line 442.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 21 undefined on inp
-ut line 468.
-
-
-Package natbib Warning: Citation `Moustakas:2013aa' on page 21 undefined on inp
-ut line 472.
-
-[21]
+pdf used on input line 951.
+(pdftex.def)             Requested size: 380.28719pt x 469.75499pt.
 Package epstopdf Info: Source file: <fig_qf_cylr2_50000h35_thresh75_bin0_20_sds
 s_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
 (epstopdf)                    date: 2014-11-19 11:11:20
@@ -782,11 +1073,12 @@ to.pdf>
 h75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr
 -eps-converted-to.pdf fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_pr
 imus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 490.
+(epstopdf)             \includegraphics on input line 967.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0
-_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=87, 433.62pt x 758.835pt>
+_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf, id=133, 433.62pt x 758.835pt
+>
 File: fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lo
 wenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -794,57 +1086,8 @@ wenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf Graphic file (type pdf)
 env0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12
 _primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf used 
-on input line 490.
-(pdftex.def)             Requested size: 201.32686pt x 352.31624pt.
- [22]
-
-Package natbib Warning: Citation `norberg02a' on page 23 undefined on input lin
-e 531.
-
-
-Package natbib Warning: Citation `zehavi02a' on page 23 undefined on input line
- 531.
-
-
-Package natbib Warning: Citation `Blanton:2005ab' on page 23 undefined on input
- line 531.
-
-
-Package natbib Warning: Citation `bundy06a' on page 23 undefined on input line 
-531.
-
-
-Package natbib Warning: Citation `Scodeggio:2009aa' on page 23 undefined on inp
-ut line 531.
-
-
-Package natbib Warning: Citation `Bolzonella:2010aa' on page 23 undefined on in
-put line 531.
-
-[23] [24 <./fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_
-1_0_lowenv0_5_highenv3_0_lit_primuszerr-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `Cooper:2010aa' on page 25 undefined on input 
-line 554.
-
-[25]
-
-Package natbib Warning: Citation `blanton09a' on page 26 undefined on input lin
-e 590.
-
-
-Package natbib Warning: Citation `Butcher:1984aa' on page 26 undefined on input
- line 595.
-
-
-Package natbib Warning: Citation `bundy06a' on page 26 undefined on input line 
-604.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 26 undefined on input 
-line 607.
-
-[26]
+on input line 967.
+(pdftex.def)             Requested size: 268.43802pt x 469.75499pt.
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_p
 rimuszerr.eps>
@@ -860,12 +1103,12 @@ resh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp
 11_0_10_5_lit_primuszerr-eps-converted-to.pdf fig_qffit_cylr2_50000h35_thresh75
 _bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_1
 0_5_lit_primuszerr.eps>
-(epstopdf)             \includegraphics on input line 634.
+(epstopdf)             \includegraphics on input line 979.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
 nv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf, id=1
-06, 614.295pt x 614.295pt>
+34, 614.295pt x 614.295pt>
 File: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0
 _lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf 
 Graphic file (type pdf)
@@ -874,17 +1117,20 @@ Graphic file (type pdf)
 lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0
 _12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-ep
-s-converted-to.pdf used on input line 634.
-(pdftex.def)             Requested size: 211.38834pt x 211.3883pt.
+s-converted-to.pdf used on input line 979.
+(pdftex.def)             Requested size: 375.8067pt x 375.80542pt.
 
-[27] [28 <./fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0
-_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr-eps-converted-t
-o.pdf>] [29]
 
-Package natbib Warning: Citation `Markwardt:2009aa' on page 30 undefined on inp
-ut line 681.
+LaTeX Warning: Float too large for page by 0.87201pt on input line 982.
 
-[30]
+[36 <./fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0
+_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png>] [37 <./fig_smf_cylr2
+_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_hi
+ghenv3_0_lit_primuszerr-eps-converted-to.pdf>] [38 <./fig_qf_cylr2_50000h35_thr
+esh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primusze
+rr-eps-converted-to.pdf>] [39 <./fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss
+_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primu
+szerr-eps-converted-to.pdf>] [40]
 Package epstopdf Info: Source file: <fig_qffit_cylr2_50000h35_thresh75_bin0_20_
 sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr
 _baldry_geha_iovino_kovac_peng_envthresh_kovacoffset.eps>
@@ -901,12 +1147,12 @@ _lit_primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset-eps-convert
 ed-to.pdf fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2
 _1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_p
 eng_envthresh_kovacoffset.eps>
-(epstopdf)             \includegraphics on input line 758.
+(epstopdf)             \includegraphics on input line 1017.
 Package epstopdf Info: Output file is already uptodate.
 
 <fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowe
 nv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envth
-resh_kovacoffset-eps-converted-to.pdf, id=121, 606.265pt x 1192.455pt>
+resh_kovacoffset-eps-converted-to.pdf, id=159, 606.265pt x 1192.455pt>
 File: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0
 _lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_
 envthresh_kovacoffset-eps-converted-to.pdf Graphic file (type pdf)
@@ -917,331 +1163,93 @@ nvthresh_kovacoffset-eps-converted-to.pdf>
 Package pdftex.def Info: fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0
 _12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha
 _iovino_kovac_peng_envthresh_kovacoffset-eps-converted-to.pdf used on input lin
-e 758.
+e 1017.
 (pdftex.def)             Requested size: 238.82912pt x 469.75499pt.
 
 
-Package natbib Warning: Citation `Baldry:2006aa' on page 31 undefined on input 
-line 759.
+Package natbib Warning: Citation `Baldry:2006aa' on page 41 undefined on input 
+line 1018.
 
 
-Package natbib Warning: Citation `geha12a' on page 31 undefined on input line 7
-59.
+Package natbib Warning: Citation `geha12a' on page 41 undefined on input line 1
+018.
 
 
-Package natbib Warning: Citation `Iovino:2010aa' on page 31 undefined on input 
-line 759.
+Package natbib Warning: Citation `Iovino:2010aa' on page 41 undefined on input 
+line 1018.
 
 
-Package natbib Warning: Citation `Kovac:2014aa' on page 31 undefined on input l
-ine 759.
+Package natbib Warning: Citation `Kovac:2014aa' on page 41 undefined on input l
+ine 1018.
 
 
-Package natbib Warning: Citation `Peng:2010aa' on page 31 undefined on input li
-ne 759.
+Package natbib Warning: Citation `Peng:2010aa' on page 41 undefined on input li
+ne 1018.
 
 
-Package natbib Warning: Citation `Iovino:2010aa' on page 31 undefined on input 
-line 759.
+Package natbib Warning: Citation `Iovino:2010aa' on page 41 undefined on input 
+line 1018.
 
 
-Package natbib Warning: Citation `Kovac:2014aa' on page 31 undefined on input l
-ine 759.
+Package natbib Warning: Citation `Kovac:2014aa' on page 41 undefined on input l
+ine 1018.
 
 
-Package natbib Warning: Citation `Baldry:2006aa' on page 31 undefined on input 
-line 759.
+Package natbib Warning: Citation `Baldry:2006aa' on page 41 undefined on input 
+line 1018.
 
 
-Package natbib Warning: Citation `Peng:2010aa' on page 31 undefined on input li
-ne 759.
+Package natbib Warning: Citation `Peng:2010aa' on page 41 undefined on input li
+ne 1018.
 
 
-Package natbib Warning: Citation `geha12a' on page 31 undefined on input line 7
-59.
+Package natbib Warning: Citation `geha12a' on page 41 undefined on input line 1
+018.
 
 
-Package natbib Warning: Citation `Iovino:2010aa' on page 31 undefined on input 
-line 759.
+Package natbib Warning: Citation `Iovino:2010aa' on page 41 undefined on input 
+line 1018.
 
 
-Package natbib Warning: Citation `Kovac:2014aa' on page 31 undefined on input l
-ine 759.
+Package natbib Warning: Citation `Kovac:2014aa' on page 41 undefined on input l
+ine 1018.
 
-[31] [32 <./fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0
-_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac
-_peng_envthresh_kovacoffset-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `Peng:2010aa' on page 33 undefined on input li
-ne 771.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 33 undefined on input 
-line 774.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 33 undefined on input l
-ine 776.
-
-
-Package natbib Warning: Citation `Baldry:2006aa' on page 33 undefined on input 
-line 781.
-
-
-Package natbib Warning: Citation `geha12a' on page 33 undefined on input line 7
-84.
-
-
-Package natbib Warning: Citation `Peng:2010aa' on page 33 undefined on input li
-ne 785.
-
-
-Package natbib Warning: Citation `Baldry:2006aa' on page 33 undefined on input 
-line 790.
-
-
-Package natbib Warning: Citation `Baldry:2006aa' on page 33 undefined on input 
-line 795.
-
-
-Package natbib Warning: Citation `Baldry:2006aa' on page 33 undefined on input 
-line 800.
-
-
-Package natbib Warning: Citation `Baldry:2006aa' on page 33 undefined on input 
-line 803.
-
-[33]
-
-Package natbib Warning: Citation `Tinker:2011aa' on page 34 undefined on input 
-line 807.
-
-
-Package natbib Warning: Citation `Tinker:2011aa' on page 34 undefined on input 
-line 807.
-
-
-Package natbib Warning: Citation `Tinker:2011aa' on page 34 undefined on input 
-line 809.
-
-
-Package natbib Warning: Citation `geha12a' on page 34 undefined on input line 8
-09.
-
-
-Package natbib Warning: Citation `geha12a' on page 34 undefined on input line 8
-12.
-
-
-Package natbib Warning: Citation `geha12a' on page 34 undefined on input line 8
-15.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 34 undefined on input 
-line 825.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 825.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 34 undefined on input 
-line 825.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 825.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 34 undefined on input 
-line 825.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 828.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 830.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 831.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 831.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 831.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 34 undefined on input l
-ine 831.
-
-[34]
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 35 undefined on input 
-line 843.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 35 undefined on input 
-line 847.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 35 undefined on input 
-line 853.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 35 undefined on input 
-line 857.
-
-
-Package natbib Warning: Citation `Cucciati:2010aa' on page 35 undefined on inpu
-t line 871.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 35 undefined on input l
-ine 871.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 35 undefined on input l
-ine 872.
-
-
-Package natbib Warning: Citation `Cucciati:2010aa' on page 35 undefined on inpu
-t line 876.
-
-
-Package natbib Warning: Citation `Cooper:2010aa' on page 35 undefined on input 
-line 876.
-
-
-Package natbib Warning: Citation `Scodeggio:2009aa' on page 35 undefined on inp
-ut line 878.
-
-[35]
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 36 undefined on input 
-line 886.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 36 undefined on input l
-ine 888.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 36 undefined on input l
-ine 888.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 36 undefined on input 
-line 894.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 36 undefined on input l
-ine 894.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 36 undefined on input 
-line 896.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 36 undefined on input 
-line 899.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 36 undefined on input 
-line 902.
-
-[36]
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 37 undefined on input l
-ine 906.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 37 undefined on input l
-ine 911.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 37 undefined on input l
-ine 917.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 37 undefined on input 
-line 927.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 37 undefined on input 
-line 932.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 37 undefined on input 
-line 935.
-
-
-Package natbib Warning: Citation `Iovino:2010aa' on page 37 undefined on input 
-line 940.
-
-[37]
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 38 undefined on input l
-ine 942.
-
-
-Package natbib Warning: Citation `Kovac:2014aa' on page 38 undefined on input l
-ine 947.
-
-
-Package natbib Warning: Citation `Lilly:2009aa' on page 38 undefined on input l
-ine 952.
-
-
-Package natbib Warning: Citation `Kovac:2010ab' on page 38 undefined on input l
-ine 952.
-
-
-Package natbib Warning: Citation `Peng:2010aa' on page 38 undefined on input li
-ne 975.
-
-[38]
-
-Package natbib Warning: Citation `Baldry:2006aa' on page 39 undefined on input 
-line 1014.
-
-
-Package natbib Warning: Citation `Peng:2010aa' on page 39 undefined on input li
-ne 1014.
-
-[39] [40]
-No file qf_env_apj.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[41] (./qf_env_apj.aux) ) 
+[41 <./fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_
+0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng
+_envthresh_kovacoffset-eps-converted-to.pdf>] (./qf_env_apj.aux) ) 
 Here is how much of TeX's memory you used:
- 3677 strings out of 493315
- 51008 string characters out of 6137904
- 114239 words of memory out of 5000000
- 7054 multiletter control sequences out of 15000+600000
- 12996 words of font info for 54 fonts, out of 8000000 for 9000
+ 3687 strings out of 493315
+ 51112 string characters out of 6137904
+ 110259 words of memory out of 5000000
+ 7060 multiletter control sequences out of 15000+600000
+ 14393 words of font info for 60 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,11n,28p,1777b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/ba
-se/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on qf_env_apj.pdf (41 pages, 470054 bytes).
+ 38i,11n,28p,1777b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/t
+exlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/c
+ourier/ucrr8a.pfb>
+Output written on qf_env_apj.pdf (41 pages, 534356 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
+ 220 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

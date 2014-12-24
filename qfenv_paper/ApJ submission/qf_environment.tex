@@ -5,7 +5,6 @@
 \usepackage{epsfig}
 \usepackage{rotating}
 \usepackage{amsmath}
-\usepackage{natbib}
 \usepackage{footnote}
 \usepackage{courier}
 
@@ -20,7 +19,7 @@
 
 \begin{document}
 
-\title{PRIMUS: Galaxy Environment on the Quiescent Fraction Evolution at $z < 0.8$}
+\title{PRIMUS: Galaxy Environment on the Quiescent Fraction Evolution at \lowercase{\textit{z}}$<0.8$}
 \author{
 ChangHoon~Hahn\altaffilmark{1}, 
 Michael R.~Blanton\altaffilmark{1}, 
@@ -68,7 +67,7 @@ of star formation is due to external influences on
 them. However, in the recent Universe a substantial fraction of the
 galaxies that cease forming stars do so due to internal processes.
 \end{abstract}
-\keywords{cosmology:observations --- galaxies: evolution --- galaxies:groups --- galaxies: star formation}
+\keywords{cosmology: observations --- galaxies: evolution --- galaxies: groups --- galaxies: star formation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INTRODUCTION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -146,8 +145,7 @@ account for edge effects in the surveys.
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \epsscale{1.2}
-	\plotone{fig_edp_sdss_z0_05_0_12_primus_z0_2_1_0_Mr_redshift.png}
+	\includegraphics[scale=0.475]{fig1.pdf}
         \caption{Absolute magnitude $M_{r}$ versus redshift for our mass complete galaxy sample (black squares) with the Environment Defining Population (red circles) plotted on top. Both samples are divided into redshift bins: $z = 0.05-0.12$, $0.2-0.4$, $0.4-0.6$, and $0.6-0.8$ (panels left to right). The lowest redshift bin ($z \approx 0.05-0.12$; leftmost panel) contain our galaxy sample and EDP selected from SDSS. The rest contain galaxies and EDP selected from PRIMUS. The redshift limits for the lowest redshift bin are empirically selected based on the bright and faint limits of SDSS galaxies. Stellar mass completeness limits, described in Section \ref{sec:target}, are imposed on the galaxy population. Meanwhile, $M_{r}$ limits are applied to the EDP such that the number density in each panel are equivalent (Section \ref{sec:environment}).} \label{fig:targetEDP}
     \end{center}
 \end{figure*}
@@ -293,7 +291,7 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
 \begin{figure}
   \begin{center}
     \leavevmode
-    \epsfig{file=fig_envcount_cylr2_5h35_thresh75_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_primuszerr_masslimit_edgecut_histogram.png, width=0.45\textwidth}
+    \includegraphics[scale=0.48]{fig2.pdf}
     \caption{Normalized distribution of environment measurements ($n_{\mathrm{env}}$) for our mass complete galaxy sample within the survey edges. A fixed cylindrical aperture of $R_{\mathrm{ap}} =\apradius\;\mathrm{Mpc}$ and $H_{\mathrm{ap}} = \apheight\; \mathrm{Mpc}$ is used to measure environment. The star-forming galaxies contribution to the distribution is colored in blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Galaxies with $n_{\mathrm{env}} < 0.5$ are in low density environments and galaxies with $n_{\mathrm{env}} > 3.0$ are in high density environment. We note that the significant difference among the SDSS distribution and the PRIMUS distributions above is due to the different stellar mass completeness limits imposed on each redshift bin of our galaxy sample.}      \label{fig:envcount}
      %\caption{Normalized distribution of environment measurements ($n_{\mathrm{env}}$) for our mass complete galaxy sample within the edges. The star-forming galaxies contribution to the distribution is colored blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Each redshift panel is divided into three sections by the environment classification cutoffs (black veritcal lines): low density environment $n_{\mathrm{env}} < 0.5$ and high density environment $n_{\mathrm{env}} > 3.0$. The percentages of the redshift bin contained in the environment classifications are presented above the distribution. For example at $0.2 < z < 0.4$, $\apheight.0 \%$ of galaxies in the redshift bin are in low density environments while $35.0\%$ of galaxies in the redshift bin are in high density environments. We note that the significant difference between the SDSS distribution and the PRIMUS distribution above is due to the difference in stellar mass completeness limit imposed in our galaxy sample.}      \label{fig:envcount}
     \end{center}
@@ -411,7 +409,7 @@ Although we imposed PRIMUS redshift errors on our SDSS galaxies to consistently 
 \begin{figure*}
   \begin{center}
     \leavevmode
-    \epsfig{file=fig_smf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_2envbin_lowenv0_5_highenv3_0_lit_primuszerr.eps, height=0.75\textwidth,angle=90}
+    \epsfig{file=fig3.eps, height=0.75\textwidth,angle=90}
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) galaxies in 
 low (left) and high (right) density environments throughout the redshift range
 $z=0$--$0.8$. The environment of each galaxy  
@@ -489,7 +487,7 @@ epochs is complicated by the different stellar mass completeness limits, we pres
 \begin{figure*}
     \begin{center}
         \leavevmode
-        \epsfig{file=fig_qf_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_lit_primuszerr.eps, height=0.75\textwidth,angle=90}
+        \epsfig{file=fig4.eps, height=0.75\textwidth,angle=90}
         \caption{Evolution of the quiescent fraction $f_{\mathrm{Q}}$ for
           galaxies in low (left) and high (right) density
           environments for $z < 0.8$. $f_{\mathrm{Q}}$s were calculated
@@ -633,7 +631,7 @@ environments.
     \begin{center}
         \leavevmode
         \epsscale{1.0}
-        \epsfig{file=fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmasscomp11_0_10_5_lit_primuszerr.eps, height=0.45\textwidth}
+        \epsfig{file=fig5, height=0.45\textwidth}
         \caption{The evolution of the quiescent fraction at fiducial
           mass, $f_{Q}(\mathcal{M}_{\mathrm{fid}})$, for low (blue) and
           high (red) density environments within the redshift range $z
@@ -757,7 +755,7 @@ formation.
     \begin{center}
         \leavevmode
         \epsscale{1.0}
-        \epsfig{file=fig_qffit_cylr2_50000h35_thresh75_bin0_20_sdss_z0_05_0_12_primus_z0_2_1_0_lowenv0_5_highenv3_0_fidmass10_5_lit_primuszerr_baldry_geha_iovino_kovac_peng_envthresh_kovacoffset.eps, height=\textwidth, angle=90}
+        \epsfig{file=fig6.eps, height=\textwidth, angle=90}
         \caption{$f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}}=10^{10.5} \mathcal{M}_\odot)$ evolution compared to $f_{\mathrm{red}}(\mathcal{M}_{*} \sim 10^{10.5} \; \mathcal{M}_{\odot})$ in the literature: \cite{Baldry:2006aa} (diamond) and \cite{geha12a} (cross) from SDSS (panel a), \cite{Iovino:2010aa} (empty square) and \cite{Kovac:2014aa} (triangle) from zCOSMOS (panel \kovacpanel), and \cite{Peng:2010aa} from both SDSS and zCOSMOS (panel \pengpanel). The $f_{\mathrm{red}}$ values from \cite{Iovino:2010aa}, \cite{Kovac:2014aa}, \cite{Baldry:2006aa}, and \cite{Peng:2010aa} are calculated from the best-fit parameterizations presented in the respective works. High density environment is represented in red and low density environment is represented in blue. The $f_{\mathrm{Q}}$ value from \cite{geha12a} is the $f_{\mathrm{Q}}$ value at $\mathcal{M} = 10^{10.55} \mathcal{M}_{\odot}$. Uncertainties in the \cite{Iovino:2010aa} best-fit $f_{\mathrm{red}}$ is omitted due to insufficient information on the cross correlation terms of the fit parameters. For \cite{Kovac:2014aa} we apply the offset between the color-based and SFR-based galaxy classification in order to plot the $f_{\mathrm{Q}}$ estimates. We also plot the $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}} = 10^{10.5} \mathcal{M}_\odot)$ evolution of our sample with varying environment cut-offs specified on the top right. As in Figure \ref{fig:qffit} the width of the $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}} = 10^{10.5} \mathcal{M}_\odot)$ evolution represent the uncertainty in the best-fit parameters of Equation \ref{eq:qffit}.}         \label{fig:qffit_comp}
     \end{center}
 \end{figure*}
@@ -1036,11 +1034,475 @@ galaxies.
 \bigskip 
 CH and MB were supported by NSF-AST-1109432 and NSF-AST-0908354. MB was also supported by NSF-AST-1211644. ALC acknowledges support from NSF CAREER award. We acknowledge Katarina Kova\u{c} and Ying-Jie Peng for  insightful discussions. We also thank Marla Geha for providing published quiescent fraction results in electronic format.
 
-The Galaxy Evolution Explorer (GALEX) is a NASA Small Explorer, launched in April 2003, whose mission was developed in cooperation with the Centre National d?Etudes Spatiales of France and the Korean Ministry of Science and Technology. Funding for the SDSS and SDSS-II has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, the U.S. Department of Energy, the National Aeronautics and Space Administration, the Japanese Monbukagakusho, the Max Planck Society, and the Higher Education Funding Council for England. The SDSS Web Site is http://www.sdss.org. The SDSS is managed by the Astrophysical Research Consortium for the Participating Institutions. 
+Funding for PRIMUS has been provided by NSF grants AST-0607701, 0908246, 0908442, 0908354, and NASA grant 08-ADP08-0019. The Galaxy Evolution Explorer (GALEX) is a NASA Small Explorer, launched in April 2003, whose mission was developed in cooperation with the Centre National d`Etudes Spatiales of France and the Korean Ministry of Science and Technology. Funding for the SDSS and SDSS-II has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, the U.S. Department of Energy, the National Aeronautics and Space Administration, the Japanese Monbukagakusho, the Max Planck Society, and the Higher Education Funding Council for England. The SDSS Web Site is http://www.sdss.org. The SDSS is managed by the Astrophysical Research Consortium for the Participating Institutions. 
 
 %
 % References
 %
 \bibliographystyle{apj}
-\bibliography{PRIMUS}
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Abazajian} {et~al.}(2009){Abazajian}, {Adelman-McCarthy},
+  {Ag{\"u}eros}, {Allam}, {Allende Prieto}, {An}, {Anderson}, {Anderson},
+  {Annis}, {Bahcall}, \& et~al.}]{Abazajian:2009aa}
+{Abazajian}, K.~N., {Adelman-McCarthy}, J.~K., {Ag{\"u}eros}, M.~A., {et~al.}
+  2009, \apjs, 182, 543
+
+\bibitem[{{Baldry} {et~al.}(2006){Baldry}, {Balogh}, {Bower}, {Glazebrook},
+  {Nichol}, {Bamford}, \& {Budavari}}]{Baldry:2006aa}
+{Baldry}, I.~K., {Balogh}, M.~L., {Bower}, R.~G., {et~al.} 2006, \mnras, 373,
+  469
+
+\bibitem[{{Baldry} {et~al.}(2008){Baldry}, {Glazebrook}, \&
+  {Driver}}]{Baldry:2008aa}
+{Baldry}, I.~K., {Glazebrook}, K., \& {Driver}, S.~P. 2008, \mnras, 388, 945
+
+\bibitem[{{Balogh} {et~al.}(2000){Balogh}, {Navarro}, \&
+  {Morris}}]{Balogh:2000aa}
+{Balogh}, M.~L., {Navarro}, J.~F., \& {Morris}, S.~L. 2000, \apj, 540, 113
+
+\bibitem[{{Behroozi} {et~al.}(2013){Behroozi}, {Marchesini}, {Wechsler},
+  {Muzzin}, {Papovich}, \& {Stefanon}}]{Behroozi:2013aa}
+{Behroozi}, P.~S., {Marchesini}, D., {Wechsler}, R.~H., {et~al.} 2013, \apjl,
+  777, L10
+
+\bibitem[{{Bekki}(2009)}]{Bekki:2009aa}
+{Bekki}, K. 2009, \mnras, 399, 2221
+
+\bibitem[{{Bell} {et~al.}(2004){Bell}, {Wolf}, {Meisenheimer}, {Rix}, {Borch},
+  {Dye}, {Kleinheinrich}, {Wisotzki}, \& {McIntosh}}]{Bell:2004aa}
+{Bell}, E.~F., {Wolf}, C., {Meisenheimer}, K., {et~al.} 2004, \apj, 608, 752
+
+\bibitem[{{Bell} {et~al.}(2005){Bell}, {Papovich}, {Wolf}, {Le Floc'h},
+  {Caldwell}, {Barden}, {Egami}, {McIntosh}, {Meisenheimer},
+  {P{\'e}rez-Gonz{\'a}lez}, {Rieke}, {Rieke}, {Rigby}, \& {Rix}}]{bell05a}
+{Bell}, E.~F., {Papovich}, C., {Wolf}, C., {et~al.} 2005, \apj, 625, 23
+
+\bibitem[{{Bernardi} {et~al.}(2007){Bernardi}, {Hyde}, {Sheth}, {Miller}, \&
+  {Nichol}}]{Bernardi:2007aa}
+{Bernardi}, M., {Hyde}, J.~B., {Sheth}, R.~K., {Miller}, C.~J., \& {Nichol},
+  R.~C. 2007, \aj, 133, 1741
+
+\bibitem[{{Blanton} {et~al.}(2006){Blanton}, {Eisenstein}, {Hogg}, \&
+  {Zehavi}}]{Blanton:2006aa}
+{Blanton}, M.~R., {Eisenstein}, D., {Hogg}, D.~W., \& {Zehavi}, I. 2006, \apj,
+  645, 977
+
+\bibitem[{{Blanton} {et~al.}(2011){Blanton}, {Kazin}, {Muna}, {Weaver}, \&
+  {Price-Whelan}}]{Blanton:2011aa}
+{Blanton}, M.~R., {Kazin}, E., {Muna}, D., {Weaver}, B.~A., \& {Price-Whelan},
+  A. 2011, \aj, 142, 31
+
+\bibitem[{{Blanton} {et~al.}(2005{\natexlab{a}}){Blanton}, {Lupton},
+  {Schlegel}, {Strauss}, {Brinkmann}, {Fukugita}, \&
+  {Loveday}}]{Blanton:2005ab}
+{Blanton}, M.~R., {Lupton}, R.~H., {Schlegel}, D.~J., {et~al.}
+  2005{\natexlab{a}}, \apj, 631, 208
+
+\bibitem[{{Blanton} \& {Moustakas}(2009)}]{blanton09a}
+{Blanton}, M.~R., \& {Moustakas}, J. 2009, \araa, 47, 159
+
+\bibitem[{{Blanton} \& {Roweis}(2007)}]{Blanton:2007aa}
+{Blanton}, M.~R., \& {Roweis}, S. 2007, \aj, 133, 734
+
+\bibitem[{{Blanton} {et~al.}(2005{\natexlab{b}}){Blanton}, {Schlegel},
+  {Strauss}, {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg},
+  {Ivezi{\'c}}, {Knapp}, {Lupton}, {Munn}, {Schneider}, {Tegmark}, \&
+  {Zehavi}}]{Blanton:2005aa}
+{Blanton}, M.~R., {Schlegel}, D.~J., {Strauss}, M.~A., {et~al.}
+  2005{\natexlab{b}}, \aj, 129, 2562
+
+\bibitem[{{Bolzonella} {et~al.}(2010){Bolzonella}, {Kova{\v c}}, {Pozzetti},
+  {Zucca}, {Cucciati}, {Lilly}, {Peng}, {Iovino}, {Zamorani}, {Vergani},
+  {Tasca}, {Lamareille}, {Oesch}, {Caputi}, {Kampczyk}, {Bardelli}, {Maier},
+  {Abbas}, {Knobel}, {Scodeggio}, {Carollo}, {Contini}, {Kneib}, {Le
+  F{\`e}vre}, {Mainieri}, {Renzini}, {Bongiorno}, {Coppa}, {de la Torre}, {de
+  Ravel}, {Franzetti}, {Garilli}, {Le Borgne}, {Le Brun}, {Mignoli},
+  {Pell{\'o}}, {Perez-Montero}, {Ricciardelli}, {Silverman}, {Tanaka},
+  {Tresse}, {Bottini}, {Cappi}, {Cassata}, {Cimatti}, {Guzzo}, {Koekemoer},
+  {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux},
+  {Porciani}, {Scaramella}, {Aussel}, {Capak}, {Halliday}, {Ilbert},
+  {Kartaltepe}, {Salvato}, {Sanders}, {Scarlata}, {Scoville}, {Taniguchi}, \&
+  {Thompson}}]{Bolzonella:2010aa}
+{Bolzonella}, M., {Kova{\v c}}, K., {Pozzetti}, L., {et~al.} 2010, \aap, 524,
+  A76
+
+\bibitem[{{Borch} {et~al.}(2006){Borch}, {Meisenheimer}, {Bell}, {Rix}, {Wolf},
+  {Dye}, {Kleinheinrich}, {Kovacs}, \& {Wisotzki}}]{borch06a}
+{Borch}, A., {Meisenheimer}, K., {Bell}, E.~F., {et~al.} 2006, \aap, 453, 869
+
+\bibitem[{{Bundy} {et~al.}(2006){Bundy}, {Ellis}, {Conselice}, {Taylor},
+  {Cooper}, {Willmer}, {Weiner}, {Coil}, {Noeske}, \& {Eisenhardt}}]{bundy06a}
+{Bundy}, K., {Ellis}, R.~S., {Conselice}, C.~J., {et~al.} 2006, \apj, 651, 120
+
+\bibitem[{{Butcher} \& {Oemler}(1984)}]{Butcher:1984aa}
+{Butcher}, H., \& {Oemler}, Jr., A. 1984, \apj, 285, 426
+
+\bibitem[{{Chabrier}(2003)}]{Chabrier:2003aa}
+{Chabrier}, G. 2003, \pasp, 115, 763
+
+\bibitem[{{Coil} {et~al.}(2011){Coil}, {Blanton}, {Burles}, {Cool},
+  {Eisenstein}, {Moustakas}, {Wong}, {Zhu}, {Aird}, {Bernstein}, {Bolton}, \&
+  {Hogg}}]{Coil:2011aa}
+{Coil}, A.~L., {Blanton}, M.~R., {Burles}, S.~M., {et~al.} 2011, \apj, 741, 8
+
+\bibitem[{{Conroy} \& {Gunn}(2010)}]{Conroy:2010aa}
+{Conroy}, C., \& {Gunn}, J.~E. 2010, {FSPS: Flexible Stellar Population
+  Synthesis}, astrophysics Source Code Library, ascl:1010.043
+
+\bibitem[{{Cool} {et~al.}(2013){Cool}, {Moustakas}, {Blanton}, {Burles},
+  {Coil}, {Eisenstein}, {Wong}, {Zhu}, {Aird}, {Bernstein}, {Bolton}, {Hogg},
+  \& {Mendez}}]{Cool:2013aa}
+{Cool}, R.~J., {Moustakas}, J., {Blanton}, M.~R., {et~al.} 2013, \apj, 767, 118
+
+\bibitem[{{Cooper} {et~al.}(2005){Cooper}, {Newman}, {Madgwick}, {Gerke},
+  {Yan}, \& {Davis}}]{Cooper:2005aa}
+{Cooper}, M.~C., {Newman}, J.~A., {Madgwick}, D.~S., {et~al.} 2005, \apj, 634,
+  833
+
+\bibitem[{{Cooper} {et~al.}(2008){Cooper}, {Newman}, {Weiner}, {Yan},
+  {Willmer}, {Bundy}, {Coil}, {Conselice}, {Davis}, {Faber}, {Gerke},
+  {Guhathakurta}, {Koo}, \& {Noeske}}]{cooper08a}
+{Cooper}, M.~C., {Newman}, J.~A., {Weiner}, B.~J., {et~al.} 2008, \mnras, 383,
+  1058
+
+\bibitem[{{Cooper} {et~al.}(2010){Cooper}, {Coil}, {Gerke}, {Newman}, {Bundy},
+  {Conselice}, {Croton}, {Davis}, {Faber}, {Guhathakurta}, {Koo}, {Lin},
+  {Weiner}, {Willmer}, \& {Yan}}]{Cooper:2010aa}
+{Cooper}, M.~C., {Coil}, A.~L., {Gerke}, B.~F., {et~al.} 2010, \mnras, 409, 337
+
+\bibitem[{{Croton} {et~al.}(2006){Croton}, {Springel}, {White}, {De Lucia},
+  {Frenk}, {Gao}, {Jenkins}, {Kauffmann}, {Navarro}, \&
+  {Yoshida}}]{Croton:2006aa}
+{Croton}, D.~J., {Springel}, V., {White}, S.~D.~M., {et~al.} 2006, \mnras, 365,
+  11
+
+\bibitem[{{Cucciati} {et~al.}(2010){Cucciati}, {Iovino}, {Kova{\v c}},
+  {Scodeggio}, {Lilly}, {Bolzonella}, {Bardelli}, {Vergani}, {Tasca}, {Zucca},
+  {Zamorani}, {Pozzetti}, {Knobel}, {Oesch}, {Lamareille}, {Caputi},
+  {Kampczyk}, {Tresse}, {Maier}, {Carollo}, {Contini}, {Kneib}, {Le F{\`e}vre},
+  {Mainieri}, {Renzini}, {Bongiorno}, {Coppa}, {de la Torre}, {de Ravel},
+  {Franzetti}, {Garilli}, {Le Borgne}, {Le Brun}, {Mignoli}, {Pell{\`o}},
+  {Peng}, {Perez-Montero}, {Ricciardelli}, {Silverman}, {Tanaka}, {Koekemoer},
+  {Scoville}, {Abbas}, {Bottini}, {Cappi}, {Cassata}, {Cimatti}, {Guzzo},
+  {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux},
+  {Porciani}, \& {Scaramella}}]{Cucciati:2010aa}
+{Cucciati}, O., {Iovino}, A., {Kova{\v c}}, K., {et~al.} 2010, \aap, 524, A2
+
+\bibitem[{{Dekel} \& {Birnboim}(2008)}]{Dekel:2008aa}
+{Dekel}, A., \& {Birnboim}, Y. 2008, \mnras, 383, 119
+
+\bibitem[{{Desai} {et~al.}(2007){Desai}, {Dalcanton}, {Arag{\'o}n-Salamanca},
+  {Jablonka}, {Poggianti}, {Gogarten}, {Simard}, {Milvang-Jensen}, {Rudnick},
+  {Zaritsky}, {Clowe}, {Halliday}, {Pell{\'o}}, {Saglia}, \&
+  {White}}]{desai07a}
+{Desai}, V., {Dalcanton}, J.~J., {Arag{\'o}n-Salamanca}, A., {et~al.} 2007,
+  \apj, 660, 1151
+
+\bibitem[{Dressler(1980)}]{dressler80a}
+Dressler, A. 1980, \apj, 236, 351
+
+\bibitem[{{Dressler}(1984)}]{dressler84a}
+{Dressler}, A. 1984, \araa, 22, 185
+
+\bibitem[{{Faber} {et~al.}(2007){Faber}, {Willmer}, {Wolf}, {Koo}, {Weiner},
+  {Newman}, {Im}, {Coil}, {Conroy}, {Cooper}, {Davis}, {Finkbeiner}, {Gerke},
+  {Gebhardt}, {Groth}, {Guhathakurta}, {Harker}, {Kaiser}, {Kassin},
+  {Kleinheinrich}, {Konidaris}, {Kron}, {Lin}, {Luppino}, {Madgwick},
+  {Meisenheimer}, {Noeske}, {Phillips}, {Sarajedini}, {Schiavon}, {Simard},
+  {Szalay}, {Vogt}, \& {Yan}}]{Faber:2007aa}
+{Faber}, S.~M., {Willmer}, C.~N.~A., {Wolf}, C., {et~al.} 2007, \apj, 665, 265
+
+\bibitem[{{Fasano} {et~al.}(2000){Fasano}, {Poggianti}, {Couch}, {Bettoni},
+  {Kj{\ae}rgaard}, \& {Moles}}]{Fasano:2000aa}
+{Fasano}, G., {Poggianti}, B.~M., {Couch}, W.~J., {et~al.} 2000, \apj, 542, 673
+
+\bibitem[{{Gallazzi} {et~al.}(2009){Gallazzi}, {Bell}, {Wolf}, {Gray},
+  {Papovich}, {Barden}, {Peng}, {Meisenheimer}, {Heymans}, {van Kampen},
+  {Gilmour}, {Balogh}, {McIntosh}, {Bacon}, {Barazza}, {B{\"o}hm}, {Caldwell},
+  {H{\"a}ubler}, {Jahnke}, {Jogee}, {Lane}, {Robaina}, {Sanchez}, {Taylor},
+  {Wisotzki}, \& {Zheng}}]{Gallazzi:2009aa}
+{Gallazzi}, A., {Bell}, E.~F., {Wolf}, C., {et~al.} 2009, \apj, 690, 1883
+
+\bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{geha12a}
+{Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, \apj, 757, 85
+
+\bibitem[{{Gunn} \& {Gott}(1972)}]{Gunn:1972aa}
+{Gunn}, J.~E., \& {Gott}, III, J.~R. 1972, \apj, 176, 1
+
+\bibitem[{Guzzo {et~al.}(1997)Guzzo, Strauss, Fisher, Giovanelli, \&
+  Haynes}]{guzzo97a}
+Guzzo, L., Strauss, M.~A., Fisher, K.~B., Giovanelli, R., \& Haynes, M.~P.
+  1997, \apj, 489, 37
+
+\bibitem[{Hermit {et~al.}(1996)Hermit, Santiago, Lahav, Strauss, Davis,
+  Dressler, \& Huchra}]{hermit96a}
+Hermit, S., Santiago, B.~X., Lahav, O., {et~al.} 1996, \mnras, 283, 709
+
+\bibitem[{{Hopkins} \& {Beacom}(2006)}]{hopkins06a}
+{Hopkins}, A.~M., \& {Beacom}, J.~F. 2006, \apj, 651, 142
+
+\bibitem[{Hubble(1936)}]{hubble36a}
+Hubble, E.~P. 1936, The Realm of the Nebulae (New Haven: Yale University Press)
+
+\bibitem[{{Hyde} \& {Bernardi}(2009)}]{Hyde:2009aa}
+{Hyde}, J.~B., \& {Bernardi}, M. 2009, \mnras, 394, 1978
+
+\bibitem[{{Iovino} {et~al.}(2010){Iovino}, {Cucciati}, {Scodeggio}, {Knobel},
+  {Kova{\v c}}, {Lilly}, {Bolzonella}, {Tasca}, {Zamorani}, {Zucca}, {Caputi},
+  {Pozzetti}, {Oesch}, {Lamareille}, {Halliday}, {Bardelli}, {Finoguenov},
+  {Guzzo}, {Kampczyk}, {Maier}, {Tanaka}, {Vergani}, {Carollo}, {Contini},
+  {Kneib}, {Le F{\`e}vre}, {Mainieri}, {Renzini}, {Bongiorno}, {Coppa}, {de la
+  Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Le Borgne}, {Le Brun},
+  {Mignoli}, {Pell{\`o}}, {Peng}, {Perez-Montero}, {Ricciardelli}, {Silverman},
+  {Tresse}, {Abbas}, {Bottini}, {Cappi}, {Cassata}, {Cimatti}, {Koekemoer},
+  {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux},
+  {Porciani}, {Scaramella}, {Schiminovich}, \& {Scoville}}]{Iovino:2010aa}
+{Iovino}, A., {Cucciati}, O., {Scodeggio}, M., {et~al.} 2010, \aap, 509, A40
+
+\bibitem[{{Jarrett} {et~al.}(2000){Jarrett}, {Chester}, {Cutri}, {Schneider},
+  {Skrutskie}, \& {Huchra}}]{Jarrett:2000aa}
+{Jarrett}, T.~H., {Chester}, T., {Cutri}, R., {et~al.} 2000, \aj, 119, 2498
+
+\bibitem[{{Johnston}(2011)}]{Johnston:2011aa}
+{Johnston}, R. 2011, \aapr, 19, 41
+
+\bibitem[{{Karim} {et~al.}(2011){Karim}, {Schinnerer},
+  {Mart{\'{\i}}nez-Sansigre}, {Sargent}, {van der Wel}, {Rix}, {Ilbert},
+  {Smol{\v c}i{\'c}}, {Carilli}, {Pannella}, {Koekemoer}, {Bell}, \&
+  {Salvato}}]{Karim:2011aa}
+{Karim}, A., {Schinnerer}, E., {Mart{\'{\i}}nez-Sansigre}, A., {et~al.} 2011,
+  \apj, 730, 61
+
+\bibitem[{{Kere{\v s}} {et~al.}(2005){Kere{\v s}}, {Katz}, {Weinberg}, \&
+  {Dav{\'e}}}]{Keres:2005aa}
+{Kere{\v s}}, D., {Katz}, N., {Weinberg}, D.~H., \& {Dav{\'e}}, R. 2005,
+  \mnras, 363, 2
+
+\bibitem[{{Kova{\v c}} {et~al.}(2010){Kova{\v c}}, {Lilly}, {Cucciati},
+  {Porciani}, {Iovino}, {Zamorani}, {Oesch}, {Bolzonella}, {Knobel},
+  {Finoguenov}, {Peng}, {Carollo}, {Pozzetti}, {Caputi}, {Silverman}, {Tasca},
+  {Scodeggio}, {Vergani}, {Scoville}, {Capak}, {Contini}, {Kneib}, {Le
+  F{\`e}vre}, {Mainieri}, {Renzini}, {Bardelli}, {Bongiorno}, {Coppa}, {de la
+  Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Guzzo}, {Kampczyk},
+  {Lamareille}, {Le Borgne}, {Le Brun}, {Maier}, {Mignoli}, {Pello}, {Perez
+  Montero}, {Ricciardelli}, {Tanaka}, {Tresse}, {Zucca}, {Abbas}, {Bottini},
+  {Cappi}, {Cassata}, {Cimatti}, {Fumana}, {Koekemoer}, {Maccagni}, {Marinoni},
+  {McCracken}, {Memeo}, {Meneux}, \& {Scaramella}}]{Kovac:2010ab}
+{Kova{\v c}}, K., {Lilly}, S.~J., {Cucciati}, O., {et~al.} 2010, \apj, 708, 505
+
+\bibitem[{{Kova{\v c}} {et~al.}(2014){Kova{\v c}}, {Lilly}, {Knobel},
+  {Bschorr}, {Peng}, {Carollo}, {Contini}, {Kneib}, {Le F{\'e}vre}, {Mainieri},
+  {Renzini}, {Scodeggio}, {Zamorani}, {Bardelli}, {Bolzonella}, {Bongiorno},
+  {Caputi}, {Cucciati}, {de la Torre}, {de Ravel}, {Franzetti}, {Garilli},
+  {Iovino}, {Kampczyk}, {Lamareille}, {Le Borgne}, {Le Brun}, {Maier},
+  {Mignoli}, {Oesch}, {Pello}, {Montero}, {Presotto}, {Silverman}, {Tanaka},
+  {Tasca}, {Tresse}, {Vergani}, {Zucca}, {Aussel}, {Koekemoer}, {Le Floc'h},
+  {Moresco}, \& {Pozzetti}}]{Kovac:2014aa}
+{Kova{\v c}}, K., {Lilly}, S.~J., {Knobel}, C., {et~al.} 2014, \mnras, 438, 717
+
+\bibitem[{{Larson} {et~al.}(1980){Larson}, {Tinsley}, \&
+  {Caldwell}}]{Larson:1980aa}
+{Larson}, R.~B., {Tinsley}, B.~M., \& {Caldwell}, C.~N. 1980, \apj, 237, 692
+
+\bibitem[{{Lauer} {et~al.}(2007){Lauer}, {Faber}, {Richstone}, {Gebhardt},
+  {Tremaine}, {Postman}, {Dressler}, {Aller}, {Filippenko}, {Green}, {Ho},
+  {Kormendy}, {Magorrian}, \& {Pinkney}}]{Lauer:2007aa}
+{Lauer}, T.~R., {Faber}, S.~M., {Richstone}, D., {et~al.} 2007, \apj, 662, 808
+
+\bibitem[{{Leja} {et~al.}(2013){Leja}, {van Dokkum}, \& {Franx}}]{Leja:2013aa}
+{Leja}, J., {van Dokkum}, P., \& {Franx}, M. 2013, \apj, 766, 33
+
+\bibitem[{{Lilly} {et~al.}(2009){Lilly}, {Le Brun}, {Maier}, {Mainieri},
+  {Mignoli}, {Scodeggio}, {Zamorani}, {Carollo}, {Contini}, {Kneib}, {Le
+  F{\`e}vre}, {Renzini}, {Bardelli}, {Bolzonella}, {Bongiorno}, {Caputi},
+  {Coppa}, {Cucciati}, {de la Torre}, {de Ravel}, {Franzetti}, {Garilli},
+  {Iovino}, {Kampczyk}, {Kovac}, {Knobel}, {Lamareille}, {Le Borgne}, {Pello},
+  {Peng}, {P{\'e}rez-Montero}, {Ricciardelli}, {Silverman}, {Tanaka}, {Tasca},
+  {Tresse}, {Vergani}, {Zucca}, {Ilbert}, {Salvato}, {Oesch}, {Abbas},
+  {Bottini}, {Capak}, {Cappi}, {Cassata}, {Cimatti}, {Elvis}, {Fumana},
+  {Guzzo}, {Hasinger}, {Koekemoer}, {Leauthaud}, {Maccagni}, {Marinoni},
+  {McCracken}, {Memeo}, {Meneux}, {Porciani}, {Pozzetti}, {Sanders},
+  {Scaramella}, {Scarlata}, {Scoville}, {Shopbell}, \&
+  {Taniguchi}}]{Lilly:2009aa}
+{Lilly}, S.~J., {Le Brun}, V., {Maier}, C., {et~al.} 2009, \apjs, 184, 218
+
+\bibitem[{{Magnelli} {et~al.}(2009){Magnelli}, {Elbaz}, {Chary}, {Dickinson},
+  {Le Borgne}, {Frayer}, \& {Willmer}}]{magnelli09a}
+{Magnelli}, B., {Elbaz}, D., {Chary}, R.~R., {et~al.} 2009, \aap, 496, 57
+
+\bibitem[{{Markwardt}(2009)}]{Markwardt:2009aa}
+{Markwardt}, C.~B. 2009, in Astronomical Society of the Pacific Conference
+  Series, Vol. 411, Astronomical Data Analysis Software and Systems XVIII, ed.
+  D.~A. {Bohlender}, D.~{Durand}, \& P.~{Dowler}, 251
+
+\bibitem[{{Martin} {et~al.}(2005){Martin}, {Fanson}, {Schiminovich},
+  {Morrissey}, {Friedman}, {Barlow}, {Conrow}, {Grange}, {Jelinsky},
+  {Milliard}, {Siegmund}, {Bianchi}, {Byun}, {Donas}, {Forster}, {Heckman},
+  {Lee}, {Madore}, {Malina}, {Neff}, {Rich}, {Small}, {Surber}, {Szalay},
+  {Welsh}, \& {Wyder}}]{Martin:2005aa}
+{Martin}, D.~C., {Fanson}, J., {Schiminovich}, D., {et~al.} 2005, \apjl, 619,
+  L1
+
+\bibitem[{{Moore} {et~al.}(1998){Moore}, {Lake}, \& {Katz}}]{Moore:1998aa}
+{Moore}, B., {Lake}, G., \& {Katz}, N. 1998, \apj, 495, 139
+
+\bibitem[{{Morrissey} {et~al.}(2005){Morrissey}, {Schiminovich}, {Barlow},
+  {Martin}, {Blakkolb}, {Conrow}, {Cooke}, {Erickson}, {Fanson}, {Friedman},
+  {Grange}, {Jelinsky}, {Lee}, {Liu}, {Mazer}, {McLean}, {Milliard}, {Randall},
+  {Schmitigal}, {Sen}, {Siegmund}, {Surber}, {Vaughan}, {Viton}, {Welsh},
+  {Bianchi}, {Byun}, {Donas}, {Forster}, {Heckman}, {Lee}, {Madore}, {Malina},
+  {Neff}, {Rich}, {Small}, {Szalay}, \& {Wyder}}]{Morrissey:2005aa}
+{Morrissey}, P., {Schiminovich}, D., {Barlow}, T.~A., {et~al.} 2005, \apjl,
+  619, L7
+
+\bibitem[{{Moustakas} {et~al.}(2013){Moustakas}, {Coil}, {Aird}, {Blanton},
+  {Cool}, {Eisenstein}, {Mendez}, {Wong}, {Zhu}, \&
+  {Arnouts}}]{Moustakas:2013aa}
+{Moustakas}, J., {Coil}, A.~L., {Aird}, J., {et~al.} 2013, \apj, 767, 50
+
+\bibitem[{{Muldrew} {et~al.}(2012){Muldrew}, {Croton}, {Skibba}, {Pearce},
+  {Ann}, {Baldry}, {Brough}, {Choi}, {Conselice}, {Cowan}, {Gallazzi}, {Gray},
+  {Gr{\"u}tzbauch}, {Li}, {Park}, {Pilipenko}, {Podgorzec}, {Robotham},
+  {Wilman}, {Yang}, {Zhang}, \& {Zibetti}}]{Muldrew:2012aa}
+{Muldrew}, S.~I., {Croton}, D.~J., {Skibba}, R.~A., {et~al.} 2012, \mnras, 419,
+  2670
+
+\bibitem[{{Noeske} {et~al.}(2007){Noeske}, {Weiner}, {Faber}, {Papovich},
+  {Koo}, {Somerville}, {Bundy}, {Conselice}, {Newman}, {Schiminovich}, {Le
+  Floc'h}, {Coil}, {Rieke}, {Lotz}, {Primack}, {Barmby}, {Cooper}, {Davis},
+  {Ellis}, {Fazio}, {Guhathakurta}, {Huang}, {Kassin}, {Martin}, {Phillips},
+  {Rich}, {Small}, {Willmer}, \& {Wilson}}]{Noeske:2007aa}
+{Noeske}, K.~G., {Weiner}, B.~J., {Faber}, S.~M., {et~al.} 2007, \apjl, 660,
+  L43
+
+\bibitem[{Norberg {et~al.}(2002)}]{norberg02a}
+Norberg, P., {et~al.} 2002, \mnras, 332, 827
+
+\bibitem[{Oemler(1974)}]{oemler74a}
+Oemler, A. 1974, \apj, 194, 1
+
+\bibitem[{{Peng} {et~al.}(2010){Peng}, {Lilly}, {Kova{\v c}}, {Bolzonella},
+  {Pozzetti}, {Renzini}, {Zamorani}, {Ilbert}, {Knobel}, {Iovino}, {Maier},
+  {Cucciati}, {Tasca}, {Carollo}, {Silverman}, {Kampczyk}, {de Ravel},
+  {Sanders}, {Scoville}, {Contini}, {Mainieri}, {Scodeggio}, {Kneib}, {Le
+  F{\`e}vre}, {Bardelli}, {Bongiorno}, {Caputi}, {Coppa}, {de la Torre},
+  {Franzetti}, {Garilli}, {Lamareille}, {Le Borgne}, {Le Brun}, {Mignoli},
+  {Perez Montero}, {Pello}, {Ricciardelli}, {Tanaka}, {Tresse}, {Vergani},
+  {Welikala}, {Zucca}, {Oesch}, {Abbas}, {Barnes}, {Bordoloi}, {Bottini},
+  {Cappi}, {Cassata}, {Cimatti}, {Fumana}, {Hasinger}, {Koekemoer},
+  {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken}, {Memeo}, {Meneux}, {Nair},
+  {Porciani}, {Presotto}, \& {Scaramella}}]{Peng:2010aa}
+{Peng}, Y.-j., {Lilly}, S.~J., {Kova{\v c}}, K., {et~al.} 2010, \apj, 721, 193
+
+\bibitem[{{Pozzetti} {et~al.}(2010){Pozzetti}, {Bolzonella}, {Zucca},
+  {Zamorani}, {Lilly}, {Renzini}, {Moresco}, {Mignoli}, {Cassata}, {Tasca},
+  {Lamareille}, {Maier}, {Meneux}, {Halliday}, {Oesch}, {Vergani}, {Caputi},
+  {Kova{\v c}}, {Cimatti}, {Cucciati}, {Iovino}, {Peng}, {Carollo}, {Contini},
+  {Kneib}, {Le F{\'e}vre}, {Mainieri}, {Scodeggio}, {Bardelli}, {Bongiorno},
+  {Coppa}, {de la Torre}, {de Ravel}, {Franzetti}, {Garilli}, {Kampczyk},
+  {Knobel}, {Le Borgne}, {Le Brun}, {Pell{\`o}}, {Perez Montero},
+  {Ricciardelli}, {Silverman}, {Tanaka}, {Tresse}, {Abbas}, {Bottini}, {Cappi},
+  {Guzzo}, {Koekemoer}, {Leauthaud}, {Maccagni}, {Marinoni}, {McCracken},
+  {Memeo}, {Porciani}, {Scaramella}, {Scarlata}, \&
+  {Scoville}}]{Pozzetti:2010aa}
+{Pozzetti}, L., {Bolzonella}, M., {Zucca}, E., {et~al.} 2010, \aap, 523, A13
+
+\bibitem[{{Salim} {et~al.}(2007){Salim}, {Rich}, {Charlot}, {Brinchmann},
+  {Johnson}, {Schiminovich}, {Seibert}, {Mallery}, {Heckman}, {Forster},
+  {Friedman}, {Martin}, {Morrissey}, {Neff}, {Small}, {Wyder}, {Bianchi},
+  {Donas}, {Lee}, {Madore}, {Milliard}, {Szalay}, {Welsh}, \&
+  {Yi}}]{Salim:2007aa}
+{Salim}, S., {Rich}, R.~M., {Charlot}, S., {et~al.} 2007, \apjs, 173, 267
+
+\bibitem[{{Scodeggio} {et~al.}(2009){Scodeggio}, {Vergani}, {Cucciati},
+  {Iovino}, {Franzetti}, {Garilli}, {Lamareille}, {Bolzonella}, {Pozzetti},
+  {Abbas}, {Marinoni}, {Contini}, {Bottini}, {Le Brun}, {Le F{\`e}vre},
+  {Maccagni}, {Scaramella}, {Tresse}, {Vettolani}, {Zanichelli}, {Adami},
+  {Arnouts}, {Bardelli}, {Cappi}, {Charlot}, {Ciliegi}, {Foucaud}, {Gavignaud},
+  {Guzzo}, {Ilbert}, {McCracken}, {Marano}, {Mazure}, {Meneux}, {Merighi},
+  {Paltani}, {Pell{\`o}}, {Pollo}, {Radovich}, {Zamorani}, {Zucca}, {Bondi},
+  {Bongiorno}, {Brinchmann}, {de La Torre}, {de Ravel}, {Gregorini}, {Memeo},
+  {Perez-Montero}, {Mellier}, {Temporin}, \& {Walcher}}]{Scodeggio:2009aa}
+{Scodeggio}, M., {Vergani}, D., {Cucciati}, O., {et~al.} 2009, \aap, 501, 21
+
+\bibitem[{{Skibba} {et~al.}(2013){Skibba}, {Sheth}, {Croton}, {Muldrew},
+  {Abbas}, {Pearce}, \& {Shattow}}]{Skibba:2013aa}
+{Skibba}, R.~A., {Sheth}, R.~K., {Croton}, D.~J., {et~al.} 2013, \mnras, 429,
+  458
+
+\bibitem[{{Smith} {et~al.}(2005){Smith}, {Treu}, {Ellis}, {Moran}, \&
+  {Dressler}}]{Smith:2005aa}
+{Smith}, G.~P., {Treu}, T., {Ellis}, R.~S., {Moran}, S.~M., \& {Dressler}, A.
+  2005, \apj, 620, 78
+
+\bibitem[{{Swanson} {et~al.}(2008){Swanson}, {Tegmark}, {Hamilton}, \&
+  {Hill}}]{Swanson:2008aa}
+{Swanson}, M.~E.~C., {Tegmark}, M., {Hamilton}, A.~J.~S., \& {Hill}, J.~C.
+  2008, \mnras, 387, 1391
+
+\bibitem[{{Taylor} {et~al.}(2009){Taylor}, {Franx}, {van Dokkum}, {Bell},
+  {Brammer}, {Rudnick}, {Wuyts}, {Gawiser}, {Lira}, {Urry}, \&
+  {Rix}}]{taylor09a}
+{Taylor}, E.~N., {Franx}, M., {van Dokkum}, P.~G., {et~al.} 2009, \apj, 694,
+  1171
+
+\bibitem[{{Tinker} {et~al.}(2011){Tinker}, {Wetzel}, \&
+  {Conroy}}]{Tinker:2011aa}
+{Tinker}, J., {Wetzel}, A., \& {Conroy}, C. 2011, ArXiv e-prints,
+  arXiv:1107.5046
+
+\bibitem[{{Weinmann} {et~al.}(2006){Weinmann}, {van den Bosch}, {Yang}, {Mo},
+  {Croton}, \& {Moore}}]{Weinmann:2006aa}
+{Weinmann}, S.~M., {van den Bosch}, F.~C., {Yang}, X., {et~al.} 2006, \mnras,
+  372, 1161
+
+\bibitem[{{West}(2005)}]{West:2005aa}
+{West}, A.~A. 2005, PhD thesis, University of Washington, Washington, USA
+
+\bibitem[{{West} {et~al.}(2010){West}, {Garcia-Appadoo}, {Dalcanton}, {Disney},
+  {Rockosi}, {Ivezi{\'c}}, {Bentz}, \& {Brinkmann}}]{West:2010aa}
+{West}, A.~A., {Garcia-Appadoo}, D.~A., {Dalcanton}, J.~J., {et~al.} 2010,
+  \apj, 139, 315
+
+\bibitem[{{Williams} {et~al.}(2009){Williams}, {Quadri}, {Franx}, {van Dokkum},
+  \& {Labb{\'e}}}]{Williams:2009aa}
+{Williams}, R.~J., {Quadri}, R.~F., {Franx}, M., {van Dokkum}, P., \&
+  {Labb{\'e}}, I. 2009, \apj, 691, 1879
+
+\bibitem[{{Wilman} {et~al.}(2010){Wilman}, {Zibetti}, \&
+  {Budav{\'a}ri}}]{Wilman:2010aa}
+{Wilman}, D.~J., {Zibetti}, S., \& {Budav{\'a}ri}, T. 2010, \mnras, 406, 1701
+
+\bibitem[{{York} {et~al.}(2000){York}, {Adelman}, {Anderson}, {Anderson},
+  {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman}, {Boroski},
+  {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles}, {Carey},
+  {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker}, {Csabai},
+  {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman}, {Elms},
+  {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman}, {Fukugita},
+  {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris}, {Hayes},
+  {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang}, {Hull},
+  {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi{\'c}}, {Kent}, {Kim}, {Kinney},
+  {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron}, {Kunszt},
+  {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long}, {Loomis},
+  {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch}, {Margon},
+  {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn}, {Narayanan},
+  {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski}, {Nonino},
+  {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples}, {Peterson},
+  {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio}, {Rechenmacher}, {Quinn},
+  {Richards}, {Richmond}, {Rivetta}, {Rockosi}, {Ruthmansdorfer}, {Sandford},
+  {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey}, {Shimasaku}, {Siegmund},
+  {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton}, {Strauss}, {Stubbs},
+  {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar}, {Tremonti}, {Tucker},
+  {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang}, {Watanabe},
+  {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{York:2000aa}
+{York}, D.~G., {Adelman}, J., {Anderson}, Jr., J.~E., {et~al.} 2000, \aj, 120,
+  1579
+
+\bibitem[{Zehavi {et~al.}(2002)}]{zehavi02a}
+Zehavi, I., {et~al.} 2002, \apj, 571, 172
+
+\end{thebibliography}
+
 \end{document}

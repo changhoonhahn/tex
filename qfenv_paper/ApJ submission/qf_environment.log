@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 DEC 2014 10:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 MAR 2015 14:45
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **qf_environment.tex
@@ -431,70 +431,72 @@ Overfull \hbox (3.10818pt too wide) in paragraph at lines 293--295
  [] 
  []
 
-[4] [5 <./fig2.pdf>] <fig3.pdf, id=51, 614.295pt x 758.835pt>
+[4] [5 <./fig2.pdf>] <fig3.pdf, id=51, 758.835pt x 614.295pt>
 File: fig3.pdf Graphic file (type pdf)
  <use fig3.pdf>
-Package pdftex.def Info: fig3.pdf used on input line 412.
-(pdftex.def)             Requested size: 311.54285pt x 384.83807pt.
+Package pdftex.def Info: fig3.pdf used on input line 413.
+(pdftex.def)             Requested size: 475.39388pt x 384.83807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--443
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 439--444
 $\OML/cmm/m/it/10 w[]$ \OT1/cmr/m/n/10 is the sta-tis-ti-cal weight of galaxy $
 \OML/cmm/m/it/10 i$ \OT1/cmr/m/n/10 and
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 438--443
+Underfull \hbox (badness 1072) in paragraph at lines 439--444
 \OT1/cmr/m/n/10 ^^H([] \OMS/cmsy/m/n/10 M\OT1/cmr/m/n/10 )^^A([] \OMS/cmsy/m/n/
 10 M\OT1/cmr/m/n/10 )$ is the num-ber of galax-ies ($\OML/cmm/m/it/10 N$\OT1/cm
 r/m/n/10 )
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 438--443
+Underfull \hbox (badness 5847) in paragraph at lines 439--444
 \OT1/cmr/m/n/10 per unit vol-ume within the stel-lar mass range
  []
 
-[6] [7 <./fig3.pdf>] <fig4.pdf, id=62, 433.62pt x 758.835pt>
+[7 <./fig3.pdf>] <fig4.pdf, id=70, 433.62pt x 758.835pt>
 File: fig4.pdf Graphic file (type pdf)
  <use fig4.pdf>
-Package pdftex.def Info: fig4.pdf used on input line 490.
+Package pdftex.def Info: fig4.pdf used on input line 491.
 (pdftex.def)             Requested size: 219.9126pt x 384.83807pt.
 
-[8] <fig5.pdf, id=66, 614.295pt x 614.295pt>
+[8] <fig5.pdf, id=74, 614.295pt x 614.295pt>
 File: fig5.pdf Graphic file (type pdf)
  <use fig5.pdf>
-Package pdftex.def Info: fig5.pdf used on input line 634.
+Package pdftex.def Info: fig5.pdf used on input line 635.
 (pdftex.def)             Requested size: 230.9037pt x 230.90128pt.
  [9 <./fig4.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 682.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 683.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 682.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 683.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<fig6.pdf, id=72, 606.265pt x 1192.455pt>
+<fig6.pdf, id=80, 606.265pt x 1192.455pt>
 File: fig6.pdf Graphic file (type pdf)
  <use fig6.pdf>
-Package pdftex.def Info: fig6.pdf used on input line 758.
+Package pdftex.def Info: fig6.pdf used on input line 759.
 (pdftex.def)             Requested size: 260.87389pt x 513.11743pt.
  [10 <./fig5.pdf>]
-[11 <./fig6.pdf>] [12] [13] (./qf_environment.bbl) [14] (./qf_environment.aux)
+[11 <./fig6.pdf>] [12] [13] [14] (./qf_environment.bbl) [15]
+(./qf_environment.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
 
  ) 
 Here is how much of TeX's memory you used:
- 5486 strings out of 493315
- 74288 string characters out of 6137904
- 223043 words of memory out of 5000000
- 8832 multiletter control sequences out of 15000+600000
+ 5487 strings out of 493315
+ 74298 string characters out of 6137904
+ 181536 words of memory out of 5000000
+ 8833 multiletter control sequences out of 15000+600000
  13390 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,10n,29p,1795b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,29p,1795b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/tex
@@ -516,10 +518,10 @@ e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
 w/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (14 pages, 587389 bytes).
+Output written on qf_environment.pdf (15 pages, 597076 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

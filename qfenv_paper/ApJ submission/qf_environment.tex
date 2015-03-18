@@ -267,13 +267,13 @@ different surveys, we account for the disparity in the redshift
 uncertainty. While PRIMUS provides a large number of redshifts out to
 $z = 1$, due to its use of a low dispersion prism, the redshift
 uncertainties are significantly larger ($\sigma_{z}/(1+z) \approx 0.5
-\%$) than the uncertainties of the SDSS-{\em GALEX} redshifts. In order to have
+\%$) than the uncertainties of the SDSS redshifts. In order to have
 comparable environment measures throughout our redshift range, we
 apply PRIMUS redshift uncertainties to our galaxy sample selected from
 SDSS-{\em GALEX}. For each SDSS-{\em GALEX} galaxy, we adjust its
 redshift by randomly sampling a Gaussian distribution with standard
-deviation $\sigma = 0.005 (1+z_{\mathrm{SDSS}-GALEX})$, where
-$z_{\mathrm{SDSS}-GALEX}$ is the redshift of the galaxy.
+deviation $\sigma = 0.005 (1+z_\mathrm{SDSS})$, where
+$z_\mathrm{SDSS}$ is the SDSS redshift of the galaxy.
 
 %We present the absolute magnitude ($M_{r}$) versus redshift for the galaxy sample (black squares) in Figure \ref{fig:targetEDP}. The left-most panel corresponds to the sample derived from the SDSS-{\em GALEX} data and the rest correspond to the target sample derived from the PRIMUS data divided in bins with $\Delta z \sim 0.2$. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -301,9 +301,10 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
 We define the environment of a galaxy as the number of neighboring Environment Defining Population galaxies (defined below) within a fixed aperture centered around it. We use fixed aperture measurements in order to quantify galaxy environment with an aperture sufficiently large to encompass massive halos (\citealt{Muldrew:2012aa, Skibba:2013aa}).
 %We use a fixed aperture measurement of environment in order to probe environment on the halo scale, as \cite{Muldrew:2012aa} finds in their comparison of different environment definition using simulations.
 
-For our aperture, we use a cylinder of dimensions: $R_{\mathrm{ap}} =
-\apradius\;
-\mathrm{Mpc}$ and $H_{\mathrm{ap}} = \apheight\; \mathrm{Mpc}$.  We use a
+For our aperture, we use a cylinder of dimensions: $R_{\mathrm{ap}} = \apradius\;
+\mathrm{Mpc}$ and $H_{\mathrm{ap}} = \apheight\; \mathrm{Mpc}$. 
+We note that $H_\mathrm{ap}$ is the full height of the cylinder and $R_\mathrm{ap}$ 
+and $H_\mathrm{ap}$ are comoving distances. We use a
 cylindrical aperture to account for the PRIMUS redshift
 errors and redshift space distortions (i.e. ``Finger of God"
 effect). As \cite{Cooper:2005aa} and \cite{Gallazzi:2009aa} find, 
@@ -409,7 +410,7 @@ Although we imposed PRIMUS redshift errors on our SDSS galaxies to consistently 
 \begin{figure*}
   \begin{center}
     \leavevmode
-    \epsfig{file=fig3.pdf, height=0.75\textwidth,angle=90}
+    \epsfig{file=fig3.pdf, height=0.75\textwidth}
      \caption{Evolution of stellar mass functions of star-forming (top) and quiescent (bottom) galaxies in 
 low (left) and high (right) density environments throughout the redshift range
 $z=0$--$0.8$. The environment of each galaxy  
@@ -617,7 +618,7 @@ range, $f_{\mathrm{Q}}$ at high density environment ranges from $\sim
 0.55$ to $\sim 0.9$. For our SDSS sample, $f_{\mathrm{Q}}$ in
 high density environments is notably higher. 
 
-For our PRIMUS sample at $z \sim 0.3$, over $10^{9.5} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11} \mathcal{M}_{\odot}$ $f_{\mathrm{Q}}$ ranges from $\sim 0.2$ to $\sim 0.65$ for low density environment, while at high density environment $f_{\mathrm{Q}}$ ranges from $\sim 0.2$ to $\sim 0.8$. Similarly, at $z \sim 0.5$, over $10^{10} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11.2} \mathcal{M}_{\odot}$ $f_{\mathrm{Q}}$ ranges from $\sim 0.3$ to $\sim 0.6$ for low density environment and $f_{\mathrm{Q}}$ ranges from $\sim 0.3$ to $\sim 0.7$. Finally in our highest redshift bin $z \sim 0.7$, over the mass range $10^{10.5} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11.5} \mathcal{M}_{\odot}$, $f_{\mathrm{Q}}$ ranges from $\sim 0.35$ to $\sim 0.6$ for low density and $\sim 0.45$ to $\sim 0.8$ for high density. For the entire redshift range of our sample, $f_{\mathrm{Q}}$ in high density environment is higher than $f_{\mathrm{Q}}$ in low density environments. 
+For our PRIMUS sample at $z \sim 0.3$, over $10^{9.5} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11} \mathcal{M}_{\odot}$ $f_{\mathrm{Q}}$ ranges from $\sim 0.2$ to $\sim 0.65$ for low density environment, while at high density environment $f_{\mathrm{Q}}$ ranges from $\sim 0.2$ to $\sim 0.8$. Similarly, at $z \sim 0.5$, over $10^{10} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11.2} \mathcal{M}_{\odot}$ $f_{\mathrm{Q}}$ ranges from $\sim 0.3$ to $\sim 0.6$ for low density environment and $f_{\mathrm{Q}}$ ranges from $\sim 0.3$ to $\sim 0.7$ for high density environments. Finally in our highest redshift bin $z \sim 0.7$, over the mass range $10^{10.5} \mathcal{M}_{\odot} < \mathcal{M}_{*} < 10^{11.5} \mathcal{M}_{\odot}$, $f_{\mathrm{Q}}$ ranges from $\sim 0.35$ to $\sim 0.6$ for low density and $\sim 0.45$ to $\sim 0.8$ for high density. For the entire redshift range of our sample, $f_{\mathrm{Q}}$ in high density environment is higher than $f_{\mathrm{Q}}$ in low density environments. 
 
 While there is a significant difference in $f_{\mathrm{Q}}$ between the
 environments, since the difference is observed from our highest
@@ -986,7 +987,7 @@ detail on the environmental dependence of galaxy evolution:
     relations.
 	\item We illustrate that $f_{\mathrm{Q}}$ in high density environments
     is greater than $f_{\mathrm{Q}}$ in low density environments
-    regardless of mass and out to redshift $z\sim 0.7$. This result
+    for $\mathcal{M} \sim 10^{10.5} -10^{11} \mathcal{M}_\odot$ and out to redshift $z\sim 0.7$. This result
     reflects the well known trend that galaxies in high density
     environment are statistically redder, have lower SFRs, and are
     more massive.

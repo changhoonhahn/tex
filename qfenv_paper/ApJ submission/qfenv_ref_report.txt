@@ -93,41 +93,36 @@ methodology.
 
 Minor comments:
 
-Last sentence of abstract: 'However' is the wrong joining term;
-'In other words' would be more appropriate.
+- Last sentence of abstract: 'However' is the wrong joining term; 'In other words' would be more appropriate.
+‘However’ has been changed to ‘In other words’.
 
-Section 2.1: How does iSEDFIT deal with dust obscuration? How
-successful might it be? A couple or more sentences on this would
-be useful.
 
-Section 2.3: GALEX does not provide redshifts. When referring to
-redshifts, they should not be called SDSS-GALEX redshifts. It is
-only an SDSS-GALEX sample.
+- Section 2.1: How does iSEDFIT deal with dust obscuration? How successful might it be? A couple or more sentences on this would be useful.
+For dust attenuation, iSEDfit uses time dependent attenuation curve of Charlot & Fall (2000). Ultimately iSEDfit allows for better galaxy classification than an optical color-magnitude classification of galaxies 
 
-Section 2.5: State whether 35 Mpc is half height or full height
-of cylinder. I presume these are comoving Mpc, state this.
 
-There is perhaps surprisingly no evolution in M_{r,lim}. Has
-there been an evolution correction applied for M_r?
+- Section 2.3: GALEX does not provide redshifts. When referring to redshifts, they should not be called SDSS-GALEX redshifts. It is only an SDSS-GALEX sample.
+We now specify that the redshifts from the SDSS-GALEX sample are SDSS redshifts. 
 
-N_{env}. Can this have a value between 0 and 1? I would have
-thought all the weights would be >=1. Therefore better to state
-the low-density environment as n_{env} = 0.
 
-Section 2.6: Why does this need to use random points? Why not a
-finely spaced regular grid in RA and DEC?
+- Section 2.5: State whether 35 Mpc is half height or full height of cylinder. I presume these are comoving Mpc, state this.
+We now specify that H_ap represents the full height of the cylinder and that the aperture dimensions are comoving distances. 
 
-End of page 9: missing text after $\sim0.3$ to $\sim0.7$ [for
-high density].
 
-Page 12 and elsewhere: The caveat that PRIMUS has more galaxies,
-and therefore better statistics than zCOSMOS is that the
-environmental measures are possibly significantly less reliable
-because of redshift uncertainties. I think this should be pointed
-out a couple of more times than is done currently within the
-text. There is also the issue of overall redshift completeness
-(targeting and redshift success combined), how does PRIMUS
-compare with zCOSMOS in this regard?
+- There is perhaps surprisingly no evolution in M_{r,lim}. Has there been an evolution correction applied for M_r?
+No there has not been any evolution correction applied to the absolute magnitude values. 
 
-Section 5, item 3: Note the mass range over which the results are
-valid.
+
+- N_{env}. Can this have a value between 0 and 1? I would have thought all the weights would be >=1. Therefore better to state the low-density environment as n_{env} = 0.
+The low-density environment cut-off has been clarified to n_{env} = 0. 
+
+- Section 2.6: Why does this need to use random points? Why not a finely spaced regular grid in RA and DEC?
+
+- End of page 9: missing text after $\sim0.3$ to $\sim0.7$ [for high density].
+We have now included the missing text. 
+
+- Page 12 and elsewhere: The caveat that PRIMUS has more galaxies, and therefore better statistics than zCOSMOS is that the environmental measures are possibly significantly less reliable because of redshift uncertainties. I think this should be pointed out a couple of more times than is done currently within the text. There is also the issue of overall redshift completeness (targeting and redshift success combined), how does PRIMUS compare with zCOSMOS in this regard? 
+
+
+- Section 5, item 3: Note the mass range over which the results are valid.
+We now specify the mass range (10^10.5-10^11.0 M_sun) where the results are valid. 

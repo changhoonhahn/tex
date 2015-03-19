@@ -68,6 +68,8 @@ quiescent). This potentially affects the quiescent fraction as a
 function of environment as certain types of galaxies might be
 more likely to be scattered out of higher density environments.
 
+
+
 Even though the lowest masses are generally not discussed in the
 paper, there is a concern that the galaxies at 10^9.5 and 10^10
 solar masses show little dependence on environment in the PRIMUS
@@ -98,8 +100,7 @@ Minor comments:
 
 
 - Section 2.1: How does iSEDFIT deal with dust obscuration? How successful might it be? A couple or more sentences on this would be useful.
-For dust attenuation, iSEDfit uses time dependent attenuation curve of Charlot & Fall (2000). Ultimately iSEDfit allows for better galaxy classification than an optical color-magnitude classification of galaxies 
-
+We now include details of how iSEDfit deals with dust obscuration. iSEDfit uses time dependent dust attenuation curve of Charlot & Fall (2000). Further details on the effects of prior parameter choices of iSEDfit on galactic properties are discussed in the Appendix of Moustakas et al. (2013). 
 
 - Section 2.3: GALEX does not provide redshifts. When referring to redshifts, they should not be called SDSS-GALEX redshifts. It is only an SDSS-GALEX sample.
 We now specify that the redshifts from the SDSS-GALEX sample are SDSS redshifts. 
@@ -114,7 +115,7 @@ No there has not been any evolution correction applied to the absolute magnitude
 
 
 - N_{env}. Can this have a value between 0 and 1? I would have thought all the weights would be >=1. Therefore better to state the low-density environment as n_{env} = 0.
-The low-density environment cut-off has been clarified to n_{env} = 0. 
+No, n_{env} cannot have a value between 0 and 1. We have now clarified our low-density environment cut-off to n_{env} = 0 throughout the text and in all the figures.
 
 - Section 2.6: Why does this need to use random points? Why not a finely spaced regular grid in RA and DEC?
 

@@ -11,7 +11,7 @@
 %internal short cuts
 \def \HgA {H$\gamma_A$}
 \def \Hbp {H$\beta ^\prime$}
-\def \lowenvthresh {0.5}
+\def \lowenvthresh {0.0}
 \def \highenvthresh {3.0}
 \def \apradius{2.5}
 \def \apheight{35}
@@ -19,7 +19,7 @@
 
 \begin{document}
 
-\title{PRIMUS: Effect of Galaxy Environment on the Quiescent Fraction Evolution at \lowercase{\textit{z}}$<0.8$}
+\title{PRIMUS: Effects of Galaxy Environment on the Quiescent Fraction Evolution at \lowercase{\textit{z}}$<0.8$}
 \author{
 ChangHoon~Hahn\altaffilmark{1}, 
 Michael R.~Blanton\altaffilmark{1}, 
@@ -64,7 +64,7 @@ environments. At a fiducial mass of $10^{10.5}M_\odot$, from $z\sim
 lowest environments and by $25\%$ at the highest environments we measure.
 These results suggest that for a minority of galaxies their cessation
 of star formation is due to external influences on
-them. In other words, in the recent Universe a substantial fraction of the
+them. {\bf In other words}, in the recent Universe a substantial fraction of the
 galaxies that cease forming stars do so due to internal processes.
 \end{abstract}
 \keywords{cosmology: observations --- galaxies: evolution --- galaxies: groups --- galaxies: star formation}
@@ -161,7 +161,7 @@ spectrograph on the Magellan I Baade $6.5$-m telescope with a slitmask and low d
 
 While the PRIMUS survey targeted seven distinct extragalactic deep fields for a total of $\sim 9 \; \mathrm{deg}^2$, we restrict our sample to five fields that have $GALEX$ and {\em Spitzer}/IRAC imaging for a total of $\sim 5.5 \; \mathrm{deg}^2$ (similar to the sample selection in \citealt{Moustakas:2013aa}). Four of these fields are a part of the {\em Spitzer} Wide-area Infrared Extragalactic Survey (SWIRE\footnote{http://swire.ipac.caltech.edu/swire/swire.html}): the European Large Area ISO Survey - South $1$ field (ELAIS-S1\footnote{http://dipastro.pd.astro.it/esis}), the Chandra Deep Field South SWIRE field (CDFS), and the XMM Large Scale Structure Survey field (XMM-LSS). The XMM-LSS consists of two separate but spatially adjacent fields: the Subaru/XMM-Newton DEEP Survey field (XMM-SXDSS\footnote{http://www.naoj.org/cience/SubaruProject/SDS}) and the Canadian-France-Hawaii Telescope Legacy Survey field (XMM-CFHTLS\footnote{http://www.cfht.hawaii.edu/Science/CFHLS}). Our fifth and final field is the Cosmic Evolution Survey (COSMOS\footnote{http://cosmos.astro.caltech.edu}) field. For all of our fields we have near-UV (NUV) and far-UV (FUV) photometry from the {\em GALEX} Deep Imaging Survey (DIS; \citealt{Martin:2005aa, Morrissey:2005aa}) as well as ground-based optical and {\em Spitzer}/IRAC mid-infrared photometric catalogs. \cite{Moustakas:2013aa} provides detailed descriptions of integrated flux calculations in the photometric bands for each of our fields. Furthermore, we derive the {\em K-corrections} from the photometry using \texttt{K-correct} (v4.2; \citealt{Blanton:2007aa}). 
 
-Finally, using the spectroscopic redshift and broad wavelength photometry we apply \texttt{iSEDfit}, a Bayesian SED modeling code, to calculate stellar masses and star formation rates (SFRs) for our sample galaxies (\citealt{Moustakas:2013aa}). \texttt{iSEDfit} uses the redshift and the observed photometry of the galaxies to determine the statistical likelihood of a large ensemble of generated model SEDs. The model SEDs are generated using Flexible Stellar Population Synthesis (FSPS) models (\citealt{Conroy:2010aa}) based on the \cite{Chabrier:2003aa} IMF, along with other prior parameters discussed in Section 4.1 and Appendix A of \cite{Moustakas:2013aa}. For the observed photometry, we use the {\em GALEX} FUV and NUV, the two shortest IRAC bands at $3.6$ and $4.5 \mu \mathrm{m}$ (the two longer-wavelength IRAC channels are excluded because \texttt{iSEDfit} does not model hot dust or polycyclic aromatic hydrocarbons emission lines), and the optical bands. 
+Finally, using the spectroscopic redshift and broad wavelength photometry we apply \texttt{iSEDfit}, a Bayesian SED modeling code, to calculate stellar masses and star formation rates (SFRs) for our sample galaxies (\citealt{Moustakas:2013aa}). \texttt{iSEDfit} uses the redshift and the observed photometry of the galaxies to determine the statistical likelihood of a large ensemble of generated model SEDs. The model SEDs are generated using Flexible Stellar Population Synthesis (FSPS) models (\citealt{Conroy:2010aa}) based on the \cite{Chabrier:2003aa} IMF, along with {\bf a time dependent dust attenuation curve of \cite{Charlot:2000aa} and }other prior parameters discussed in Section 4.1 and Appendix A of \cite{Moustakas:2013aa}. For the observed photometry, we use the {\em GALEX} FUV and NUV, the two shortest IRAC bands at $3.6$ and $4.5 \mu \mathrm{m}$ (the two longer-wavelength IRAC channels are excluded because \texttt{iSEDfit} does not model hot dust or polycyclic aromatic hydrocarbons emission lines), and the optical bands. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SDSS-GALEX
@@ -210,16 +210,16 @@ photometry and the deeper photometry used for PRIMUS targeting.
     \begin{tabular}{ccccccc} \hline \hline              
      &\multicolumn{1}{c}{$n_{\mathrm{env}}$}        & \multicolumn{2}{c}{$N_{\mathrm{gal}}$}  & \multicolumn{2}{c}{$\mathcal{M}_{\mathrm{lim}}$} & $M_{\mathrm{r}, lim}$ \\ 
     & & Quiescent & Star-Forming & Quiescent & Star-Forming &  \\ \hline 
-$0.05 < z < 0.12$ & $n_{\mathrm{env}} < \lowenvthresh $ & 6533 & 7508 & $10^{10.2} \mathcal{M}_{\odot}$ & $10^{10.2} \mathcal{M}_{\odot}$ & -20.95 \\
+$0.05 < z < 0.12$ & $n_{\mathrm{env}} = \lowenvthresh $ & 6533 & 7508 & $10^{10.2} \mathcal{M}_{\odot}$ & $10^{10.2} \mathcal{M}_{\odot}$ & -20.95 \\
                & $n_{\mathrm{env}} > \highenvthresh $ &14673 & 9717 &                          \\ 
                               & all          &$33553$                       & $29864$                          \\ \hline
-$0.2 < z < 0.4$      &$n_{\mathrm{env}} < \lowenvthresh $           &363                    &1231 & $10^{9.8} \mathcal{M}_{\odot}$ & $10^{9.8} \mathcal{M}_{\odot}$ &-21.03 \\
+$0.2 < z < 0.4$      &$n_{\mathrm{env}} = \lowenvthresh $           &363                    &1231 & $10^{9.8} \mathcal{M}_{\odot}$ & $10^{9.8} \mathcal{M}_{\odot}$ &-21.03 \\
                &$n_{\mathrm{env}} > \highenvthresh $            &379                    &756                           \\
                & all                & $1086$                      & $2879$                          \\ \hline
-$0.4 < z < 0.6$      &$n_{\mathrm{env}} < \lowenvthresh $           &536                       &1498 & $10^{10.3} \mathcal{M}_{\odot}$ & $10^{10.3} \mathcal{M}_{\odot}$ & -20.98 \\
+$0.4 < z < 0.6$      &$n_{\mathrm{env}} = \lowenvthresh $           &536                       &1498 & $10^{10.3} \mathcal{M}_{\odot}$ & $10^{10.3} \mathcal{M}_{\odot}$ & -20.98 \\
                &$n_{\mathrm{env}} > \highenvthresh $            &490                       &854                           \\
                & all               & $1560$                      & $3577$                          \\ \hline
-$0.6 < z < 0.8$      &$n_{\mathrm{env}} < \lowenvthresh $           &567                       &1254  & $10^{10.7} \mathcal{M}_{\odot}$ & $10^{10.6} \mathcal{M}_{\odot}$ & -20.97 \\
+$0.6 < z < 0.8$      &$n_{\mathrm{env}} = \lowenvthresh $           &567                       &1254  & $10^{10.7} \mathcal{M}_{\odot}$ & $10^{10.6} \mathcal{M}_{\odot}$ & -20.97 \\
                &$n_{\mathrm{env}} > \highenvthresh $            &498                       &671                           \\
                & all              & $1668$                      & $2964$                          \\ \hline
 Total &      & \multicolumn{2}{c}{77151} & \\ \hline
@@ -270,10 +270,10 @@ uncertainties are significantly larger ($\sigma_{z}/(1+z) \approx 0.5
 \%$) than the uncertainties of the SDSS redshifts. In order to have
 comparable environment measures throughout our redshift range, we
 apply PRIMUS redshift uncertainties to our galaxy sample selected from
-SDSS-{\em GALEX}. For each SDSS-{\em GALEX} galaxy, we adjust its
+SDSS-{\em GALEX}. {\bf For each SDSS-{\em GALEX} galaxy, we adjust its
 redshift by randomly sampling a Gaussian distribution with standard
 deviation $\sigma = 0.005 (1+z_\mathrm{SDSS})$, where
-$z_\mathrm{SDSS}$ is the SDSS redshift of the galaxy.
+$z_\mathrm{SDSS}$ is the SDSS redshift of the galaxy.}
 
 %We present the absolute magnitude ($M_{r}$) versus redshift for the galaxy sample (black squares) in Figure \ref{fig:targetEDP}. The left-most panel corresponds to the sample derived from the SDSS-{\em GALEX} data and the rest correspond to the target sample derived from the PRIMUS data divided in bins with $\Delta z \sim 0.2$. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -292,7 +292,7 @@ where $\mathcal{M}$ is the stellar mass of the galaxy. If the target galaxy SFR 
   \begin{center}
     \leavevmode
     \includegraphics[scale=0.48]{fig2.pdf}
-    \caption{Normalized distribution of environment measurements ($n_{\mathrm{env}}$) for our mass complete galaxy sample within the survey edges. A fixed cylindrical aperture of $R_{\mathrm{ap}} =\apradius\;\mathrm{Mpc}$ and $H_{\mathrm{ap}} = \apheight\; \mathrm{Mpc}$ is used to measure environment. The star-forming galaxies contribution to the distribution is colored in blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Galaxies with $n_{\mathrm{env}} < 0.5$ are in low density environments and galaxies with $n_{\mathrm{env}} > 3.0$ are in high density environment. We note that the significant difference among the SDSS distribution and the PRIMUS distributions above is due to the different stellar mass completeness limits imposed on each redshift bin of our galaxy sample.}      \label{fig:envcount}
+    \caption{Normalized distribution of environment measurements ($n_{\mathrm{env}}$) for our mass complete galaxy sample within the survey edges. A fixed cylindrical aperture of $R_{\mathrm{ap}} =\apradius\;\mathrm{Mpc}$ and $H_{\mathrm{ap}} = \apheight\; \mathrm{Mpc}$ is used to measure environment. The star-forming galaxies contribution to the distribution is colored in blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. {\bf Galaxies with $n_{\mathrm{env}} = 0.0$ are in low density environments} and galaxies with $n_{\mathrm{env}} > 3.0$ are in high density environment. We note that the significant difference among the SDSS distribution and the PRIMUS distributions above is due to the different stellar mass completeness limits imposed on each redshift bin of our galaxy sample.}      \label{fig:envcount}
      %\caption{Normalized distribution of environment measurements ($n_{\mathrm{env}}$) for our mass complete galaxy sample within the edges. The star-forming galaxies contribution to the distribution is colored blue and diagonally patterned. The contribution from quiescent galaxies is colored in red. Each redshift panel is divided into three sections by the environment classification cutoffs (black veritcal lines): low density environment $n_{\mathrm{env}} < 0.5$ and high density environment $n_{\mathrm{env}} > 3.0$. The percentages of the redshift bin contained in the environment classifications are presented above the distribution. For example at $0.2 < z < 0.4$, $\apheight.0 \%$ of galaxies in the redshift bin are in low density environments while $35.0\%$ of galaxies in the redshift bin are in high density environments. We note that the significant difference between the SDSS distribution and the PRIMUS distribution above is due to the difference in stellar mass completeness limit imposed in our galaxy sample.}      \label{fig:envcount}
     \end{center}
 \end{figure}
@@ -303,8 +303,8 @@ We define the environment of a galaxy as the number of neighboring Environment D
 
 For our aperture, we use a cylinder of dimensions: $R_{\mathrm{ap}} = \apradius\;
 \mathrm{Mpc}$ and $H_{\mathrm{ap}} = \apheight\; \mathrm{Mpc}$. 
-We note that $H_\mathrm{ap}$ is the full height of the cylinder and $R_\mathrm{ap}$ 
-and $H_\mathrm{ap}$ are comoving distances. We use a
+{\bf We note that $H_\mathrm{ap}$ is the full height of the cylinder and $R_\mathrm{ap}$ 
+and $H_\mathrm{ap}$ are comoving distances.} We use a
 cylindrical aperture to account for the PRIMUS redshift
 errors and redshift space distortions (i.e. ``Finger of God"
 effect). As \cite{Cooper:2005aa} and \cite{Gallazzi:2009aa} find, 
@@ -376,8 +376,8 @@ galaxies.
 For our galaxy sample, the expected $n_{\mathrm{env}}$ given the uniform number density in 
 each of our EDP redshift bin and volume of our cylindrical aperture is $\langle n_{\mathrm{env}} \rangle = 1.3$. 
 Once we obtain environment measurements for all the galaxies
-in our galaxy sample, we classify galaxies with $n_{\mathrm{env}} < 0.5$
-to be in ``low" environment densities and galaxies with $n_{\mathrm{env}} > 3$
+in our galaxy sample, {\bf we classify galaxies with $n_{\mathrm{env}} = 0.0$
+to be in ``low" environment densities} and galaxies with $n_{\mathrm{env}} > 3$
 to be in ``high" environment densities. The high environment cutoff was
 selected in order to reduce contamination from galaxies in low
 environment densities while maintaining sufficient statistics. In
@@ -404,7 +404,7 @@ To account for these edge effects, we use a Monte Carlo method to impose edge cu
 \end{equation} 
 $A_{\mathrm{EDP}}$ is the total angular area of the EDP window function and $f_{\mathrm{thresh}}$ is the fractional threshold for the edge effect cut-off. For $R_{\mathrm{ap}}= \apradius \;\mathrm{Mpc}$, we use $f_{\mathrm{thresh}} = 0.75$. If $n_{i, \mathrm{ransack}} > \langle n_{\mathrm{ransack}} \rangle_i$ then galaxy $i$ remains in our sample; otherwise, it is discarded. Once the edge effect cuts are applied, we are left with the final galaxy sample. For our SDSS-{\em GALEX} galaxy sample, $\sim 12 \%$ of galaxies are removed from the edge effect cuts. For our PRIMUS galaxy sample, $\sim 40 \%$ of galaxies are removed from the edge effect cuts. 
 
-In Figure \ref{fig:envcount} we present the distribution of environment measurements ($n_{\mathrm{env}}$) for our final galaxy sample in redshift bins: $z = 0.05 - 0.12$, $0.2 - 0.4$, $0.4-0.6$, and $0.6-0.8$. The quiescent galaxy contributions are colored in red while the star-forming galaxy contributions are colored in blue and patterned. We classify galaxies with $n_{\mathrm{env}} < 0.5$ to be in low density environments and galaxies with $n_{\mathrm{env}} > 3.0$ to be in high density environments. 
+In Figure \ref{fig:envcount} we present the distribution of environment measurements ($n_{\mathrm{env}}$) for our final galaxy sample in redshift bins: $z = 0.05 - 0.12$, $0.2 - 0.4$, $0.4-0.6$, and $0.6-0.8$. The quiescent galaxy contributions are colored in red while the star-forming galaxy contributions are colored in blue and patterned. We classify {\bf galaxies with $n_{\mathrm{env}} = 0.0$ to be in low density environments} and galaxies with $n_{\mathrm{env}} > 3.0$ to be in high density environments. 
 
 Although we imposed PRIMUS redshift errors on our SDSS galaxies to consistently measure environment throughout our entire sample, we note a significant discrepancy between the $n_{\mathrm{env}}$ distributions of the SDSS and PRIMUS samples. For example, in each of the PRIMUS redshift bins, $\sim 40 \%$ of galaxies in the redshift bin are in low density environments and roughly $30 \%$ are in high density environments. In contrast, in the SDSS redshift bin, $\sim 20 \%$ of galaxies in the redshift bin are in low density environments and $\sim 35 \%$ are in high density environments. We remind the reader that this is mainly due to the varying stellar mass-completeness limits imposed on our galaxy sample for each redshift bins and does not affect our results. 
 \begin{figure*}
@@ -415,7 +415,7 @@ Although we imposed PRIMUS redshift errors on our SDSS galaxies to consistently 
 low (left) and high (right) density environments throughout the redshift range
 $z=0$--$0.8$. The environment of each galaxy  
 was calculated using a cylindrical aperture size of $R=\apradius \: \mathrm{Mpc}$ and $H=\apheight \: \mathrm{Mpc}$ and  
-classified as low environment when $n_{\mathrm{env}} < 0.5$ and as high environment when $n_{\mathrm{env}} > 3.0$. The SMFs use mass bins of 
+{\bf classified as low environment when $n_{\mathrm{env}} = 0.0$ and }as high environment when $n_{\mathrm{env}} > 3.0$. The SMFs use mass bins of 
 width $\Delta \mathrm{log}(\mathcal{M}/\mathcal{M}_{\odot})=0.2$. In each panel we use shades of blue 
 (star-forming) and orange (quiescent) to represent the SMF at different redshift, higher redshifts being
 progressively lighter.}      \label{fig:smf}
@@ -641,7 +641,7 @@ environments.
           \mathcal{M}_\odot$ (solid fill) and $10^{11}
           \mathcal{M}_\odot$ (patterned fill) with the uncertainty of
           the best-fit parameter $b$ in Equation \ref{eq:qffit}
-          represented by the width of the line. While the high density $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}})$ is greater than low density environment $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}})$ over the entire redshift range of our sample, there is a significant increase in $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}})$ over cosmic time for both environments. For the environment cut-offs ($n_{\mathrm{env}} < 0.5$ for low and $n_{\mathrm{env}} > 3.0$ for high), there is no significant difference in the slope of the evolution between the environments.}         \label{fig:qffit}
+          represented by the width of the line. While the high density $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}})$ is greater than low density environment $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}})$ over the entire redshift range of our sample, there is a significant increase in $f_{\mathrm{Q}}(\mathcal{M}_{\mathrm{fid}})$ over cosmic time for both environments. {\bf For the environment cut-offs ($n_{\mathrm{env}} =0.0 $ for low }and $n_{\mathrm{env}} > 3.0$ for high), there is no significant difference in the slope of the evolution between the environments.}         \label{fig:qffit}
     \end{center}
 \end{figure}
 
@@ -652,16 +652,16 @@ environments.
     \leavevmode
     \begin{tabular}{clcc} \hline \hline              
     $z_1 < z < z_2$ &Environment        &a  &b  \\ \hline 
-$0.05 < z< 0.12$ &$n_{\mathrm{env}} < \lowenvthresh$ & $0.410 \pm 0.018$ & $0.469 \pm 0.007$ \\
+$0.05 < z< 0.12$ &$n_{\mathrm{env}} = \lowenvthresh$ & $0.410 \pm 0.018$ & $0.469 \pm 0.007$ \\
                &$n_{\mathrm{env}} > \highenvthresh$ & $0.270 \pm 0.016$ & $0.620 \pm 0.008$ \\ 
                               &               &                       &                           \\ \hline   
-$0.2 < z <0.4$ & $n_{\mathrm{env}} < \lowenvthresh$ & $0.340 \pm 0.032$ & $0.432 \pm 0.015$ \\
+$0.2 < z <0.4$ & $n_{\mathrm{env}} = \lowenvthresh$ & $0.340 \pm 0.032$ & $0.432 \pm 0.015$ \\
                &$n_{\mathrm{env}} > \highenvthresh$ & $0.432 \pm 0.018$ & $0.544 \pm 0.010$ \\
                &               &                       &                           \\ \hline
-$0.4 < z < 0.6$      &$n_{\mathrm{env}} < \lowenvthresh$ & $0.263 \pm 0.038$ & $0.381 \pm 0.018$ \\
+$0.4 < z < 0.6$      &$n_{\mathrm{env}} = \lowenvthresh$ & $0.263 \pm 0.038$ & $0.381 \pm 0.018$ \\
                &$n_{\mathrm{env}} > \highenvthresh$ & $0.289 \pm 0.018$ & $0.446 \pm 0.013$ \\
                &               &                       &                           \\ \hline
-$0.6 < z < 0.8$      &$n_{\mathrm{env}} < \lowenvthresh$ & $0.284 \pm 0.036$ & $0.352 \pm 0.019$ \\
+$0.6 < z < 0.8$      &$n_{\mathrm{env}} = \lowenvthresh$ & $0.284 \pm 0.036$ & $0.352 \pm 0.019$ \\
                &$n_{\mathrm{env}} > \highenvthresh$            & $0.468 \pm 0.065$ & $0.429 \pm 0.023$ \\
                &               &                       &                           \\ \hline
   \multicolumn{4}{l}{}                                             \\       

@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 MAR 2015 14:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 MAR 2015 16:45
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **qf_environment.tex
@@ -402,7 +402,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<fig1.pdf, id=19, 1089.8316pt x 409.77089pt>
+<fig1.pdf, id=20, 1089.8316pt x 409.77089pt>
 File: fig1.pdf Graphic file (type pdf)
  <use fig1.pdf>
 Package pdftex.def Info: fig1.pdf used on input line 148.
@@ -421,9 +421,15 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 162.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [2] [3 <./fig1.pdf>] <fig2.pdf, id=36, 517.45322pt x 412.6617pt>
+)
+
+Package natbib Warning: Citation `Charlot:2000aa' on page 2 undefined on input 
+line 164.
+
+[2] [3 <./fig1.pdf>] <fig2.pdf, id=37, 517.45322pt x 412.6617pt>
 File: fig2.pdf Graphic file (type pdf)
- <use fig2.pdf>
+
+<use fig2.pdf>
 Package pdftex.def Info: fig2.pdf used on input line 294.
 (pdftex.def)             Requested size: 248.37471pt x 198.07535pt.
 
@@ -431,7 +437,7 @@ Overfull \hbox (3.10818pt too wide) in paragraph at lines 293--295
  [] 
  []
 
-[4] [5 <./fig2.pdf>] <fig3.pdf, id=51, 758.835pt x 614.295pt>
+[4] [5 <./fig2.pdf>] <fig3.pdf, id=53, 758.835pt x 614.295pt>
 File: fig3.pdf Graphic file (type pdf)
  <use fig3.pdf>
 Package pdftex.def Info: fig3.pdf used on input line 413.
@@ -476,52 +482,52 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 683.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<fig6.pdf, id=80, 606.265pt x 1192.455pt>
+<fig6.pdf, id=86, 606.265pt x 1192.455pt>
 File: fig6.pdf Graphic file (type pdf)
  <use fig6.pdf>
 Package pdftex.def Info: fig6.pdf used on input line 759.
 (pdftex.def)             Requested size: 260.87389pt x 513.11743pt.
  [10 <./fig5.pdf>]
-[11 <./fig6.pdf>] [12] [13] [14] (./qf_environment.bbl) [15]
-(./qf_environment.aux)
+[11 <./fig6.pdf>] [12] [13] [14] (./qf_environment.bbl)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+Package natbib Warning: There were undefined citations.
 
-
- ) 
+[15] (./qf_environment.aux) ) 
 Here is how much of TeX's memory you used:
- 5487 strings out of 493315
- 74298 string characters out of 6137904
- 181536 words of memory out of 5000000
- 8833 multiletter control sequences out of 15000+600000
- 13390 words of font info for 55 fonts, out of 8000000 for 9000
+ 5492 strings out of 493315
+ 74359 string characters out of 6137904
+ 181583 words of memory out of 5000000
+ 8836 multiletter control sequences out of 15000+600000
+ 14057 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,29p,1795b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
-w/courier/ucrr8a.pfb>
-Output written on qf_environment.pdf (15 pages, 597076 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbxti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on qf_environment.pdf (15 pages, 642908 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

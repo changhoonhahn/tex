@@ -15,7 +15,7 @@ I have received the referee's report on your above submission to The Astrophysic
 
 When you resubmit the manuscript, please include a detailed cover letter containing the (mandatory) listing of the changes you've made to the text and your responses to the report.
 
-Click the link below to upload your revised manuscript; 
+Click the link below to upload your revised manuscript; 		
 http://apj.msubmit.net/cgi-bin/main.plex?el=A6Ew1TL6A3CfGS1J7A9ftdhSCRuGAD5aB2tFkIbuQxBwZ
 Alternatively, you may also log into your account at the EJ Press web site, http://apj.msubmit.net. Please use your user's login name: chahah. You can then ask for a new password via the Unknown/Forgotten Password link if you have forgotten your password. 
 
@@ -106,3 +106,7 @@ We have now included the missing text.
 
 - Section 5, item 3: Note the mass range over which the results are valid.
 We now specify the mass range (10^10.5-10^11.0 M_sun) where the results are valid. 
+
+
+Other changes: 
+- Title has been changed to “Effects of Galaxy Environment on the Quiescent Fraction Evolution at z < 0.8”

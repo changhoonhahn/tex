@@ -19,7 +19,7 @@
 
 \begin{document}
 
-\title{PRIMUS: Effects of Galaxy Environment on the Quiescent Fraction Evolution at \lowercase{\textit{z}}$<0.8$}
+\title{PRIMUS: {\bf Effects of} Galaxy Environment on the Quiescent Fraction Evolution at \lowercase{\textit{z}}$<0.8$}
 \author{
 ChangHoon~Hahn\altaffilmark{1}, 
 Michael R.~Blanton\altaffilmark{1}, 
@@ -159,9 +159,9 @@ spectroscopic redshifts from PRIMUS, a faint galaxy survey with $\sim
 $z \approx 0-1.2$. The survey was conducted using the IMACS
 spectrograph on the Magellan I Baade $6.5$-m telescope with a slitmask and low dispersion prism. For details on the PRIMUS observation methods such as survey design, targeting, and data summary, {\bf we refer readers to the \cite{Coil:2011aa}. For details on redshift fitting, redshift precision and survey completeness we refer readers to \cite{Cool:2013aa}.}
 
-While the PRIMUS survey targeted seven distinct extragalactic deep fields for a total of $\sim 9 \; \mathrm{deg}^2$, we restrict our sample to five fields that have $GALEX$ and {\em Spitzer}/IRAC imaging for a total of $\sim 5.5 \; \mathrm{deg}^2$ (similar to the sample selection in \citealt{Moustakas:2013aa}). Four of these fields are a part of the {\em Spitzer} Wide-area Infrared Extragalactic Survey (SWIRE\footnote{http://swire.ipac.caltech.edu/swire/swire.html}): the European Large Area ISO Survey - South $1$ field (ELAIS-S1\footnote{http://dipastro.pd.astro.it/esis}), the Chandra Deep Field South SWIRE field (CDFS), and the XMM Large Scale Structure Survey field (XMM-LSS). The XMM-LSS consists of two separate but spatially adjacent fields: the Subaru/XMM-Newton DEEP Survey field (XMM-SXDS\footnote{http://www.naoj.org/cience/SubaruProject/SDS}) and the Canadian-France-Hawaii Telescope Legacy Survey field (XMM-CFHTLS\footnote{http://www.cfht.hawaii.edu/Science/CFHLS}). Our fifth and final field is the Cosmic Evolution Survey (COSMOS\footnote{http://cosmos.astro.caltech.edu}) field. For all of our fields we have near-UV (NUV) and far-UV (FUV) photometry from the {\em GALEX} Deep Imaging Survey (DIS; \citealt{Martin:2005aa, Morrissey:2005aa}) as well as ground-based optical and {\em Spitzer}/IRAC mid-infrared photometric catalogs. \cite{Moustakas:2013aa} provides detailed descriptions of integrated flux calculations in the photometric bands for each of our fields. Furthermore, we derive the {\em K-corrections} from the photometry using \texttt{K-correct} (v4.2; \citealt{Blanton:2007aa}). 
+While the PRIMUS survey targeted seven distinct extragalactic deep fields for a total of $\sim 9 \; \mathrm{deg}^2$, we restrict our sample to five fields that have $GALEX$ and {\em Spitzer}/IRAC imaging for a total of $\sim 5.5 \; \mathrm{deg}^2$ (similar to the sample selection in \citealt{Moustakas:2013aa}). Four of these fields are a part of the {\em Spitzer} Wide-area Infrared Extragalactic Survey (SWIRE\footnote{http://swire.ipac.caltech.edu/swire/swire.html}): the European Large Area ISO Survey - South $1$ field (ELAIS-S1\footnote{http://dipastro.pd.astro.it/esis}), the Chandra Deep Field South SWIRE field (CDFS), and the XMM Large Scale Structure Survey field (XMM-LSS). The XMM-LSS consists of two separate but spatially adjacent fields: the Subaru/XMM-Newton DEEP Survey field ({\bf XMM-SXDS}\footnote{http://www.naoj.org/cience/SubaruProject/SDS}) and the Canadian-France-Hawaii Telescope Legacy Survey field (XMM-CFHTLS\footnote{http://www.cfht.hawaii.edu/Science/CFHLS}). Our fifth and final field is the Cosmic Evolution Survey (COSMOS\footnote{http://cosmos.astro.caltech.edu}) field. For all of our fields we have near-UV (NUV) and far-UV (FUV) photometry from the {\em GALEX} Deep Imaging Survey (DIS; \citealt{Martin:2005aa, Morrissey:2005aa}) as well as ground-based optical and {\em Spitzer}/IRAC mid-infrared photometric catalogs. \cite{Moustakas:2013aa} provides detailed descriptions of integrated flux calculations in the photometric bands for each of our fields. Furthermore, we derive the {\em K-corrections} from the photometry using \texttt{K-correct} (v4.2; \citealt{Blanton:2007aa}). 
 
-Finally, using the spectroscopic redshift and broad wavelength photometry we apply \texttt{iSEDfit}, a Bayesian SED modeling code, to calculate stellar masses and star formation rates (SFRs) for our sample galaxies (\citealt{Moustakas:2013aa}). \texttt{iSEDfit} uses the redshift and the observed photometry of the galaxies to determine the statistical likelihood of a large ensemble of generated model SEDs. The model SEDs are generated using Flexible Stellar Population Synthesis (FSPS) models (\citealt{Conroy:2010aa}) based on the \cite{Chabrier:2003aa} IMF, along with {\bf a time dependent dust attenuation curve of \cite{Charlot:2000aa} and }other prior parameters discussed in Section 4.1 and Appendix A of \cite{Moustakas:2013aa}. For the observed photometry, we use the {\em GALEX} FUV and NUV, the two shortest IRAC bands at $3.6$ and $4.5 \mu \mathrm{m}$ (the two longer-wavelength IRAC channels are excluded because \texttt{iSEDfit} does not model hot dust or polycyclic aromatic hydrocarbons emission lines), and the optical bands. 
+Finally, using the spectroscopic redshift and broad wavelength photometry we apply \texttt{iSEDfit}, a Bayesian SED modeling code, to calculate stellar masses and star formation rates (SFRs) for our sample galaxies (\citealt{Moustakas:2013aa}). \texttt{iSEDfit} uses the redshift and the observed photometry of the galaxies to determine the statistical likelihood of a large ensemble of generated model SEDs. The model SEDs are generated using Flexible Stellar Population Synthesis (FSPS) models (\citealt{Conroy:2010aa}) based on the \cite{Chabrier:2003aa} IMF, along with {\bf a time dependent dust attenuation curve of \cite{Charlot:2000aa} and }other prior parameters discussed in Section 4.1 and Appendix A of \cite{Moustakas:2013aa}. {\bf For details on the effects of prior parameter choices of iSEDfit on physical properties of galaxies we refer readers to the Appendix of \cite{Moustakas:2013aa}}. For the observed photometry, we use the {\em GALEX} FUV and NUV, the two shortest IRAC bands at $3.6$ and $4.5 \mu \mathrm{m}$ (the two longer-wavelength IRAC channels are excluded because \texttt{iSEDfit} does not model hot dust or polycyclic aromatic hydrocarbons emission lines), and the optical bands. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SDSS-GALEX
@@ -718,8 +718,8 @@ completeness at each redshift bin limits the masses we probe for the
 $f_{\mathrm{Q}}$ evolution, our $f_{\mathrm{Q}}$ evolution exhibits little
 mass dependence.
 
-Because our fixed aperture definition of environment is susceptible to
-contamination due to PRIMUS redshift errors, we consider in Figure
+{\bf However, the uncertainties in the PRIMUS redshifts may contaminate 
+our fixed aperture measurements of galaxy environment. Consequently,} we consider in Figure
 \ref{fig:qffit_comp} more stringent high density environment
 classifications, extending the cut off to $n_{\mathrm{env}} > 5$ and
 $7$ (specified in the top right legend and represented by the color of
@@ -922,7 +922,7 @@ correction we impose to the \cite{Kovac:2014aa} $f_{\mathrm{red}}$ results.
 % Removed in order to tone down the criticism of 
 %However, even without the correction (not shown), in their best-fit $f_{\mathrm{Q}}$ results, the same evolutionary trends mentioned above are observed. 
 
-While the zCOSMOS survey provides more precise spectroscopic redshifts than PRIMUS, our sample provides significantly larger statistics. In addition, our sample covers a larger portion of the sky. Our SDSS-{\em GALEX} sample covers $2,505 \;\mathrm{deg}^2$. More comparably, our PRIMUS sample covers $5.5 \;\mathrm{deg}^2$, over 3 times the sky coverage of zCOSMOS ($1.7 \;\mathrm{deg}^2$). Furthermore, our PRIMUS sample is constructed from five independent fields which allows us to significantly reduce the effects of cosmic variance. 
+{\bf We note that due to the redshift uncertainties in PRIMUS, our galaxy environment measures to more susceptible to contamination. Furthermore, as discussed in \cite{Coil:2011aa} and \cite{Cool:2013aa}, PRIMUS has a targeting fraction of $\sim 80 \%$ and redshift success rate of $> 75 \%$. zCOSMOS, in comparison, has $88 \%$ redshift completeness for the entire sample and $95 \%$ complete within the redshift range $0.5 < z < 0.8$ (\citealt{Lilly:2009aa}).}While the zCOSMOS survey provides more precise spectroscopic redshifts than PRIMUS, our sample provides significantly larger statistics. In addition, our sample covers a larger portion of the sky. Our SDSS-{\em GALEX} sample covers $2,505 \;\mathrm{deg}^2$. More comparably, our PRIMUS sample covers $5.5 \;\mathrm{deg}^2$, over 3 times the sky coverage of zCOSMOS ($1.7 \;\mathrm{deg}^2$). Furthermore, our PRIMUS sample is constructed from five independent fields which allows us to significantly reduce the effects of cosmic variance.
 
 As listed in Table \ref{tab:subsample}, after our edge effect cuts and
 stellar mass completeness limits, our sample consists of $13,734$
@@ -1144,6 +1144,9 @@ Funding for PRIMUS has been provided by NSF grants AST-0607701, 0908246, 0908442
 
 \bibitem[{{Chabrier}(2003)}]{Chabrier:2003aa}
 {Chabrier}, G. 2003, \pasp, 115, 763
+
+\bibitem[{{Charlot} \& {Fall}(2000)}]{Charlot:2000aa}
+{Charlot}, S. and {Fall}, S.~M. 2000, \apj, 539, 718
 
 \bibitem[{{Coil} {et~al.}(2011){Coil}, {Blanton}, {Burles}, {Cool},
   {Eisenstein}, {Moustakas}, {Wong}, {Zhu}, {Aird}, {Bernstein}, {Bolton}, \&

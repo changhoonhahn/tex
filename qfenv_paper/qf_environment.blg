@@ -1,0 +1,129 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: qf_environment.aux
+The style file: apj.bst
+Database file #1: qf_environmentNotes.bib
+Warning--I didn't find a database entry for "hubble36a"
+Warning--I didn't find a database entry for "oemler74a"
+Warning--I didn't find a database entry for "dressler80a"
+Warning--I didn't find a database entry for "hermit96a"
+Warning--I didn't find a database entry for "guzzo97a"
+Warning--I didn't find a database entry for "blanton09a"
+Warning--I didn't find a database entry for "geha12a"
+Warning--I didn't find a database entry for "dressler84a"
+Warning--I didn't find a database entry for "Fasano:2000aa"
+Warning--I didn't find a database entry for "Smith:2005aa"
+Warning--I didn't find a database entry for "desai07a"
+Warning--I didn't find a database entry for "hopkins06a"
+Warning--I didn't find a database entry for "Noeske:2007aa"
+Warning--I didn't find a database entry for "bell05a"
+Warning--I didn't find a database entry for "magnelli09a"
+Warning--I didn't find a database entry for "cooper08a"
+Warning--I didn't find a database entry for "bundy06a"
+Warning--I didn't find a database entry for "borch06a"
+Warning--I didn't find a database entry for "taylor09a"
+Warning--I didn't find a database entry for "Moustakas:2013aa"
+Warning--I didn't find a database entry for "Blanton:2006aa"
+Warning--I didn't find a database entry for "Bell:2004aa"
+Warning--I didn't find a database entry for "Faber:2007aa"
+Warning--I didn't find a database entry for "Keres:2005aa"
+Warning--I didn't find a database entry for "Croton:2006aa"
+Warning--I didn't find a database entry for "Dekel:2008aa"
+Warning--I didn't find a database entry for "Gunn:1972aa"
+Warning--I didn't find a database entry for "Bekki:2009aa"
+Warning--I didn't find a database entry for "Larson:1980aa"
+Warning--I didn't find a database entry for "Balogh:2000aa"
+Warning--I didn't find a database entry for "Moore:1998aa"
+Warning--I didn't find a database entry for "Weinmann:2006aa"
+Warning--I didn't find a database entry for "Peng:2010aa"
+Warning--I didn't find a database entry for "Coil:2011aa"
+Warning--I didn't find a database entry for "Cool:2013aa"
+Warning--I didn't find a database entry for "York:2000aa"
+Warning--I didn't find a database entry for "Martin:2005aa"
+Warning--I didn't find a database entry for "Morrissey:2005aa"
+Warning--I didn't find a database entry for "Blanton:2007aa"
+Warning--I didn't find a database entry for "Conroy:2010aa"
+Warning--I didn't find a database entry for "Chabrier:2003aa"
+Warning--I didn't find a database entry for "Charlot:2000aa"
+Warning--I didn't find a database entry for "Abazajian:2009aa"
+Warning--I didn't find a database entry for "Blanton:2005aa"
+Warning--I didn't find a database entry for "Jarrett:2000aa"
+Warning--I didn't find a database entry for "West:2005aa"
+Warning--I didn't find a database entry for "Blanton:2005ab"
+Warning--I didn't find a database entry for "Lauer:2007aa"
+Warning--I didn't find a database entry for "Bernardi:2007aa"
+Warning--I didn't find a database entry for "Hyde:2009aa"
+Warning--I didn't find a database entry for "West:2010aa"
+Warning--I didn't find a database entry for "Blanton:2011aa"
+Warning--I didn't find a database entry for "Pozzetti:2010aa"
+Warning--I didn't find a database entry for "Baldry:2008aa"
+Warning--I didn't find a database entry for "Williams:2009aa"
+Warning--I didn't find a database entry for "Karim:2011aa"
+Warning--I didn't find a database entry for "Salim:2007aa"
+Warning--I didn't find a database entry for "Muldrew:2012aa"
+Warning--I didn't find a database entry for "Skibba:2013aa"
+Warning--I didn't find a database entry for "Cooper:2005aa"
+Warning--I didn't find a database entry for "Gallazzi:2009aa"
+Warning--I didn't find a database entry for "Wilman:2010aa"
+Warning--I didn't find a database entry for "Behroozi:2013aa"
+Warning--I didn't find a database entry for "Leja:2013aa"
+Warning--I didn't find a database entry for "Swanson:2008aa"
+Warning--I didn't find a database entry for "Johnston:2011aa"
+Warning--I didn't find a database entry for "norberg02a"
+Warning--I didn't find a database entry for "zehavi02a"
+Warning--I didn't find a database entry for "Scodeggio:2009aa"
+Warning--I didn't find a database entry for "Bolzonella:2010aa"
+Warning--I didn't find a database entry for "Cooper:2010aa"
+Warning--I didn't find a database entry for "Butcher:1984aa"
+Warning--I didn't find a database entry for "Iovino:2010aa"
+Warning--I didn't find a database entry for "Baldry:2006aa"
+Warning--I didn't find a database entry for "Cucciati:2010aa"
+Warning--I didn't find a database entry for "Driver:2010aa"
+Warning--I didn't find a database entry for "Markwardt:2009aa"
+Warning--I didn't find a database entry for "Kovac:2014aa"
+Warning--I didn't find a database entry for "Tinker:2011aa"
+Warning--I didn't find a database entry for "Lilly:2009aa"
+Warning--I didn't find a database entry for "Kovac:2010ab"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 0 entries,
+            3085 wiz_defined-function locations,
+            775 strings with 6047 characters,
+and the built_in function-call counts, 20 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 4
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 3
+(There were 81 warnings)

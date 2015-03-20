@@ -1,0 +1,254 @@
+Dear Editor, 
+
+We thank the referee for the thorough review of our work and for the constructive report that improved the quality of the paper.  
+
+Please find below responses to the referee’s comments for the submission along with a number of changes made to our paper. 
+
+Thank you, 
+ChangHoon Hahn 
+
+-
+ChangHoon Hahn
+Center for Cosmology and Particle Physics
+New York University 
+4 Washington Place 
+New York, NY 10003
+chh327@nyu.edu
+ 
+================================================================================
+        February 2, 2015 
+
+        Mr. ChangHoon Hahn
+        Center for Cosmology and Particle Physics
+        New York University
+        4 Washington Place
+        New York, NY 10003
+
+
+        Title: PRIMUS: Galaxy Environment on the Quiescent Fraction Evolution at z < 0.8
+
+        Dear Mr. Hahn,
+
+        I have received the referee's report on your above submission to The
+        Astrophysical Journal, and appended it below. As you will see, the
+        referee thinks that your article is interesting and that it will merit
+        publication once you have addressed the issues raised in the
+        report.
+
+        When you resubmit the manuscript, please include a detailed cover
+        letter containing the (mandatory) listing of the changes you've made to
+        the text and your responses to the report. 
+
+        Click the link below to upload your revised manuscript;         
+        http://apj.msubmit.net/cgi-bin/main.plex?el=A6Ew1TL6A3CfGS1J7A9ftdhSCRuGAD5aB2tFkIbuQxBwZ
+        Alternatively, you may also log into your account at the EJ Press web
+        site, http://apj.msubmit.net. Please use your user's login name:
+        chahah. You can then ask for a new password via the Unknown/Forgotten
+        Password link if you have forgotten your password.
+
+        Reviewers find it helpful if the changes in the text of the manuscript
+        are easily distinguishable from the rest of the text. Therefore we ask
+        you to print changes in bold face. The highlighting can be removed
+        easily after the review.
+
+        The Astrophysical Journal has adopted a new policy that manuscript
+        files become inactive, and are considered to have been withdrawn, six
+        months after the most recent referee's report goes to the authors,
+        provided a revised version has not been received by that time.
+
+        If you have any questions, feel free to contact me.
+
+        Sincerely,
+        Lee Armus
+        ApJ Scientific Editor
+        California Institute of Technology
+        apjla@ipac.caltech.edu
+        ---------------------------------------------------------------------- 
+        Referee Report 
+        Reviewer's Comments:
+        Report on 'PRIMUS: Galaxy Environment on the Quiescent Fraction
+        Evolution at z < 0.8' by Hahn et al.
+
+        The authors have used the large PRIMUS redshift survey to
+        determine the quiescent fraction as a function of environment,
+        mass and redshift, with SDSS used for the lowest redshift
+        bin. This is topical as it pertains to discussions of how
+        galaxies become quiescent - often called quenching. This study is
+        new in that it utilizes the largest redshift survey over the
+        range 0.2 < z < 0.8. Having said that, the drawback of this
+        particular survey is that the cosmological redshift uncertainties
+        are significantly larger than one would expect from peculiar
+        velocities because of the low-dispersion spectra used. This
+        increases the noise and systematic uncertainties in quantifying
+        environments. Overall the paper is sufficiently clear and
+        original to warrant publication. I would recommend some further
+        investigation into the environment measures and whether this
+        might introduce some systematic trends, as well as some minor
+        changes.
+
+        Major comments:
+
+        The environmental measures make use of long cylinders, with the
+        length along the redshift direction. The height is noted as being
+        35 Mpc. This may actually be +-35 Mpc. At z=0.7, an average
+        redshift uncertainty of 0.005*(1+0.7) corresponds to 25 Mpc. The
+        half height of the cylinder then corresponds to 1.4 sigma (or
+        only 0.7 sigma if the cylinder is +- 17.5 Mpc). The authors
+        should investigate whether the uncertainties of the PRIMUS
+        redshifts vary as a function of redshift, and whether the
+        uncertainties depend on galaxy type (star forming or
+        quiescent). This potentially affects the quiescent fraction as a
+        function of environment as certain types of galaxies might be
+        more likely to be scattered out of higher density environments.
+
+RESPONSE: 
+The height represents the full height of the cylindrical aperture (+/— 17.5
+Mpc). We select the dimensions to minimize aperture height while accounting for
+the redshift uncertainties, especially at our sample's highest redshift bin z~0.7. 
+
+Cool et al. 2013 specifically compare redshift accuracy and success rate of
+PRIMUS galaxies to high resolution spectroscopic redshifts from COSMOS, DEEP2,
+and VVDS. They do not note any significant redshift dependence or dependence
+with observed-frame color. We now explicitly refer to Cool et al. (2010) in
+Section 2.1.  
+
+In addition, Moustakas et al. 2013 emphasize in their Section 3.1 after
+extensive comparison to high resolution spectroscopic redshift that the
+redshift success in PRIMUS is not a strong function of galaxy type. Also, when
+we compare a subsample of the data used in our analysis to high resolution
+spectroscopic redshifts we find no significant dependence on galaxy type or
+redshift (no significant variations in the dispersion of delta z/(1+z) or the
+outlier rate between quiescent and star-forming populations).
+
+        Even though the lowest masses are generally not discussed in the
+        paper, there is a concern that the galaxies at 10^9.5 and 10^10
+        solar masses show little dependence on environment in the PRIMUS
+        sample, especially over redshifts 0.2-0.4. Other authors have
+        shown that the environmental dependence is getting larger below
+        10^10.5. The SDSS data cutoff at 10^10.4 in Figure 4. The authors
+        could look at a 0.02 to 0.05 redshift sample to test whether the
+        SDSS trend continues and shows quite a different trend to the
+        PRIMUS 0.2-0.4 sample as suggested by the high-density
+        environment data presented in Figure 4. One would not expect a
+        big change in behaviour between z=0 and z=0.3, and one
+        explanation for the difference could be the redshift
+        uncertainties in PRIMUS and how they depend on galaxy
+        type. Noting that the SDSS uncertainties that have been
+        artificially included are 0.005 in 1+z with a Gaussian
+        distribution, which is unlikely to have exactly the same form as
+        the PRIMUS redshift uncertainties.
+
+RESPONSE: 
+We added a discussion on the lack of environment dependence in the quiescent
+fraction at z ~ 0.3 for M* < 10^10 solar masses near the end of Section 4.1. 
+
+Although we observe little environment dependence at these redshifts and mass
+range, we note that the uncertainties calculated from our jack-knife technique
+underestimate the total uncertainty contribution from cosmic variance. 
+
+At these M* < 10^10 solar masses, only three out of the five targeted PRIMUS
+Fields (XMM-SXDS, XMM-CFHTLS, and COSMOS) contribute galaxies, with XMM-SXDS
+and XMM-CFHTLS being spatially adjacent. A rough estimate of the cosmic
+variances for these three fields using the expressions derived in Driver et al.
+(2010) put cosmic variance uncertainties > 60%. This estimate does not take
+into account the unique geometry of the PRIMUS fields or the edge-cuts we
+impose, which only increase the cosmic variance uncertainties. Therefore, the
+quiescent fraction comparison at z ~ 0.3 for M* < 10^10 solar masses cannot be
+accurately made using our PRIMUS sample.
+
+A comparison to the low mass SDSS quiescent fraction is currently made
+difficult by the mass-to-light ratio and the bright and faint limits of the
+SDSS data. Future investigation, which will correct for the photometric biases
+of the SDSS data will also extend the low mass limit of the quiescent fraction
+analysis using data from the NASA Sloan Atlas Catalog. 
+
+        Note on above, I think it is fine for this paper to focus on
+        fiducial points of 10^10.5 and 10^11 solar masses, it is just
+        that looking to lower masses may indicate a problem with the
+        methodology.
+
+        Minor comments:
+
+        Last sentence of abstract: 'However' is the wrong joining term; 'In
+        other words' would be more appropriate.
+
+‘However’ has been corrected to ‘In other words’.
+
+        Section 2.1: How does iSEDFIT deal with dust obscuration? How
+        successful might it be? A couple or more sentences on this would be
+        useful.
+
+We now explicitly mention that the time-dependent dust attention curve of
+Charlot & Fall (2000) is used by iSEDfit to deal with dust obscurations in
+Section 2.1. We also now explicitly refer reads to Moustakas et al. (2013) for
+further details on the effects of prior parameter choices on the extracted
+physical properties of galaxies. 
+
+        Section 2.3: GALEX does not provide redshifts. When referring to
+        redshifts, they should not be called SDSS-GALEX redshifts. It is only
+        an SDSS-GALEX sample.
+
+We now correctly specify that the redshifts from the SDSS-GALEX sample are SDSS
+redshifts in Section 2.4.
+
+        Section 2.5: State whether 35 Mpc is half height or full height of
+        cylinder. I presume these are comoving Mpc, state this.
+
+We now specifically state that H_ap is the full height of the cylinder and that
+the aperture dimensions are comoving distances in Section 2.5. 
+
+
+        There is perhaps surprisingly no evolution in M_{r,lim}. Has there been
+        an evolution correction applied for M_r?
+
+No, we do not apply any evolution correction to the absolute magnitude values. 
+
+
+        N_{env}. Can this have a value between 0 and 1? I would have thought
+        all the weights would be >=1. Therefore better to state the low-density
+        environment as n_{env} = 0. 
+
+No, n_{env} cannot have a value between 0 and 1. We have corrected the
+low-density environment cut-off to n_{env} = 0 throughout the text and in all
+the figures.
+
+        Section 2.6: Why does this need to use random points? Why not a finely
+        spaced regular grid in RA and DEC?
+
+We use random points due to the convenience of the ransack commands, which
+generates random points given a survey geometry. We believe that the referee's
+suggestion of a finely spaced regulard grid would not make a significant
+difference in accounting for the edge effects. 
+
+        End of page 9: missing text after $\sim0.3$ to $\sim0.7$ [for high density].
+
+Corrected. 
+
+        Page 12 and elsewhere: The caveat that PRIMUS has more galaxies, and
+        therefore better statistics than zCOSMOS is that the environmental
+        measures are possibly significantly less reliable because of redshift
+        uncertainties. I think this should be pointed out a couple of more
+        times than is done currently within the text. There is also the issue
+        of overall redshift completeness (targeting and redshift success
+        combined), how does PRIMUS compare with zCOSMOS in this regard?
+
+We now explicitly state, in Section 4.3, that our galaxy environment measures
+are susceptible to contamination due to PRIMUS redshift uncertainties. We also
+emphasize the role of the redshift uncertainties in motivating the more
+stringent high density environment classifications in Section 4.2. 
+
+As suggested by referee, we also discuss the overall redshift completeness
+of PRIMUS versus zCOSMOS in Section 4.3. 
+
+        Section 5, item 3: Note the mass range over which the results are valid.
+
+We now explicitly state that the mass range (10^10.5-10^11.0 M_sun) where the
+results are valid.
+
+------------------------------------------------------------------------------------
+OTHER CHANGES: 
+
+- Title has been changed to “Effects of Galaxy Environment on the Quiescent
+  Fraction Evolution at z < 0.8” 
+
+- Typo in Section 2.1 of one of the PRIMUS fields has been corrected. 

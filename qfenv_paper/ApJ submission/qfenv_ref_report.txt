@@ -55,38 +55,17 @@ changes.
 
 Major comments:
 
-The environmental measures make use of long cylinders, with the
-length along the redshift direction. The height is noted as being
-35 Mpc. This may actually be +-35 Mpc. At z=0.7, an average
-redshift uncertainty of 0.005*(1+0.7) corresponds to 25 Mpc. The
-half height of the cylinder then corresponds to 1.4 sigma (or
-only 0.7 sigma if the cylinder is +- 17.5 Mpc). The authors
-should investigate whether the uncertainties of the PRIMUS
-redshifts vary as a function of redshift, and whether the
-uncertainties depend on galaxy type (star forming or
-quiescent). This potentially affects the quiescent fraction as a
-function of environment as certain types of galaxies might be
-more likely to be scattered out of higher density environments.
+- The environmental measures make use of long cylinders, with the length along the redshift direction. The height is noted as being 35 Mpc. This may actually be +-35 Mpc. At z=0.7, an average redshift uncertainty of 0.005*(1+0.7) corresponds to 25 Mpc. The half height of the cylinder then corresponds to 1.4 sigma (or only 0.7 sigma if the cylinder is +- 17.5 Mpc). The authors should investigate whether the uncertainties of the PRIMUS redshifts vary as a function of redshift, and whether the uncertainties depend on galaxy type (star forming or quiescent). This potentially affects the quiescent fraction as a function of environment as certain types of galaxies might be more likely to be scattered out of higher density environments.
 
+The height represents the full height of the cylindrical aperture (+— 17.5 Mpc). It was selected in order to minimize aperture height while accounting for the redshift uncertainties, especially at the highest redshift bin z~0.7. Cool et al. 2013 compare in detail redshift accuracy and success rate of PRIMUS galaxies in comparison to high resolution spectroscopic redshifts from COSMOS, DEEP2, and VVDS. They do not note any significant redshift dependence or dependence with observed-frame color. In addition, Moustakas et al. 2013 emphasize in their Section 3.1 after extensive comparison to high resolution spectroscopic redshift that, “the redshift success in PRIMUS is not a strong function of galaxy type”. Furthermore, comparison to high resolution spectroscopic redshifts for a subsample of the data used in our anlaysis reveal no significant dependence on galaxy type or redshift (no significant variations in the dispersion of delta z/(1+z) or the outlier rate).  
 
+- Even though the lowest masses are generally not discussed in the paper, there is a concern that the galaxies at 10^9.5 and 10^10 solar masses show little dependence on environment in the PRIMUS sample, especially over redshifts 0.2-0.4. Other authors have shown that the environmental dependence is getting larger below 10^10.5. The SDSS data cutoff at 10^10.4 in Figure 4. The authors could look at a 0.02 to 0.05 redshift sample to test whether the SDSS trend continues and shows quite a different trend to the PRIMUS 0.2-0.4 sample as suggested by the high-density environment data presented in Figure 4. One would not expect a big change in behaviour between z=0 and z=0.3, and one explanation for the difference could be the redshift uncertainties in PRIMUS and how they depend on galaxy type. Noting that the SDSS uncertainties that have been artificially included are 0.005 in 1+z with a Gaussian distribution, which is unlikely to have exactly the same form as the PRIMUS redshift uncertainties.
 
-Even though the lowest masses are generally not discussed in the
-paper, there is a concern that the galaxies at 10^9.5 and 10^10
-solar masses show little dependence on environment in the PRIMUS
-sample, especially over redshifts 0.2-0.4. Other authors have
-shown that the environmental dependence is getting larger below
-10^10.5. The SDSS data cutoff at 10^10.4 in Figure 4. The authors
-could look at a 0.02 to 0.05 redshift sample to test whether the
-SDSS trend continues and shows quite a different trend to the
-PRIMUS 0.2-0.4 sample as suggested by the high-density
-environment data presented in Figure 4. One would not expect a
-big change in behaviour between z=0 and z=0.3, and one
-explanation for the difference could be the redshift
-uncertainties in PRIMUS and how they depend on galaxy
-type. Noting that the SDSS uncertainties that have been
-artificially included are 0.005 in 1+z with a Gaussian
-distribution, which is unlikely to have exactly the same form as
-the PRIMUS redshift uncertainties.
+We now include a discussion on the lack of environment dependence in the quiescent fraction at z ~ 0.3 for M* < 10^10 solar masses near the end of Section 4.1. Briefly, although we observe little environment dependence at these redshifts and mass range, we emphasize that the jack-knife uncertainty estimates are underestimating the uncertainty from cosmic variance. 
+
+At these low masses, only three out of the five targeted PRIMUS Fields (XMM-SXDS, XMM-CFHTLS, and COSMOS) contribute galaxies, with XMM-SXDS and XMM-CFHTLS being spatially adjacent. A rough estimate of the cosmic variances using the expressions derived in Driver et al. (2010) put cosmic variance uncertainties > 60%. This estimate does not take into account the unique geometry of the PRIMUS fields or the edge-cuts, which only increase the cosmic variance uncertainties. Therefore, the quiescent fraction comparison at z ~ 0.3 for low masses cannot be reliable made using our PRIMUS sample. 
+
+A comparison to the low mass SDSS quiescent fraction is currently prohibited by the mass-to-light ratio and the bright and faint limits of the SDSS data. Future investigation correcting for the photometric biases of the SDSS data will also extend the low mass limit of the quiescent fraction analysis using data from the NASA Sloan Atlas Catalog. 
 
 Note on above, I think it is fine for this paper to focus on
 fiducial points of 10^10.5 and 10^11 solar masses, it is just

@@ -197,12 +197,10 @@ redshifts in Section 2.4.
 We now specifically state that H_ap is the full height of the cylinder and that
 the aperture dimensions are comoving distances in Section 2.5. 
 
-
         There is perhaps surprisingly no evolution in M_{r,lim}. Has there been
         an evolution correction applied for M_r?
 
 No, we do not apply any evolution correction to the absolute magnitude values. 
-
 
         N_{env}. Can this have a value between 0 and 1? I would have thought
         all the weights would be >=1. Therefore better to state the low-density
@@ -217,7 +215,7 @@ the figures.
 
 We use random points due to the convenience of the ransack commands, which
 generates random points given a survey geometry. We believe that the referee's
-suggestion of a finely spaced regulard grid would not make a significant
+suggestion of a finely spaced regular grid would not make a significant
 difference in accounting for the edge effects. 
 
         End of page 9: missing text after $\sim0.3$ to $\sim0.7$ [for high density].

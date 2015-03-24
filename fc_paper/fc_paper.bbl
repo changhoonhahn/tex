@@ -16,6 +16,13 @@
   {Zhao}}]{Anderson:2012aa}
 {Anderson}, L., {Aubourg}, E., {Bailey}, S., {et~al.} 2012, \mnras, 427, 3435
 
+\bibitem[{{Berlind} {et~al.}(2006){Berlind}, {Frieman}, {Weinberg}, {Blanton},
+  {Warren}, {Abazajian}, {Scranton}, {Hogg}, {Scoccimarro}, {Bahcall},
+  {Brinkmann}, {Gott}, {Kleinman}, {Krzesinski}, {Lee}, {Miller}, {Nitta},
+  {Schneider}, {Tucker}, {Zehavi}, \& {SDSS Collaboration}}]{Berlind:2006aa}
+{Berlind}, A.~A., {Frieman}, J., {Weinberg}, D.~H., {et~al.} 2006, \apjs, 167,
+  1
+
 \bibitem[{{Beutler} {et~al.}(2014){Beutler}, {Saito}, {Seo}, {Brinkmann},
   {Dawson}, {Eisenstein}, {Font-Ribera}, {Ho}, {McBride}, {Montesano},
   {Percival}, {Ross}, {Ross}, {Samushia}, {Schlegel}, {S{\'a}nchez}, {Tinker},
@@ -35,10 +42,42 @@
 {Cole}, S., {Percival}, W.~J., {Peacock}, J.~A., {et~al.} 2005, \mnras, 362,
   505
 
+\bibitem[{{Colless}(1999)}]{Colless:1999aa}
+{Colless}, M. 1999, Royal Society of London Philosophical Transactions Series
+  A, 357, 105
+
 \bibitem[{{Davis} {et~al.}(1985){Davis}, {Efstathiou}, {Frenk}, \&
   {White}}]{Davis:1985aa}
 {Davis}, M., {Efstathiou}, G., {Frenk}, C.~S., \& {White}, S.~D.~M. 1985, \apj,
   292, 371
+
+\bibitem[{{Dawson} {et~al.}(2013){Dawson}, {Schlegel}, {Ahn}, {Anderson},
+  {Aubourg}, {Bailey}, {Barkhouser}, {Bautista}, {Beifiori}, {Berlind},
+  {Bhardwaj}, {Bizyaev}, {Blake}, {Blanton}, {Blomqvist}, {Bolton}, {Borde},
+  {Bovy}, {Brandt}, {Brewington}, {Brinkmann}, {Brown}, {Brownstein}, {Bundy},
+  {Busca}, {Carithers}, {Carnero}, {Carr}, {Chen}, {Comparat}, {Connolly},
+  {Cope}, {Croft}, {Cuesta}, {da Costa}, {Davenport}, {Delubac}, {de Putter},
+  {Dhital}, {Ealet}, {Ebelke}, {Eisenstein}, {Escoffier}, {Fan}, {Filiz Ak},
+  {Finley}, {Font-Ribera}, {G{\'e}nova-Santos}, {Gunn}, {Guo}, {Haggard},
+  {Hall}, {Hamilton}, {Harris}, {Harris}, {Ho}, {Hogg}, {Holder}, {Honscheid},
+  {Huehnerhoff}, {Jordan}, {Jordan}, {Kauffmann}, {Kazin}, {Kirkby}, {Klaene},
+  {Kneib}, {Le Goff}, {Lee}, {Long}, {Loomis}, {Lundgren}, {Lupton}, {Maia},
+  {Makler}, {Malanushenko}, {Malanushenko}, {Mandelbaum}, {Manera}, {Maraston},
+  {Margala}, {Masters}, {McBride}, {McDonald}, {McGreer}, {McMahon}, {Mena},
+  {Miralda-Escud{\'e}}, {Montero-Dorta}, {Montesano}, {Muna}, {Myers},
+  {Naugle}, {Nichol}, {Noterdaeme}, {Nuza}, {Olmstead}, {Oravetz}, {Oravetz},
+  {Owen}, {Padmanabhan}, {Palanque-Delabrouille}, {Pan}, {Parejko},
+  {P{\^a}ris}, {Percival}, {P{\'e}rez-Fournon}, {P{\'e}rez-R{\`a}fols},
+  {Petitjean}, {Pfaffenberger}, {Pforr}, {Pieri}, {Prada}, {Price-Whelan},
+  {Raddick}, {Rebolo}, {Rich}, {Richards}, {Rockosi}, {Roe}, {Ross}, {Ross},
+  {Rossi}, {Rubi{\~n}o-Martin}, {Samushia}, {S{\'a}nchez}, {Sayres}, {Schmidt},
+  {Schneider}, {Sc{\'o}ccola}, {Seo}, {Shelden}, {Sheldon}, {Shen}, {Shu},
+  {Slosar}, {Smee}, {Snedden}, {Stauffer}, {Steele}, {Strauss}, {Streblyanska},
+  {Suzuki}, {Swanson}, {Tal}, {Tanaka}, {Thomas}, {Tinker}, {Tojeiro},
+  {Tremonti}, {Vargas Maga{\~n}a}, {Verde}, {Viel}, {Wake}, {Watson}, {Weaver},
+  {Weinberg}, {Weiner}, {West}, {White}, {Wood-Vasey}, {Yeche}, {Zehavi},
+  {Zhao}, \& {Zheng}}]{Dawson:2013aa}
+{Dawson}, K.~S., {Schlegel}, D.~J., {Ahn}, C.~P., {et~al.} 2013, \aj, 145, 10
 
 \bibitem[{{Feldman} {et~al.}(1994){Feldman}, {Kaiser}, \&
   {Peacock}}]{Feldman:1994aa}
@@ -54,6 +93,10 @@
 
 \bibitem[{{Hogg}(1999)}]{Hogg:1999aa}
 {Hogg}, D.~W. 1999, ArXiv Astrophysics e-prints, astro-ph/9905116
+
+\bibitem[{{Makarem} {et~al.}(2014){Makarem}, {Kneib}, {Gillet}, {Bleuler},
+  {Bouri}, {Jenni}, {Prada}, \& {Sanchez}}]{Makarem:2014aa}
+{Makarem}, L., {Kneib}, J.-P., {Gillet}, D., {et~al.} 2014, \aap, 566, A84
 
 \bibitem[{{Manera} {et~al.}(2013){Manera}, {Scoccimarro}, {Percival},
   {Samushia}, {McBride}, {Ross}, {Sheth}, {White}, {Reid}, {S{\'a}nchez}, {de
@@ -71,12 +114,37 @@
   {Wechsler}, {Busha}, {Gardner}, \& {van den Bosch}}]{McBride:2009aa}
 {McBride}, C., {Berlind}, A., {Scoccimarro}, R., {et~al.} 2009, in Bulletin of
   the American Astronomical Society, Vol.~41, American Astronomical Society
-  Meeting Abstracts \#213, #425.06
+  Meeting Abstracts \#213, \#425.06
 
 \bibitem[{{Morales} {et~al.}(2012){Morales}, {Montero-Dorta}, {Azzaro},
   {Prada}, {S{\'a}nchez}, \& {Becerril}}]{Morales:2012aa}
 {Morales}, I., {Montero-Dorta}, A.~D., {Azzaro}, M., {et~al.} 2012, \mnras,
   419, 1187
+
+\bibitem[{{Schlegel} {et~al.}(2011){Schlegel}, {Abdalla}, {Abraham}, {Ahn},
+  {Allende Prieto}, {Annis}, {Aubourg}, {Azzaro}, {Baltay}, {Baugh}, {Bebek},
+  {Becerril}, {Blanton}, {Bolton}, {Bromley}, {Cahn}, {Carton},
+  {Cervantes-Cota}, {Chu}, {Cortes}, {Dawson}, {Dey}, {Dickinson}, {Diehl},
+  {Doel}, {Ealet}, {Edelstein}, {Eppelle}, {Escoffier}, {Evrard}, {Faccioli},
+  {Frenk}, {Geha}, {Gerdes}, {Gondolo}, {Gonzalez-Arroyo}, {Grossan},
+  {Heckman}, {Heetderks}, {Ho}, {Honscheid}, {Huterer}, {Ilbert}, {Ivans},
+  {Jelinsky}, {Jing}, {Joyce}, {Kennedy}, {Kent}, {Kieda}, {Kim}, {Kim},
+  {Kneib}, {Kong}, {Kosowsky}, {Krishnan}, {Lahav}, {Lampton}, {LeBohec}, {Le
+  Brun}, {Levi}, {Li}, {Liang}, {Lim}, {Lin}, {Linder}, {Lorenzon}, {de la
+  Macorra}, {Magneville}, {Malina}, {Marinoni}, {Martinez}, {Majewski},
+  {Matheson}, {McCloskey}, {McDonald}, {McKay}, {McMahon}, {Menard},
+  {Miralda-Escude}, {Modjaz}, {Montero-Dorta}, {Morales}, {Mostek}, {Newman},
+  {Nichol}, {Nugent}, {Olsen}, {Padmanabhan}, {Palanque-Delabrouille}, {Park},
+  {Peacock}, {Percival}, {Perlmutter}, {Peroux}, {Petitjean}, {Prada},
+  {Prieto}, {Prochaska}, {Reil}, {Rockosi}, {Roe}, {Rollinde}, {Roodman},
+  {Ross}, {Rudnick}, {Ruhlmann-Kleider}, {Sanchez}, {Sawyer}, {Schimd},
+  {Schubnell}, {Scoccimaro}, {Seljak}, {Seo}, {Sheldon}, {Sholl},
+  {Shulte-Ladbeck}, {Slosar}, {Smith}, {Smoot}, {Springer}, {Stril}, {Szalay},
+  {Tao}, {Tarle}, {Taylor}, {Tilquin}, {Tinker}, {Valdes}, {Wang}, {Wang},
+  {Weaver}, {Weinberg}, {White}, {Wood-Vasey}, {Yang}, {Yeche}, {Zakamska},
+  {Zentner}, {Zhai}, \& {Zhang}}]{Schlegel:2011aa}
+{Schlegel}, D., {Abdalla}, F., {Abraham}, T., {et~al.} 2011, ArXiv e-prints,
+  arXiv:1106.1706
 
 \bibitem[{{Scoccimarro} \& {Sheth}(2002)}]{Scoccimarro:2002aa}
 {Scoccimarro}, R., \& {Sheth}, R.~K. 2002, \mnras, 329, 629

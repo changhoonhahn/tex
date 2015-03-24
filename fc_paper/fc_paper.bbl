@@ -22,6 +22,10 @@
   \& {Weaver}}]{Beutler:2014aa}
 {Beutler}, F., {Saito}, S., {Seo}, H.-J., {et~al.} 2014, \mnras, 443, 1065
 
+\bibitem[{{Blanton} {et~al.}(2003){Blanton}, {Lin}, {Lupton}, {Maley}, {Young},
+  {Zehavi}, \& {Loveday}}]{Blanton:2003ab}
+{Blanton}, M.~R., {Lin}, H., {Lupton}, R.~H., {et~al.} 2003, \aj, 125, 2276
+
 \bibitem[{{Cole} {et~al.}(2005){Cole}, {Percival}, {Peacock}, {Norberg},
   {Baugh}, {Frenk}, {Baldry}, {Bland-Hawthorn}, {Bridges}, {Cannon}, {Colless},
   {Collins}, {Couch}, {Cross}, {Dalton}, {Eke}, {De Propris}, {Driver},
@@ -67,11 +71,12 @@
   {Wechsler}, {Busha}, {Gardner}, \& {van den Bosch}}]{McBride:2009aa}
 {McBride}, C., {Berlind}, A., {Scoccimarro}, R., {et~al.} 2009, in Bulletin of
   the American Astronomical Society, Vol.~41, American Astronomical Society
-  Meeting Abstracts \#213, \#425.06
+  Meeting Abstracts \#213, #425.06
 
-\bibitem[{{Percival} {et~al.}(2004){Percival}, {Verde}, \&
-  {Peacock}}]{Percival:2004aa}
-{Percival}, W.~J., {Verde}, L., \& {Peacock}, J.~A. 2004, \mnras, 347, 645
+\bibitem[{{Morales} {et~al.}(2012){Morales}, {Montero-Dorta}, {Azzaro},
+  {Prada}, {S{\'a}nchez}, \& {Becerril}}]{Morales:2012aa}
+{Morales}, I., {Montero-Dorta}, A.~D., {Azzaro}, M., {et~al.} 2012, \mnras,
+  419, 1187
 
 \bibitem[{{Scoccimarro} \& {Sheth}(2002)}]{Scoccimarro:2002aa}
 {Scoccimarro}, R., \& {Sheth}, R.~K. 2002, \mnras, 329, 629
@@ -89,5 +94,23 @@
   {Bassett}, \& {Nishioka}}]{Yamamoto:2006aa}
 {Yamamoto}, K., {Nakamichi}, M., {Kamino}, A., {Bassett}, B.~A., \& {Nishioka},
   H. 2006, \pasj, 58, 93
+
+\bibitem[{{Yoon} {et~al.}(2008){Yoon}, {Schawinski}, {Sheen}, {Ree}, \&
+  {Yi}}]{Yoon:2008aa}
+{Yoon}, J.~H., {Schawinski}, K., {Sheen}, Y.-K., {Ree}, C.~H., \& {Yi}, S.~K.
+  2008, \apjs, 176, 414
+
+\bibitem[{{Zehavi} {et~al.}(2002){Zehavi}, {Blanton}, {Frieman}, {Weinberg},
+  {Mo}, {Strauss}, {Anderson}, {Annis}, {Bahcall}, {Bernardi}, {Briggs},
+  {Brinkmann}, {Burles}, {Carey}, {Castander}, {Connolly}, {Csabai},
+  {Dalcanton}, {Dodelson}, {Doi}, {Eisenstein}, {Evans}, {Finkbeiner},
+  {Friedman}, {Fukugita}, {Gunn}, {Hennessy}, {Hindsley}, {Ivezi{\'c}}, {Kent},
+  {Knapp}, {Kron}, {Kunszt}, {Lamb}, {Leger}, {Long}, {Loveday}, {Lupton},
+  {McKay}, {Meiksin}, {Merrelli}, {Munn}, {Narayanan}, {Newcomb}, {Nichol},
+  {Owen}, {Peoples}, {Pope}, {Rockosi}, {Schlegel}, {Schneider}, {Scoccimarro},
+  {Sheth}, {Siegmund}, {Smee}, {Snir}, {Stebbins}, {Stoughton}, {SubbaRao},
+  {Szalay}, {Szapudi}, {Tegmark}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley},
+  {Waddell}, {Yanny}, \& {York}}]{Zehavi:2002aa}
+{Zehavi}, I., {Blanton}, M.~R., {Frieman}, J.~A., {et~al.} 2002, \apj, 571, 172
 
 \end{thebibliography}

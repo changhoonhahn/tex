@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  1 MAR 2015 05:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 MAR 2015 12:20
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **fc_paper.tex
@@ -404,106 +404,90 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
-<fcpaper_z_dist.png, id=1, 536.2434pt x 427.8384pt>
-File: fcpaper_z_dist.png Graphic file (type png)
- <use fcpaper_z_dist.png>
-Package pdftex.def Info: fcpaper_z_dist.png used on input line 53.
-(pdftex.def)             Requested size: 241.3073pt x 192.5255pt.
-
-[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 63.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 63.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
-<fcpaper_pk_comp.png, id=18, 489.2679pt x 534.0753pt>
+
+Package natbib Warning: Citation `Makarem:2014aa' on page 1 undefined on input 
+line 42.
+
+[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<fcpaper_z_dist.png, id=18, 536.2434pt x 427.8384pt>
+File: fcpaper_z_dist.png Graphic file (type png)
+ <use fcpaper_z_dist.png>
+Package pdftex.def Info: fcpaper_z_dist.png used on input line 61.
+(pdftex.def)             Requested size: 241.3073pt x 192.5255pt.
+
+[2 <./fcpaper_z_dist.png>]
+<fcpaper_pk_comp.png, id=25, 489.2679pt x 534.0753pt>
 File: fcpaper_pk_comp.png Graphic file (type png)
 
 <use fcpaper_pk_comp.png>
-Package pdftex.def Info: fcpaper_pk_comp.png used on input line 95.
+Package pdftex.def Info: fcpaper_pk_comp.png used on input line 103.
 (pdftex.def)             Requested size: 244.63335pt x 267.03699pt.
 
-<fcpaper_dlos_dist.png, id=19, 847.7271pt x 360.6273pt>
+<fcpaper_dlos_dist.png, id=26, 847.7271pt x 360.6273pt>
 File: fcpaper_dlos_dist.png Graphic file (type png)
 
 <use fcpaper_dlos_dist.png>
-Package pdftex.def Info: fcpaper_dlos_dist.png used on input line 112.
+Package pdftex.def Info: fcpaper_dlos_dist.png used on input line 120.
 (pdftex.def)             Requested size: 487.43929pt x 207.35909pt.
- [2 <./fcpaper_z_dist.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 123.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 123.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-[3 <./fcpaper_pk_comp.png>]
-<fcpaper_pk_peakonly_comp.png, id=34, 946.737pt x 369.2997pt>
+ [3 <./fcpaper_pk_comp.png>] [4 <./fcpaper_dlos_dist.png>] <fcpaper_pk_peakonly
+_comp.png, id=38, 946.737pt x 369.2997pt>
 File: fcpaper_pk_peakonly_comp.png Graphic file (type png)
 
 <use fcpaper_pk_peakonly_comp.png>
-Package pdftex.def Info: fcpaper_pk_peakonly_comp.png used on input line 178.
+Package pdftex.def Info: fcpaper_pk_peakonly_comp.png used on input line 186.
 (pdftex.def)             Requested size: 520.70697pt x 203.11545pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 178--179
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 186--187
  [] 
  []
 
-[4 <./fcpaper_dlos_dist.png>]
 <fcpaper_pk_shotnoiseonly_comp.png, id=39, 946.737pt x 377.9721pt>
 File: fcpaper_pk_shotnoiseonly_comp.png Graphic file (type png)
 
 <use fcpaper_pk_shotnoiseonly_comp.png>
-Package pdftex.def Info: fcpaper_pk_shotnoiseonly_comp.png used on input line 1
-92.
+Package pdftex.def Info: fcpaper_pk_shotnoiseonly_comp.png used on input line 2
+00.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 192--193
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 200--201
  [] 
  []
 
 
-LaTeX Warning: Reference `eq:my_shotnoise' on page 5 undefined on input line 19
-3.
+LaTeX Warning: Reference `eq:my_shotnoise' on page 5 undefined on input line 20
+1.
 
 
-LaTeX Warning: Reference `eq:my_shotnoise' on page 5 undefined on input line 19
-3.
+LaTeX Warning: Reference `eq:my_shotnoise' on page 5 undefined on input line 20
+1.
 
 
-Overfull \hbox (9.124pt too wide) detected at line 222
+Overfull \hbox (9.124pt too wide) detected at line 230
 \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 :
  []
 
-[5 <./fcpaper_pk_peakonly_comp.png>]
-Underfull \hbox (badness 2452) in paragraph at lines 243--244
+[5] [6 <./fcpaper_pk_peakonly_comp.png> <./fcpaper_pk_shotnoiseonly_comp.png>]
+Underfull \hbox (badness 2452) in paragraph at lines 251--252
 []\OT1/cmr/m/n/10 In or-der to com-pare the dif-fer-ent $\OML/cmm/m/it/10 P[]$ 
 \OT1/cmr/m/n/10 deriva-
  []
 
-[6 <./fcpaper_pk_shotnoiseonly_comp.png>]
 <fcpaper_pk_peakshotnoise_mpfit_comp.png, id=51, 946.737pt x 377.9721pt>
 File: fcpaper_pk_peakshotnoise_mpfit_comp.png Graphic file (type png)
 
 <use fcpaper_pk_peakshotnoise_mpfit_comp.png>
 Package pdftex.def Info: fcpaper_pk_peakshotnoise_mpfit_comp.png used on input 
-line 258.
+line 266.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 258--259
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 266--267
  [] 
  []
 
@@ -512,39 +496,41 @@ File: fcpaper_pk_chisquared_comparison.png Graphic file (type png)
 
 <use fcpaper_pk_chisquared_comparison.png>
 Package pdftex.def Info: fcpaper_pk_chisquared_comparison.png used on input lin
-e 281.
+e 289.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 281--282
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 289--290
  [] 
  []
 
-
-Package natbib Warning: Citation `Beutelr:2014aa' on page 7 undefined on input 
-line 301.
-
-
-Package natbib Warning: Citation `Beutelr:2014aa' on page 7 undefined on input 
-line 301.
-
 [7] [8 <./fcpaper_pk_peakshotnoise_mpfit_comp.png> <./fcpaper_pk_chisquared_com
-parison.png>] (./fc_paper.bbl)
+parison.png>] (./fc_paper.bbl
+./fc_paper.bbl:74: You can't use `macro parameter character #' in horizontal mo
+de.
+l.74   Meeting Abstracts \#213, #
+                                 425.06
+? 
+[9])
 
 Package natbib Warning: There were undefined citations.
 
-[9] (./fc_paper.aux)
+[10] (./fc_paper.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 5251 strings out of 493315
- 70369 string characters out of 6137904
- 159445 words of memory out of 5000000
- 8589 multiletter control sequences out of 15000+600000
+ 5267 strings out of 493315
+ 70650 string characters out of 6137904
+ 178274 words of memory out of 5000000
+ 8605 multiletter control sequences out of 15000+600000
  14114 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,10n,29p,1579b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,29p,1691b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
@@ -564,10 +550,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on fc_paper.pdf (9 pages, 622319 bytes).
+Output written on fc_paper.pdf (10 pages, 624681 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

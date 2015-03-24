@@ -180,7 +180,7 @@ analysis using data from the NASA Sloan Atlas Catalog.
 
 We now explicitly mention that the time-dependent dust attention curve of
 Charlot & Fall (2000) is used by iSEDfit to deal with dust obscurations in
-Section 2.1. We also now explicitly refer reads to Moustakas et al. (2013) for
+Section 2.1. We also now explicitly refer readers to Moustakas et al. (2013) for
 further details on the effects of prior parameter choices on the extracted
 physical properties of galaxies. 
 
@@ -235,7 +235,7 @@ are susceptible to contamination due to PRIMUS redshift uncertainties. We also
 emphasize the role of the redshift uncertainties in motivating the more
 stringent high density environment classifications in Section 4.2. 
 
-As suggested by referee, we also discuss the overall redshift completeness
+As suggested by the referee, we also discuss the overall redshift completeness
 of PRIMUS versus zCOSMOS in Section 4.3. 
 
         Section 5, item 3: Note the mass range over which the results are valid.

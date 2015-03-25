@@ -114,7 +114,14 @@
   {Wechsler}, {Busha}, {Gardner}, \& {van den Bosch}}]{McBride:2009aa}
 {McBride}, C., {Berlind}, A., {Scoccimarro}, R., {et~al.} 2009, in Bulletin of
   the American Astronomical Society, Vol.~41, American Astronomical Society
-  Meeting Abstracts \#213, \#425.06
+  Meeting Abstracts \#213, 425.06
+
+\bibitem[{{McBride} {et~al.}(2011){McBride}, {Berlind}, {Scoccimarro},
+  {Manera}, {Tinker}, {Busha}, {Wechsler}, {Wu}, \& {van den
+  Bosch}}]{McBride:2011aa}
+{McBride}, C., {Berlind}, A.~A., {Scoccimarro}, R., {et~al.} 2011, in Bulletin
+  of the American Astronomical Society, Vol.~43, American Astronomical Society
+  Meeting Abstracts \#217, 249.07
 
 \bibitem[{{Morales} {et~al.}(2012){Morales}, {Montero-Dorta}, {Azzaro},
   {Prada}, {S{\'a}nchez}, \& {Becerril}}]{Morales:2012aa}
@@ -180,5 +187,13 @@
   {Szalay}, {Szapudi}, {Tegmark}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley},
   {Waddell}, {Yanny}, \& {York}}]{Zehavi:2002aa}
 {Zehavi}, I., {Blanton}, M.~R., {Frieman}, J.~A., {et~al.} 2002, \apj, 571, 172
+
+\bibitem[{{Zehavi} {et~al.}(2005){Zehavi}, {Zheng}, {Weinberg}, {Frieman},
+  {Berlind}, {Blanton}, {Scoccimarro}, {Sheth}, {Strauss}, {Kayo}, {Suto},
+  {Fukugita}, {Nakamura}, {Bahcall}, {Brinkmann}, {Gunn}, {Hennessy},
+  {Ivezi{\'c}}, {Knapp}, {Loveday}, {Meiksin}, {Schlegel}, {Schneider},
+  {Szapudi}, {Tegmark}, {Vogeley}, {York}, \& {SDSS
+  Collaboration}}]{Zehavi:2005aa}
+{Zehavi}, I., {Zheng}, Z., {Weinberg}, D.~H., {et~al.} 2005, \apj, 630, 1
 
 \end{thebibliography}

@@ -91,6 +91,12 @@
 \bibitem[{{Guo} {et~al.}(2012){Guo}, {Zehavi}, \& {Zheng}}]{Guo:2012aa}
 {Guo}, H., {Zehavi}, I., \& {Zheng}, Z. 2012, \apj, 756, 127
 
+\bibitem[{{Heitmann} {et~al.}(2008){Heitmann}, {Luki{\'c}}, {Fasel}, {Habib},
+  {Warren}, {White}, {Ahrens}, {Ankeny}, {Armstrong}, {O'Shea}, {Ricker},
+  {Springel}, {Stadel}, \& {Trac}}]{Heitmann:2008aa}
+{Heitmann}, K., {Luki{\'c}}, Z., {Fasel}, P., {et~al.} 2008, Computational
+  Science and Discovery, 1, 015003
+
 \bibitem[{{Hogg}(1999)}]{Hogg:1999aa}
 {Hogg}, D.~W. 1999, ArXiv Astrophysics e-prints, astro-ph/9905116
 
@@ -152,6 +158,12 @@
   {Zentner}, {Zhai}, \& {Zhang}}]{Schlegel:2011aa}
 {Schlegel}, D., {Abdalla}, F., {Abraham}, T., {et~al.} 2011, ArXiv e-prints,
   arXiv:1106.1706
+
+\bibitem[{{Schneider} {et~al.}(2015){Schneider}, {Teyssier}, {Potter},
+  {Stadel}, {Onions}, {Reed}, {Smith}, {Springel}, \&
+  {Pearce}}]{Schneider:2015aa}
+{Schneider}, A., {Teyssier}, R., {Potter}, D., {et~al.} 2015, ArXiv e-prints,
+  arXiv:1503.05920
 
 \bibitem[{{Scoccimarro} \& {Sheth}(2002)}]{Scoccimarro:2002aa}
 {Scoccimarro}, R., \& {Sheth}, R.~K. 2002, \mnras, 329, 629

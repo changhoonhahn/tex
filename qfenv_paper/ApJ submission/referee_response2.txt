@@ -1,0 +1,102 @@
+Dear Editor, 
+
+We once again thank the referee for the thorough review of our work and
+for the constructive report. 
+
+Please find below responses to the referee's comment along with changes
+made to our paper. 
+
+Thank you, 
+ChangHoon Hahn 
+
+================================================================================
+        April 11, 2015 
+
+        Mr. ChangHoon Hahn
+        Center for Cosmology and Particle Physics
+        New York University
+        4 Washington Place
+        New York, NY 10003
+
+
+        Title: PRIMUS: Effects of Galaxy Environment on the Quiescent
+        Fraction Evolution at z < 0.8, ApJ97613R1 
+
+        Dear Mr. Hahn,
+
+        The revised version of your paper cited above was sent back to
+        the referee, who is mostly satisfied with the changes you have
+        made. He/she just has a few remaining comments (appended below),
+        which I would like you to take into consideration.
+
+        When you resubmit the manuscript, please include a detailed
+        cover letter containing the (mandatory) listing of the changes
+        you've made to the text and your responses to the report.
+
+        Click the link below to upload your revised manuscript; 
+        http://apj.msubmit.net/cgi-bin/main.plex?el=A1Ew7DXK1A4CfGS3J7A9ftduFQ0I1nKsyQ3P8J1nY5FIQZ
+        Alternatively, you may also log into your account at the EJ
+        Press web site, http://apj.msubmit.net. Please use your user's
+        login name: chahah. You can then ask for a new password via the
+        Unknown/Forgotten Password link if you have forgotten your
+        password.
+
+        Reviewers find it helpful if the changes in the text of the
+        manuscript are easily distinguishable from the rest of the text.
+        Therefore we ask you to print changes in bold face. The
+        highlighting can be removed easily after the review.
+
+        The Astrophysical Journal has adopted a new policy that
+        manuscript files become inactive, and are considered to have
+        been withdrawn, six months after the most recent referee's
+        report goes to the authors, provided a revised version has not
+        been received by that time.
+
+        If you have any questions, feel free to contact me.
+
+        Sincerely,
+        Lee Armus
+        ApJ Scientific Editor
+        California Institute of Technology
+        apjla@ipac.caltech.edu
+
+        ---------------------------------------------------------------------- 
+        Referee Report
+        Reviewer's Comments:
+
+        I have looked at the changes. I think the argument about the
+        cosmic variance affecting the quiescent fraction is overstated -
+        some of it irrelevant. The cosmic variance has a much larger
+        effect on the number counts than on the fraction of quiescent
+        galaxies in high density environments; the latter is not
+        estimated by cosmic variance calculators/equations. I agree the
+        jack-knife method may underestimate the errors. Alternatively
+        perhaps the stellar mass limits are not strict enough when
+        estimating the quiescent fraction, since the 'missed galaxies'
+        will preferentially be quiescent. I recommend the authors think
+        about this a bit more; or at least remove the text about the
+        cosmic variance. This should equally affect the >10^10 sample
+        for the z=0.3 bin. 
+
+RESPONSE: 
+We have removed the text discussing the cosmic variance. 
+
+        You now undersell PRIMUS versus zCOSMOS. The targeting
+        completeness for zCOSMOS is much lower, see Fig. 5 of Lilly et
+        al. 2009 for the 10k sample. What is most relevant is combined
+        targeting completeness and redshift success - even a rough
+        estimate for zCOSMOS would be a useful comparison - and would be
+        a favourable metric for PRIMUS I think.
+
+RESPONSE: 
+We now explicitly mention the targeting completeness (spatial sampling
+rate) of zCOSMOS in addition to the redshift completeness and list an
+estimate of the overall completeness rate of zCOSMOS mentioned in Knobel
+et al. (2012).
+
+--------------------------------------------------------------------------------
+OTHER CHANGES: 
+
+- We now state that Iovino et al. (2010) remark that the uncertainties
+  in the quiescent fraction fits are too large to make any conclusions
+  about the quiescent fraction evolution.  

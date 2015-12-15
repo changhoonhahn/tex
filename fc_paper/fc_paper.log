@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  31 MAR 2015 15:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 DEC 2015 20:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -386,17 +386,17 @@ e
 ))
 \openout3 = `fc_paperNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 25.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 26.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -405,136 +405,163 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<fcpaper_z_dist.png, id=18, 536.2434pt x 427.8384pt>
+<fcpaper_z_dist.png, id=19, 536.2434pt x 427.8384pt>
 File: fcpaper_z_dist.png Graphic file (type png)
  <use fcpaper_z_dist.png>
-Package pdftex.def Info: fcpaper_z_dist.png used on input line 58.
+Package pdftex.def Info: fcpaper_z_dist.png used on input line 61.
 (pdftex.def)             Requested size: 241.3073pt x 192.5255pt.
 
 [2 <./fcpaper_z_dist.png>]
-Underfull \hbox (badness 5077) in paragraph at lines 75--76
+Underfull \hbox (badness 5077) in paragraph at lines 78--79
 []\OT1/cmr/bx/n/10 INSERT TILING MOCK DE-SCRIP-TION
  []
 
-<fcpaper_pk_comp.png, id=25, 489.2679pt x 534.0753pt>
+<fcpaper_pk_comp.png, id=26, 489.2679pt x 534.0753pt>
 File: fcpaper_pk_comp.png Graphic file (type png)
 
 <use fcpaper_pk_comp.png>
-Package pdftex.def Info: fcpaper_pk_comp.png used on input line 96.
+Package pdftex.def Info: fcpaper_pk_comp.png used on input line 124.
 (pdftex.def)             Requested size: 244.63335pt x 267.03699pt.
- [3 <./fcpaper_pk_comp.png>]
-<fcpaper_dlos_dist.png, id=33, 847.7271pt x 360.6273pt>
+
+Underfull \hbox (badness 2088) in paragraph at lines 125--125
+  []\OT1/cmr/m/sc/8 --- \OT1/cmr/m/n/8 Av-er-age power spec-trum monopole $[]$ 
+and
+ []
+
+[3]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 130.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 130.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+<fcpaper_dlos_dist.png, id=34, 847.7271pt x 360.6273pt>
 File: fcpaper_dlos_dist.png Graphic file (type png)
 
 <use fcpaper_dlos_dist.png>
-Package pdftex.def Info: fcpaper_dlos_dist.png used on input line 117.
+Package pdftex.def Info: fcpaper_dlos_dist.png used on input line 145.
 (pdftex.def)             Requested size: 487.43929pt x 207.35909pt.
- [4]
-<fcpaper_pk_peakonly_comp.png, id=37, 946.737pt x 369.2997pt>
+ [4 <./fcpaper_pk_comp.png>] [5 <./fcpaper_dlos_dist.png>] <fcpaper_pk_peakonly
+_comp.png, id=45, 946.737pt x 369.2997pt>
 File: fcpaper_pk_peakonly_comp.png Graphic file (type png)
 
 <use fcpaper_pk_peakonly_comp.png>
-Package pdftex.def Info: fcpaper_pk_peakonly_comp.png used on input line 183.
+Package pdftex.def Info: fcpaper_pk_peakonly_comp.png used on input line 211.
 (pdftex.def)             Requested size: 520.70697pt x 203.11545pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 183--184
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 211--212
  [] 
  []
 
-[5 <./fcpaper_dlos_dist.png>]
-Underfull \hbox (badness 6542) in paragraph at lines 192--193
+
+Underfull \hbox (badness 6542) in paragraph at lines 220--221
 []\OT1/cmr/m/n/10 When we com-pare the NN method and the
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 192--193
+Underfull \hbox (badness 2073) in paragraph at lines 220--221
 \OML/cmm/m/it/10 d[]$\OT1/cmr/m/n/10 -peak cor-rec-tion to the sam-ple vari-anc
 e ra-tio
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 192--193
-\OT1/cmr/m/n/10 ($^^A\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k\OT
-1/cmr/m/n/10 )\OML/cmm/m/it/10 =[]$\OT1/cmr/m/n/10 ), we find that nei-ther of 
-these
+Underfull \hbox (badness 1383) in paragraph at lines 220--221
+\OT1/cmr/m/n/10 ods suf-fi-ciently cor-rect for fiber col-li-sions at $\OML/cmm
+/m/it/10 k >
  []
 
-<fcpaper_pk_shotnoiseonly_comp.png, id=43, 946.737pt x 377.9721pt>
+<fcpaper_pk_shotnoiseonly_comp.png, id=46, 946.737pt x 377.9721pt>
 File: fcpaper_pk_shotnoiseonly_comp.png Graphic file (type png)
 
 <use fcpaper_pk_shotnoiseonly_comp.png>
-Package pdftex.def Info: fcpaper_pk_shotnoiseonly_comp.png used on input line 1
-96.
+Package pdftex.def Info: fcpaper_pk_shotnoiseonly_comp.png used on input line 2
+24.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 196--197
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 224--225
  [] 
  []
 
-[6 <./fcpaper_pk_peakonly_comp.png>]
-Overfull \hbox (5.02675pt too wide) detected at line 225
+
+LaTeX Warning: Reference `eq:fkppk' on page 6 undefined on input line 234.
+
+[6] [7 <./fcpaper_pk_peakonly_comp.png> <./fcpaper_pk_shotnoiseonly_comp.png>]
+Overfull \hbox (5.02675pt too wide) detected at line 253
 \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 ;
  []
 
-[7 <./fcpaper_pk_shotnoiseonly_comp.png>]
-<fcpaper_pk_peakshotnoise_mpfit_comp.png, id=54, 946.737pt x 377.9721pt>
+
+Underfull \hbox (badness 1960) in paragraph at lines 274--275
+\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ) to the fiber-collided mock cat-a-logs wi
+th
+ []
+
+<fcpaper_pk_peakshotnoise_mpfit_comp.png, id=56, 946.737pt x 377.9721pt>
 File: fcpaper_pk_peakshotnoise_mpfit_comp.png Graphic file (type png)
 
 <use fcpaper_pk_peakshotnoise_mpfit_comp.png>
 Package pdftex.def Info: fcpaper_pk_peakshotnoise_mpfit_comp.png used on input 
-line 257.
+line 285.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 257--258
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 285--286
  [] 
  []
 
-<fcpaper_pk_chisquared_comparison.png, id=55, 946.737pt x 377.9721pt>
+[8] <fcpaper_pk_chisquared_comparison.png, id=60, 946.737pt x 377.9721pt>
 File: fcpaper_pk_chisquared_comparison.png Graphic file (type png)
 
 <use fcpaper_pk_chisquared_comparison.png>
 Package pdftex.def Info: fcpaper_pk_chisquared_comparison.png used on input lin
-e 283.
+e 311.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 283--284
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 311--312
  [] 
  []
 
-[8] [9 <./fcpaper_pk_peakshotnoise_mpfit_comp.png> <./fcpaper_pk_chisquared_com
-parison.png>] [10] (./fc_paper.bbl) [11] (./fc_paper.aux) ) 
+[9 <./fcpaper_pk_peakshotnoise_mpfit_comp.png>] [10 <./fcpaper_pk_chisquared_co
+mparison.png>] (./fc_paper.bbl) [11] (./fc_paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5285 strings out of 493315
- 71114 string characters out of 6137904
- 166170 words of memory out of 5000000
- 8626 multiletter control sequences out of 15000+600000
+ 5295 strings out of 493315
+ 71290 string characters out of 6137904
+ 175907 words of memory out of 5000000
+ 8636 multiletter control sequences out of 15000+600000
  14114 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,10n,29p,2034b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti8.pfb>
-Output written on fc_paper.pdf (11 pages, 644458 bytes).
+ 39i,10n,29p,2032b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on fc_paper.pdf (11 pages, 665388 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 DEC 2015 20:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  15 DEC 2015 10:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -408,11 +408,11 @@ Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 <fcpaper_z_dist.png, id=19, 536.2434pt x 427.8384pt>
 File: fcpaper_z_dist.png Graphic file (type png)
  <use fcpaper_z_dist.png>
-Package pdftex.def Info: fcpaper_z_dist.png used on input line 61.
+Package pdftex.def Info: fcpaper_z_dist.png used on input line 62.
 (pdftex.def)             Requested size: 241.3073pt x 192.5255pt.
 
 [2 <./fcpaper_z_dist.png>]
-Underfull \hbox (badness 5077) in paragraph at lines 78--79
+Underfull \hbox (badness 5077) in paragraph at lines 80--81
 []\OT1/cmr/bx/n/10 INSERT TILING MOCK DE-SCRIP-TION
  []
 
@@ -420,20 +420,20 @@ Underfull \hbox (badness 5077) in paragraph at lines 78--79
 File: fcpaper_pk_comp.png Graphic file (type png)
 
 <use fcpaper_pk_comp.png>
-Package pdftex.def Info: fcpaper_pk_comp.png used on input line 124.
+Package pdftex.def Info: fcpaper_pk_comp.png used on input line 127.
 (pdftex.def)             Requested size: 244.63335pt x 267.03699pt.
 
-Underfull \hbox (badness 2088) in paragraph at lines 125--125
+Underfull \hbox (badness 2088) in paragraph at lines 128--128
   []\OT1/cmr/m/sc/8 --- \OT1/cmr/m/n/8 Av-er-age power spec-trum monopole $[]$ 
 and
  []
 
 [3]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 130.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 133.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 130.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 133.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -442,33 +442,33 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 File: fcpaper_dlos_dist.png Graphic file (type png)
 
 <use fcpaper_dlos_dist.png>
-Package pdftex.def Info: fcpaper_dlos_dist.png used on input line 145.
+Package pdftex.def Info: fcpaper_dlos_dist.png used on input line 149.
 (pdftex.def)             Requested size: 487.43929pt x 207.35909pt.
  [4 <./fcpaper_pk_comp.png>] [5 <./fcpaper_dlos_dist.png>] <fcpaper_pk_peakonly
 _comp.png, id=45, 946.737pt x 369.2997pt>
 File: fcpaper_pk_peakonly_comp.png Graphic file (type png)
 
 <use fcpaper_pk_peakonly_comp.png>
-Package pdftex.def Info: fcpaper_pk_peakonly_comp.png used on input line 211.
+Package pdftex.def Info: fcpaper_pk_peakonly_comp.png used on input line 215.
 (pdftex.def)             Requested size: 520.70697pt x 203.11545pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 211--212
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 215--216
  [] 
  []
 
 
-Underfull \hbox (badness 6542) in paragraph at lines 220--221
+Underfull \hbox (badness 6542) in paragraph at lines 224--225
 []\OT1/cmr/m/n/10 When we com-pare the NN method and the
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 220--221
+Underfull \hbox (badness 2073) in paragraph at lines 224--225
 \OML/cmm/m/it/10 d[]$\OT1/cmr/m/n/10 -peak cor-rec-tion to the sam-ple vari-anc
 e ra-tio
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 220--221
+Underfull \hbox (badness 1383) in paragraph at lines 224--225
 \OT1/cmr/m/n/10 ods suf-fi-ciently cor-rect for fiber col-li-sions at $\OML/cmm
 /m/it/10 k >
  []
@@ -478,25 +478,25 @@ File: fcpaper_pk_shotnoiseonly_comp.png Graphic file (type png)
 
 <use fcpaper_pk_shotnoiseonly_comp.png>
 Package pdftex.def Info: fcpaper_pk_shotnoiseonly_comp.png used on input line 2
-24.
+28.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 224--225
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 228--229
  [] 
  []
 
 
-LaTeX Warning: Reference `eq:fkppk' on page 6 undefined on input line 234.
+LaTeX Warning: Reference `eq:fkppk' on page 6 undefined on input line 238.
 
 [6] [7 <./fcpaper_pk_peakonly_comp.png> <./fcpaper_pk_shotnoiseonly_comp.png>]
-Overfull \hbox (5.02675pt too wide) detected at line 253
+Overfull \hbox (5.02675pt too wide) detected at line 257
 \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 ;
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 274--275
-\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ) to the fiber-collided mock cat-a-logs wi
-th
+Underfull \hbox (badness 1237) in paragraph at lines 279--280
+\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ) to the fiber col-lided mock cat-a-logs w
+ith
  []
 
 <fcpaper_pk_peakshotnoise_mpfit_comp.png, id=56, 946.737pt x 377.9721pt>
@@ -504,10 +504,10 @@ File: fcpaper_pk_peakshotnoise_mpfit_comp.png Graphic file (type png)
 
 <use fcpaper_pk_peakshotnoise_mpfit_comp.png>
 Package pdftex.def Info: fcpaper_pk_peakshotnoise_mpfit_comp.png used on input 
-line 285.
+line 289.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 285--286
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 289--290
  [] 
  []
 
@@ -516,10 +516,10 @@ File: fcpaper_pk_chisquared_comparison.png Graphic file (type png)
 
 <use fcpaper_pk_chisquared_comparison.png>
 Package pdftex.def Info: fcpaper_pk_chisquared_comparison.png used on input lin
-e 311.
+e 315.
 (pdftex.def)             Requested size: 520.70697pt x 207.8853pt.
 
-Overfull \hbox (7.58954pt too wide) in paragraph at lines 311--312
+Overfull \hbox (7.58954pt too wide) in paragraph at lines 315--316
  [] 
  []
 
@@ -528,12 +528,16 @@ mparison.png>] (./fc_paper.bbl) [11] (./fc_paper.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 5295 strings out of 493315
- 71290 string characters out of 6137904
- 175907 words of memory out of 5000000
- 8636 multiletter control sequences out of 15000+600000
+ 5294 strings out of 493315
+ 71279 string characters out of 6137904
+ 175918 words of memory out of 5000000
+ 8635 multiletter control sequences out of 15000+600000
  14114 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,29p,2032b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -558,7 +562,7 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on fc_paper.pdf (11 pages, 665388 bytes).
+Output written on fc_paper.pdf (11 pages, 665100 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream

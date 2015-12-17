@@ -2,6 +2,7 @@
 \bibliographystyle{apj}
 
 %define general packages
+\usepackage{color}
 \usepackage{epsfig}
 \usepackage{rotating}
 \usepackage{amsmath}
@@ -9,6 +10,8 @@
 \usepackage{setspace}
 \usepackage{courier}
 
+\newcommand{\todo}[1]{{\bf \textcolor{red}{ #1}}}
+%\newcommand\todo[1]{{\color{red}#1}}
 
 \begin{document}
 
@@ -147,7 +150,7 @@ $N_\mathrm{mock}$ is the total number of realizations (40 for LasDamas and 1000 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % fiber collision Correction Method
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Accounting for Fiber Collisions} \label{sec:fc_corr}
+\section{Fiber Collision Methods} \label{sec:fc_corr}
 %Although the nearest-neighbor method provides a reasonable estimate at large scales, in Section \ref{sec:fc_pk} we demonstrate that at small scales its effects on the power spectrum are significant and dominate sample variance. In order to correct for this effect, in Section \ref{sec:dlospeak} we present an improved method to account for correlated fiber collided galaxies that uses the line-of-sight displacement between fiber collided pairs (Section \ref{sec:dlos}) and a shot-noise correction term in the power spectrum estimator that properly takes into account fiber collisions (Section \ref{sec:shotnoise}). In Section \ref{sec:fourier}, we present a complementary method that models the effect of fiber collisions on the power spectrum using an analytic estimate of the effect of fiber collisions on the 2PCF. 
 \begin{figure*}
 \begin{center}
@@ -162,17 +165,15 @@ $N_\mathrm{mock}$ is the total number of realizations (40 for LasDamas and 1000 
 A common approach in accounting for fiber collisions in clustering measurements has been to use the nearest angular neighbor method (\citealt{Zehavi:2002aa, Berlind:2006aa, Anderson:2012aa}), hereafter NN method. For galaxies without resolved spectroscopic redshifts due to fiber collisions, the entire statistical weight of the galaxy is assigned to its nearest angular neighbor. This method effectively assumes that all galaxies within the angular fiber collision scale ($< 62 \arcsec$ for BOSS) are correlated with one another. In other words, the method assumes that galaxies within the fiber collision angular scale reside in the same halo so displacing one of the galaxies and placing it on top of the other does not significantly alter the clustering statistics. One consequence of this method however is that galaxies within the angular fiber collision scale purely by coincidence (hereafter referred to as ``chance alignments") are incorrectly assumed to be gravitationally correlated, so when their statistical weight is added to its nearest angular neighbor, they are in fact displaced significantly from their true position. For BOSS, the nearest angular neighbor method can displace galaxies by up to $500 \;\mathrm{Mpc}$. Furthermore even for fiber-collided galaxies that reside in the same group or cluster, up-weighting the nearest neighbor ignores halo-scale line-of-sight displacements. 
 
 % Not only quantify the effect of fiber collisions, but the break down of the NN method for P(k) at high k. 
-To precisely quantify the effect of fiber collisions on the power spectrum, in Figure \ref{fig:fc_pk}, we compare $P_0(k)$ and $P_2(k)$ measured using the NN method for mock catalogs with fiber collisions to the $P_0(k)$ and $P_2(k)$ measurements for mock catalogs without fiber collisions. The $P_0(k)$ measurements are made using Eq. \ref{eq:roman_p0k} with a standard FKP shot noise ($N_0^{FKP}$) rather than $N_0$ from Eq. \ref{eq:roman_shotnoise}, which is effectively just the standard power spectrum estimator from \cite{Feldman:1994aa}. $P_2(k)$ measurements are made using Eq. \ref{eq:roman_p2k}. 
-\begin{itemize}
-	\item Description of Figure \ref{fig:fc_pk} focusing on the scales where the NN method breaks down and quantifying the residuals. 
-\end{itemize}
+To precisely quantify the effect of fiber collisions on the power spectrum, in Figure \ref{fig:fc_pk}, we compare $P_0(k)$ and $P_2(k)$ measured using the NN method for mock catalogs with fiber collisions to the $P_0(k)$ and $P_2(k)$ measurements for mock catalogs without fiber collisions. The $P_0(k)$ measurements are made using Eq. \ref{eq:roman_p0k} with a standard FKP shot noise ($N_0^{FKP}$) rather than $N_0$ from Eq. \ref{eq:roman_shotnoise}, which is effectively just the standard power spectrum estimator from \cite{Feldman:1994aa}. $P_2(k)$ measurements are made using Eq. \ref{eq:roman_p2k}. \todo{Description of Figure \ref{fig:fc_pk} focusing on the scales where the NN method breaks down and quantifying the residuals.}
+
 
 In order to correct for this effect, in following section we present an improved method to account for correlated fiber collided galaxies that uses the line-of-sight displacement between fiber collided pairs (Section \ref{sec:dlos}) and a corrected shot-noise correction term in the power spectrum estimator that properly takes into account fiber collisions (Section \ref{sec:shotnoise}). 
 
 \begin{figure*}
 \begin{center}
 \includegraphics[scale=0.575]{fcpaper_dlos_dist.png}
-\caption{Normalized distribution of $d_{\mathrm{LOS}}$ for LasDamas (\ldgcolor), QPM (\qpmcolor), and Tiling Mock (\tmcolor) mock catalogs. The normalized $d_{\mathrm{LOS}}$ distribution of BOSS DR12 is also plotted (\cmasscolor). Bin size of $\Delta d = 0.2$ was used to compute the $d_{\mathrm{LOS}}$ distributions. The $d_\mathrm{LOS}$ distribution extends to $\sim \pm 500 \; \mathrm{Mpc}$ (not shown above). We focus on the peak of the distribution $-20 \; \mathrm{Mpc} < d_\mathrm{LOS} < 20 \;\mathrm{Mpc}$ (discussed in \ref{sec:dlos}).} \label{fig:d_los}
+\caption{\todo{bin CMASS with wider bins}Normalized distribution of $d_{\mathrm{LOS}}$ for LasDamas (\ldgcolor), QPM (\qpmcolor), and Tiling Mock (\tmcolor) mock catalogs. The normalized $d_{\mathrm{LOS}}$ distribution of BOSS DR12 is also plotted (\cmasscolor). Bin size of $\Delta d = 0.2$ was used to compute the $d_{\mathrm{LOS}}$ distributions. The $d_\mathrm{LOS}$ distribution extends to $\sim \pm 500 \; \mathrm{Mpc}$ (not shown above). We focus on the peak of the distribution $-20 \; \mathrm{Mpc} < d_\mathrm{LOS} < 20 \;\mathrm{Mpc}$ (discussed in \ref{sec:dlos}).} \label{fig:d_los}
 % perhaps the range should be wider and make it full text width that way the tail can be portrayed better. Keep the same aspect ratio. 
 \end{center}
 \end{figure*}
@@ -180,11 +181,12 @@ In order to correct for this effect, in following section we present an improved
 % DLOSPEAK METHOD 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{First Method} \label{sec:dlospeak}
+\todo{Come up with better title for subsection}
 % LOS DISPLACEMENT %%%%
 \subsubsection{Line-of-Sight Displacement of Fiber Collided Pairs} \label{sec:dlos}
-It is impossible to determine definitely from observed galaxy data whether individual fiber collided galaxies without resolved spectroscopic redshift are correlated or chance alignments. Fortunately, using the fiber collided pairs with resolved redshifts (mainly in the overlapping regions mentioned in Section \ref{sec:catalog}), it is possible to model the line-of-sight displacement of the fiber collided pairs and measure the fraction of pairs that are corrected and uncorrelated. 
+It is impossible to determine definitely from observed galaxy data whether individual fiber collided galaxies without resolved spectroscopic redshift are correlated or chance alignments. Fortunately, using the fiber collided pairs with resolved redshifts (mainly in the overlapping regions mentioned in Section \ref{sec:catalog}), it is possible to model the line-of-sight displacement of the fiber collided pairs and measure the fraction of pairs that are correlated and uncorrelated. 
 
-For simulated mock catalogs, described in Section \ref{sec:catalog}, modeling the fiber-collided galaxy pairs is a much more direct task since fiber collisions are post-processed after the simulated galaxy positions are generated. Redshift values are provided for all galaxies regardless of angular proximity and the fiber collisions imposed on the mock catalogs are represented through the galaxies' ``fiber collision weights" ($w_\mathrm{fc}$). So in a situation where only two galaxies are within the fiber collision angular scale, one galaxy (``the nearest neighbor") will have the fiber collision weight of both galaxies ($w_{\mathrm{fc}} = 2$), while the other has $w_\mathrm{fc} = 0$. Nonetheless, since we actually have redshifts of both fiber-collided pair galaxies in mock catalogs, we can model the correlated and uncorrelated fiber-collided pairs in order to better understand the effects of fiber collisions. 
+For simulated mock catalogs, described in Section \ref{sec:catalog}, modeling the fiber-collided galaxy pairs is a much more direct task since fiber collisions are post-processed after the simulated galaxy positions are generated. Redshift values are provided for all galaxies regardless of angular proximity and the fiber collisions imposed on the mock catalogs are represented through the galaxies' ``fiber collision weights" ($w_\mathrm{fc}$). For example, in a situation where only two galaxies are within the fiber collision angular scale, the NN method assigns one galaxy (``the nearest neighbor") the fiber collision weight of both galaxies ($w_{\mathrm{fc}} = 2$), while the other has $w_\mathrm{fc} = 0$. Nonetheless, since we actually have redshifts of both fiber-collided pair galaxies in mock catalogs, we can model the correlated and uncorrelated fiber-collided pairs in order to better understand the effects of fiber collisions. 
 
 To determine whether or not fiber collided pairs are correlated, we examine the comoving line-of-sight displacement ($d_{\mathrm{LOS}}$) of fiber collided galaxy pairs. We calculate the $d_{\mathrm{LOS}}$ by taking the difference of the line-of-sight comoving distance from the resolved redshifts: 
 \begin{equation}
@@ -192,7 +194,7 @@ d_{\mathrm{LOS}} = D_{\mathrm{C}} (z_1) - D_{\mathrm{C}} (z_2).
 \end{equation}
 $D_{\mathrm{C}}(z)$ is the line-of-sight comoving distance at redshift $z$ (\citealt{Hogg:1999aa}). $z_1$ and $z_2$ represent the resolved redshifts of the two galaxies in the fiber collided pair.
 
-After calculating the $d_{\mathrm{LOS}}$ for every fiber collided pairs, in Figure \ref{fig:d_los} we present the distribution of $d_{\mathrm{LOS}}$ for LasDamas (\ldgcolor), QPM (\qpmcolor), Tiling Mock (\tmcolor), and BOSS DR12 (\cmasscolor). All of the $d_{\mathrm{LOS}}$ distributions contain two components: a peak roughly contained within the range $-20\;\mathrm{Mpc} < d_{\mathrm{LOS}} < 20\;\mathrm{Mpc}$ and a flat component (hereafter "tail" component) outside the peak that extends to $d_{\mathrm{LOS}} \sim \pm 500 \;\mathrm{Mpc}$ (entire range of the distribution not displayed in Figure \ref{fig:d_los}). For the BOSS data, since we cannot compute the $d_\mathrm{LOS}$ for fiber collided pairs without spectra, the $d_\mathrm{LOS}$ distribution only reflects the $d_\mathrm{LOS}$ from fiber collided pairs {\em with} resolved spectroscopic redshifts, mostly from tile overlapping regions of the BOSS survey.
+After calculating the $d_{\mathrm{LOS}}$ for every fiber collided pairs, in Figure \ref{fig:d_los} we present the distribution of $d_{\mathrm{LOS}}$ for \todo{LasDamas (\ldgcolor), QPM (\qpmcolor), Tiling Mock (\tmcolor), and BOSS DR12 (\cmasscolor)}. All of the $d_{\mathrm{LOS}}$ distributions contain two components: a peak roughly contained within the range $-20\;\mathrm{Mpc} < d_{\mathrm{LOS}} < 20\;\mathrm{Mpc}$ and a flat component (hereafter "tail" component) outside the peak that extends to $d_{\mathrm{LOS}} \sim \pm 500 \;\mathrm{Mpc}$. The entire range of the distribution is not displayed in Figure \ref{fig:d_los}. For the BOSS data, since we cannot compute the $d_\mathrm{LOS}$ for fiber collided pairs without spectra, the $d_\mathrm{LOS}$ distribution only reflects the $d_\mathrm{LOS}$ from fiber collided pairs {\em with} resolved spectroscopic redshifts, mostly from tile overlapping regions of the BOSS survey.
 
 Galaxies within the same halo, due to their gravitational interactions at halo-scales, are more likely to be in close angular proximity with each other. These galaxies in over-dense regions cause the peak in the $d_{\mathrm{LOS}}$ distribution. The ``tail" component is composed of chance aligned galaxy pairs that happen to be in close angular proximity. 
 
@@ -217,7 +219,8 @@ BOSS DR12 	& 7.6		& 0.65 \\ \hline
 \end{center}
 \end{spacing}
 %    \bigskip 
-{\bf Notes}: Best-fit parameter $\sigma$ (Eq. \ref{eq:peak}) and peak fraction $f_{\mathrm{peak}}$ (Eq. \ref{eq:fpeak}) for the $d_{\mathrm{LOS}}$ distributions in Figure \ref{fig:d_los}. 
+{\bf Notes}: \todo{update this table} Best-fit parameter $\sigma$ (Eq. \ref{eq:peak}) and peak fraction $f_{\mathrm{peak}}$ (Eq. \ref{eq:fpeak}) for the $d_{\mathrm{LOS}}$ distributions in Figure \ref{fig:d_los}. 
+\smallskip
 \end{table}
 
 Using the best-fit to the peak of the $d_{\mathrm{LOS}}$ distribution, we estimate the fraction of fiber collided pairs that are within the peak as
@@ -226,10 +229,21 @@ f_{\mathrm{peak}} = \frac{\sum\limits_{\mathrm{peak}} p(d_{\mathrm{LOS}})}{N_{\m
 \end{equation}
 where $N_{\mathrm{pairs}}$ is the total number of fiber collided pairs. As mentioned above, this portion of fiber collided pairs are galaxy pairs that are correlated. We list the $f_{\mathrm{peak}}$ values for each of the data catalogs in Table \ref{tab:mpfit}. The $f_\mathrm{peak}$ values for the mock catalog are also in reasonable agreement with the BOSS DR12 $f_\mathrm{peak}$. 
 
-For the NN method to be entirely correct, the $d_{\mathrm{LOS}}$ distribution in Figure \ref{fig:d_los} would have to be a delta function, which is clearly not the case. By simply incorporating the peak of the $d_{\mathrm{LOS}}$ distribution, we are able to significantly improve clustering statistics on small scales. Rather than placing the fiber collided galaxy on top of its nearest angular neighbor as the NN correction does, placing the fiber collided galaxy at a displacement, sampled from the $d_{\mathrm{LOS}}$ distribution, apart from its nearest neighbor better accounts for the small scale in clustering measurements. 
-
+For the NN method to be entirely correct, the $d_{\mathrm{LOS}}$ distribution in Figure \ref{fig:d_los} would have to be a delta function, which is clearly not the case. By simply incorporating the peak of the $d_{\mathrm{LOS}}$ distribution, we are able to significantly improve clustering statistics on small scales. Rather than placing the fiber collided galaxy on top of its nearest angular neighbor as the NN correction does, placing the fiber collided galaxy at a displacement, sampled from the $d_{\mathrm{LOS}}$ distribution, apart from its nearest neighbor better accounts for the small scale in clustering measurements. However, 
 
 On mock catalogs, we test this by first applying the NN to the mock catalogs. We then sample a displacement $d_i$ from $p(d_\mathrm{LOS})$ (Equation \ref{eq:peak}) for each fiber collided pair. Afterwards we ``place" the fiber collided galaxy a distance $d_i$ from the nearest neighbor galaxy assign $w_\mathrm{fc} = 1$ and reduce the $w_\mathrm{fc}$ of the the nearest-neighbor by 1. We refer to this method as ``$d_\mathrm{LOS}$-peak". 
+
+\todo{Instead of describing dLOS peak only, describe how "peak-assigned" galaxies are determined. Then transition to the shot noise correction term}. 
+
+In Section \ref{sec:dlos} we derive a method to better statistically reconstruct the clustering of correlated fiber collided pairs using using the peak of the $d_\mathrm{LOS}$ distribution. Then in Section \ref{sec:shotnoise} we presented our formulation of the shot-noise correction term, which accounts for the added discreteness from chance aligned fiber collision pairs. We now combine these two methods and present our fiber collision correction method. 
+
+We begin once again with the fiber collided mock catalogs with the nearest-neighbor weights that accurately imitate the effects of fiber collision on the actual observed BOSS data. Then as described in Section \ref{sec:dlos}, we calculate the $d_\mathrm{LOS}$ distribution of all fiber collided pairs in each mock catalog. From the $d_\mathrm{LOS}$ distribution, we compute the fraction of fiber collided pairs within the peak of the distribution ($f_\mathrm{peak}$; Section \ref{sec:dlos}). We then select $f_\mathrm{peak}$ of the fiber collided pairs and designate them as correlated pairs that lie within the peak of the $d_\mathrm{LOS}$ distribution. We refer to these fiber collided pairs as ``peak-assigned" pairs.  
+
+Each of these ``peak-assigned" pairs, by the nearest-neighbor weights, consist of a galaxy with $w_\mathrm{fc} > 1$ (the ``nearest-neighbor" galaxy) and another with $w_\mathrm{fc} = 0$ (the ``collided" galaxy). We disregard the collided galaxy. For each of the nearest-neighbor galaxies, we sample a value $d_\mathrm{peak-assigned}$ from the Gaussian best-fit to the $d_\mathrm{LOS}$ distribution peak and place a galaxy with $w_\mathrm{fc} = 1$ at a comoving distance $d_\mathrm{peak-assigned}$ away from the nearest-neighbor galaxy. At the same time, we reduce $w_\mathrm{fc}$ of the nearest-neighbor galaxy (the one that was originally up-weighted) by $1$. This process is repeated until the nearest-neighbor galaxy has $w_\mathrm{fc} =1$ in the case of triplets or higher. 
+
+We keep the nearest-neighbor fiber collision weights imposed in the beginning for the remaining fiber collided pairs that are not ``peak-assigned" ($1-f_\mathrm{peak}$ of the fiber collided pairs). The resulting mock catalog has $f_\mathrm{peak}$ fewer galaxies with $w_\mathrm{cp} > 1$ compared to the fiber collided mock catalogs with nearest-neighbor weights that we started from; however, the total statistical weight ($\sum_\mathrm{gal} w_\mathrm{tot}$) of the mock catalog is conserved. 
+
+Next, we use the FKP estimator with the Eq. \ref{eq:ourshot} shot-noise correction term described in Section \ref{sec:shotnoise} to calculate the $P(k)$ for our $d_\mathrm{LOS}$-peak corrected mock catalogs. In Figure \ref{fig:peaksn}, we present the ratio of the $\overline{P(k)}$ computed using our fiber collision correction method over $\overline{P_\mathrm{true}(k)}$. To assess the merit of the fiber collision correction, we once again over-plot the sample variance of the mock catalogs. For LasDamas, at $k \sim 0.3 \; h/\mathrm{Mpc}$, $P(k)/P_\mathrm{true}(k) - 1 \sim 0.5 \%$ and throughout the $k$ range, $0.3 \% < P(k)/P_\mathrm{true}(k) - 1 < 1.3 \%$. For QPM, at $k \sim 0.3 \; h/\mathrm{Mpc}$, $P(k)/P_\mathrm{true}(k) - 1 \sim 0.04 \%$ and throughout the $k$ range, $0.3 \% < P(k)/P_\mathrm{true}(k) - 1 < 1.3 \%$. {\bf include numbers here when Ngrid=960 is done}. Moreover for the mock catalogs with sample variance measurements (LasDamas and QPM), the $P(k)$ ratio is significantly below the sample variance throughout the entire $k$ range probed and even at $k\sim 0.3\;h/\mathrm{Mpc}$. 
 
 %\begin{figure*}
 %\begin{center}
@@ -254,6 +268,7 @@ On mock catalogs, we test this by first applying the NN to the mock catalogs. We
 % SHOT NOISE CORRECTION 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Shot Noise Correction} \label{sec:shotnoise} 
+\todo{Discuss the different shot-noise correction considerations in the literature}
 Both the NN method and the $d_\mathrm{LOS}$-peak correction do not sufficiently account for the systematic effects of fiber collisions in the power spectrum. In this section we introduce the other part of our fiber collision correction method that involve the shot-noise correction term of the FKP power spectrum estimator. By modifying the shot noise term of the FKP estimator to account for fiber collisions, we present a more robust correction method that accounts for the chance aligned fiber collided pairs. 
 
 In Section \ref{sec:catalog}, we described the FKP power spectrum estimator used to compute the power spectrums of Figure \ref{fig:mockpk}. In their estimator, to account for the discreteness of the density field, they subtract the shot-noise contribution to the power spectrum (Equation \ref{eq:fkppk}): 
@@ -305,6 +320,17 @@ On the other hand, $\overline{P(k)}$ using Eq. \ref{eq:ourshot} significantly is
 
 The shot-noise correction term we present in Eq. \ref{eq:ourshot} should only correct for the shot-noise contribution to the power spectrum from chance alignment fiber collided pairs - not from correlated pairs. Because we apply the shot-noise correction to all fiber collided pairs indiscriminately in Figure \ref{fig:shotnoise}, the shot-noise correction term over-subtracts the power spectrum as we find in Figure \ref{fig:shotnoise}. In the following section we present our fiber collision correction method, that combines the $d_\mathrm{LOS}$-peak correction of Section \ref{sec:dlos} and Eq. \ref{eq:ourshot} from this section. 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fourier Tophat Method 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Second Method} \ref{sec:fourier}
+\begin{itemize}
+\item \todo{Figure of 2PCF that demonstrates a pretty clear tophat} 
+\item \todo{The ultimate equations for calculating the tophat convolution}
+\item \todo{Polynomials estimations of the integral?}
+\item \todo{Figures of the fourier tophat method in action}
+\end{itemize}
+
 \begin{figure*}
 \begin{center}
 \includegraphics[scale=0.55]{fcpaper_pk_peakshotnoise_mpfit_comp.png} 
@@ -315,17 +341,6 @@ The shot-noise correction term we present in Eq. \ref{eq:ourshot} should only co
 % RESULT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results} \label{sec:results}
-\subsection{fiber collision Correction Method} \label{sec:apply}
-In Section \ref{sec:dlos} we derive a method to better statistically reconstruct the clustering of correlated fiber collided pairs using using the peak of the $d_\mathrm{LOS}$ distribution. Then in Section \ref{sec:shotnoise} we presented our formulation of the shot-noise correction term, which accounts for the added discreteness from chance aligned fiber collision pairs. We now combine these two methods and present our fiber collision correction method. 
-
-We begin once again with the fiber collided mock catalogs with the nearest-neighbor weights that accurately imitate the effects of fiber collision on the actual observed BOSS data. Then as described in Section \ref{sec:dlos}, we calculate the $d_\mathrm{LOS}$ distribution of all fiber collided pairs in each mock catalog. From the $d_\mathrm{LOS}$ distribution, we compute the fraction of fiber collided pairs within the peak of the distribution ($f_\mathrm{peak}$; Section \ref{sec:dlos}). We then select $f_\mathrm{peak}$ of the fiber collided pairs and designate them as correlated pairs that lie within the peak of the $d_\mathrm{LOS}$ distribution. We refer to these fiber collided pairs as ``peak-assigned" pairs.  
-
-Each of these ``peak-assigned" pairs, by the nearest-neighbor weights, consist of a galaxy with $w_\mathrm{fc} > 1$ (the ``nearest-neighbor" galaxy) and another with $w_\mathrm{fc} = 0$ (the ``collided" galaxy). We disregard the collided galaxy. For each of the nearest-neighbor galaxies, we sample a value $d_\mathrm{peak-assigned}$ from the Gaussian best-fit to the $d_\mathrm{LOS}$ distribution peak and place a galaxy with $w_\mathrm{fc} = 1$ at a comoving distance $d_\mathrm{peak-assigned}$ away from the nearest-neighbor galaxy. At the same time, we reduce $w_\mathrm{fc}$ of the nearest-neighbor galaxy (the one that was originally up-weighted) by $1$. This process is repeated until the nearest-neighbor galaxy has $w_\mathrm{fc} =1$ in the case of triplets or higher. 
-
-We keep the nearest-neighbor fiber collision weights imposed in the beginning for the remaining fiber collided pairs that are not ``peak-assigned" ($1-f_\mathrm{peak}$ of the fiber collided pairs). The resulting mock catalog has $f_\mathrm{peak}$ fewer galaxies with $w_\mathrm{cp} > 1$ compared to the fiber collided mock catalogs with nearest-neighbor weights that we started from; however, the total statistical weight ($\sum_\mathrm{gal} w_\mathrm{tot}$) of the mock catalog is conserved. 
-
-Next, we use the FKP estimator with the Eq. \ref{eq:ourshot} shot-noise correction term described in Section \ref{sec:shotnoise} to calculate the $P(k)$ for our $d_\mathrm{LOS}$-peak corrected mock catalogs. In Figure \ref{fig:peaksn}, we present the ratio of the $\overline{P(k)}$ computed using our fiber collision correction method over $\overline{P_\mathrm{true}(k)}$. To assess the merit of the fiber collision correction, we once again over-plot the sample variance of the mock catalogs. For LasDamas, at $k \sim 0.3 \; h/\mathrm{Mpc}$, $P(k)/P_\mathrm{true}(k) - 1 \sim 0.5 \%$ and throughout the $k$ range, $0.3 \% < P(k)/P_\mathrm{true}(k) - 1 < 1.3 \%$. For QPM, at $k \sim 0.3 \; h/\mathrm{Mpc}$, $P(k)/P_\mathrm{true}(k) - 1 \sim 0.04 \%$ and throughout the $k$ range, $0.3 \% < P(k)/P_\mathrm{true}(k) - 1 < 1.3 \%$. {\bf include numbers here when Ngrid=960 is done}. Moreover for the mock catalogs with sample variance measurements (LasDamas and QPM), the $P(k)$ ratio is significantly below the sample variance throughout the entire $k$ range probed and even at $k\sim 0.3\;h/\mathrm{Mpc}$. 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Goodness of fit
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -29,10 +29,6 @@
   \& {Weaver}}]{Beutler:2014aa}
 {Beutler}, F., {Saito}, S., {Seo}, H.-J., {et~al.} 2014, \mnras, 443, 1065
 
-\bibitem[{{Blanton} {et~al.}(2003){Blanton}, {Lin}, {Lupton}, {Maley}, {Young},
-  {Zehavi}, \& {Loveday}}]{Blanton:2003ab}
-{Blanton}, M.~R., {Lin}, H., {Lupton}, R.~H., {et~al.} 2003, \aj, 125, 2276
-
 \bibitem[{{Cole} {et~al.}(2005){Cole}, {Percival}, {Peacock}, {Norberg},
   {Baugh}, {Frenk}, {Baldry}, {Bland-Hawthorn}, {Bridges}, {Cannon}, {Colless},
   {Collins}, {Couch}, {Cross}, {Dalton}, {Eke}, {De Propris}, {Driver},
@@ -78,6 +74,32 @@
   {Weinberg}, {Weiner}, {West}, {White}, {Wood-Vasey}, {Yeche}, {Zehavi},
   {Zhao}, \& {Zheng}}]{Dawson:2013aa}
 {Dawson}, K.~S., {Schlegel}, D.~J., {Ahn}, C.~P., {et~al.} 2013, \aj, 145, 10
+
+\bibitem[{{Dawson} {et~al.}(2015){Dawson}, {Kneib}, {Percival}, {Alam},
+  {Albareti}, {Anderson}, {Armengaud}, {Aubourg}, {Bailey}, {Bautista},
+  {Berlind}, {Bershady}, {Beutler}, {Bizyaev}, {Blanton}, {Blomqvist},
+  {Bolton}, {Bovy}, {Brandt}, {Brinkmann}, {Brownstein}, {Burtin}, {Busca},
+  {Cai}, {Chuang}, {Clerc}, {Comparat}, {Cope}, {Croft}, {Cruz-Gonzalez}, {da
+  Costa}, {Cousinou}, {Darling}, {de la Torre}, {Delubac}, {du Mas des
+  Bourboux}, {Dwelly}, {Ealet}, {Eisenstein}, {Eracleous}, {Escoffier}, {Fan},
+  {Finoguenov}, {Font-Ribera}, {Frinchaboy}, {Gaulme}, {Georgakakis}, {Green},
+  {Guo}, {Guy}, {Ho}, {Holder}, {Huehnerhoff}, {Hutchinson}, {Jing}, {Jullo},
+  {Kamble}, {Kinemuchi}, {Kirkby}, {Kitaura}, {Klaene}, {Laher}, {Lang},
+  {Laurent}, {Le Goff}, {Li}, {Liang}, {Lima}, {Lin}, {Lin}, {Lin}, {Long},
+  {Lundgren}, {MacDonald}, {Geimba Maia}, {Malanushenko}, {Malanushenko},
+  {Mariappan}, {McBride}, {McGreer}, {Menard}, {Merloni}, {Meza},
+  {Montero-Dorta}, {Muna}, {Myers}, {Nandra}, {Naugle}, {Newman}, {Noterdaeme},
+  {Nugent}, {Ogando}, {Olmstead}, {Oravetz}, {Oravetz}, {Padmanabhan},
+  {Palanque-Delabrouille}, {Pan}, {Parejko}, {Paris}, {Peacock}, {Petitjean},
+  {Pieri}, {Pisani}, {Prada}, {Prakash}, {Raichoor}, {Reid}, {Rich}, {Ridl},
+  {Rodriguez-Torres}, {Carnero Rosell}, {Ross}, {Rossi}, {Ruan}, {Salvato},
+  {Sayres}, {Schneider}, {Schlegel}, {Seljak}, {Seo}, {Sesar}, {Shandera},
+  {Shu}, {Slosar}, {Sobreira}, {Strauss}, {Streblyanska}, {Suzuki}, {Tao},
+  {Tinker}, {Tojeiro}, {Vargas-Magana}, {Wang}, {Weaver}, {Weinberg}, {White},
+  {Wood-Vasey}, {Yeche}, {Zhai}, {Zhao}, {Zhao}, {Zheng}, {Ben Zhu}, \&
+  {Zou}}]{Dawson:2015aa}
+{Dawson}, K.~S., {Kneib}, J.-P., {Percival}, W.~J., {et~al.} 2015, ArXiv
+  e-prints, arXiv:1508.04473
 
 \bibitem[{{Feldman} {et~al.}(1994){Feldman}, {Kaiser}, \&
   {Peacock}}]{Feldman:1994aa}
@@ -164,6 +186,9 @@
   {Pearce}}]{Schneider:2015aa}
 {Schneider}, A., {Teyssier}, R., {Potter}, D., {et~al.} 2015, ArXiv e-prints,
   arXiv:1503.05920
+
+\bibitem[{{Scoccimarro}(2015)}]{Scoccimarro:2015aa}
+{Scoccimarro}, R. 2015, \prd, 92, 083532
 
 \bibitem[{{Scoccimarro} \& {Sheth}(2002)}]{Scoccimarro:2002aa}
 {Scoccimarro}, R., \& {Sheth}, R.~K. 2002, \mnras, 329, 629
